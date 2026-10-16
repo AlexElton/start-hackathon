@@ -10,6 +10,7 @@ public enum API {
         public static let articles = "articles"
         public static let categories = "categories"
         public static let papers = "papers"
+        public static let summarize = "summarize"
     }
 }
 

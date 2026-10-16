@@ -1,5 +1,23 @@
 import Foundation
 
+/// Request of `POST /summarize`: the backend loads the article itself, so the client only sends the id.
+public struct SummarizeRequest: Codable, Hashable, Sendable {
+    public var itemId: String
+
+    public init(itemId: String) {
+        self.itemId = itemId
+    }
+}
+
+/// One streamed chunk of the AI summary, sent as `data:` in the SSE response.
+public struct SummaryDelta: Codable, Hashable, Sendable {
+    public var delta: String
+
+    public init(delta: String) {
+        self.delta = delta
+    }
+}
+
 /// Response of `GET /articles/:id`: the full article for the reader.
 public struct ArticleDetail: Codable, Identifiable, Hashable, Sendable {
     public var id: String

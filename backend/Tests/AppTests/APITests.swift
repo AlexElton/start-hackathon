@@ -120,6 +120,38 @@ final class APITests: XCTestCase {
         }
     }
 
+    // MARK: POST /summarize
+
+    /// Without GEMINI_API_KEY the endpoint streams the article's own summary as SSE.
+    func testSummarizeStreamsSSE() async throws {
+        try await app.test(.POST, "api/v1/summarize", beforeRequest: { req in
+            try req.content.encode(SummarizeRequest(itemId: "16grxK"))
+        }) { res async in
+            XCTAssertEqual(res.status, .ok)
+            XCTAssertEqual(res.headers.contentType?.description.hasPrefix("text/event-stream"), true)
+            let body = res.body.string
+            XCTAssertTrue(body.contains("data: {\"delta\":"), body)
+            XCTAssertTrue(body.contains("event: done"), body)
+        }
+    }
+
+    func testSummarizeUnknownItemIs404() async throws {
+        try await app.test(.POST, "api/v1/summarize", beforeRequest: { req in
+            try req.content.encode(SummarizeRequest(itemId: "nope"))
+        }) { res async in
+            XCTAssertEqual(res.status, .notFound)
+        }
+    }
+
+    func testSummarizeBadBodyIs400() async throws {
+        try await app.test(.POST, "api/v1/summarize", beforeRequest: { req in
+            req.headers.contentType = .json
+            req.body = .init(string: #"{"wrong": true}"#)
+        }) { res async in
+            XCTAssertEqual(res.status, .badRequest)
+        }
+    }
+
     func testFeedItemRoundTripsThroughJSON() throws {
         let item = FeedItem(
             id: "evt_1", title: "Quiz", categoryId: "studentliv", paperId: "adressa",
