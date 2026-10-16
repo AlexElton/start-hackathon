@@ -15,12 +15,12 @@ struct LayerFilterBar: View {
                     select(kind)
                 } label: {
                     Text(kind.title)
-                        .font(.system(size: 15, weight: .bold))
+                        .font(.system(size: 14, weight: .bold))
                         .lineLimit(1)
                         .fixedSize()
                         .foregroundStyle(isOn ? .white : Theme.ink)
-                        .padding(.horizontal, 16)
-                        .padding(.vertical, 10)
+                        .padding(.horizontal, 13)
+                        .padding(.vertical, 11)
                         .background(isOn ? Theme.adressaBlue : Theme.surface, in: .capsule)
                         .shadow(color: .black.opacity(isOn ? 0.25 : 0.15), radius: 6, y: 2)
                 }

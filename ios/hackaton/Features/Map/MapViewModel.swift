@@ -1,3 +1,4 @@
+import CoreLocation
 import Foundation
 import Observation
 import OSLog
@@ -17,6 +18,7 @@ final class MapViewModel {
 
     /// The pin or bunch whose sheet is open.
     var selection: ItemSelection?
+    private var prefetchedImages = Set<URL>()
     private var paperNames: [String: String] = [:]
 
     /// The one layer shown at a time. Articles by default.
@@ -30,24 +32,156 @@ final class MapViewModel {
     private var visibleBox: FeedFilter.BoundingBox?
     private var fetchedBox: FeedFilter.BoundingBox?
 
+    // MARK: Start camera and intros
+
+    /// False until the start camera is known; the map is created only then.
+    private(set) var isReady = false
+    /// The camera the map is created with.
+    private(set) var initialCamera = CameraSpec(
+        center: .init(latitude: startCenter.lat, longitude: startCenter.lon),
+        distance: startDistance, pitch: startPitch, heading: startHeading
+    )
+    /// Where every intro ends.
+    private(set) var target = CameraSpec(
+        center: .init(latitude: startCenter.lat, longitude: startCenter.lon),
+        distance: startDistance, pitch: startPitch, heading: startHeading
+    )
+    /// A camera move for the map to make once.
+    private(set) var cameraCommand: CameraCommand?
+    /// True while an intro flight runs; chips and slider stay hidden until it lands.
+    private(set) var isIntroPlaying = false
+    /// Intro flight still to start once the map is on screen.
+    private var pendingIntro: (duration: Double, hidesChrome: Bool)?
+    /// Resumed when the map has drawn its first frame.
+    private var hasRendered = false
+    private var renderWaiters: [CheckedContinuation<Void, Never>] = []
+
+    // MARK: Personal filters from onboarding
+
+    private var excluded: Set<String> = []
+    private var muted: [String] = []
+    private var preferred: Set<String> = []
+
     let feed: any FeedServicing
 
     init(feed: any FeedServicing) {
         self.feed = feed
-        Task { await loadPapers() }
+    }
+
+    /// Decides the start camera and which intro to play, then lets the map appear.
+    /// Right after onboarding: from where the onboarding map ended, down to your city.
+    /// Later launches: a quick dive from Europe, if switched on in Innstillinger.
+    func prepare(settings: SettingsStore, location: LocationService, reduceMotion: Bool) async {
+        let papers = (try? await feed.papers()) ?? []
+        paperNames = Dictionary(papers.map { ($0.id, $0.name) }, uniquingKeysWith: { first, _ in first })
+        let regions = ((try? await feed.regions()).flatMap { try? RegionShape.parse($0) }) ?? []
+        applyPreferences(from: settings)
+
+        // Give a first location fix up to about a second when the user starts at their position.
+        if settings.startMode == .position, location.lastCoordinate == nil {
+            try? await Task.sleep(for: .seconds(1))
+        }
+        target = IntroCameras.target(settings: settings, papers: papers, regions: regions, location: location)
+
+        if settings.pendingGlobeIntro {
+            settings.pendingGlobeIntro = false
+            if reduceMotion {
+                initialCamera = target
+            } else {
+                initialCamera = settings.introStartCamera ?? IntroCameras.norway
+                pendingIntro = (duration: 3.8, hidesChrome: true)
+            }
+        } else if settings.introOnEveryLaunch, !reduceMotion {
+            initialCamera = IntroCameras.europe(over: target)
+            pendingIntro = (duration: 2.0, hidesChrome: false)
+        } else {
+            initialCamera = target
+        }
+        isIntroPlaying = pendingIntro?.hidesChrome ?? false
+        zoomFraction = ZoomScale.fraction(for: initialCamera.distance)
+        isReady = true
+    }
+
+    func mapRendered() {
+        hasRendered = true
+        renderWaiters.forEach { $0.resume() }
+        renderWaiters = []
+    }
+
+    private func waitForFirstRender() async {
+        guard !hasRendered else { return }
+        await withCheckedContinuation { renderWaiters.append($0) }
+    }
+
+    /// Called once the map is on screen. Right after onboarding: wait until the map has drawn the same view
+    /// the onboarding showed, let onboarding fade away, then dive. Later launches: warm the tiles and dive.
+    func playIntroIfNeeded(style: MapStyle, settings: SettingsStore) async {
+        guard let intro = pendingIntro else {
+            await waitForFirstRender()
+            settings.isHandingOff = false
+            return
+        }
+        pendingIntro = nil
+        let cinematic = intro.hidesChrome
+        if cinematic {
+            await withTaskGroup(of: Void.self) { group in
+                group.addTask { await self.waitForFirstRender() }
+                group.addTask { try? await Task.sleep(for: .seconds(3)) }
+                await group.next()
+                group.cancelAll()
+            }
+            mapRendered() // Releases the waiter if the timeout won.
+            settings.isHandingOff = false
+            try? await Task.sleep(for: .milliseconds(300)) // Let onboarding fade away first.
+            // The tiles were warmed when the fylke was picked; this only tops up.
+            await TilePrefetcher.warm(along: target, style: style, timeout: .milliseconds(300))
+        } else {
+            await TilePrefetcher.warm(along: target, style: style, timeout: .milliseconds(900))
+        }
+        cameraCommand = CameraCommand(camera: target, duration: intro.duration, cinematic: cinematic)
+        try? await Task.sleep(for: .seconds(intro.duration * 0.85))
+        isIntroPlaying = false
+    }
+
+    /// Replays the first intro (from Innstillinger): jump out to all of Norway, then dive in again.
+    func replayIntro(style: MapStyle, settings: SettingsStore) async {
+        isIntroPlaying = true
+        cameraCommand = CameraCommand(camera: IntroCameras.norway)
+        pendingIntro = (duration: 3.8, hidesChrome: true)
+        await playIntroIfNeeded(style: style, settings: settings)
+    }
+
+    /// Downloads the photos for the loaded pins in the background, so a sheet opens with its picture ready.
+    private func prefetchImages(for items: [FeedItem]) {
+        let urls = items.compactMap { $0.imageUrl.flatMap(URL.init(string:)) }.filter { prefetchedImages.insert($0).inserted }
+        guard !urls.isEmpty else { return }
+        Task.detached(priority: .utility) {
+            for url in urls {
+                _ = try? await URLSession.shared.data(from: url)
+            }
+        }
+    }
+
+    /// Blacklist and interests from onboarding: hidden categories and words, and categories that rank first.
+    func applyPreferences(from settings: SettingsStore) {
+        let newExcluded = Set(settings.blockedCategories)
+        let newMuted = (settings.mutedWords + []).map { $0.lowercased() }
+        let newPreferred = Set(settings.preferredCategories)
+        guard newExcluded != excluded || newMuted != muted || newPreferred != preferred else { return }
+        excluded = newExcluded
+        muted = newMuted
+        preferred = newPreferred
+        fetchedBox = nil
+        if isReady { scheduleFetch(debounce: false) }
     }
 
     func open(_ items: [FeedItem]) {
+        guard selection == nil else { return } // A tap and MapKit's own selection can both arrive.
         selection = ItemSelection(items: items)
     }
 
     func paperName(for id: String?) -> String {
         id.flatMap { paperNames[$0] } ?? "Adresseavisen"
-    }
-
-    private func loadPapers() async {
-        guard let papers = try? await feed.papers() else { return }
-        paperNames = Dictionary(papers.map { ($0.id, $0.name) }, uniquingKeysWith: { first, _ in first })
     }
 
     func select(_ kind: ItemKind) {
@@ -79,7 +213,7 @@ final class MapViewModel {
     private func scheduleFetch(debounce: Bool) {
         fetchTask?.cancel()
         let box = (visibleBox ?? Self.defaultBox).scaled(by: 1.5)
-        let filter = FeedFilter(kinds: [layer], bbox: box)
+        let filter = FeedFilter(kinds: [layer], exclude: excluded, mute: muted, bbox: box, prefer: preferred)
         fetchTask = Task {
             if debounce {
                 try? await Task.sleep(for: .milliseconds(300))
@@ -89,6 +223,7 @@ final class MapViewModel {
                 let page = try await feed.feed(filter)
                 guard !Task.isCancelled else { return }
                 items = page.items
+                prefetchImages(for: page.items)
                 fetchedBox = box
                 errorMessage = nil
             } catch is CancellationError {

@@ -16,6 +16,12 @@ public struct IndexedFeedItem: Sendable {
 public protocol ContentRepository: Sendable {
     var categories: [SharedModels.Category] { get }
     var papers: [Paper] { get }
+    /// One GeoJSON feature per fylke (see tools/make_regions.py), for the onboarding region map.
+    var regionsGeoJSON: Data { get }
+    /// Norway as one outline, cut out of the grey cover on the onboarding map.
+    var norwayGeoJSON: Data { get }
+    /// Written summaries for today, this week, topics and places.
+    var digests: [SharedModels.Digest] { get }
     /// Every article pin, event and deal, with relative dates resolved against `now`.
     func feedItems(now: Date) -> [IndexedFeedItem]
     func article(id: String) -> ArticleDetail?
@@ -27,6 +33,7 @@ public enum ContentError: Error, CustomStringConvertible {
     case unknownPaper(String, in: String)
     case noLocation(String)
     case badTime(String, in: String)
+    case unknownReference(String, in: String)
 
     public var description: String {
         switch self {
@@ -35,6 +42,7 @@ public enum ContentError: Error, CustomStringConvertible {
         case .unknownPaper(let paper, let item): "'\(item)' uses unknown paper '\(paper)'"
         case .noLocation(let id): "article '\(id)' has no locations"
         case .badTime(let time, let item): "'\(item)' has bad time '\(time)', expected HH:mm"
+        case .unknownReference(let id, let item): "'\(item)' links to unknown article, event or deal '\(id)'"
         }
     }
 }
@@ -43,6 +51,9 @@ public enum ContentError: Error, CustomStringConvertible {
 public struct JSONContentRepository: ContentRepository {
     public let categories: [SharedModels.Category]
     public let papers: [Paper]
+    public let regionsGeoJSON: Data
+    public let norwayGeoJSON: Data
+    public let digests: [SharedModels.Digest]
     private let articles: [String: ArticleDetail]
     private let articlePins: [IndexedFeedItem]
     private let events: [EventRecord]
@@ -62,6 +73,8 @@ public struct JSONContentRepository: ContentRepository {
         papers = try Self.load("papers.json", from: base)
         events = try Self.load("events.json", from: base)
         ads = try Self.load("ads.json", from: base)
+        regionsGeoJSON = try Data(contentsOf: base.appendingPathComponent("regions.geojson"))
+        norwayGeoJSON = try Data(contentsOf: base.appendingPathComponent("norway.geojson"))
 
         let categoryIds = Set(categories.map(\.id))
         let paperIds = Set(papers.map(\.id))
@@ -129,6 +142,20 @@ public struct JSONContentRepository: ContentRepository {
         }
         for ad in ads {
             try validate(category: ad.categoryId, paper: ad.paperId, item: ad.id)
+        }
+
+        digests = try Self.load("digests.json", from: base)
+        let itemIds = Set(events.map(\.id) + ads.map(\.id))
+        for digest in digests {
+            if let category = digest.categoryId, !categoryIds.contains(category) {
+                throw ContentError.unknownCategory(category, in: digest.id)
+            }
+            for id in digest.points.compactMap(\.articleId) where articles[id] == nil {
+                throw ContentError.unknownReference(id, in: digest.id)
+            }
+            for id in digest.itemIds where !itemIds.contains(id) {
+                throw ContentError.unknownReference(id, in: digest.id)
+            }
         }
     }
 

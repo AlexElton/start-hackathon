@@ -26,6 +26,8 @@ serves identical results over HTTP; `LiveFeedService` can talk to it if we deplo
 | GET | `/health` | `ok` |
 | GET | `/feed` | `FeedPage`. Query params below, all optional |
 | GET | `/articles/:id` | `ArticleDetail`, `404` if unknown |
+| GET | `/digests` | `[Digest]`: today, this week, topics and places |
+| GET | `/digests/:id` | One `Digest`, `404` if unknown |
 | GET | `/categories` | `[Category]` |
 | GET | `/papers` | `[Paper]` |
 
@@ -48,7 +50,9 @@ curl "localhost:8080/api/v1/articles/16grxK"
 | `article-meta.json` | Per article: category, paper, 3-bullet summary and one or more `locations`. Each location becomes a pin |
 | `events.json` | Events with relative dates: `dayOffset` (0 = today) + `startTime`/`endTime` as `HH:mm`, Oslo time |
 | `ads.json` | Student deals, valid from today for `daysValid` days |
-| `categories.json`, `papers.json` | Lookup data. Every `categoryId`/`paperId` above must exist here |
+| `categories.json`, `papers.json` | Lookup data. Every `categoryId`/`paperId` above must exist here. Papers link to a fylke with `regionId` |
+| `digests.json` | Written summaries ("sammendrag"): `day`, `week`, `category` and `place`. Each has a headline, intro, numbered points that link to an `articleId`, and `itemIds` for events/deals. All links are checked at startup |
+| `regions.geojson` | One feature per fylke for the onboarding map. Built by `tools/make_regions.py` from [robhop/fylker-og-kommuner](https://github.com/robhop/fylker-og-kommuner) (2020 division, Kartverket, CC BY 4.0): repaired, simplified, shaded, with label points and Polaris papers. Also writes `norway.geojson` (the country outline) |
 
 To add an article: drop the Polaris JSON in `articles/` and add an entry to `article-meta.json`.
 The server validates all references at startup and names the file and id if something is wrong.

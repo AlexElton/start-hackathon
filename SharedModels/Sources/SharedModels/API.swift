@@ -10,6 +10,9 @@ public enum API {
         public static let articles = "articles"
         public static let categories = "categories"
         public static let papers = "papers"
+        public static let regions = "regions"
+        public static let digests = "digests"
+        public static let norway = "regions/norway"
     }
 }
 

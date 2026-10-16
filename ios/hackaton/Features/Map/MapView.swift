@@ -6,6 +6,10 @@ import SwiftUI
 /// Keep the map out of SwiftUI's re-render path: `updateUIView` only pushes changes.
 struct MapView: UIViewRepresentable {
     var style: MapStyle
+    /// The camera the map starts with (used once, when the map is created).
+    var initialCamera: CameraSpec
+    /// A one-off camera move, e.g. the fast intro. Applied when its id changes.
+    var cameraCommand: CameraCommand?
     var items: [FeedItem]
     var zoomFraction: Double
     var isSliderActive: Bool
@@ -14,6 +18,8 @@ struct MapView: UIViewRepresentable {
     var onRegionChange: (FeedFilter.BoundingBox) -> Void
     /// A pin (one item) or a bunch (newest first) was tapped.
     var onSelect: ([FeedItem]) -> Void
+    /// The map has drawn its first full frame.
+    var onRendered: () -> Void = {}
 
     func makeUIView(context: Context) -> MKMapView {
         let mapView = MKMapView()
@@ -25,14 +31,9 @@ struct MapView: UIViewRepresentable {
         mapView.register(ClusterAnnotationView.self, forAnnotationViewWithReuseIdentifier: MKMapViewDefaultClusterAnnotationViewReuseIdentifier)
         mapView.cameraZoomRange = MKMapView.CameraZoomRange(
             minCenterCoordinateDistance: ZoomScale.minDistance,
-            maxCenterCoordinateDistance: ZoomScale.maxDistance
+            maxCenterCoordinateDistance: 12_000_000 // Room for the intros to start from all of Norway.
         )
-        mapView.camera = MKMapCamera(
-            lookingAtCenter: CLLocationCoordinate2D(latitude: MapViewModel.startCenter.lat, longitude: MapViewModel.startCenter.lon),
-            fromDistance: MapViewModel.startDistance,
-            pitch: MapViewModel.startPitch,
-            heading: MapViewModel.startHeading
-        )
+        mapView.camera = initialCamera.mkCamera
         context.coordinator.mapView = mapView
         context.coordinator.currentStyle = style
         return mapView
@@ -46,6 +47,14 @@ struct MapView: UIViewRepresentable {
             coordinator.currentStyle = style
         }
         coordinator.apply(items)
+        if let command = cameraCommand, command.id != coordinator.lastCommandId {
+            coordinator.lastCommandId = command.id
+            if command.duration > 0 {
+                coordinator.fly(to: command.camera, duration: command.duration, cinematic: command.cinematic)
+            } else {
+                mapView.camera = command.camera.mkCamera
+            }
+        }
         if isSliderActive {
             coordinator.zoom(toFraction: zoomFraction)
         }
@@ -53,6 +62,7 @@ struct MapView: UIViewRepresentable {
 
     static func dismantleUIView(_ mapView: MKMapView, coordinator: Coordinator) {
         coordinator.stopZoomAnimation()
+        coordinator.stopFlight()
     }
 
     func makeCoordinator() -> Coordinator {
@@ -63,6 +73,7 @@ struct MapView: UIViewRepresentable {
         var parent: MapView
         weak var mapView: MKMapView?
         var currentStyle: MapStyle?
+        var lastCommandId: UUID?
         private var annotations: [String: ItemAnnotation] = [:]
         private var displayLink: CADisplayLink?
         private var targetDistance: Double?
@@ -96,17 +107,46 @@ struct MapView: UIViewRepresentable {
             mapView.addAnnotations(added)
         }
 
+        private var hasRendered = false
+
+        func mapViewDidFinishRenderingMap(_ mapView: MKMapView, fullyRendered: Bool) {
+            guard fullyRendered, !hasRendered else { return } // Not before the tiles are actually drawn.
+            hasRendered = true
+            parent.onRendered()
+        }
+
+        /// Opens a pin or bunch on touch-up. MapKit's own selection waits ~0.3 s to rule out a double-tap.
+        @objc func pinTapped(_ gesture: UITapGestureRecognizer) {
+            switch (gesture.view as? MKAnnotationView)?.annotation {
+            case let annotation as ItemAnnotation:
+                parent.onSelect([annotation.item])
+            case let cluster as MKClusterAnnotation:
+                parent.onSelect(ClusterAnnotationView.sortedItems(in: cluster))
+            default:
+                break
+            }
+        }
+
+        private func addTapIfNeeded(to view: MKAnnotationView?) {
+            guard let view, !(view.gestureRecognizers ?? []).contains(where: { $0.name == "pinTap" }) else { return }
+            let tap = UITapGestureRecognizer(target: self, action: #selector(pinTapped(_:)))
+            tap.name = "pinTap"
+            view.addGestureRecognizer(tap)
+        }
+
         func mapView(_ mapView: MKMapView, viewFor annotation: any MKAnnotation) -> MKAnnotationView? {
             switch annotation {
             case let annotation as ItemAnnotation:
                 let view = mapView.dequeueReusableAnnotationView(withIdentifier: ItemAnnotationView.reuseIdentifier, for: annotation) as? ItemAnnotationView
                 view?.images = parent.images
                 view?.refresh()
+                addTapIfNeeded(to: view)
                 return view
             case let cluster as MKClusterAnnotation:
                 let view = mapView.dequeueReusableAnnotationView(withIdentifier: MKMapViewDefaultClusterAnnotationViewReuseIdentifier, for: cluster) as? ClusterAnnotationView
                 view?.images = parent.images
                 view?.refresh()
+                addTapIfNeeded(to: view)
                 return view
             default:
                 return nil // Blue dot stays default.
@@ -124,6 +164,79 @@ struct MapView: UIViewRepresentable {
             default:
                 break
             }
+        }
+
+        // MARK: Flight (fast intro)
+
+        private var flightLink: CADisplayLink?
+        private var flight: (from: MKMapCamera, to: CameraSpec, start: CFTimeInterval, duration: Double, cinematic: Bool)?
+
+        /// Flies the camera to `target` in exactly `duration` seconds, straight down: distance (on a log scale)
+        /// and centre follow the same curve, so the target stays put on screen as it grows. The curve starts
+        /// softly, picks up, then slows down for a long time near the ground so tiles and 3D buildings load.
+        /// The tilt comes in at the end.
+        func fly(to target: CameraSpec, duration: Double, cinematic: Bool = false) {
+            guard let mapView else { return }
+            stopFlight()
+            flight = (mapView.camera.copy() as! MKMapCamera, target, CACurrentMediaTime(), duration, cinematic)
+            let link = CADisplayLink(target: self, selector: #selector(stepFlight))
+            link.add(to: .main, forMode: .common)
+            flightLink = link
+        }
+
+        /// Soft start (no jolt when the app opens), then a long deceleration towards the ground.
+        private static let flightCurve = UnitCurve.bezier(startControlPoint: UnitPoint(x: 0.42, y: 0), endControlPoint: UnitPoint(x: 0.12, y: 1))
+        /// Gentle lift-off, steady middle, very long settle: reads as one continuous camera move.
+        private static let cinematicCurve = UnitCurve.bezier(startControlPoint: UnitPoint(x: 0.5, y: 0), endControlPoint: UnitPoint(x: 0.2, y: 1))
+
+        func stopFlight() {
+            flightLink?.invalidate()
+            flightLink = nil
+            flight = nil
+        }
+
+        @objc private func stepFlight() {
+            guard let mapView, let flight else { return stopFlight() }
+            let t = min((CACurrentMediaTime() - flight.start) / flight.duration, 1)
+            let from = flight.from
+            let logFrom = log(from.centerCoordinateDistance)
+            let logTo = log(flight.to.distance)
+            let center: CLLocationCoordinate2D
+            let distance: Double
+            let tilt: Double
+
+            if flight.cinematic {
+                // Dive straight down onto the target: the distance shrinks on a log scale with a slow start and
+                // a long, soft landing, and the target slides from where it sits on screen to the middle at an
+                // even pace. Keeping the map offset proportional to the height means nothing swerves sideways.
+                let progress = Self.cinematicCurve.value(at: t)
+                distance = exp(logFrom + (logTo - logFrom) * progress)
+                let glide = t * t * (3 - 2 * t)
+                let scale = distance / from.centerCoordinateDistance * (1 - glide)
+                center = CLLocationCoordinate2D(
+                    latitude: flight.to.center.latitude + (from.centerCoordinate.latitude - flight.to.center.latitude) * scale,
+                    longitude: flight.to.center.longitude + (from.centerCoordinate.longitude - flight.to.center.longitude) * scale
+                )
+                let tiltProgress = max(0, (t - 0.62) / 0.38)
+                tilt = tiltProgress * tiltProgress * (3 - 2 * tiltProgress)
+            } else {
+                let progress = Self.flightCurve.value(at: t)
+                distance = exp(logFrom + (logTo - logFrom) * progress)
+                center = CLLocationCoordinate2D(
+                    latitude: from.centerCoordinate.latitude + (flight.to.center.latitude - from.centerCoordinate.latitude) * progress,
+                    longitude: from.centerCoordinate.longitude + (flight.to.center.longitude - from.centerCoordinate.longitude) * progress
+                )
+                let tiltProgress = max(0, (t - 0.55) / 0.45)
+                tilt = tiltProgress * tiltProgress * (3 - 2 * tiltProgress)
+            }
+
+            mapView.camera = MKMapCamera(
+                lookingAtCenter: center,
+                fromDistance: distance,
+                pitch: from.pitch + (flight.to.pitch - from.pitch) * tilt,
+                heading: flight.to.heading
+            )
+            if t >= 1 { stopFlight() }
         }
 
         // MARK: Region and zoom
@@ -178,9 +291,9 @@ struct MapView: UIViewRepresentable {
             let camera = mapView.camera.copy() as! MKMapCamera
             let next = exp(logCurrent + (logTarget - logCurrent) * 0.2)
             camera.centerCoordinateDistance = next
-            // Far out, blend from where the user was towards the middle of Norway so the whole country fits;
-            // on the way back in the blend reverses and lands where they started.
-            if let local = localCenter, max(current, next) > ZoomScale.overviewStartDistance {
+            // Zooming out far, glide from where the user was towards the middle of Norway so the whole country
+            // fits. Zooming back in goes straight into whatever is in the middle of the screen.
+            if let local = localCenter, next > current, next > ZoomScale.overviewStartDistance {
                 let weight = ZoomScale.overviewWeight(for: next)
                 camera.centerCoordinate = CLLocationCoordinate2D(
                     latitude: local.latitude + (ZoomScale.norwayCenter.latitude - local.latitude) * weight,
@@ -192,7 +305,8 @@ struct MapView: UIViewRepresentable {
     }
 }
 
-private extension MapStyle {
+extension MapStyle {
+    /// The MapKit configuration for this style; shared by the main map and the onboarding map.
     var configuration: MKMapConfiguration {
         switch self {
         case .standard: MKStandardMapConfiguration(elevationStyle: .realistic)

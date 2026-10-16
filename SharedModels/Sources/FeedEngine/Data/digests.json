@@ -1,0 +1,154 @@
+[
+  {
+    "id": "i-dag",
+    "scope": "day",
+    "title": "I dag",
+    "headline": "Brannene er slukket, og kvelden er din",
+    "intro": "Kornbrannen i Ila holdt brannvesenet i sving i over et døgn, men nå er begge brannene slukket. Her er det viktigste du bør få med deg i dag, og hva som skjer i kveld.",
+    "points": [
+      { "title": "Kornbrannen i Ila er slukket", "text": "Det brant i Felleskjøpets tørkeanlegg fra natt til tirsdag, og senere også i Fiskå mølle på Spongdal. Ingen ble skadet, men 60 tonn havre gikk tapt.", "articleId": "zlxvg5" },
+      { "title": "Mann siktet etter knivstikking", "text": "En mann i 60-årene ble kuttet over øyet utenfor et privat tiltak i Trondheim. En beboer er siktet, og kommunens kriseteam følger opp.", "articleId": "eG5bky" },
+      { "title": "350 søkere kjemper om 32 legejobber", "text": "Unge leger på St. Olav sier NRK-serien «LIS» viser hverdagen deres slik den er, og sykehuset har bedret oppfølgingen av ferske leger.", "articleId": "OgnOdV" },
+      { "title": "I kveld: quiz og burger til studentpris", "text": "Lyche arrangerer studentquiz klokka 20, og Hammerhead har smashburger-kveld med studentrabatt fra klokka 17." }
+    ],
+    "itemIds": ["evt_quiz_lyche", "evt_smashburger_hammerhead", "ad_den_gode_nabo"],
+    "imageUrl": "https://vcdn.polarismedia.no/33800025-e2de-3f41-8eb0-067901fe764d?w=1200&fit=clip&q=80",
+    "symbol": "sun.max.fill",
+    "color": "#005379",
+    "readMinutes": 2
+  },
+  {
+    "id": "denne-uka",
+    "scope": "week",
+    "title": "Denne uka",
+    "headline": "Budsjett, branner og spørsmål uten svar",
+    "intro": "Statsbudsjettet ga lite til veiene i Trøndelag, to branner rammet kornmottak i Trondheim, og en familie krever svar etter et dødsfall på Skansen. Uka som var, kort fortalt.",
+    "points": [
+      { "title": "Statsbudsjettet for 2027 er lagt fram", "text": "Regjeringen la fram budsjettet onsdag. Adresseavisen fulgte presentasjonen direkte og samlet det viktigste for Trøndelag.", "articleId": "316lpP" },
+      { "title": "Ingen penger til E14 og Meråkerbanen", "text": "Ordføreren i Meråker er skuffet. Strekningen er viktig for militær transport østover, men får ikke midler i år.", "articleId": "BM0E00" },
+      { "title": "«Det er så mye som ikke stemmer»", "text": "Marius Raaken ble funnet død på Skansen. Saken ble henlagt, men et kameraopptak gikk tapt og vitner ble avhørt sent. Familien leter fortsatt etter svar.", "articleId": "aJy014" },
+      { "title": "Skudd gjennom verandadøra på Tanem", "text": "Tre barn satt i stua da en kule gikk gjennom glasset. En mann fra et jaktlag er siktet, men erkjenner ikke straffskyld.", "articleId": "eGz299" },
+      { "title": "Kornbrann i Ila og på Spongdal", "text": "To branner i kornmottak samme dag. Begge er slukket, og ingen ble skadet.", "articleId": "zlxvg5" }
+    ],
+    "itemIds": ["evt_lis_visning", "evt_lopeklubben"],
+    "imageUrl": "https://vcdn.polarismedia.no/1043df73-9a29-3c5a-9161-796561b10fc5?w=1200&fit=clip&q=80",
+    "symbol": "calendar",
+    "color": "#005379",
+    "readMinutes": 3
+  },
+  {
+    "id": "trondheim",
+    "scope": "place",
+    "title": "Trondheim",
+    "kicker": "Trondheim by",
+    "headline": "Det som skjer i byen din",
+    "intro": "Fra Ila til Tanem: her er sakene som angår deg som bor i Trondheim, og stedene der det skjer.",
+    "points": [
+      { "title": "Brannvesenet skar hull i siloen i Ila", "text": "Det var over 600 grader inne i siloen. Mannskapene tok ut kornet bit for bit og slukket det etter hvert. Kraftfôrfabrikken ved siden av er ikke berørt.", "articleId": "zlxvg5" },
+      { "title": "Familie på Skansen vil ha svar", "text": "Adresseavisen har fått innsyn i etterforskningen etter dødsfallet i småbåthavna. Politiet sa nei til å etterlyse personene som ble sett på kaia.", "articleId": "aJy014" },
+      { "title": "Skudd mot bolig på Tanem", "text": "Politiet undersøker om kula kan ha rikosjettert fra jakt i åsen mot Vassfjellet.", "articleId": "eGz299" },
+      { "title": "Kamp om legejobbene på St. Olav", "text": "Rundt 350 søkere konkurrerer om 32 LIS 1-stillinger på universitetssykehuset.", "articleId": "OgnOdV" }
+    ],
+    "itemIds": ["evt_quiz_lyche", "evt_lopeklubben"],
+    "imageUrl": "https://vcdn.polarismedia.no/50414031-c072-3ffc-b04f-52cdf2f7e154?w=1200&fit=clip&q=80",
+    "symbol": "building.2.fill",
+    "color": "#2E7FAD",
+    "regionId": "trondelag",
+    "readMinutes": 2
+  },
+  {
+    "id": "trondelag",
+    "scope": "place",
+    "title": "Trøndelag",
+    "kicker": "Trøndelag",
+    "headline": "Veiene som ikke fikk penger",
+    "intro": "Budsjettuka ble en skuffelse for mange i fylket. Her er det viktigste utenfor bygrensa.",
+    "points": [
+      { "title": "Meråker vil ha ny E14", "text": "– Alle snakker om å ruste oss for krig og krise, men ingen viser det med penger, sier ordfører Gjøran Sandvik.", "articleId": "BM0E00" },
+      { "title": "Nye Veier får rundt 7 milliarder", "text": "Prisveksten gjør at selskapet har 1,5 milliarder mindre å bygge for enn i oppstartsårene. 34 kilometer ny E6 åpner i høst.", "articleId": "BM0E00" },
+      { "title": "Brann i Fiskå mølle på Spongdal", "text": "Samme dag som brannen i Ila begynte det også å brenne i mølla på Spongdal. Den er nå slukket.", "articleId": "zlxvg5" }
+    ],
+    "itemIds": [],
+    "imageUrl": "https://vcdn.polarismedia.no/011fd9c5-923c-363a-8be1-c38afa9fcc6f?w=1200&fit=clip&q=80",
+    "symbol": "map.fill",
+    "color": "#2E7FAD",
+    "regionId": "trondelag",
+    "readMinutes": 2
+  },
+  {
+    "id": "kultur",
+    "scope": "category",
+    "title": "Kultur",
+    "kicker": "Kultur og uteliv",
+    "headline": "Serien alle leger snakker om",
+    "intro": "NRK-serien «LIS» treffer unge leger i Trondheim rett i magen, og på kino kan du se den med dem. Her er kulturuka.",
+    "points": [
+      { "title": "«LIS» er realistisk, sier legene", "text": "– For meg skapte serien et ubehag. Det var så gjenkjennbart, sier Marit Bjørgum Gjerde, som snart er overlege på St. Olav.", "articleId": "OgnOdV" },
+      { "title": "Se første episode på storskjerm", "text": "Nova Kino viser sesong to med samtale med leger fra St. Olav. 80 kroner for studenter." },
+      { "title": "Quiz på Samfundet", "text": "Lag på opptil seks, premie til beste lag og billig mat fra Lyche-kjøkkenet hele kvelden." }
+    ],
+    "itemIds": ["evt_lis_visning", "evt_quiz_lyche"],
+    "imageUrl": "https://vcdn.polarismedia.no/57f81d63-8347-3640-be0a-0943b75a28ae?w=1200&fit=clip&q=80",
+    "symbol": "theatermasks.fill",
+    "color": "#C31632",
+    "categoryId": "kultur",
+    "readMinutes": 2
+  },
+  {
+    "id": "mat",
+    "scope": "category",
+    "title": "Mat og studentpris",
+    "kicker": "Mat og drikke",
+    "headline": "Her spiser du godt for lite penger",
+    "intro": "Adresseavisens anmeldere har funnet ti utesteder med studentpris som får terningkast fem, og en lunsjkafé med byens beste cortado.",
+    "points": [
+      { "title": "Ti steder med studentrabatt og terningkast fem", "text": "Fra firerettersmiddag under 300 kroner på Lyche til byens beste smashburger på Hammerhead Taproom.", "articleId": "16grxK" },
+      { "title": "Byens beste cortado", "text": "Te og Kaffehuset i Dronningens gate har åpnet for servering. Tofusalaten og ostekaka imponerer, servicen trekker ned.", "articleId": "31EkrM" },
+      { "title": "Tilbud akkurat nå", "text": "2 for 1 på fatøl på Den Gode Nabo før klokka 20, og 20 prosent på pizza hos Øx Tap Room." }
+    ],
+    "itemIds": ["ad_den_gode_nabo", "ad_ox_tap_room", "ad_te_og_kaffehuset", "ad_burger_no"],
+    "imageUrl": "https://vcdn.polarismedia.no/a0ed4e49-8c3a-351e-bed7-a4b75a240fb4?w=1200&fit=clip&q=80",
+    "symbol": "fork.knife",
+    "color": "#D35400",
+    "categoryId": "mat",
+    "readMinutes": 2
+  },
+  {
+    "id": "blalys",
+    "scope": "category",
+    "title": "Blålys",
+    "kicker": "Krim og ulykker",
+    "headline": "Tre saker politiet etterforsker",
+    "intro": "En knivstikking, et skudd gjennom et vindu og et dødsfall som aldri ble oppklart. Dette vet vi.",
+    "points": [
+      { "title": "Knivstikking ved institusjon", "text": "Fornærmede ble ikke alvorlig skadet. Gjerningspersonen bor på stedet og er siktet.", "articleId": "eG5bky" },
+      { "title": "Jeger siktet etter skudd mot hus", "text": "Siktelsen kommer fordi politiet har tatt beslag i våpenet hans. Han erkjenner ikke straffskyld.", "articleId": "eGz299" },
+      { "title": "Tapt kameraopptak fra Skansen", "text": "Opptaket fra Redningsselskapets andre kamera ble overskrevet før politiet rakk å sikre det.", "articleId": "aJy014" }
+    ],
+    "itemIds": [],
+    "imageUrl": "https://vcdn.polarismedia.no/b0df18a4-040a-3b4a-818e-a93e9257a7b5?w=1200&fit=clip&q=80",
+    "symbol": "light.beacon.max.fill",
+    "color": "#101010",
+    "categoryId": "krim",
+    "readMinutes": 2
+  },
+  {
+    "id": "helse",
+    "scope": "category",
+    "title": "Helse",
+    "kicker": "Helse og trening",
+    "headline": "Tilbakefall er normalt, sier eksperten",
+    "intro": "Hege gikk opp i vekt igjen, og unge leger står i tøffe nattevakter. To historier om å stå i det.",
+    "points": [
+      { "title": "Hege fant tilbake til treningsgleden", "text": "Etter en tung periode og dårlige blodprøver tok hun på seg treningstøyet første juledag. Nå har hun fullført sin første Hyrox.", "articleId": "JO8X9P" },
+      { "title": "– Det er lov å gjøre feil", "text": "Utdanningssjef Brita Pukstad på St. Olav sier ferske leger skal være usikre, men aldri utrygge.", "articleId": "OgnOdV" },
+      { "title": "Løp med Løpeklubben", "text": "Rolig tur på 5 eller 8 kilometer langs Nidelva fra Gløshaugen. Ingen påmelding." }
+    ],
+    "itemIds": ["evt_lopeklubben"],
+    "imageUrl": "https://vcdn.polarismedia.no/1e37e364-a957-3b9d-87e7-380ef5acdf8b?w=1200&fit=clip&q=80",
+    "symbol": "heart.fill",
+    "color": "#16A085",
+    "categoryId": "helse",
+    "readMinutes": 2
+  }
+]

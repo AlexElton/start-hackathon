@@ -7,21 +7,24 @@ struct ZoomSlider: View {
     @Binding var value: Double
     @Binding var isActive: Bool
 
-    private let thumbSize: CGFloat = 14
+    private let thumbSize: CGFloat = 16
     private let hitWidth: CGFloat = 28
 
     var body: some View {
         GeometryReader { proxy in
             let travel = max(proxy.size.height - thumbSize, 1)
             ZStack(alignment: .top) {
+                // White with a thin dark edge, so it reads on light maps and satellite alike.
                 Capsule()
-                    .fill(.white.opacity(0.7))
-                    .frame(width: 2)
-                    .shadow(color: .black.opacity(0.35), radius: 1.5)
+                    .fill(.white)
+                    .overlay(Capsule().stroke(.black.opacity(0.28), lineWidth: 0.75))
+                    .frame(width: 3)
+                    .shadow(color: .black.opacity(0.2), radius: 1.5)
                     .padding(.vertical, thumbSize / 2)
                     .frame(maxWidth: .infinity, maxHeight: .infinity)
                 Circle()
                     .fill(.white)
+                    .overlay(Circle().stroke(.black.opacity(0.22), lineWidth: 0.75))
                     .shadow(color: .black.opacity(0.35), radius: 2.5, y: 1)
                     .frame(width: thumbSize, height: thumbSize)
                     .scaleEffect(isActive ? 1.3 : 1)

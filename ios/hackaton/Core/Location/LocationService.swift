@@ -17,6 +17,11 @@ final class LocationService: NSObject, CLLocationManagerDelegate {
         authorization == .authorizedWhenInUse || authorization == .authorizedAlways
     }
 
+    /// Last known position, if permission is granted. Good enough to place the start camera.
+    var lastCoordinate: CLLocationCoordinate2D? {
+        isAuthorized ? manager.location?.coordinate : nil
+    }
+
     func requestPermission() {
         if authorization == .notDetermined {
             manager.requestWhenInUseAuthorization()

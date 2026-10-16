@@ -24,8 +24,12 @@ final class AppEnvironment {
             // The data ships with the app and is checked by the backend tests, so this means a broken build.
             fatalError("Bundled content failed to load: \(error)")
         }
+        let settings = SettingsStore()
+        if settings.onboardingOnEveryLaunch {
+            settings.resetOnboarding()
+        }
         return AppEnvironment(
-            settings: SettingsStore(),
+            settings: settings,
             feed: feed,
             location: LocationService(),
             images: ImageLoader()

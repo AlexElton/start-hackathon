@@ -113,6 +113,46 @@ final class APITests: XCTestCase {
         }
     }
 
+    func testRegionsAreGeoJSONWithPolarisZones() async throws {
+        try await app.test(.GET, "api/v1/regions") { res async throws in
+            XCTAssertEqual(res.status, .ok)
+            XCTAssertEqual(res.headers.contentType?.description, "application/geo+json")
+            let json = try JSONSerialization.jsonObject(with: Data(buffer: res.body)) as? [String: Any]
+            let features = try XCTUnwrap(json?["features"] as? [[String: Any]])
+            XCTAssertEqual(features.count, 11) // 2020–2023 fylker
+            let properties = features.compactMap { $0["properties"] as? [String: Any] }
+            let papers = properties.compactMap { $0["regionalPaperId"] as? String }
+            XCTAssertEqual(Set(papers), ["adressa", "smp", "itromso", "fvn"])
+            let selectable = properties.filter { $0["selectable"] as? Bool == true }.compactMap { $0["id"] as? String }
+            XCTAssertEqual(Set(selectable), ["trondelag", "more-og-romsdal", "troms-og-finnmark", "agder"])
+        }
+    }
+
+    func testEveryPaperBelongsToARegion() async throws {
+        let regions = Set(["trondelag", "more-og-romsdal", "troms-og-finnmark", "agder"])
+        try await app.test(.GET, "api/v1/papers") { res async throws in
+            let papers = try JSONDecoder.api.decode([Paper].self, from: res.body)
+            XCTAssertEqual(papers.count, 21)
+            XCTAssertTrue(papers.allSatisfy { regions.contains($0.regionId) })
+        }
+    }
+
+    func testDigestsCoverPeriodsTopicsAndPlaces() async throws {
+        try await app.test(.GET, "api/v1/digests") { res async throws in
+            XCTAssertEqual(res.status, .ok)
+            let digests = try JSONDecoder.api.decode([SharedModels.Digest].self, from: res.body)
+            XCTAssertEqual(digests.count, 8)
+            XCTAssertEqual(Set(digests.map(\.scope)), [.day, .week, .category, .place])
+            XCTAssertTrue(digests.allSatisfy { !$0.points.isEmpty })
+        }
+        try await app.test(.GET, "api/v1/digests/kultur") { res async throws in
+            XCTAssertEqual(try JSONDecoder.api.decode(SharedModels.Digest.self, from: res.body).categoryId, "kultur")
+        }
+        try await app.test(.GET, "api/v1/digests/nope") { res async in
+            XCTAssertEqual(res.status, .notFound)
+        }
+    }
+
     func testUnknownArticleIs404() async throws {
         try await app.test(.GET, "api/v1/articles/nope") { res async in
             XCTAssertEqual(res.status, .notFound)

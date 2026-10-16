@@ -145,7 +145,7 @@ SharedModels/             // local SPM package used by app and backend
 **App shell**
 
 - `RootView` shows `OnboardingFlow` until `settings.hasOnboarded` is true, then `MainTabView`.
-- `MainTabView` is the bottom tab bar: Kart, Liste and Innstillinger, with room for more tabs later.
+- `MainTabView` is the bottom tab bar: Kart, Sammendrag and Innstillinger. (Sammendrag replaced the planned Liste tab: a daily digest with "Kort fortalt" cards, "I kveld" events and student deals, filtered by the user's interests and blacklist.) The map's top bar has a blue circle on the left as a placeholder for the logo.
 
 **Onboarding**
 
@@ -153,6 +153,10 @@ SharedModels/             // local SPM package used by app and backend
 - `OnboardingViewModel` edits a draft `AppSettings`, saves it to `SettingsStore` on finish, and asks the map for the globe intro.
 
 **Region map (onboarding step 3)**
+
+> **Update 2 (built):** step 3 is an `MKMapView` (same style as the main map; a tap only recolours one overlay, so it is instant). Outside Norway is white; fylker you cannot pick are grey with diagonal hatching. Only the four fylker with a Polaris paper are selectable, drawn in solid blue (the picked one in Adressablå) with a white line only where two of them meet. "Kom i gang" fades the white, the hatching and the colours out, the main map opens underneath on the exact same camera, onboarding stays on top until that map has fully rendered, and then a cinematic dive (target glides to the centre while the camera drops straight down, tilt at the end) lands on the city.
+
+> **Update (built):** step 3 is a full-screen map showing only Norway (everything else, including foreign place names, sits under a cover cut out along Norway's outline from `norway.geojson`). Uses the 2020–2023 fylker (Viken, Vestfold og Telemark, Troms og Finnmark). The ten fylker except Oslo are shaded in Adressablå (no borders; neighbours in different shades) and tappable; Oslo is the normal map. No labels and no local-avis panel: picking a zone keeps the regional paper and all its local papers. Every step has "Hopp over" (on step 3 it finishes and starts the map at your position), and steps switch without animation.
 
 Instead of a list, you pick your avis by tapping a zone on a 2D map of Norway. There is one zone per fylke where Polaris has a regional avis. Tapping a zone selects that regional avis plus every local avis under it.
 
@@ -177,6 +181,8 @@ The examples come from Polaris' [2020 editorial report](https://www.polarismedia
 - **Neste** is enabled once a zone is selected or position is chosen. It saves `regionId`, `paperIds` (regional plus the chosen local ones) and `startMode`, and the regional avis' city becomes the intro's `target` camera.
 
 **Intro animations**
+
+> **Update (built):** no globe layer. The onboarding map uses the same style as the main map, so the first intro simply starts the real map on the camera where step 3 ended (all of Norway) and flies down to the target. Later launches dive from the Europe camera. Both flights run on a `CADisplayLink`: distance on a log scale with an ease-out (fast high up, a long slowdown near the ground), centre gliding in, 3D tilt at the end. Before each flight, `TilePrefetcher` renders off-screen snapshots at 1,200/450/160/60 km and at the target, so the dive doesn't outrun the tiles. Step 3 also draws thin white lines only where two selectable fylker meet (from `norway.geojson`).
 
 The intro is driven by cameras. A camera has four values: **centre** (the ground point it looks at), **distance** (how high up, in metres), **pitch** (0° looks straight down; higher gives the 3D view) and **heading** (which compass direction is up on screen). Setting a new camera moves the map, and animating that change makes it glide.
 
@@ -377,6 +383,8 @@ Base path `/api/v1`. All responses are JSON except `/explain`, which streams Ser
 | --- | --- | --- | --- |
 | GET | `/feed` | Query params, see below | `200 FeedPage` |
 | GET | `/articles/:id` | Path id | `200 ArticleDetail`, `404` if unknown |
+| GET | `/digests` | None | `200 [Digest]`: written summaries for today, this week, topics (kultur, mat, blålys, helse) and places (Trondheim, Trøndelag) |
+| GET | `/digests/:id` | Path id | `200 Digest`, `404` if unknown |
 | GET | `/categories` | None | `200 [Category]` |
 | GET | `/papers` | None | `200 [Paper]`, each with `regionId` and `level` |
 | GET | `/regions` | None | `200` GeoJSON `FeatureCollection` (`application/geo+json`) |

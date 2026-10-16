@@ -20,10 +20,18 @@ struct SettingsScreen: View {
                     Toggle("Intro ved hver oppstart", isOn: $settings.introOnEveryLaunch)
                 }
 
-                Section("Demo") {
-                    Button("Vis onboarding på nytt") {
-                        settings.hasOnboarded = false
+                Section {
+                    Toggle("Onboarding ved hver oppstart", isOn: $settings.onboardingOnEveryLaunch)
+                    Button("Spill av intro") {
+                        settings.pendingGlobeIntro = true
                     }
+                    Button("Start onboarding på nytt") {
+                        settings.resetOnboarding()
+                    }
+                } header: {
+                    Text("Demo")
+                } footer: {
+                    Text("Når bryteren er på, starter appen med en helt ny onboarding hver gang den åpnes.")
                 }
 
                 Section {

@@ -2,7 +2,7 @@ import SwiftUI
 
 struct MainTabView: View {
     enum TabID: Hashable {
-        case map, list, settings
+        case map, summary, settings
     }
 
     @State private var selection: TabID = .map
@@ -12,8 +12,8 @@ struct MainTabView: View {
             Tab("Kart", systemImage: "map", value: .map) {
                 MapScreen()
             }
-            Tab("Liste", systemImage: "list.bullet", value: .list) {
-                ListScreen()
+            Tab("Sammendrag", systemImage: "text.alignleft", value: .summary) {
+                SummaryScreen()
             }
             Tab("Innstillinger", systemImage: "gearshape", value: .settings) {
                 SettingsScreen()

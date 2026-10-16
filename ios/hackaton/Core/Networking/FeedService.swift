@@ -8,6 +8,13 @@ protocol FeedServicing {
     func feed(_ filter: FeedFilter) async throws -> FeedPage
     func article(id: String) async throws -> ArticleDetail
     func papers() async throws -> [Paper]
+    func categories() async throws -> [SharedModels.Category]
+    /// GeoJSON, one feature per fylke.
+    func regions() async throws -> Data
+    /// GeoJSON, Norway as one outline.
+    func norwayOutline() async throws -> Data
+    /// Written summaries: today, this week, topics and places.
+    func digests() async throws -> [Digest]
 }
 
 /// Runs the content engine in the app: the bundled Polaris articles, events and deals, filtered and sorted
@@ -32,6 +39,22 @@ struct LocalFeedService: FeedServicing {
     func papers() async throws -> [Paper] {
         repository.papers
     }
+
+    func categories() async throws -> [SharedModels.Category] {
+        repository.categories
+    }
+
+    func regions() async throws -> Data {
+        repository.regionsGeoJSON
+    }
+
+    func norwayOutline() async throws -> Data {
+        repository.norwayGeoJSON
+    }
+
+    func digests() async throws -> [Digest] {
+        repository.digests
+    }
 }
 
 struct LiveFeedService: FeedServicing {
@@ -47,6 +70,24 @@ struct LiveFeedService: FeedServicing {
 
     func papers() async throws -> [Paper] {
         try await api.get(API.Path.papers)
+    }
+
+    func categories() async throws -> [SharedModels.Category] {
+        try await api.get(API.Path.categories)
+    }
+
+    func regions() async throws -> Data {
+        let (data, _) = try await api.session.data(from: api.baseURL.appending(path: API.Path.regions))
+        return data
+    }
+
+    func norwayOutline() async throws -> Data {
+        let (data, _) = try await api.session.data(from: api.baseURL.appending(path: API.Path.norway))
+        return data
+    }
+
+    func digests() async throws -> [Digest] {
+        try await api.get(API.Path.digests)
     }
 }
 
@@ -79,7 +120,23 @@ struct MockFeedService: FeedServicing {
     }
 
     func papers() async throws -> [Paper] {
-        [Paper(id: "adressa", name: "Adresseavisen", city: "Trondheim", location: GeoPoint(lat: 63.43, lon: 10.39), color: "#005379", regionId: "trondelag", level: .regional)]
+        try await LocalFeedService().papers()
+    }
+
+    func categories() async throws -> [SharedModels.Category] {
+        try await LocalFeedService().categories()
+    }
+
+    func regions() async throws -> Data {
+        try await LocalFeedService().regions()
+    }
+
+    func norwayOutline() async throws -> Data {
+        try await LocalFeedService().norwayOutline()
+    }
+
+    func digests() async throws -> [Digest] {
+        try await LocalFeedService().digests()
     }
 }
 
