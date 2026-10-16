@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		32C7586030810580008A9EA6 /* SharedModels in Frameworks */ = {isa = PBXBuildFile; productRef = 32C7586230810580008A9EA6 /* SharedModels */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		32C7584630810575008A9EA6 /* hackaton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hackaton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -23,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32C7586030810580008A9EA6 /* SharedModels in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +70,7 @@
 			);
 			name = hackaton;
 			packageProductDependencies = (
+				32C7586230810580008A9EA6 /* SharedModels */,
 			);
 			productName = hackaton;
 			productReference = 32C7584630810575008A9EA6 /* hackaton.app */;
@@ -94,6 +100,9 @@
 			);
 			mainGroup = 32C7583D30810575008A9EA6;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				32C7586130810580008A9EA6 /* XCLocalSwiftPackageReference "../SharedModels" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 32C7584730810575008A9EA6 /* Products */;
 			projectDirPath = "";
@@ -332,6 +341,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		32C7586130810580008A9EA6 /* XCLocalSwiftPackageReference "../SharedModels" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../SharedModels;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		32C7586230810580008A9EA6 /* SharedModels */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SharedModels;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 32C7583E30810575008A9EA6 /* Project object */;
 }

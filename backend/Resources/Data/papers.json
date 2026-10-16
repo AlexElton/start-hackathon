@@ -1,0 +1,14 @@
+[
+  { "id": "adressa", "name": "Adresseavisen", "city": "Trondheim",
+    "location": { "lat": 63.4305, "lon": 10.3951 }, "color": "#1F4E79",
+    "regionId": "trondelag", "level": "regional" },
+  { "id": "smp", "name": "Sunnmørsposten", "city": "Ålesund",
+    "location": { "lat": 62.4722, "lon": 6.1495 }, "color": "#B22222",
+    "regionId": "more-og-romsdal", "level": "regional" },
+  { "id": "itromso", "name": "iTromsø", "city": "Tromsø",
+    "location": { "lat": 69.6492, "lon": 18.9553 }, "color": "#0B6E4F",
+    "regionId": "troms", "level": "regional" },
+  { "id": "fvn", "name": "Fædrelandsvennen", "city": "Kristiansand",
+    "location": { "lat": 58.1467, "lon": 7.9956 }, "color": "#D35400",
+    "regionId": "agder", "level": "regional" }
+]

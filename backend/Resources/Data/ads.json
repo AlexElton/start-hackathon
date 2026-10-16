@@ -1,0 +1,54 @@
+[
+  {
+    "id": "ad_den_gode_nabo",
+    "title": "2 for 1 på fatøl før kl. 20",
+    "categoryId": "mat",
+    "paperId": "adressa",
+    "location": { "lat": 63.4283, "lon": 10.4027, "name": "Den Gode Nabo, Bakklandet" },
+    "imageUrl": "https://vcdn.polarismedia.no/4c3cb68d-7dcd-36e7-be81-807cd5c5af6a?w=1000&fit=clip&q=80",
+    "merchant": "Den Gode Nabo",
+    "offer": "2 for 1 på fatøl før kl. 20 med studentbevis",
+    "daysValid": 3,
+    "description": "Gjelder alle fatøl på lekteren og inne. Vis gyldig studentbevis i baren.",
+    "tags": ["øl", "pub", "studentrabatt"]
+  },
+  {
+    "id": "ad_te_og_kaffehuset",
+    "title": "Cortado og ostekake for 99 kr",
+    "categoryId": "mat",
+    "paperId": "adressa",
+    "location": { "lat": 63.4316, "lon": 10.3972, "name": "Te og Kaffehuset, Dronningens gate 30" },
+    "imageUrl": "https://vcdn.polarismedia.no/d9b779ef-0832-3cad-93af-68c2050fd543?w=1000&fit=clip&q=80",
+    "merchant": "Te og Kaffehuset",
+    "offer": "Cortado og ostekake for 99 kr",
+    "daysValid": 7,
+    "description": "Byens beste cortado, ifølge Adresseavisens anmelder. Hverdager 14–17.",
+    "tags": ["kaffe", "kake", "studentrabatt"]
+  },
+  {
+    "id": "ad_ox_tap_room",
+    "title": "20 % på pizza søndag–torsdag",
+    "categoryId": "mat",
+    "paperId": "adressa",
+    "location": { "lat": 63.4322, "lon": 10.3948, "name": "Øx Tap Room, Munkegata" },
+    "imageUrl": "https://vcdn.polarismedia.no/8e850964-8c2f-35ff-957c-f984e5fbcd3a?w=1000&fit=clip&q=80",
+    "merchant": "Øx Tap Room",
+    "offer": "20 % studentrabatt på pizza søndag–torsdag",
+    "daysValid": 14,
+    "description": "Pizzaen som vant Smakspolitiets pizzatest. Gjelder hele menyen av pizza.",
+    "tags": ["pizza", "studentrabatt"]
+  },
+  {
+    "id": "ad_burger_no",
+    "title": "Gratis fries til burgeren",
+    "categoryId": "mat",
+    "paperId": "adressa",
+    "location": { "lat": 63.4302, "lon": 10.4042, "name": "Burger.no, Nedre Bakklandet" },
+    "imageUrl": "https://vcdn.polarismedia.no/5cbb5316-04ec-38e8-8117-98dc83deee09?w=1000&fit=clip&q=80",
+    "merchant": "Burger.no",
+    "offer": "Gratis fries til burgeren med studentbevis",
+    "daysValid": 5,
+    "description": "Gjelder alle burgere på menyen, også take away.",
+    "tags": ["burger", "studentrabatt"]
+  }
+]

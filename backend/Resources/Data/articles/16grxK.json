@@ -1,0 +1,1683 @@
+{
+  "urls": {
+    "relative": "/restaurantguiden/i/16grxK/skal-du-ut-i-helga-her-er-det-studentrabatt",
+    "canonical": "https://www.adressa.no/restaurantguiden/i/16grxK/skal-du-ut-i-helga-her-er-det-studentrabatt",
+    "redirectToCanonical": false
+  },
+  "components": [
+    {
+      "title": {
+        "value": "Den Gode Nabo"
+      },
+      "presentationProperties": {
+        "rgPris": "",
+        "rgText": "Store plusspoeng for drikke- og snacksmeny",
+        "rgGrade": "5",
+        "rgPlussFor": "Studentrabatt, Spesielt sted, Utsikt, Uteservering",
+        "rgPrisNiva": "3",
+        "rgExtraText": "Pub",
+        "miniInfoCard": "true"
+      },
+      "type": "fact"
+    },
+    {
+      "components": [
+        {
+          "caption": {
+            "value": "Den Gode Nabo på Bakklandet"
+          },
+          "byline": {
+            "title": "Terje Svaan"
+          },
+          "imageAsset": {
+            "id": "4c3cb68d-7dcd-36e7-be81-807cd5c5af6a",
+            "size": {
+              "width": 8026,
+              "height": 5351
+            }
+          },
+          "type": "image"
+        },
+        {
+          "caption": {
+            "value": "Pub og uteservering på lekter ved Bybrua."
+          },
+          "byline": {
+            "title": "Terje Svaan"
+          },
+          "imageAsset": {
+            "id": "1f09f5bc-6e16-3b41-ab71-8c5332acfcce",
+            "size": {
+              "width": 7036,
+              "height": 4691
+            }
+          },
+          "type": "image"
+        },
+        {
+          "byline": {
+            "title": "Emilie Sofie Olsen / Adresseavisen"
+          },
+          "imageAsset": {
+            "id": "96a538b7-29d5-3870-b880-0d28b2eaec94",
+            "size": {
+              "width": 4928,
+              "height": 3280
+            }
+          },
+          "type": "image"
+        },
+        {
+          "byline": {
+            "title": "Emilie Sofie Olsen / Adresseavisen"
+          },
+          "imageAsset": {
+            "id": "3a3c1ea8-8ce6-3745-9535-151b786bd17d",
+            "size": {
+              "width": 4862,
+              "height": 3256
+            }
+          },
+          "type": "image"
+        },
+        {
+          "byline": {
+            "title": "Emilie Sofie Olsen"
+          },
+          "imageAsset": {
+            "id": "f23044ae-e7d7-32cd-b0e5-80bd16ee5e3e",
+            "size": {
+              "width": 3280,
+              "height": 4928
+            }
+          },
+          "type": "image"
+        },
+        {
+          "byline": {
+            "title": "Emilie Sofie Olsen"
+          },
+          "imageAsset": {
+            "id": "560a953c-40da-3bfd-9d45-5cbc2c6d2030",
+            "size": {
+              "width": 4770,
+              "height": 3175
+            }
+          },
+          "type": "image"
+        },
+        {
+          "byline": {
+            "title": "Emilie Sofie Olsen"
+          },
+          "imageAsset": {
+            "id": "d4b20568-668d-326a-8a9c-d9f79b5dc9a8",
+            "size": {
+              "width": 4928,
+              "height": 3280
+            }
+          },
+          "type": "image"
+        },
+        {
+          "caption": {
+            "value": "Tomatsuppe med meksikansk vri"
+          },
+          "imageAsset": {
+            "id": "d2310914-9f81-3732-b615-acc2869907b2",
+            "size": {
+              "width": 2992,
+              "height": 2992
+            }
+          },
+          "type": "image"
+        },
+        {
+          "caption": {
+            "value": "Reinsdyrgryte"
+          },
+          "imageAsset": {
+            "id": "9002bc4e-8cbb-38a8-97c6-a131851eedae",
+            "size": {
+              "width": 2836,
+              "height": 2836
+            }
+          },
+          "type": "image"
+        },
+        {
+          "byline": {
+            "title": "Terje Svaan"
+          },
+          "imageAsset": {
+            "id": "027e77be-1a56-352f-9669-751cb20a23be",
+            "size": {
+              "width": 8640,
+              "height": 5760
+            }
+          },
+          "type": "image"
+        }
+      ],
+      "type": "gallery"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "«Om du ikke finner noe du liker her, da liker du rett og slett ikke øl» skrev vår anmelder Alva Hognestad Alvestrand da hun besøkte Den Gode Nabo i april 2026. Hun mener det ikke finnes et mer koselig sted i byen. Det er ikke hit man kommer for mat, men et godt utvalg av øl, viner på glass og cocktails. ",
+            "markup": [
+              {
+                "type": "link:external",
+                "offset": 117,
+                "length": 41,
+                "uri": "https://www.adressa.no/restaurantguiden/i/K8LnMX/hadde-vi-vaert-pubguiden-ville-dette-vaert-en-syver"
+              }
+            ]
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "title": {
+        "value": "Daglig Deig"
+      },
+      "presentationProperties": {
+        "rgPris": "",
+        "rgText": "Alt er glutenfritt – og ikke bare det, men det er godt!",
+        "rgGrade": "5",
+        "rgPlussFor": "Studentrabatt, Spesielt sted, Utsikt, Uteservering",
+        "rgPrisNiva": "3",
+        "rgExtraText": "Kafé",
+        "miniInfoCard": "true"
+      },
+      "type": "fact"
+    },
+    {
+      "components": [
+        {
+          "caption": {
+            "value": "Daglig Deig på Bakklandet i Trondheim"
+          },
+          "byline": {
+            "title": "Kim Nygård"
+          },
+          "imageAsset": {
+            "id": "b2803bf7-2224-3e21-aaf0-2f193d258821",
+            "size": {
+              "width": 6192,
+              "height": 7232
+            }
+          },
+          "type": "image"
+        },
+        {
+          "caption": {
+            "value": "Daglig leder Stefano Leonardo Matarese"
+          },
+          "byline": {
+            "title": "Trond Ola Tilseth"
+          },
+          "imageAsset": {
+            "id": "f80c05dc-8dac-310f-aa3e-65e6364cf778",
+            "size": {
+              "width": 4032,
+              "height": 3024
+            }
+          },
+          "type": "image"
+        },
+        {
+          "byline": {
+            "title": "Aksel Egge"
+          },
+          "imageAsset": {
+            "id": "1c3c7c5b-1d2b-3fed-a44d-4ff87066cbff",
+            "size": {
+              "width": 2048,
+              "height": 1365
+            }
+          },
+          "type": "image"
+        },
+        {
+          "byline": {
+            "title": "Aksel Egge"
+          },
+          "imageAsset": {
+            "id": "7f16aac3-35cc-3632-be0c-f9b0ba223e6c",
+            "size": {
+              "width": 2048,
+              "height": 1365
+            }
+          },
+          "type": "image"
+        },
+        {
+          "byline": {
+            "title": "Aksel Egge"
+          },
+          "imageAsset": {
+            "id": "605ea89f-b4ea-3aff-8178-a3b2e085caeb",
+            "size": {
+              "width": 2048,
+              "height": 1365
+            }
+          },
+          "type": "image"
+        },
+        {
+          "byline": {
+            "title": "Aksel Egge"
+          },
+          "imageAsset": {
+            "id": "c64d63f2-e9d9-357e-b180-c1f3345577e6",
+            "size": {
+              "width": 2048,
+              "height": 1365
+            }
+          },
+          "type": "image"
+        },
+        {
+          "byline": {
+            "title": "Aksel Egge"
+          },
+          "imageAsset": {
+            "id": "01208e9c-3553-3f71-90c4-28bcc1fff538",
+            "size": {
+              "width": 2048,
+              "height": 1365
+            }
+          },
+          "type": "image"
+        },
+        {
+          "byline": {
+            "title": "Aksel Egge"
+          },
+          "imageAsset": {
+            "id": "3ce94e60-1bad-35db-ac9a-220d3c0d8a6b",
+            "size": {
+              "width": 2048,
+              "height": 1365
+            }
+          },
+          "type": "image"
+        },
+        {
+          "byline": {
+            "title": "Aksel Egge"
+          },
+          "imageAsset": {
+            "id": "ef03288b-2d8c-3564-acc1-8ae03c2a00ba",
+            "size": {
+              "width": 2048,
+              "height": 1365
+            }
+          },
+          "type": "image"
+        },
+        {
+          "byline": {
+            "title": "Aksel Egge"
+          },
+          "imageAsset": {
+            "id": "7a43e366-e99d-3f3a-ac0f-f5adbdea5418",
+            "size": {
+              "width": 2048,
+              "height": 1365
+            }
+          },
+          "type": "image"
+        },
+        {
+          "caption": {
+            "value": "Vaniljefylt cannoncini og weinerbrød med hjemmelaget sylta plomme"
+          },
+          "byline": {
+            "title": "SADIIQ JDID"
+          },
+          "imageAsset": {
+            "id": "455f8e10-8201-37e6-97ae-079983deda56",
+            "size": {
+              "width": 3024,
+              "height": 4032
+            }
+          },
+          "type": "image"
+        }
+      ],
+      "type": "gallery"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "«Selv om maten er fri for gluten, mangler den ikke et fnugg av autentisitet, kjærleik og sjel» skriver vår anmelder Sadiiq Jdid. Han besøkte Daglig Deig i mars 2026, og mener stedet har satt en ny standard for glutenfritt håndverk. Han framhever også servicen som varm, uanstrengt og oppriktig hyggelig.  ",
+            "markup": [
+              {
+                "type": "link:external",
+                "offset": 129,
+                "length": 35,
+                "uri": "https://www.adressa.no/restaurantguiden/i/8pq4ad/provoserende-god-til-aa-vaere-glutenfritt"
+              }
+            ]
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "title": {
+        "value": "Mat fra Hagen"
+      },
+      "presentationProperties": {
+        "rgPris": "",
+        "rgText": "God mat til en veldig god pris",
+        "rgGrade": "5",
+        "rgPlussFor": "Studentrabatt, Vegetar, Uteservering",
+        "rgPrisNiva": "2",
+        "rgExtraText": "Restaurant",
+        "miniInfoCard": "true"
+      },
+      "type": "fact"
+    },
+    {
+      "components": [
+        {
+          "caption": {
+            "value": "Mat fra Hagen"
+          },
+          "byline": {
+            "title": "Martin Strøm"
+          },
+          "imageAsset": {
+            "id": "4e764e66-15d2-3416-adc7-1da4a2a2a6b7",
+            "size": {
+              "width": 4943,
+              "height": 3295
+            }
+          },
+          "type": "image"
+        },
+        {
+          "byline": {
+            "title": "Martin Strøm"
+          },
+          "imageAsset": {
+            "id": "757a8a17-188c-3761-a6ea-64aa3e1a3b27",
+            "size": {
+              "width": 3959,
+              "height": 2639
+            }
+          },
+          "type": "image"
+        },
+        {
+          "byline": {
+            "title": "Martin Strøm"
+          },
+          "imageAsset": {
+            "id": "828ed4b1-d31d-368e-8162-40b6d83cda32",
+            "size": {
+              "width": 4754,
+              "height": 3169
+            }
+          },
+          "type": "image"
+        },
+        {
+          "byline": {
+            "title": "Martin Strøm"
+          },
+          "imageAsset": {
+            "id": "6dc68457-9324-30c3-9691-3ef49dcae0a6",
+            "size": {
+              "width": 4850,
+              "height": 3233
+            }
+          },
+          "type": "image"
+        },
+        {
+          "byline": {
+            "title": "Martin Strøm"
+          },
+          "imageAsset": {
+            "id": "22fc9199-cbfb-3a2b-b5bd-1b44e2f26f6a",
+            "size": {
+              "width": 4932,
+              "height": 3288
+            }
+          },
+          "type": "image"
+        },
+        {
+          "caption": {
+            "value": "Cecilie Alvær (26) og Ingebrigt Sæther (26) koste seg på Mat fra Hagen"
+          },
+          "byline": {
+            "title": "Martin Strøm"
+          },
+          "imageAsset": {
+            "id": "a0d38ca4-8c1b-3852-a35c-15266f735bc3",
+            "size": {
+              "width": 4731,
+              "height": 3154
+            }
+          },
+          "type": "image"
+        },
+        {
+          "caption": {
+            "value": "Buffet hos Mat fra Hagen."
+          },
+          "byline": {
+            "title": "Richard Sagen / Adresseavisen"
+          },
+          "imageAsset": {
+            "id": "f185f69c-d8b9-34b5-b998-b34f422c9c99",
+            "size": {
+              "width": 6000,
+              "height": 4000
+            }
+          },
+          "type": "image"
+        },
+        {
+          "caption": {
+            "value": "Richard Nystad med nåværende daglig leder i Mat fra Hagen, Guro Solem. Bildet er tatt i 2020 i forbindelse med nyåpningen i Thomas Angells gate."
+          },
+          "byline": {
+            "title": "Richard Sagen / Adresseavisen"
+          },
+          "imageAsset": {
+            "id": "042423c1-f95e-3957-b310-d916c606726f",
+            "size": {
+              "width": 5856,
+              "height": 3904
+            }
+          },
+          "type": "image"
+        },
+        {
+          "caption": {
+            "value": "Første av flere runder. Se så mange farger og så mye god mat på en tallerken!"
+          },
+          "byline": {
+            "title": "SADIIQ JDID"
+          },
+          "imageAsset": {
+            "id": "d2c99fdc-dc83-331c-95a2-555b218e2e86",
+            "size": {
+              "width": 2802,
+              "height": 2802
+            }
+          },
+          "type": "image"
+        },
+        {
+          "caption": {
+            "value": "Juicen er veldig balansert, og hadde en nydelig floral smak og aroma"
+          },
+          "byline": {
+            "title": "SADIIQ JDID"
+          },
+          "imageAsset": {
+            "id": "8bfb44f8-5896-37be-a4bb-5b9387f337b1",
+            "size": {
+              "width": 3024,
+              "height": 3024
+            }
+          },
+          "type": "image"
+        }
+      ],
+      "type": "gallery"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "Her kan du finne meget god falafel, ifølger vår anmelder Sadiiq Jdid, som mener det kanskje er den beste han har smakt i Trondheim. Han besøkte stedet i oktober 2025. Mat fra Hagen er en tydelig forkjemper for det grønne kjøkken og et solid valg for deg som vil spise litt «renere»",
+            "markup": [
+              {
+                "type": "link:external",
+                "offset": 132,
+                "length": 33,
+                "uri": "https://www.adressa.no/restaurantguiden/i/Av6aOr/absolutt-verdt-et-besoek"
+              }
+            ]
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "title": {
+        "value": "Lyche kjøkken og bar"
+      },
+      "presentationProperties": {
+        "rgPris": "",
+        "rgText": "Byens kanskje billigste spisested",
+        "rgGrade": "5",
+        "rgPlussFor": "Studentrabatt, Vegetar, Livat på kveldene, Tilpasset lokale",
+        "rgPrisNiva": "1",
+        "rgExtraText": "Restaurant",
+        "miniInfoCard": "true"
+      },
+      "type": "fact"
+    },
+    {
+      "components": [
+        {
+          "caption": {
+            "value": "Lyche kjøkken og bar, Elgeseter"
+          },
+          "byline": {
+            "title": "Marius Kalleberg Mydland"
+          },
+          "imageAsset": {
+            "id": "f45e0d8d-4ec3-368a-b4f1-8bb05810ee0f",
+            "size": {
+              "width": 8640,
+              "height": 5760
+            }
+          },
+          "type": "image"
+        },
+        {
+          "byline": {
+            "title": "Marius Kalleberg Mydland"
+          },
+          "imageAsset": {
+            "id": "b427d864-a369-3d9c-8a15-700302873834",
+            "size": {
+              "width": 7136,
+              "height": 4760
+            }
+          },
+          "type": "image"
+        },
+        {
+          "caption": {
+            "value": "En hovedrett av kål. Pur klasse"
+          },
+          "byline": {
+            "title": "Ole Jacob Hoel"
+          },
+          "imageAsset": {
+            "id": "e599d1e8-9434-3186-93e8-b505564e6bb6",
+            "size": {
+              "width": 3024,
+              "height": 4032
+            }
+          },
+          "type": "image"
+        },
+        {
+          "caption": {
+            "value": "Biang Biang-nudler!"
+          },
+          "byline": {
+            "title": "Ole Jacob Hoel"
+          },
+          "imageAsset": {
+            "id": "1914e669-c2ca-38de-a278-f242f157ca44",
+            "size": {
+              "width": 3024,
+              "height": 4032
+            }
+          },
+          "type": "image"
+        },
+        {
+          "caption": {
+            "value": "En spicy burger delt i to, som bestilt."
+          },
+          "byline": {
+            "title": "Ole Jacob Hoel"
+          },
+          "imageAsset": {
+            "id": "7fe066a5-635f-37f9-90be-aa227c590092",
+            "size": {
+              "width": 3024,
+              "height": 4032
+            }
+          },
+          "type": "image"
+        },
+        {
+          "caption": {
+            "value": "Maissuppe og husets brød."
+          },
+          "byline": {
+            "title": "Ole Jacob Hoel"
+          },
+          "imageAsset": {
+            "id": "df09d4cb-a804-387b-bdf9-a141c3f91dca",
+            "size": {
+              "width": 4284,
+              "height": 5712
+            }
+          },
+          "type": "image"
+        },
+        {
+          "caption": {
+            "value": "Biang Biang-nudlene serveres med ribbebiter, pac choi og sterk chilisaus"
+          },
+          "byline": {
+            "title": "Ole Jacob Hoel"
+          },
+          "imageAsset": {
+            "id": "d3dcd926-5c05-3665-a0a4-10127ab22bee",
+            "size": {
+              "width": 3024,
+              "height": 4032
+            }
+          },
+          "type": "image"
+        },
+        {
+          "caption": {
+            "value": "Sitronsorbeten smaker mest lime, men er frisk og riktig – om ikke overpyntet"
+          },
+          "byline": {
+            "title": "Ole Jacob Hoel"
+          },
+          "imageAsset": {
+            "id": "bea0b9f8-7957-3972-800d-d299466210bb",
+            "size": {
+              "width": 3024,
+              "height": 4032
+            }
+          },
+          "type": "image"
+        },
+        {
+          "caption": {
+            "value": "Mye er endret i disse lokalene. Men det tappes fortsatt mye Dahls øl. Her utført av Ulrikke Langvik."
+          },
+          "byline": {
+            "title": "Marius Kalleberg Mydland"
+          },
+          "imageAsset": {
+            "id": "814b5e65-1182-390c-bc2f-379854de8f74",
+            "size": {
+              "width": 7136,
+              "height": 4760
+            }
+          },
+          "type": "image"
+        },
+        {
+          "byline": {
+            "title": "Marius Kalleberg Mydland"
+          },
+          "imageAsset": {
+            "id": "05810409-0e8b-3621-a3f6-616d7c6797b4",
+            "size": {
+              "width": 7856,
+              "height": 5240
+            }
+          },
+          "type": "image"
+        },
+        {
+          "caption": {
+            "value": "Det tilberedes en del potet på kjøkkenet – her jobber Aaliyah Amaya Hudgins"
+          },
+          "byline": {
+            "title": "Marius Kalleberg Mydland"
+          },
+          "imageAsset": {
+            "id": "515045ee-7837-3412-a54e-f577ce0eb1d6",
+            "size": {
+              "width": 7856,
+              "height": 5240
+            }
+          },
+          "type": "image"
+        },
+        {
+          "caption": {
+            "value": "Det lages noen burgere i løpet av en kveld på Lyche."
+          },
+          "byline": {
+            "title": "Marius Kalleberg Mydland"
+          },
+          "imageAsset": {
+            "id": "17b142e5-8672-3fdf-b88e-85348c973a63",
+            "size": {
+              "width": 5888,
+              "height": 3928
+            }
+          },
+          "type": "image"
+        },
+        {
+          "byline": {
+            "title": "Marius Kalleberg Mydland"
+          },
+          "imageAsset": {
+            "id": "9bef142a-82dd-380b-a9cd-4b7a765d21aa",
+            "size": {
+              "width": 7856,
+              "height": 5240
+            }
+          },
+          "type": "image"
+        }
+      ],
+      "type": "gallery"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "Prismessig er Lyche i en egen liga, mener Smakspolitiet som besøkte stedet i september 2026. «Du får ganske sikkert ikke så mye mat av så høy kvalitet så rimelig noe annet sted i Trondheim», mener de. Man kan få et fireretters i overkant mettende måltid til under 300 kroner som medlem av Studentersamfunget, og noen tiere mer for ikke-medlemmer. Én rett til rundt 100 kroner er mer enn nok for de fleste.",
+            "markup": [
+              {
+                "type": "link:external",
+                "offset": 60,
+                "length": 31,
+                "uri": "https://www.adressa.no/restaurantguiden/i/y5QW0x/her-fant-de-sin-matlykke"
+              }
+            ]
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "integration",
+      "url": "https://fvnmm.s3.amazonaws.com/poll/integrate.html?polly=W1siZms3STZrTlVPYjQ4TENUWCIsIkh2YSBiZXR5ciBkZXQgZm9yIGRlZyBhdCBldCB1dGVzdGVkIGhhciBzdHVkZW50cmFiYXR0PyIsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLG51bGxdLFsiT05WMmM3NktON043NjZxSCIsIkplZyBzZXIgYWxsdGlkIGV0dGVyIHN0ZWRlciBtZWQgc3R1ZGVudHByaXMiXSxbImwyZGw1NDV2YXhpMTZ3NUoiLCJEZXQgZXIgZW4gYXYgdGluZ2VuZSBqZWcgdnVyZGVyZXIgbsOlciBqZWcgdmVsZ2VyIHV0ZXN0ZWQiXSxbIjVzbjNVNHVFd09ydTA0N3IiLCJTZXIgaWtrZSBldHRlciBkZXQsIG1lbiBibGlyIGdsYWQgbsOlciBldCBzdGVkIGhhciBzdHVkZW50cHJpcyJdLFsiQWZrTVV0NkVzakVvVXlvUSIsIlZlbGdlciB1dGVzdGVkIHVhdmhlbmdpZyBhdiBwcmlzIl0sWyJlZWRheTJiNVZvMzZjdGx3IiwiRXIgaWtrZSBzdHVkZW50LCBzw6UgZGV0IGJldHlyIGZpbnQgbGl0ZSBmb3IgbWVnIl1d",
+      "body": "<script async type=\"module\" crossorigin src=\"https://fvnmm.s3.amazonaws.com/poll/assets/prod-widget-1788285599385.js\"></script><aside></aside><script>(function() {\n        var bundledPath = 'assets/app-widget-1788285599385';\n        var base = 'https://fvnmm.s3.amazonaws.com/poll/' + bundledPath;\n\n        function loadAssets() {\n            if (!document._hasPollScript) {\n                var script = document.head.appendChild(document.createElement('script'));\n                script.src = base + '.js';\n                document._hasPollScript = true;\n            }\n            if (!document._hasPollStyle) {\n                var link = document.head.appendChild(document.createElement('link'));\n                link.rel = 'stylesheet';\n                link.type = 'text/css';\n                link.href = base + '.css';\n                document._hasPollStyle = true;\n            }\n        }\n\n        function initElement(el) {\n            if (el._hasPollWidget) return;\n            el._hasPollWidget = true;\n            var items = window.pollWidget.jwt.decode(el.dataset.polly);\n            var dest = el.appendChild(document.createElement('section'));\n            dest.className = 'polly-component';\n            window.pollWidget.render(dest, items);\n        }\n\n        function whenReady(callback) {\n            if (window.pollWidget) return callback();\n            var done = false;\n            function handle() {\n                if (done) return;\n                done = true;\n                callback();\n            }\n            document.body.addEventListener('poll-widget-ready', handle);\n            var poll = setInterval(function() {\n                if (window.pollWidget) { clearInterval(poll); handle(); }\n            }, 60);\n        }\n\n        var observer = new IntersectionObserver(function(entries, obs) {\n            entries.forEach(function(entry) {\n                if (!entry.isIntersecting) return;\n                obs.unobserve(entry.target);\n                loadAssets();\n                var el = entry.target;\n                whenReady(function() { initElement(el); });\n            });\n        }, { rootMargin: '400px' });\n\n        var elements = document.querySelectorAll('[data-polly]');\n        for (var i = 0; i < elements.length; i++) {\n            if (!elements[i]._hasPollWidget) observer.observe(elements[i]);\n        }\n    })();</script>",
+      "subtype": "scriptembed"
+    },
+    {
+      "title": {
+        "value": "Ladekaia"
+      },
+      "presentationProperties": {
+        "rgPris": "",
+        "rgText": "Lite slår Ladekaia på en solskinnsdag",
+        "rgGrade": "5",
+        "rgPlussFor": "Studentrabatt, Tilpasset lokale, Livat på kveldene, Spesielt sted, Utsikt,  Barnevennlig, Hundevennlig ute",
+        "rgPrisNiva": "3",
+        "rgExtraText": "Kafé",
+        "miniInfoCard": "true"
+      },
+      "type": "fact"
+    },
+    {
+      "components": [
+        {
+          "caption": {
+            "value": "Ladekaia ligger i Leiv Eirikssons vei på Lade."
+          },
+          "byline": {
+            "title": "Håvard Haugseth Jensen"
+          },
+          "imageAsset": {
+            "id": "2b6cd3d7-0832-3b53-a298-a0775477862b",
+            "size": {
+              "width": 8640,
+              "height": 5760
+            }
+          },
+          "type": "image"
+        },
+        {
+          "caption": {
+            "value": "Velkomponert og pen burger med saftig godt brød som er pent toastet."
+          },
+          "byline": {
+            "title": "Ole Jacob Hoel"
+          },
+          "imageAsset": {
+            "id": "e00f3de8-e9e1-3548-b158-c6c4aebd7cd1",
+            "size": {
+              "width": 3273,
+              "height": 3273
+            }
+          },
+          "type": "image"
+        },
+        {
+          "imageAsset": {
+            "id": "c6bb6f85-395d-35ae-b8a4-5966e2f7f82d",
+            "size": {
+              "width": 5712,
+              "height": 4284
+            }
+          },
+          "type": "image"
+        },
+        {
+          "caption": {
+            "value": "Ladekaia har et nært samarbeid med eventbyrået Dora 3. Her er daglig leder Børre Johnsen (til høyre) i Dora 3 og eier av Ladekaia John Petter Udnes."
+          },
+          "byline": {
+            "title": "Håvard Haugseth Jensen"
+          },
+          "imageAsset": {
+            "id": "d57d629d-468f-3798-b8c7-18467729a7cd",
+            "size": {
+              "width": 8640,
+              "height": 5760
+            }
+          },
+          "type": "image"
+        },
+        {
+          "byline": {
+            "title": "Morten Antonsen"
+          },
+          "imageAsset": {
+            "id": "70f4cde2-c4da-3083-82ff-5f4e61978262",
+            "size": {
+              "width": 8640,
+              "height": 5760
+            }
+          },
+          "type": "image"
+        }
+      ],
+      "type": "gallery"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "Ladekaia var med i Smakspolitiets burgertest høsten 2025. Stedet var blant de dyreste i testen, men menyen var rik, burgerne gode og fries med dillkrydder var spesielt godt.",
+            "markup": [
+              {
+                "type": "link:external",
+                "offset": 19,
+                "length": 37,
+                "uri": "https://www.adressa.no/restaurantguiden/i/bmEW2l/ladekaia-riktig-godt-med-dill-paa-burgeren"
+              }
+            ]
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "title": {
+        "value": "Egon Tårnet"
+      },
+      "paragraphs": [
+        {
+          "text": {
+            "value": " "
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "presentationProperties": {
+        "rgPris": "",
+        "rgText": "Et sted man drar for utsikten",
+        "rgGrade": "5",
+        "rgPlussFor": "Studentrabatt, Tilpasset lokale, Lokale råvarer, Spesielt sted, Utsikt,  Barnevennlig",
+        "rgPrisNiva": "3",
+        "rgExtraText": "Restaurant",
+        "miniInfoCard": "true"
+      },
+      "type": "fact"
+    },
+    {
+      "components": [
+        {
+          "caption": {
+            "value": "Egon i Tyholttårnet."
+          },
+          "byline": {
+            "title": "Håvard Haugseth Jensen"
+          },
+          "imageAsset": {
+            "id": "85bdb06c-adb1-36c2-9194-5091f7de7c41",
+            "size": {
+              "width": 7511,
+              "height": 5007
+            }
+          },
+          "type": "image"
+        },
+        {
+          "byline": {
+            "title": "Åsalinn Arntzen Dale / Adresseavisen"
+          },
+          "imageAsset": {
+            "id": "120ed948-82f0-3939-bce6-0118ce12f899",
+            "size": {
+              "width": 4843,
+              "height": 7265
+            }
+          },
+          "type": "image"
+        },
+        {
+          "byline": {
+            "title": "Åsalinn Arntzen Dale / Adresseavisen"
+          },
+          "imageAsset": {
+            "id": "989bd952-08b1-3b3c-97ed-0498ef6c8122",
+            "size": {
+              "width": 8410,
+              "height": 5607
+            }
+          },
+          "type": "image"
+        },
+        {
+          "byline": {
+            "title": "Ole Jacob Hoel"
+          },
+          "imageAsset": {
+            "id": "c5621cbe-1652-3d28-ade1-1b20e10391d0",
+            "size": {
+              "width": 4284,
+              "height": 4284
+            }
+          },
+          "type": "image"
+        }
+      ],
+      "type": "gallery"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "Egon i Tyholttårnet var med på Smakspolitiets burgertest høsten 2025. Der fant de testens desidert dyreste burger, men det fantes også noe rimeligere varianter. Stor og god meny, og  meget velkomponert burger.",
+            "markup": [
+              {
+                "type": "link:external",
+                "offset": 31,
+                "length": 37,
+                "uri": "https://www.adressa.no/restaurantguiden/i/dRyP9B/egon-i-tyholttaarnet-luksusburger-hoeyt-hevet"
+              }
+            ]
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "title": {
+        "value": "Hammerhead Taproom"
+      },
+      "presentationProperties": {
+        "rgPris": "",
+        "rgText": "Mye spennende øl på tap",
+        "rgGrade": "5",
+        "rgPlussFor": "Studentrabatt, Tilpasset lokale, Livat på kveldene, Lokale råvarer, Matbit på farten, Uteservering",
+        "rgPrisNiva": "2",
+        "rgExtraText": "Pub",
+        "miniInfoCard": "true"
+      },
+      "type": "fact"
+    },
+    {
+      "components": [
+        {
+          "caption": {
+            "value": "Nederst i Søndra gate ligger Hammerhead taproom."
+          },
+          "byline": {
+            "title": "Håvard Haugseth Jensen"
+          },
+          "imageAsset": {
+            "id": "14cd71e3-4903-3e6f-b319-9b3bb4480590",
+            "size": {
+              "width": 8483,
+              "height": 5655
+            }
+          },
+          "type": "image"
+        },
+        {
+          "byline": {
+            "title": "Ole Jacob Hoel"
+          },
+          "imageAsset": {
+            "id": "452047e3-6995-300d-acb2-af91177d65c1",
+            "size": {
+              "width": 3925,
+              "height": 3925
+            }
+          },
+          "type": "image"
+        }
+      ],
+      "type": "gallery"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "Hammerhead Taproom var med i Smakspolitiets burgertest høsten 2025. Både burger og fries fikk toppkarakter, og smashburgeren ble framhevet som byens overlegent beste.",
+            "markup": [
+              {
+                "type": "link:external",
+                "offset": 29,
+                "length": 37,
+                "uri": "https://www.adressa.no/restaurantguiden/i/GypKKq/hammerhead-taproom-den-store-overraskelsen"
+              }
+            ]
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "title": {
+        "value": "Burger.no"
+      },
+      "paragraphs": [
+        {
+          "text": {
+            "value": " "
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "presentationProperties": {
+        "rgPris": "",
+        "rgText": "Bakklandets burgerperle ",
+        "rgGrade": "5",
+        "rgPlussFor": "Studentrabatt, Lokale råvarer, Matbit på farten, Uteservering",
+        "rgPrisNiva": "2",
+        "rgExtraText": "Restaurant",
+        "miniInfoCard": "true"
+      },
+      "type": "fact"
+    },
+    {
+      "components": [
+        {
+          "caption": {
+            "value": "Restaurant Burger.no på Nedre Bakklandet."
+          },
+          "byline": {
+            "title": "Håvard Haugseth Jensen"
+          },
+          "imageAsset": {
+            "id": "5cbb5316-04ec-38e8-8117-98dc83deee09",
+            "size": {
+              "width": 8640,
+              "height": 5760
+            }
+          },
+          "type": "image"
+        },
+        {
+          "byline": {
+            "title": "Martin Strøm"
+          },
+          "imageAsset": {
+            "id": "2c72d8d2-84eb-339f-9b2c-5eb3b49c034d",
+            "size": {
+              "width": 1280,
+              "height": 1600
+            }
+          },
+          "type": "image"
+        },
+        {
+          "byline": {
+            "title": "Ole Jacob Hoel"
+          },
+          "imageAsset": {
+            "id": "43e9ac95-3f28-3265-8527-9b5b05115c20",
+            "size": {
+              "width": 1769,
+              "height": 1769
+            }
+          },
+          "type": "image"
+        },
+        {
+          "byline": {
+            "title": "Martin Strøm"
+          },
+          "imageAsset": {
+            "id": "9efd8fcb-a01d-3f53-bde3-18b71d709696",
+            "size": {
+              "width": 1280,
+              "height": 1600
+            }
+          },
+          "type": "image"
+        },
+        {
+          "byline": {
+            "title": "Martin Strøm"
+          },
+          "imageAsset": {
+            "id": "72c7ca69-d019-3383-a349-ab669c82a193",
+            "size": {
+              "width": 1280,
+              "height": 1600
+            }
+          },
+          "type": "image"
+        },
+        {
+          "byline": {
+            "title": "Martin Strøm"
+          },
+          "imageAsset": {
+            "id": "1de3d67c-f765-3c0b-b7dc-808fe685732e",
+            "size": {
+              "width": 1280,
+              "height": 1600
+            }
+          },
+          "type": "image"
+        },
+        {
+          "byline": {
+            "title": "Richard Sagen / Adresseavisen"
+          },
+          "imageAsset": {
+            "id": "ac37cc16-c882-370d-800a-9d731bb4439e",
+            "size": {
+              "width": 5315,
+              "height": 3543
+            }
+          },
+          "type": "image"
+        }
+      ],
+      "type": "gallery"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "Meget god burger og meget god fries, mente Smakspolitiet da de besøkte Burger.no i forbindelse med burgertesten høsten 2025. De framhevet også et meget godt utvalg av drikker og en hyggelig, effektiv service.",
+            "markup": [
+              {
+                "type": "link:external",
+                "offset": 81,
+                "length": 42,
+                "uri": "https://www.adressa.no/restaurantguiden/i/73WLQ4/burger-no-bakklandet-holder-stand"
+              }
+            ]
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "title": {
+        "value": "Ramp pub & spiseri"
+      },
+      "paragraphs": [
+        {
+          "text": {
+            "value": " "
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "presentationProperties": {
+        "rgPris": "",
+        "rgText": "Ramp er selve hjertet av Svartlamoen",
+        "rgGrade": "5",
+        "rgPlussFor": "Studentrabatt, Livat på kveldene, Uteservering,  Barnevennlig",
+        "rgPrisNiva": "2",
+        "rgExtraText": "Pub",
+        "miniInfoCard": "true"
+      },
+      "type": "fact"
+    },
+    {
+      "components": [
+        {
+          "caption": {
+            "value": "Ramp pub og spiseri i Strandveien."
+          },
+          "byline": {
+            "title": "Håvard Haugseth Jensen"
+          },
+          "imageAsset": {
+            "id": "b31320d0-78d3-30de-bfee-135855b4cdd6",
+            "size": {
+              "width": 8640,
+              "height": 5760
+            }
+          },
+          "type": "image"
+        },
+        {
+          "byline": {
+            "title": "Åsalinn Arntzen Dale / Adresseavisen"
+          },
+          "imageAsset": {
+            "id": "b581f7fe-1b93-3228-8553-964badf4de58",
+            "size": {
+              "width": 2577,
+              "height": 3866
+            }
+          },
+          "type": "image"
+        },
+        {
+          "byline": {
+            "title": "Ole Jacob Hoel"
+          },
+          "imageAsset": {
+            "id": "253933df-2c1c-3338-aa60-d2b5bbff2c86",
+            "size": {
+              "width": 3906,
+              "height": 3906
+            }
+          },
+          "type": "image"
+        },
+        {
+          "imageAsset": {
+            "id": "1e7238c3-8c3d-3be2-b7b0-9737eabe1283",
+            "size": {
+              "width": 4284,
+              "height": 5712
+            }
+          },
+          "type": "image"
+        },
+        {
+          "byline": {
+            "title": "Kristian Helgesen / Adresseavisen"
+          },
+          "imageAsset": {
+            "id": "226c2a6f-3245-395b-a075-47e3f46ce5d4",
+            "size": {
+              "width": 6873,
+              "height": 4720
+            }
+          },
+          "type": "image"
+        }
+      ],
+      "type": "gallery"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "«Preges både av områdets estetikk, en avslappet atmosfære – og av faglige ambisjoner,» skrev Smakspolitiet som besøkte stedet for deres burgertest høsten 2025. God burger og svært god fries. Bruken av gode sauser trekker opp. Mat bestilles i kassen og serveres raskt.  ",
+            "markup": [
+              {
+                "type": "link:external",
+                "offset": 135,
+                "length": 23,
+                "uri": "https://www.adressa.no/restaurantguiden/i/25QKox/ramp-pub-spiseri-testens-beste-dipp"
+              }
+            ]
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "title": {
+        "value": "Øx Tap Room, Midtbyen"
+      },
+      "paragraphs": [
+        {
+          "text": {
+            "value": " "
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "presentationProperties": {
+        "rgPris": "",
+        "rgText": "Den beste pizzaen vi har smakt",
+        "rgGrade": "5",
+        "rgPlussFor": "Studentrabatt, Livat på kveldene, Afterwork",
+        "rgPrisNiva": "3",
+        "rgExtraText": "Pub",
+        "miniInfoCard": "true"
+      },
+      "type": "fact"
+    },
+    {
+      "components": [
+        {
+          "caption": {
+            "value": "Øx Taproom i Midtbyen"
+          },
+          "byline": {
+            "title": "Johanne Østbø"
+          },
+          "imageAsset": {
+            "id": "8e850964-8c2f-35ff-957c-f984e5fbcd3a",
+            "size": {
+              "width": 5982,
+              "height": 8973
+            }
+          },
+          "type": "image"
+        },
+        {
+          "caption": {
+            "value": "Dimtris Itsios ved Frati/ØX tap room, som passer pizza i ovnen."
+          },
+          "byline": {
+            "title": "Terje Svaan"
+          },
+          "imageAsset": {
+            "id": "d51fb23e-49c5-37de-b40d-2b9cb32392df",
+            "size": {
+              "width": 4824,
+              "height": 3216
+            }
+          },
+          "type": "image"
+        },
+        {
+          "caption": {
+            "value": "Bartender Imad Abhari."
+          },
+          "byline": {
+            "title": "Terje Svaan"
+          },
+          "imageAsset": {
+            "id": "d5a72208-c323-3757-8553-03bf33088ad1",
+            "size": {
+              "width": 7890,
+              "height": 5260
+            }
+          },
+          "type": "image"
+        },
+        {
+          "byline": {
+            "title": "ole jacob hoel / Adresseavisen"
+          },
+          "imageAsset": {
+            "id": "7664e1c5-01ad-38c7-a843-bcbd334aeed6",
+            "size": {
+              "width": 4284,
+              "height": 5712
+            }
+          },
+          "type": "image"
+        },
+        {
+          "caption": {
+            "value": "Øx Taproom har inngang fra Munkegata, men kan også nås via inngangen til Frati."
+          },
+          "byline": {
+            "title": "Terje Svaan / Adresseavisen"
+          },
+          "imageAsset": {
+            "id": "b8dcd19a-0e43-3b93-b12e-1b1a060dd60d",
+            "size": {
+              "width": 8640,
+              "height": 5760
+            }
+          },
+          "type": "image"
+        },
+        {
+          "caption": {
+            "value": "Sonia Ahmadi og Aref Naderi feirer bursdagen til Salahedin Naderi på Øx."
+          },
+          "byline": {
+            "title": "Terje Svaan"
+          },
+          "imageAsset": {
+            "id": "3f39561d-d043-3008-963e-c5d7560c0d1c",
+            "size": {
+              "width": 7156,
+              "height": 4771
+            }
+          },
+          "type": "image"
+        }
+      ],
+      "type": "gallery"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "Øx Tap Room, Midtbyen, var med i Smakspolitiets pizzatest i august 2025. «Her er alt fra bunn til fyll svært godt, godt komponert og både visuelt og smaksmessig tiltalende pizza,» mente de. Godt utvalg av øl og bred meny.",
+            "markup": [
+              {
+                "type": "link:external",
+                "offset": 33,
+                "length": 39,
+                "uri": "https://www.adressa.no/restaurantguiden/i/4BzeGa/dette-er-den-beste-pizzaen-vi-har-smakt"
+              }
+            ]
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "presentationProperties": {
+        "rgTipsOss": "true"
+      },
+      "type": "breakpoint"
+    }
+  ],
+  "changes": {
+    "published": "2026-10-03T10:33:16Z",
+    "updated": "2026-10-07T07:24:58Z"
+  },
+  "customProperties": {
+    "livemode": "",
+    "snapTitle": "",
+    "prefix": "",
+    "snapDescription": "",
+    "snapDateTime": "",
+    "presentation": "review",
+    "varselsignal": "",
+    "postnr": "",
+    "tip": false,
+    "breaking": false,
+    "frontPageLeadText": "",
+    "seoDescription": "",
+    "countdown": "",
+    "toPrint": true,
+    "frontPageTitle": "Disse utestedene med studentpris har fått",
+    "frontPageCardSize": "medium",
+    "bundleTitle": "",
+    "grade": 5,
+    "fontSize": "100",
+    "bundlePlacementFooter": "",
+    "showAds": true,
+    "showByline": false,
+    "skin": "auto",
+    "blockSearchEngineIndexing": false,
+    "seoTitle": "",
+    "frontPageImage": {
+      "id": "a0ed4e49-8c3a-351e-bed7-a4b75a240fb4",
+      "size": {
+        "width": 8026,
+        "height": 5351
+      }
+    },
+    "someDescription": "",
+    "paywall": "closed",
+    "feature": false,
+    "someTitle": "",
+    "comments": "no",
+    "bundlePlacementHeader": "",
+    "frontPageImageHeightOverride": "h-normal",
+    "label": "",
+    "wordCount": 432
+  },
+  "schemaType": "article",
+  "id": "16grxK",
+  "section": {
+    "id": "46824673-2d29-4b0b-b29c-447b1c615998",
+    "title": "Restaurantguiden",
+    "enabled": true
+  },
+  "title": {
+    "value": "Skal du ut i helga? Her er det studentrabatt"
+  },
+  "characteristics": {
+    "lifetime": 60,
+    "hotness": 60
+  },
+  "access": {
+    "restrictions": [
+      "closed"
+    ]
+  },
+  "newsroom": "adresseavisen",
+  "schemaVersion": 5,
+  "version": {
+    "sequenceNo": 90,
+    "time": "2026-10-07T07:24:58.047378Z"
+  },
+  "language": "nb",
+  "authors": [
+    {
+      "fullname": "Kjell-Ivar Myhr",
+      "slug": "kjell-ivar-myhr",
+      "image": "5ea9cc01-2a29-44d0-8521-d239c8e604ef",
+      "email": "kjell-ivar.myhr@adresseavisen.no"
+    }
+  ],
+  "tags": [
+    {
+      "id": "426faf17-f01f-44ec-805e-112674f0a7c6",
+      "title": "Restaurantguiden",
+      "type": "location",
+      "slug": "restaurantguiden"
+    },
+    {
+      "id": "74a2ea73-d1a1-4bba-a432-65ac8ad8be28",
+      "title": "Guider og lister",
+      "type": "descriptor",
+      "slug": "restaurantguiden-guider-og-lister"
+    },
+    {
+      "id": "e28b5af6-c3b7-404a-89eb-e6b74bec8cd8",
+      "title": "Restaurantguiden/Annet: Studentrabatt",
+      "type": "descriptor",
+      "slug": "restaurantguiden-annet-studentrabatt"
+    }
+  ],
+  "presentationProperties": {
+    "hideAuthors": "true"
+  },
+  "promotionContent": {
+    "slug": "skal-du-ut-i-helga-her-er-det-studentrabatt",
+    "context": {
+      "frontpage": [
+        {
+          "id": "1191eeba-d9f8-5b73-ba7a-dc3636c84440",
+          "weight": 100,
+          "title": {
+            "value": "Disse utestedene med studentpris har fått"
+          },
+          "kicker": {
+            "value": ""
+          },
+          "imageAsset": {
+            "id": "a0ed4e49-8c3a-351e-bed7-a4b75a240fb4",
+            "size": {
+              "width": 8026,
+              "height": 5351
+            }
+          }
+        }
+      ]
+    }
+  },
+  "intro": {
+    "type": "Intro",
+    "title": "Skal du ut i helga? Her er det studentrabatt",
+    "frontPageTitle": "Disse utestedene med studentpris har fått",
+    "media": {
+      "caption": {
+        "value": "Den gode nabo på Bakklandet, pub og uteservering på lekter ved gamle Bybro."
+      },
+      "byline": {
+        "title": "Terje Svaan"
+      },
+      "imageAsset": {
+        "id": "a0ed4e49-8c3a-351e-bed7-a4b75a240fb4",
+        "size": {
+          "width": 8026,
+          "height": 5351
+        }
+      },
+      "type": "image"
+    },
+    "lead": "Ti utesteder med egen studentpris har fått terningkast fem av våre anmeldere.",
+    "promo": {
+      "caption": {
+        "value": "Den gode nabo på Bakklandet, pub og uteservering på lekter ved gamle Bybro."
+      },
+      "byline": {
+        "title": "Terje Svaan"
+      },
+      "imageAsset": {
+        "id": "a0ed4e49-8c3a-351e-bed7-a4b75a240fb4",
+        "size": {
+          "width": 8026,
+          "height": 5351
+        }
+      },
+      "type": "image"
+    },
+    "frontPageImage": {
+      "type": "image",
+      "imageAsset": {
+        "id": "a0ed4e49-8c3a-351e-bed7-a4b75a240fb4",
+        "size": {
+          "width": 8026,
+          "height": 5351
+        }
+      }
+    }
+  },
+  "some": {
+    "title": "Disse utestedene med studentpris har fått",
+    "description": "Ti utesteder med egen studentpris har fått terningkast fem av våre anmeldere.",
+    "image": {
+      "id": "a0ed4e49-8c3a-351e-bed7-a4b75a240fb4",
+      "size": {
+        "width": 8026,
+        "height": 5351
+      }
+    }
+  },
+  "seo": {
+    "title": "Skal du ut i helga? Her er det studentrabatt",
+    "description": "Ti utesteder med egen studentpris har fått terningkast fem av våre anmeldere.",
+    "image": {
+      "id": "a0ed4e49-8c3a-351e-bed7-a4b75a240fb4",
+      "size": {
+        "width": 8026,
+        "height": 5351
+      }
+    }
+  }
+}

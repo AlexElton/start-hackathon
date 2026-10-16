@@ -1,0 +1,62 @@
+[
+  {
+    "id": "evt_quiz_lyche",
+    "title": "Studentquiz på Lyche",
+    "categoryId": "studentliv",
+    "paperId": "adressa",
+    "location": { "lat": 63.4224, "lon": 10.3950, "name": "Studentersamfundet" },
+    "imageUrl": "https://vcdn.polarismedia.no/f45e0d8d-4ec3-368a-b4f1-8bb05810ee0f?w=1000&fit=clip&q=80",
+    "dayOffset": 0,
+    "startTime": "20:00",
+    "endTime": "22:30",
+    "venue": "Lyche kjøkken og bar",
+    "price": "Gratis for medlemmer",
+    "description": "Lag på opptil seks. Premie til beste lag og billig mat fra kjøkkenet hele kvelden.",
+    "tags": ["quiz", "samfundet", "lyche"]
+  },
+  {
+    "id": "evt_smashburger_hammerhead",
+    "title": "Smashburger-kveld med studentpris",
+    "categoryId": "mat",
+    "paperId": "adressa",
+    "location": { "lat": 63.4343, "lon": 10.4024, "name": "Hammerhead Taproom" },
+    "imageUrl": "https://vcdn.polarismedia.no/14cd71e3-4903-3e6f-b319-9b3bb4480590?w=1000&fit=clip&q=80",
+    "dayOffset": 0,
+    "startTime": "17:00",
+    "endTime": "21:00",
+    "venue": "Hammerhead Taproom, Søndre gate",
+    "price": "149 kr med studentbevis",
+    "description": "Burgeren som vant Smakspolitiets burgertest, med fries og en lokal øl til studentpris.",
+    "tags": ["burger", "øl", "studentrabatt"]
+  },
+  {
+    "id": "evt_lis_visning",
+    "title": "«LIS» på storskjerm – samtale med leger fra St. Olav",
+    "categoryId": "kultur",
+    "paperId": "adressa",
+    "location": { "lat": 63.4335, "lon": 10.3985, "name": "Nova Kino" },
+    "imageUrl": "https://vcdn.polarismedia.no/57f81d63-8347-3640-be0a-0943b75a28ae?w=1000&fit=clip&q=80",
+    "dayOffset": 1,
+    "startTime": "19:00",
+    "endTime": "21:30",
+    "venue": "Nova Kino, sal 1",
+    "price": "80 kr for studenter",
+    "description": "Vi viser første episode av sesong to, og unge leger fra St. Olav forteller hvordan det egentlig er å være fersk lege.",
+    "tags": ["lis", "nrk", "medisin", "st. olav"]
+  },
+  {
+    "id": "evt_lopeklubben",
+    "title": "Fellesløp med Løpeklubben",
+    "categoryId": "sport",
+    "paperId": "adressa",
+    "location": { "lat": 63.4183, "lon": 10.4045, "name": "Gløshaugen" },
+    "imageUrl": "https://vcdn.polarismedia.no/65c6e3f7-36f2-3899-bbf0-d9d93b41eaea?w=1000&fit=clip&q=80",
+    "dayOffset": 2,
+    "startTime": "17:30",
+    "endTime": "18:30",
+    "venue": "Hovedbygningen, Gløshaugen",
+    "price": "Gratis",
+    "description": "Rolig tur på 5 eller 8 km langs Nidelva. Alle nivåer, ingen påmelding.",
+    "tags": ["løping", "trening", "ntnu"]
+  }
+]

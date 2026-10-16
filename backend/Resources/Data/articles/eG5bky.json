@@ -1,0 +1,515 @@
+{
+  "urls": {
+    "relative": "/nyheter/trondheim/i/eG5bky/mann-i-60-aarene-knivstukket-i-trondheim",
+    "canonical": "https://www.adressa.no/nyheter/trondheim/i/eG5bky/mann-i-60-aarene-knivstukket-i-trondheim",
+    "redirectToCanonical": false
+  },
+  "components": [
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "Operasjonsleder Håvard Lossius opplyste søndag ettermiddag at en mann i 60-årene var blitt knivstukket ved en institusjon i Trondheim."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Meldingen kom til politiet klokken 14.51. "
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "– Gjerningspersonen er en mann som bor på institusjonen, skrev Lossius på politiets pressetjeneste. "
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Fornærmede er ikke beboer på institusjonen. "
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "caption": {
+        "value": "Politi og ambulanse rykket ut til stedet."
+      },
+      "byline": {
+        "title": "Mariann Dybdahl"
+      },
+      "imageAsset": {
+        "id": "86a28846-21db-35cb-b048-0fcfe9bb6045",
+        "size": {
+          "width": 5194,
+          "height": 3463
+        }
+      },
+      "type": "image"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "– Kutt over øyet"
+          },
+          "blockType": "heading"
+        },
+        {
+          "text": {
+            "value": "Litt før klokken 16 opplyser politiet at det ikke fremstår som alvorlig skade. "
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "– Kutt over øye som ble stripset av ambulansen. Politiet jobber på stedet med avhør, opplyser Lossius. "
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "integration",
+      "url": "https://enrichment.api.plan3.se/proxy/content/v3/publication/adresseavisen/multimedias/29cad96c-5081-4384-886f-f00ac20e19a5",
+      "body": "<style>\r\n.tips-oss {\r\n    display: flex;\r\n    flex-direction: column;\r\n    font-family: var(--font-system);\r\n    max-width: calc(100% - 1rem);\r\n    \r\n    background: #fff;\r\n    padding: 1rem;\r\n    color: var(--color-text);\r\n    border-top: 1px solid #e0e0e0;\r\n    border-bottom: 1px solid #e0e0e0;\r\n}\r\n.tips-oss a {\r\n    color: var(--color-primary);\r\n}\r\n.tips-oss b {\r\n    margin-right: .5rem;\r\n    text-transform: uppercase;\r\n    font-size: 60%;\r\n}\r\n.tips-oss strong {\r\n    font-weight: 900;\r\n    font-size: 100%;\r\n}\r\n.tips-oss span {\r\n    margin-top: 1rem;\r\n    line-height: 1.3;\r\n}\r\n</style>\r\n<div class=\"tips-oss\">\r\n    <strong>Tips oss</strong>\r\n    <span>\r\n        <a href=\"phone:+4746407200\">Tlf: 464 07 200 /</a> <a href=\"mailto:tips@adresseavisen.no\">tips@adresseavisen.no</a> \r\n    </span>\r\n</div>",
+      "title": "Tips oss"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "Skjedde utendørs"
+          },
+          "blockType": "heading"
+        },
+        {
+          "text": {
+            "value": "– Vi rykket ut med flere enheter, og vi var bevæpnet, sier operasjonslederen. "
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Politiet gjorde undersøkelser og avhør av vitner på stedet. "
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "– Vi forsøker å skaffe et samlet bilde av hva som har skjedd, sier Lossius."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Knivstikkingen skjedde utendørs. Det var ansatte ved institusjonen som meldte fra. "
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "caption": {
+        "value": "Politiet var bevæpnet da de kom til stedet."
+      },
+      "byline": {
+        "title": "Mariann Dybdahl"
+      },
+      "imageAsset": {
+        "id": "6a1662d5-be35-3f62-9737-84991dd1c14d",
+        "size": {
+          "width": 8640,
+          "height": 5760
+        }
+      },
+      "type": "image"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "Får bistand fra kriseteam"
+          },
+          "blockType": "heading"
+        },
+        {
+          "text": {
+            "value": "Innsatsleder for politiet på stedet, Magnus Skille Carlsen, forteller at det var kontroll på stedet da de ankom. "
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "– Vi er midt i etterforskningen så jeg kan ikke gå ut med hendelsesdetaljer, sier Carlsen. "
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Det skal ikke være en relasjon mellom de to involverte fra tidligere av. "
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "– Fornærmede har fått tilbud om bistand fra kommunens kriseteam. De vil komme for å snakke med ham, sier Carlsen."
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "text": {
+        "value": "Mann siktet"
+      },
+      "type": "subheading"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "– Per nå vil gjerningspersonen få status som siktet og vi tar beslag i kniven, sier innsatslederen. "
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Den siktede blir ikke tatt med i arresten. "
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "– Han blir tatt hånd om av ansatte på institusjonen, sier Carlsen."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Politiet skal ha rykket ut til den samme institusjonen flere ganger tidligere, ifølge innsatslederen."
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "Heldøgns tilbud"
+          },
+          "blockType": "heading"
+        },
+        {
+          "text": {
+            "value": "Hendelsen har ifølge kommunalsjef Annika Bjørstrøm skjedd ved et privat tiltak, hvor kommunen kjøper plasser."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "– Dette er et heldøgns tilbud for voksne med tett oppfølging, sier hun."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Espen Agøy Hegge, byråd for sosiale tjenester i Trondheim kommune, ble søndag ettermiddag orientert om hendelsen. "
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "caption": {
+        "value": "Espen Agøy Hegge er byråd for sosiale tjenester."
+      },
+      "byline": {
+        "title": "Martin Strøm"
+      },
+      "imageAsset": {
+        "id": "aa05ba1b-ee7c-3673-ace6-4bea4f618cdb",
+        "size": {
+          "width": 2756,
+          "height": 2188
+        }
+      },
+      "type": "image"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "– Dette er sånt som ikke skal skje. Når det likevel skjer, så betyr ikke det nødvendigvis at opplegget rundt er for dårlig. Av og til kan det skje uheldige ting, selv om beboerne er godt rammet inn og får god hjelp, sier Agøy Hegge."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Han har inntrykk av at situasjonen er håndtert godt."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "– Heldigvis gikk det også bra med han som ble overfalt, sier byråden."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Både ansatte ved tiltaket og andre involverte blir ivaretatt av kommunen etter hendelsen."
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "Adresseavisen skrev tidligere at dette skjedde ved en kommunal institusjon. Det er ikke riktig. Dette skjedde ved et privat tiltak hvor kommunen kjøper plasser."
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "correction"
+    }
+  ],
+  "changes": {
+    "published": "2026-10-11T13:34:03Z",
+    "updated": "2026-10-11T19:27:32Z"
+  },
+  "customProperties": {
+    "livemode": "",
+    "snapTitle": "",
+    "prefix": "",
+    "snapDescription": "",
+    "snapDateTime": "",
+    "presentation": "news",
+    "varselsignal": "",
+    "postnr": "",
+    "tip": false,
+    "breaking": false,
+    "frontPageLeadText": "",
+    "seoDescription": "",
+    "countdown": "",
+    "toPrint": true,
+    "frontPageTitle": "Kriseteam koblet på etter knivstikking",
+    "frontPageCardSize": "small",
+    "bundleTitle": "",
+    "grade": null,
+    "fontSize": "130",
+    "bundlePlacementFooter": "",
+    "showAds": true,
+    "showByline": false,
+    "skin": "is-hendelse-skin",
+    "blockSearchEngineIndexing": false,
+    "seoTitle": "",
+    "frontPageImage": {
+      "id": "5e8d9137-3e0d-397b-bc69-a2716a28939c",
+      "size": {
+        "width": 8640,
+        "height": 5760
+      },
+      "hotspot": {
+        "x": 2816,
+        "y": 1772,
+        "width": 4797,
+        "height": 3598
+      }
+    },
+    "someDescription": "",
+    "paywall": "closed",
+    "feature": false,
+    "someTitle": "",
+    "bundleSkinTest": "default",
+    "comments": "no",
+    "bundlePlacementHeader": "",
+    "frontPageImageHeightOverride": "h-normal",
+    "label": "",
+    "showArticleSummary": false,
+    "wordCount": 377
+  },
+  "schemaType": "article",
+  "id": "eG5bky",
+  "section": {
+    "id": "b89679f1-ba14-4ecf-9314-7b8e46b657c1",
+    "title": "Trondheim",
+    "parent": {
+      "id": "890e4515-8b99-410f-bd2d-7019a5c8f9b5",
+      "title": "Nyheter",
+      "enabled": true
+    },
+    "enabled": true
+  },
+  "title": {
+    "value": "Mann siktet etter knivstikking i Trondheim"
+  },
+  "characteristics": {
+    "lifetime": 40,
+    "hotness": 60
+  },
+  "access": {
+    "restrictions": [
+      "closed"
+    ]
+  },
+  "newsroom": "adresseavisen",
+  "schemaVersion": 5,
+  "version": {
+    "sequenceNo": 88,
+    "time": "2026-10-12T06:37:30.150115Z"
+  },
+  "language": "nb",
+  "authors": [
+    {
+      "fullname": "Emilie Sofie Rønning",
+      "slug": "emilie-sofie-olsen",
+      "image": "c499a420-2d7b-4ef4-9b58-9fcbd4072f6c",
+      "email": "emilie.ronning@adresseavisen.no",
+      "phone": "95745108"
+    },
+    {
+      "fullname": "Mia With-Kalland",
+      "slug": "mia-with-kalland",
+      "image": "bfc3c5c6-d0a4-3713-8d06-0a6a1d95efc0",
+      "email": "mia.with-kalland@adresseavisen.no"
+    },
+    {
+      "fullname": "Mariann Dybdahl",
+      "slug": "mariann-dybdahl",
+      "email": "mariann.dybdahl@adresseavisen.no"
+    },
+    {
+      "fullname": "Hilde Skjesol",
+      "slug": "hilde-skjesol",
+      "image": "686eb0d8-f874-43fb-8bdf-863d82479402",
+      "email": "hilde.skjesol@adresseavisen.no",
+      "phone": "95198684"
+    }
+  ],
+  "tags": [],
+  "promotionContent": {
+    "slug": "mann-i-60-aarene-knivstukket-i-trondheim",
+    "context": {
+      "frontpage": [
+        {
+          "id": "16a578ac-d776-50e5-98da-80faa3cba88c",
+          "weight": 100,
+          "title": {
+            "value": "Kriseteam koblet på etter knivstikking"
+          },
+          "kicker": {
+            "value": ""
+          },
+          "imageAsset": {
+            "id": "5e8d9137-3e0d-397b-bc69-a2716a28939c",
+            "size": {
+              "width": 8640,
+              "height": 5760
+            },
+            "hotspot": {
+              "x": 2816,
+              "y": 1772,
+              "width": 4797,
+              "height": 3598
+            }
+          }
+        }
+      ]
+    }
+  },
+  "intro": {
+    "type": "Intro",
+    "title": "Mann siktet etter knivstikking i Trondheim",
+    "frontPageTitle": "Kriseteam koblet på etter knivstikking",
+    "media": {
+      "caption": {
+        "value": "Politiet jobber på stedet søndag ettermiddag."
+      },
+      "byline": {
+        "title": "Mariann Dybdahl"
+      },
+      "imageAsset": {
+        "id": "5aa529ae-5410-3ff1-b7cf-669d54baff20",
+        "size": {
+          "width": 4367,
+          "height": 2913
+        }
+      },
+      "type": "image"
+    },
+    "lead": "Fornærmede, en mann i 60-årene, fremstår ikke alvorlig skadd. ",
+    "promo": {
+      "caption": {
+        "value": "Politiet jobber på stedet søndag ettermiddag."
+      },
+      "byline": {
+        "title": "Mariann Dybdahl"
+      },
+      "imageAsset": {
+        "id": "5aa529ae-5410-3ff1-b7cf-669d54baff20",
+        "size": {
+          "width": 4367,
+          "height": 2913
+        }
+      },
+      "type": "image"
+    },
+    "frontPageImage": {
+      "type": "image",
+      "imageAsset": {
+        "id": "5e8d9137-3e0d-397b-bc69-a2716a28939c",
+        "size": {
+          "width": 8640,
+          "height": 5760
+        },
+        "hotspot": {
+          "x": 2816,
+          "y": 1772,
+          "width": 4797,
+          "height": 3598
+        }
+      }
+    }
+  },
+  "some": {
+    "title": "Kriseteam koblet på etter knivstikking",
+    "description": "Fornærmede, en mann i 60-årene, fremstår ikke alvorlig skadd. ",
+    "image": {
+      "id": "5e8d9137-3e0d-397b-bc69-a2716a28939c",
+      "size": {
+        "width": 8640,
+        "height": 5760
+      },
+      "hotspot": {
+        "x": 2816,
+        "y": 1772,
+        "width": 4797,
+        "height": 3598
+      }
+    }
+  },
+  "seo": {
+    "title": "Mann siktet etter knivstikking i Trondheim",
+    "description": "Fornærmede, en mann i 60-årene, fremstår ikke alvorlig skadd. ",
+    "image": {
+      "id": "5aa529ae-5410-3ff1-b7cf-669d54baff20",
+      "size": {
+        "width": 4367,
+        "height": 2913
+      }
+    }
+  }
+}

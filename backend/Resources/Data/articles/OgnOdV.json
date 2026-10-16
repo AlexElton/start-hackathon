@@ -1,0 +1,1254 @@
+{
+  "urls": {
+    "relative": "/nyheter/trondheim/i/OgnOdV/jeg-tenkte-at-dette-ikke-var-noe-for-meg",
+    "canonical": "https://www.adressa.no/nyheter/trondheim/i/OgnOdV/jeg-tenkte-at-dette-ikke-var-noe-for-meg",
+    "redirectToCanonical": false
+  },
+  "changes": {
+    "published": "2026-10-10T19:49:27Z"
+  },
+  "customProperties": {
+    "livemode": "",
+    "snapTitle": "",
+    "prefix": "",
+    "snapDescription": "",
+    "snapDateTime": "",
+    "presentation": "feature",
+    "varselsignal": "",
+    "postnr": "",
+    "tip": false,
+    "breaking": false,
+    "frontPageLeadText": "",
+    "seoDescription": "",
+    "countdown": "",
+    "toPrint": true,
+    "frontPageTitle": "– Det er verdens beste jobb",
+    "frontPageCardSize": "large",
+    "bundleTitle": "",
+    "grade": null,
+    "fontSize": "130",
+    "bundlePlacementFooter": "",
+    "showAds": true,
+    "showByline": false,
+    "skin": "auto",
+    "blockSearchEngineIndexing": false,
+    "seoTitle": "",
+    "frontPageImage": {
+      "id": "5efbed9a-4ac9-340a-a9d4-3836e9741590",
+      "size": {
+        "width": 8640,
+        "height": 5760
+      },
+      "hotspot": {
+        "x": 2500,
+        "y": 1494,
+        "width": 2631,
+        "height": 1973
+      }
+    },
+    "someDescription": "",
+    "paywall": "closed",
+    "feature": false,
+    "someTitle": "",
+    "comments": "no",
+    "bundlePlacementHeader": "",
+    "frontPageImageHeightOverride": "h-normal",
+    "label": "",
+    "wordCount": 1283
+  },
+  "schemaType": "article",
+  "id": "OgnOdV",
+  "section": {
+    "id": "b89679f1-ba14-4ecf-9314-7b8e46b657c1",
+    "title": "Trondheim",
+    "parent": {
+      "id": "890e4515-8b99-410f-bd2d-7019a5c8f9b5",
+      "title": "Nyheter",
+      "enabled": true
+    },
+    "enabled": true
+  },
+  "title": {
+    "value": "– Jeg tenkte at dette ikke var noe for meg"
+  },
+  "characteristics": {
+    "lifetime": 40,
+    "hotness": 70
+  },
+  "access": {
+    "restrictions": [
+      "closed"
+    ]
+  },
+  "newsroom": "adresseavisen",
+  "schemaVersion": 5,
+  "version": {
+    "sequenceNo": 53,
+    "time": "2026-10-12T15:52:46.830475Z"
+  },
+  "language": "nb",
+  "authors": [
+    {
+      "fullname": "Hilde Skjesol",
+      "slug": "hilde-skjesol",
+      "image": "686eb0d8-f874-43fb-8bdf-863d82479402",
+      "email": "hilde.skjesol@adresseavisen.no",
+      "phone": "95198684"
+    },
+    {
+      "fullname": "Marius Kalleberg Mydland (foto)",
+      "slug": "marius-kalleberg-mydland",
+      "image": "4f12a562-1efe-49b1-8a0e-9973ea2378aa",
+      "email": "marius.kalleberg.mydland@adresseavisen.no"
+    }
+  ],
+  "tags": [
+    {
+      "id": "fbbce54d-8bf4-4bfd-8012-c23c70c62e56",
+      "title": "St Olavs",
+      "type": "descriptor",
+      "slug": "st-olavs",
+      "customization": {
+        "promotionContent": {
+          "title": "St. Olav"
+        },
+        "hidden": false
+      }
+    },
+    {
+      "id": "49d9d390-947b-45fe-b741-8d2ef4070311",
+      "title": "Lege",
+      "type": "descriptor",
+      "slug": "lege"
+    },
+    {
+      "id": "b110acd2-0dda-46a9-b7e8-ce4670c03c5e",
+      "title": "NRK",
+      "type": "organization",
+      "slug": "nrk",
+      "metadata": [
+        {
+          "url": "https://www.nrk.no/",
+          "type": "website"
+        },
+        {
+          "value": "976 390 512",
+          "type": "vat"
+        },
+        {
+          "url": "https://www.nrk.no/",
+          "type": "website"
+        },
+        {
+          "url": "https://no.wikipedia.org/wiki/NRK",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "id": "d040f7c1-ae15-4eec-bb14-a35c52035314",
+      "title": "LIS",
+      "type": "descriptor",
+      "slug": "lis"
+    },
+    {
+      "id": "ec663795-2685-406c-a26a-8adcfe707918",
+      "title": "St. Olavs hospital",
+      "type": "organization",
+      "slug": "st-olavs-hospital"
+    },
+    {
+      "id": "dc67c622-1029-4882-bc19-3fc429df765e",
+      "title": "Rekruttering",
+      "type": "descriptor",
+      "slug": "rekruttering"
+    }
+  ],
+  "presentationProperties": {
+    "introType": "overlay",
+    "navigation": "feature-light"
+  },
+  "promotionContent": {
+    "slug": "jeg-tenkte-at-dette-ikke-var-noe-for-meg",
+    "context": {
+      "frontpage": [
+        {
+          "id": "17111f87-7f67-5214-8820-26cfa1cb9839",
+          "weight": 100,
+          "title": {
+            "value": "– Det er verdens beste jobb"
+          },
+          "kicker": {
+            "value": ""
+          },
+          "imageAsset": {
+            "id": "5efbed9a-4ac9-340a-a9d4-3836e9741590",
+            "size": {
+              "width": 8640,
+              "height": 5760
+            },
+            "hotspot": {
+              "x": 2500,
+              "y": 1494,
+              "width": 2631,
+              "height": 1973
+            }
+          }
+        }
+      ]
+    }
+  },
+  "intro": {
+    "type": "FeatureIntro",
+    "title": "– Jeg tenkte at dette ikke var noe for meg",
+    "frontPageTitle": "– Det er verdens beste jobb",
+    "media": {
+      "imageAsset": {
+        "id": "7ec37f40-a51f-343b-9c35-a8fe57fc99f2",
+        "size": {
+          "width": 3664,
+          "height": 2440
+        },
+        "hotspot": {
+          "x": 888,
+          "y": 506,
+          "width": 1164,
+          "height": 873
+        }
+      },
+      "type": "image"
+    },
+    "lead": "Lege Maren Wennberg Husby glemmer aldri sin første pasient. – Jeg følte jeg ikke hadde snøring på hva jeg holdt på med. ",
+    "promo": {
+      "imageAsset": {
+        "id": "7ec37f40-a51f-343b-9c35-a8fe57fc99f2",
+        "size": {
+          "width": 3664,
+          "height": 2440
+        },
+        "hotspot": {
+          "x": 888,
+          "y": 506,
+          "width": 1164,
+          "height": 873
+        }
+      },
+      "type": "image"
+    },
+    "frontPageImage": {
+      "type": "image",
+      "imageAsset": {
+        "id": "5efbed9a-4ac9-340a-a9d4-3836e9741590",
+        "size": {
+          "width": 8640,
+          "height": 5760
+        },
+        "hotspot": {
+          "x": 2500,
+          "y": 1494,
+          "width": 2631,
+          "height": 1973
+        }
+      }
+    },
+    "subtype": "overlay"
+  },
+  "some": {
+    "title": "– Det er verdens beste jobb",
+    "description": "Lege Maren Wennberg Husby glemmer aldri sin første pasient. – Jeg følte jeg ikke hadde snøring på hva jeg holdt på med. ",
+    "image": {
+      "id": "5efbed9a-4ac9-340a-a9d4-3836e9741590",
+      "size": {
+        "width": 8640,
+        "height": 5760
+      },
+      "hotspot": {
+        "x": 2500,
+        "y": 1494,
+        "width": 2631,
+        "height": 1973
+      }
+    }
+  },
+  "seo": {
+    "title": "– Jeg tenkte at dette ikke var noe for meg",
+    "description": "Lege Maren Wennberg Husby glemmer aldri sin første pasient. – Jeg følte jeg ikke hadde snøring på hva jeg holdt på med. ",
+    "image": {
+      "id": "7ec37f40-a51f-343b-9c35-a8fe57fc99f2",
+      "size": {
+        "width": 3664,
+        "height": 2440
+      },
+      "hotspot": {
+        "x": 888,
+        "y": 506,
+        "width": 1164,
+        "height": 873
+      }
+    }
+  },
+  "meta": {
+    "hasSummary": true
+  },
+  "components": [
+    {
+      "type": "article-summary",
+      "content": [
+        {
+          "items": [
+            {
+              "value": "Sykehusserien «LIS» er nå i gang med sesong to. Serien som viser hverdagen til fire unge LIS-leger, har fått svært gode anmeldelser, og er en av de mest sette seriene på NRK. ",
+              "markup": []
+            },
+            {
+              "value": "Ved St. Olavs hospital er de nå i gang med å rekruttere nye leger til LIS 1. Rundt 350 søkere konkurrerer om 32 plasser.",
+              "markup": []
+            },
+            {
+              "value": "Unge leger på St. Olav mener NRK-serien gir et svært realistisk bilde av hverdagen deres.",
+              "markup": []
+            }
+          ],
+          "blockType": "list:unordered"
+        }
+      ]
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "– Jeg husker jeg tenkte at dette var ikke noe for meg. Jeg følte jeg ikke var god nok. Det var et hardt møte med legelivet."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "I dag kan 27-åringen smile av det, for det skulle ikke gå mange ukene fra hun ble kastet ut på dypt vann til hun kjente en mestringsfølelse."
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "caption": {
+        "value": "Maren Wennberg Husby synes hun har fått drømmejobben på barne- og ungdomsklinikken ved St. Olav. Til høyre sykepleier Mette Mandal."
+      },
+      "imageAsset": {
+        "id": "046bcb56-79bc-3f3f-b64f-cc94dcc8412b",
+        "size": {
+          "width": 8640,
+          "height": 5760
+        }
+      },
+      "type": "image"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "– Nå kan jeg si at jeg har verdens beste jobb. Jeg angrer ikke et sekund, sier Wennberg Husby."
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "title": {
+        "value": "Dette er en LIS"
+      },
+      "paragraphs": [
+        {
+          "text": {
+            "value": "LIS (lege i spesialisering) er utdanningsløpet for leger som ønsker en spesialisering."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "LIS-løpet består av to eller tre deler. LIS 1 innebærer ett års tjeneste i sykehus og et halvt års tjeneste i kommunehelsetjenesten. LIS 2/3 innebærer minimum fem år."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "St. Olavs hospital rekrutterer nye LIS 1-leger to ganger i året. Rundt 60-70 LIS 1 og  450 LIS 2/LIS 3 jobber ved St. Olav."
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "fact"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "– Et ubehag"
+          },
+          "blockType": "heading"
+        },
+        {
+          "text": {
+            "value": "Gjennom den populære sykehusserien «LIS» på NRK har nordmenn fått innblikk i en til tider kaotisk arbeidsdag til ferske leger."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Maren Wennberg Husby har sett alle episodene så langt."
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "imageAsset": {
+        "id": "cdb78c06-6e03-3fcf-aa95-5979393190ea",
+        "size": {
+          "width": 8640,
+          "height": 5760
+        }
+      },
+      "type": "image"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "– Det er en av de medisinske seriene jeg har sett som har vært mest relaterbar til det vi driver med, sier hun."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "«Jøss, er det virkelig så travelt», sier familie og venner. Nei, det er verre, svarer Maren."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Vi møter henne sammen med fire andre yngre leger som alle har vært ferske LIS og vet hva det innebærer."
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "caption": {
+        "value": "De er for lengst ferdig med sin første periode som LIS, og er nå på god vei til å bli overlege. Fra venstre Marit Bjørgum Gjerde, Kathrine Jørgensen Wågø og Elias Koppen."
+      },
+      "imageAsset": {
+        "id": "684a6aea-cf8f-39b5-b86d-16bd74999b99",
+        "size": {
+          "width": 8640,
+          "height": 5760
+        }
+      },
+      "type": "image"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "– For meg skapte serien et ubehag. Det var så gjenkjennbart, og jeg hadde ikke behov for å gjenoppleve det, sier Marit Bjørgum Gjerde. Hun er nå på god vei til å bli overlege."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "I NRK-serien blir ferske leger kastet ut i stort ansvar, vanskelige vurderinger, tøffe prioriteringer og sterke pasientmøter. "
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "– Jeg tror mange tenker at vi leger har det så flott, med god lønn og gode vilkår. Jeg tror det er bra at folk får se hvordan det egentlig er, mener Kathrine Jørgensen Wågø."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "– Men kan ikke serien skremme unge fra å bli lege?",
+            "markup": [
+              {
+                "type": "style:strong",
+                "offset": 0,
+                "length": 50
+              }
+            ]
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "– Men det kan være bra. Hvis du søker medisin, så bør du ha en tanke om hvorfor du vil bli lege, og du bør vite hva du går til, sier Elias Koppen."
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "article",
+      "linkTitle": "God ny sesong med «LIS»",
+      "teaser": {
+        "id": "WvPolG",
+        "slug": "god-ny-sesong-med-lis",
+        "title": {
+          "value": "«Noe av det mest intense jeg har sett av norsk tv-drama»"
+        },
+        "type": "article",
+        "characteristics": {
+          "lifetime": 40,
+          "hotness": 50
+        },
+        "changes": {
+          "published": "2026-09-26T12:49:03Z"
+        },
+        "section": {
+          "id": "61fac27c-a2c4-4212-af8a-592690e0c5d2",
+          "title": "Kultur"
+        },
+        "urls": {
+          "relative": "/kultur/i/WvPolG/god-ny-sesong-med-lis",
+          "canonical": "https://www.adressa.no/kultur/i/WvPolG/god-ny-sesong-med-lis",
+          "redirectToCanonical": false
+        },
+        "access": {
+          "paywall": true
+        },
+        "lead": "Andre sesong av «LIS» er nesten like god som den første. Litt mørkere, fortsatt velspilt og rørende.",
+        "media": {
+          "imageAsset": {
+            "id": "4cfaa78c-5260-3d3f-ab22-7679580eadb4",
+            "size": {
+              "width": 3840,
+              "height": 2160
+            },
+            "hotspot": {
+              "x": 2388,
+              "y": 316,
+              "width": 1443,
+              "height": 1083
+            }
+          }
+        },
+        "authors": [
+          {
+            "fullname": "Terje Eidsvåg",
+            "slug": "terje-eidsvaag",
+            "image": "59193909-8e4f-48ea-871c-1a43fbab5e6d",
+            "description": "Kommentator"
+          }
+        ],
+        "tags": [
+          {
+            "id": "01d26f8a-0701-4c27-bd09-03ae7e1f924d",
+            "title": "Anmeldelse",
+            "type": "descriptor",
+            "slug": "anmeldelse"
+          },
+          {
+            "id": "0421d490-8a4a-4f2e-a2b1-00befcd0516e",
+            "title": "TV-serie",
+            "type": "descriptor",
+            "slug": "tv-serie"
+          },
+          {
+            "id": "8a03f115-5cf8-41ac-b37b-532a584614d2",
+            "title": "Filmanmeldelse",
+            "type": "descriptor",
+            "slug": "filmanmeldelse"
+          },
+          {
+            "id": "b110acd2-0dda-46a9-b7e8-ce4670c03c5e",
+            "title": "NRK",
+            "type": "organization",
+            "slug": "nrk",
+            "metadata": [
+              {
+                "url": "https://www.nrk.no/",
+                "type": "website"
+              },
+              {
+                "value": "976 390 512",
+                "type": "vat"
+              },
+              {
+                "url": "https://www.nrk.no/",
+                "type": "website"
+              },
+              {
+                "url": "https://no.wikipedia.org/wiki/NRK",
+                "type": "website"
+              }
+            ]
+          },
+          {
+            "id": "61a9d0a5-0e20-4635-905d-213ec78227d5",
+            "title": "Deniz Kaya",
+            "type": "person",
+            "slug": "deniz-kaya"
+          },
+          {
+            "id": "d040f7c1-ae15-4eec-bb14-a35c52035314",
+            "title": "LIS",
+            "type": "descriptor",
+            "slug": "lis"
+          },
+          {
+            "id": "5c571211-d56c-42f5-900a-22cd0af7a3d6",
+            "title": "Anders Baasmo",
+            "type": "person",
+            "slug": "anders-baasmo"
+          },
+          {
+            "id": "c28f9100-47dc-4203-b735-d4a271ee90cc",
+            "title": "Taume Dery",
+            "type": "person",
+            "slug": "taume-dery"
+          },
+          {
+            "id": "7f36e2f7-bf9e-4fd8-90ad-a5ecfe98e4ea",
+            "title": "Elpida Stojcevska",
+            "type": "person",
+            "slug": "elpida-stojcevska"
+          }
+        ],
+        "customProperties": {
+          "presentation": "review",
+          "frontPageCardSize": "medium",
+          "grade": 5,
+          "fontSize": "120",
+          "skin": "white",
+          "frontPageImageHeightOverride": "h-normal"
+        }
+      }
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "Kamp om jobbene"
+          },
+          "blockType": "heading"
+        },
+        {
+          "text": {
+            "value": "St. Olavs hospital står nå midt oppe i rekrutteringen av 32 nye LIS 1-leger. Rundt 350 søkere konkurrerer om plassene."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "– Rekrutteringen er veldig bra. Vi har alltid langt flere søkere enn vi har stillinger, sier Brita Pukstad, utdanningssjef ved St. Olav."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "For medisinstudenter betyr det en tøff kamp om plassene. "
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "– De bruker seks år på å bygge CV, samtidig som de studerer. Mange jobber veldig mye ved siden av studiene, sier Wågø."
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "imageAsset": {
+        "id": "e168d908-30cb-3f76-95af-5d548fadb9b0",
+        "size": {
+          "width": 5760,
+          "height": 8640
+        }
+      },
+      "type": "image"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "– De er heldig hvis de får jobb på St. Olav, sier Elias Koppen."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Samtidig er LIS 1-legene viktige for sykehuset."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "– Det er ofte de som møter pasientene i Akuttmottaket, påpeker Pukstad."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Jobbe julaften"
+          },
+          "blockType": "heading"
+        },
+        {
+          "text": {
+            "value": "For noen år siden svarte én av tre LIS 1-leger at de var usikker, eller ikke ønsket seg tilbake til St. Olav etter sin første læreperiode. "
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Da iverksatte sykehuset tiltak og ansatte en egen utdanningskoordinerende lege med ansvar for LIS 1."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "De unge legene mener mottakelsen legene nå får, er langt bedre."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "– Det er et helt annet apparat rundt LIS 1, sier de."
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "caption": {
+        "value": "Brita Pukstad er utdanningssjef ved St. Olavs hospital."
+      },
+      "byline": {
+        "title": "Morten Antonsen"
+      },
+      "imageAsset": {
+        "id": "7703be7e-70d3-35cf-91ae-212928e97110",
+        "size": {
+          "width": 5184,
+          "height": 3456
+        }
+      },
+      "type": "image"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "– Vi ser at vi må ivareta denne gjengen på en spesiell måte. Dette er rekrutteringsgrunnlaget vårt. Vi ønsker å legge til rette slik at de har lyst til å komme tilbake. Noe av det viktigste vi gjør er å ansvarliggjøre avdelingene, slik at LIS-legene føler seg inkludert og ivaretatt. Mye handler om god folkeskikk, sier Pukstad."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Samtidig ser de også et behov for å avklare forventningene sykehuset har til dem, slik at de skjønner hva det vil si å være lege. Det kan handle om noe så enkelt som å si fra når du er syk og å stille opp når det er hull i vaktlistene."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "– Hvis du vil bli lege, er det normalt å gå vakt. Du må være forberedt på å jobbe kveld, natt og helg, og noen ganger må du på jobb på julaften, sier Pukstad."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "«Dette løser du»"
+          },
+          "blockType": "heading"
+        },
+        {
+          "text": {
+            "value": "I NRK-serien følger vi fire uerfarne LIS-leger som etter seks års medisinstudier skal håndtere alle typer pasienter og pårørende som dumper inn i akuttmottaket."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Der får de ikke alltid den støtten de trenger. "
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "caption": {
+        "value": "\nElpida Stojcevska og Deniz Kaya spiller Petra og Joakim i NRK-serien LIS."
+      },
+      "byline": {
+        "title": "Cornelius Poppe / NTB"
+      },
+      "imageAsset": {
+        "id": "57f81d63-8347-3640-be0a-0943b75a28ae",
+        "size": {
+          "width": 8640,
+          "height": 5760
+        }
+      },
+      "type": "image"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "– Jeg har ikke tid til dette her, dette løser du, sier overlegen Anders når LIS-lege Petra spør om råd."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "– Dette bør du kunne, sier den erfarne legen Fredrik, som mener det er bare flaks at det går bra når LIS-legene er i aksjon."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Slike holdninger ville blitt slått ned på på St. Olav, mener legene."
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": " – Her er det veldig innafor å spørre om hjelp. Og du blir ikke møtt med sure og aggressive tilbakemeldinger, sier Koppen."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Han mener noe av det beste med å være i opplæring ved et universitetssykehus som St. Olav, er at du er en del av et stort fagmiljø."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "– Første gang du skal ta en avgjørelse, kan det føles veldig utrygt. Men du har alltid noen erfarne leger du kan spørre, sier han."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Tøffe nattevakter"
+          },
+          "blockType": "heading"
+        },
+        {
+          "text": {
+            "value": "Marthe Barstad (33) jobbet som LIS 1-lege i Akutten frem til i fjor høst. Da hun startet, hadde hun jobbet flere år i helsevesenet."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Hun opplevde at det tøffeste var å gå nattevakt."
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "caption": {
+        "value": "Marthe Barstad har nå fått seg jobb som lege i Akuttmottaket."
+      },
+      "imageAsset": {
+        "id": "6c043ba1-1f67-3cab-9f02-41c1bc0a1dc7",
+        "size": {
+          "width": 8640,
+          "height": 5760
+        }
+      },
+      "type": "image"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "– Det er et vanvittig stort press på natta. Da er vi færre på jobb, det er høyt tempo og du møter pasientene som har ventet lengst, sier hun."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Men som fersk lege følte hun seg godt ivaretatt."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "– Jeg har opplevd dette som trygt hele veien, og har vært heldig med vaktteamet mitt, sier hun."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Hun har lagt bak seg en periode som vikarlege i Oppdal, og er tilbake som LIS 2/3  i akuttmottaket. Nå håper hun selv å være en god god støtte for LIS 1- leger. Det kan til tider være krevende med så stor pasientpågang i mottaket. "
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "– Jeg har hele tiden vært sikker på at jeg vil bli lege, og jeg liker det akutte. Men motivasjonen går i bølger, når du ser hva du ofrer og hva det koster, sier Barstad som synes turnuslivet kan være tøft."
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "imageAsset": {
+        "id": "e32d6011-3cb8-3d98-9d96-adf6a2a28af9",
+        "size": {
+          "width": 8640,
+          "height": 5760
+        }
+      },
+      "type": "image"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "– Det kan være vanskelig å nullstille seg når du kommer hjem til kjæresten. Det er noen pasienter som biter seg fast. Men jeg er blitt flinkere med tida til å ikke ta med meg jobben hjem, sier Barstad."
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "article",
+      "linkTitle": "- Jeg har kolleger som gråter på jobb",
+      "teaser": {
+        "id": "xrwz78",
+        "slug": "jeg-har-kolleger-som-graater-paa-jobb",
+        "title": {
+          "value": "- Jeg har kolleger som gråter på jobb"
+        },
+        "type": "article",
+        "characteristics": {
+          "lifetime": 40,
+          "hotness": 10,
+          "timed": {
+            "from": "2026-08-23T17:00:00Z",
+            "to": null
+          }
+        },
+        "changes": {
+          "published": "2026-08-23T17:00:06Z",
+          "updated": "2026-08-23T17:00:06Z"
+        },
+        "section": {
+          "id": "f1a624d0-b1e9-4443-b562-b97fed545bb8",
+          "title": "Video"
+        },
+        "urls": {
+          "relative": "/video/i/xrwz78/jeg-har-kolleger-som-graater-paa-jobb",
+          "canonical": "https://play.adressa.no/video/3024559/jeg-har-kolleger-som-graater-paa-jobb",
+          "redirectToCanonical": true
+        },
+        "access": {
+          "paywall": false
+        },
+        "contentType": "video",
+        "media": {
+          "imageAsset": {
+            "id": "f73fd23a-b423-35d6-aa04-7d7ffcfb6729",
+            "size": {
+              "width": 2048,
+              "height": 3641
+            }
+          },
+          "frontPageVideo": {
+            "provider": {
+              "service": "svp",
+              "id": "adressa"
+            },
+            "title": {
+              "value": "- Jeg har kolleger som gråter på jobb"
+            },
+            "videoAsset": {
+              "id": "3024559",
+              "sourceFiles": [
+                {
+                  "width": 1080,
+                  "height": 1920,
+                  "bitrate": 5234,
+                  "sourceFile": "/adressa/vod/2026/08/ko70244vvse9jh1spw8mw/ps_1080_1920_5234.mp4"
+                }
+              ],
+              "metadata": {
+                "aspectRatio": "0.56",
+                "preview": "https://dd-polaris.akamaized.net/adressa/vod/2026/08/ko70244vvse9jh1spw8mw/meta_preview.mp4",
+                "preview_360p": "https://dd-polaris.akamaized.net/adressa/vod/2026/08/ko70244vvse9jh1spw8mw/meta_preview_360p.mp4",
+                "preview_hq": "https://dd-polaris.akamaized.net/adressa/vod/2026/08/ko70244vvse9jh1spw8mw/meta_1080_6000_preview_hq.mp4"
+              }
+            },
+            "poster": "https://images.stream.schibsted.media/users/adressa/images/8074fb2c2c195062f4b07090cc6effd4.jpg?t[]=380q80",
+            "previewSources": [
+              "https://dd-polaris.akamaized.net/adressa/vod/2026/08/ko70244vvse9jh1spw8mw/meta_preview_360p.mp4",
+              "https://dd-polaris.akamaized.net/adressa/vod/2026/08/ko70244vvse9jh1spw8mw/meta_preview.mp4"
+            ]
+          }
+        },
+        "tags": [
+          {
+            "id": "0407ad7e-47f8-40ce-b281-0c86f017c75c",
+            "title": "Autoplay",
+            "type": "machine",
+            "slug": "autoplay"
+          }
+        ],
+        "contentSharing": {
+          "sourceId": "3024559",
+          "sourceNewsroom": "adressa-svp",
+          "immediateSourceId": "3024559"
+        },
+        "videoDuration": 65045
+      }
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "Usikker, men ikke utrygg"
+          },
+          "blockType": "heading"
+        },
+        {
+          "text": {
+            "value": "Brita Pukstad mener NRK-serien viser hvor tøft det er å være fersk lege og bli kastet ut i det."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Serien har gitt henne en vekker om at det er viktig at LIS-legene får rom for å reflektere om hvordan det går i jobben."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "– Det er helt normalt å være usikker, men en skal ikke være utrygg, sier hun."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Hun sier at de forbereder legene på at de vil komme til å gjøre feil."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "– Og det er lov å gjøre feil. Men en feil skyldes gjerne systemet rundt, kanskje at det er for dårlig bemanning, og at beslutninger må tas raskt. Da skal de vite at de blir tatt vare på."
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "imageAsset": {
+        "id": "f47a8106-fb8e-3b7b-a204-cb865bea5ea7",
+        "size": {
+          "width": 6480,
+          "height": 4320
+        }
+      },
+      "type": "image"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "Kathrine Jørgensen Wågø har selv deltatt i en refleksjonsgruppe."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "– Da vi ble spurt «hvordan er det å være deg i dag», så endte mange av oss opp med å grine. Det ble veldig emosjonelt, men det var fint å få prate med andre som følte akkurat det samme som deg, sier hun."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Legene kjenner godt til følelsen av å våkne midt på natta, engstelig for å ha glemt noe."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "– Det har hendt jeg har sjekket journalen til en pasient på natta, sier Koppen."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "– Når du står i så stort press på jobb, så er kroppen alltid på vakt, mener Bjørgum Gjerde."
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "imageAsset": {
+        "id": "ec443abd-6f14-3d23-a353-47365ca056e1",
+        "size": {
+          "width": 8640,
+          "height": 5760
+        }
+      },
+      "type": "image"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": " De oppsummerer LIS 1-tida på St. Olav som hektisk, men spennende. Og forteller om en arbeidsgiver som tross alt ser verdien av at legene har et liv ved siden av jobben."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "– Jeg pleier å si til alle LIS 1-legene at du skal jobbe for å leve, ikke leve for å jobbe. Heldigvis er det slik at den generasjonen som jobbet gratis overtid, er på vei ut, sier Jørgensen Wågø."
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "article",
+      "linkTitle": "Nå har de ansatte fått nok",
+      "teaser": {
+        "id": "q6kkAw",
+        "slug": "naa-har-de-ansatte-faatt-nok",
+        "title": {
+          "value": "Nå har de ansatte fått nok"
+        },
+        "type": "article",
+        "characteristics": {
+          "lifetime": 40,
+          "hotness": 70
+        },
+        "changes": {
+          "published": "2026-06-15T19:27:15Z",
+          "updated": "2026-06-16T08:02:34Z"
+        },
+        "section": {
+          "id": "b89679f1-ba14-4ecf-9314-7b8e46b657c1",
+          "title": "Trondheim",
+          "parent": {
+            "id": "890e4515-8b99-410f-bd2d-7019a5c8f9b5",
+            "title": "Nyheter"
+          }
+        },
+        "urls": {
+          "relative": "/nyheter/trondheim/i/q6kkAw/naa-har-de-ansatte-faatt-nok",
+          "canonical": "https://www.adressa.no/nyheter/trondheim/i/q6kkAw/naa-har-de-ansatte-faatt-nok",
+          "redirectToCanonical": false
+        },
+        "access": {
+          "paywall": true
+        },
+        "media": {
+          "imageAsset": {
+            "id": "6e5cf598-bac5-312c-b9dc-5a0de4a67e7c",
+            "size": {
+              "width": 5240,
+              "height": 3494
+            },
+            "hotspot": {
+              "x": 1063,
+              "y": 0,
+              "width": 3132,
+              "height": 2349
+            }
+          }
+        },
+        "authors": [
+          {
+            "fullname": "Svanhild Naterstad",
+            "slug": "svanhild-naterstad",
+            "image": "b6fdeed6-f38c-4500-b8f3-c564251247d7"
+          },
+          {
+            "fullname": "Marius Kalleberg Mydland (foto)",
+            "slug": "marius-kalleberg-mydland",
+            "image": "4f12a562-1efe-49b1-8a0e-9973ea2378aa"
+          }
+        ],
+        "tags": [
+          {
+            "id": "9a577f48-4b83-4033-a3b8-3777e050c034",
+            "title": "Statsforvalteren",
+            "type": "descriptor",
+            "slug": "statsforvalteren"
+          },
+          {
+            "id": "fe03bc51-6884-4517-b1ec-cc2078831f16",
+            "title": "Tom Christian Martinsen",
+            "type": "descriptor",
+            "slug": "tom-christian-martinsen"
+          },
+          {
+            "id": "fbbce54d-8bf4-4bfd-8012-c23c70c62e56",
+            "title": "St Olavs",
+            "type": "descriptor",
+            "slug": "st-olavs",
+            "customization": {
+              "promotionContent": {
+                "title": "St. Olav"
+              },
+              "hidden": false
+            }
+          },
+          {
+            "id": "f7bde637-288f-4fa8-adb7-8ee051c38728",
+            "title": "Nedbemanning",
+            "type": "descriptor",
+            "slug": "nedbemanning"
+          },
+          {
+            "id": "43dafb65-2c43-4f36-8877-f2c5d1ce0cec",
+            "title": "Sykehus",
+            "type": "descriptor",
+            "slug": "sykehus"
+          },
+          {
+            "id": "a2151024-ce5b-4a7c-bcd7-8243287d0f74",
+            "title": "Arbeidstilsynet",
+            "type": "organization",
+            "slug": "arbeidstilsynet"
+          }
+        ],
+        "customProperties": {
+          "presentation": "feature",
+          "frontPageCardSize": "medium",
+          "fontSize": "155",
+          "skin": "auto",
+          "frontPageImageHeightOverride": "h-normal"
+        }
+      }
+    }
+  ]
+}

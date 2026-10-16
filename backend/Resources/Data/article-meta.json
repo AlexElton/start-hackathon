@@ -1,0 +1,144 @@
+[
+  {
+    "id": "16grxK",
+    "categoryId": "mat",
+    "paperId": "adressa",
+    "summary": [
+      "Ti utesteder med egen studentpris har fått terningkast fem av Adresseavisens anmeldere.",
+      "Fra firerettersmiddag under 300 kroner på Lyche til byens beste smashburger på Hammerhead.",
+      "Flere ligger på Bakklandet, med uteservering og utsikt over Nidelva."
+    ],
+    "locations": [
+      { "lat": 63.4283, "lon": 10.4027, "name": "Den Gode Nabo, Bakklandet" },
+      { "lat": 63.4296, "lon": 10.4036, "name": "Daglig Deig, Bakklandet" },
+      { "lat": 63.4318, "lon": 10.3922, "name": "Mat fra Hagen, Thomas Angells gate" },
+      { "lat": 63.4224, "lon": 10.3950, "name": "Lyche kjøkken og bar, Studentersamfundet" },
+      { "lat": 63.4437, "lon": 10.4378, "name": "Ladekaia, Lade" },
+      { "lat": 63.4222, "lon": 10.4320, "name": "Egon Tårnet, Tyholttårnet" },
+      { "lat": 63.4343, "lon": 10.4024, "name": "Hammerhead Taproom, Søndre gate" },
+      { "lat": 63.4302, "lon": 10.4042, "name": "Burger.no, Nedre Bakklandet" },
+      { "lat": 63.4391, "lon": 10.4226, "name": "Ramp pub & spiseri, Svartlamoen" },
+      { "lat": 63.4322, "lon": 10.3948, "name": "Øx Tap Room, Munkegata" }
+    ]
+  },
+  {
+    "id": "316lpP",
+    "categoryId": "politikk",
+    "paperId": "adressa",
+    "summary": [
+      "Regjeringen la fram statsbudsjettet for 2027 onsdag.",
+      "Adresseavisen fulgte presentasjonen live gjennom hele dagen.",
+      "Her er det viktigste for Trøndelag samlet på ett sted."
+    ],
+    "locations": [
+      { "lat": 63.4301, "lon": 10.3907, "name": "Fylkets hus, Trondheim" }
+    ]
+  },
+  {
+    "id": "31EkrM",
+    "categoryId": "mat",
+    "paperId": "adressa",
+    "summary": [
+      "Te og Kaffehuset i Dronningens gate har flyttet og åpnet for servering.",
+      "Anmelderen kårer cortadoen til byens beste, og tofusalaten imponerer.",
+      "Treg service trekker ned, men stedet får terningkast fem."
+    ],
+    "locations": [
+      { "lat": 63.4316, "lon": 10.3972, "name": "Te og Kaffehuset, Dronningens gate 30" }
+    ]
+  },
+  {
+    "id": "aJy014",
+    "categoryId": "krim",
+    "paperId": "adressa",
+    "summary": [
+      "Marius Raaken (48) ble funnet død i Skansen småbåthavn etter en kveld på Solsiden.",
+      "Saken ble henlagt som en ulykke, men et kameraopptak gikk tapt og vitner ble avhørt sent.",
+      "Familien håper at folk som var på kaia den kvelden melder seg."
+    ],
+    "locations": [
+      { "lat": 63.4318, "lon": 10.3755, "name": "Skansen småbåthavn" },
+      { "lat": 63.4347, "lon": 10.4113, "name": "Solsiden" }
+    ]
+  },
+  {
+    "id": "BM0E00",
+    "categoryId": "politikk",
+    "paperId": "adressa",
+    "summary": [
+      "Ordføreren i Meråker er skuffet over at E14 og Meråkerbanen ikke får penger i budsjettet.",
+      "Strekningen er viktig for militær transport mot Sverige og Finland.",
+      "Nye Veier får rundt 7 milliarder, men prisvekst gir mindre å bygge for."
+    ],
+    "locations": [
+      { "lat": 63.4153, "lon": 11.7465, "name": "Meråker" },
+      { "lat": 63.4695, "lon": 10.9180, "name": "Stjørdal, E14" }
+    ]
+  },
+  {
+    "id": "eG5bky",
+    "categoryId": "krim",
+    "paperId": "adressa",
+    "summary": [
+      "En mann i 60-årene ble knivstukket utenfor en institusjon i Trondheim søndag.",
+      "Skaden var ikke alvorlig, og en beboer ved institusjonen er siktet.",
+      "Kommunens kriseteam har tilbudt fornærmede hjelp."
+    ],
+    "locations": [
+      { "lat": 63.4185, "lon": 10.4010, "name": "Trondheim (omtrentlig sted)" }
+    ]
+  },
+  {
+    "id": "eGz299",
+    "categoryId": "krim",
+    "paperId": "adressa",
+    "summary": [
+      "Et skudd gikk gjennom verandadøra til en bolig på Tanem mens tre barn satt i stua.",
+      "En mann i 50-årene fra et jaktlag er siktet, men erkjenner ikke straffskyld.",
+      "Politiet undersøker om kula kan ha rikosjettert."
+    ],
+    "locations": [
+      { "lat": 63.3315, "lon": 10.4475, "name": "Tanem" }
+    ]
+  },
+  {
+    "id": "JO8X9P",
+    "categoryId": "helse",
+    "paperId": "adressa",
+    "summary": [
+      "Hege Rimol (52) gikk ned over 30 kilo, men la på seg igjen i en tøff periode.",
+      "En frisklivsveileder sier tilbakefall er vanlig når man legger om livsstilen.",
+      "Nå trener hun igjen og har fullført sin første Hyrox-konkurranse."
+    ],
+    "locations": [
+      { "lat": 63.4365, "lon": 10.4695, "name": "Leangen" }
+    ]
+  },
+  {
+    "id": "OgnOdV",
+    "categoryId": "helse",
+    "paperId": "adressa",
+    "summary": [
+      "Unge leger på St. Olav mener NRK-serien «LIS» viser hverdagen deres realistisk.",
+      "Rundt 350 søkere konkurrerer om 32 nye LIS 1-stillinger ved sykehuset.",
+      "Sykehuset har styrket oppfølgingen av ferske leger etter at mange ikke ville tilbake."
+    ],
+    "locations": [
+      { "lat": 63.4209, "lon": 10.3887, "name": "St. Olavs hospital" }
+    ]
+  },
+  {
+    "id": "zlxvg5",
+    "categoryId": "nyheter",
+    "paperId": "adressa",
+    "summary": [
+      "Det brant i Felleskjøpets korntørkeanlegg i Ila fra natt til tirsdag.",
+      "Senere på dagen begynte det også å brenne i Fiskå mølle på Spongdal.",
+      "Begge brannene er slukket. Ingen ble skadet, men 60 tonn havre gikk tapt."
+    ],
+    "locations": [
+      { "lat": 63.4335, "lon": 10.3690, "name": "Kornsiloen i Ila" },
+      { "lat": 63.3620, "lon": 10.1640, "name": "Fiskå mølle, Spongdal" }
+    ]
+  }
+]

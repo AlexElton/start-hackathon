@@ -1,0 +1,2556 @@
+{
+  "urls": {
+    "relative": "/nyheter/trondheim/i/aJy014/det-er-saa-mye-som-ikke-stemmer",
+    "canonical": "https://www.adressa.no/nyheter/trondheim/i/aJy014/det-er-saa-mye-som-ikke-stemmer",
+    "redirectToCanonical": false
+  },
+  "changes": {
+    "published": "2026-10-09T19:19:12Z",
+    "updated": "2026-10-10T06:45:22Z"
+  },
+  "customProperties": {
+    "livemode": "",
+    "snapTitle": "",
+    "prefix": "",
+    "snapDescription": "",
+    "snapDateTime": "",
+    "presentation": "feature",
+    "varselsignal": "",
+    "postnr": "",
+    "tip": false,
+    "breaking": false,
+    "seoDescription": "",
+    "countdown": "",
+    "toPrint": true,
+    "frontPageTitle": "Presten sto i stua da Marcus kom inn. Da husket han på meldinga han sendte",
+    "frontPageCardSize": "small",
+    "bundleTitle": "",
+    "grade": null,
+    "fontSize": "110",
+    "bundlePlacementFooter": "",
+    "showAds": true,
+    "showByline": false,
+    "skin": "white",
+    "blockSearchEngineIndexing": false,
+    "seoTitle": "",
+    "frontPageImage": {
+      "id": "50414031-c072-3ffc-b04f-52cdf2f7e154",
+      "size": {
+        "width": 5760,
+        "height": 8640
+      },
+      "hotspot": {
+        "x": 12,
+        "y": 1456,
+        "width": 5748,
+        "height": 4311
+      }
+    },
+    "someDescription": "",
+    "paywall": "closed",
+    "feature": false,
+    "someTitle": "",
+    "bundleSkinTest": "default",
+    "comments": "no",
+    "bundlePlacementHeader": "",
+    "frontPageImageHeightOverride": "h-normal",
+    "label": "",
+    "showArticleSummary": false,
+    "wordCount": 1965
+  },
+  "schemaType": "article",
+  "id": "aJy014",
+  "section": {
+    "id": "b89679f1-ba14-4ecf-9314-7b8e46b657c1",
+    "title": "Trondheim",
+    "parent": {
+      "id": "890e4515-8b99-410f-bd2d-7019a5c8f9b5",
+      "title": "Nyheter",
+      "enabled": true
+    },
+    "enabled": true
+  },
+  "title": {
+    "value": "– Det er så mye som ikke stemmer"
+  },
+  "characteristics": {
+    "lifetime": 60,
+    "hotness": 80
+  },
+  "access": {
+    "restrictions": [
+      "closed"
+    ]
+  },
+  "newsroom": "adresseavisen",
+  "schemaVersion": 5,
+  "version": {
+    "sequenceNo": 417,
+    "time": "2026-10-11T11:03:04.212250Z"
+  },
+  "language": "nb",
+  "authors": [
+    {
+      "fullname": "Johannes Steen",
+      "slug": "johannes-steen",
+      "image": "cce3a9f2-1317-4131-9e6e-3b874a1b5dd5",
+      "email": "johannes.steen@adresseavisen.no",
+      "phone": "98884485"
+    },
+    {
+      "fullname": "Håvard Haugseth Jensen (foto)",
+      "slug": "haavard-haugseth-jensen-foto",
+      "image": "c822b6bd-4f13-499a-89fb-51198549463e",
+      "email": "haavard.jensen@adresseavisen.no",
+      "phone": "90628308"
+    },
+    {
+      "fullname": "Pål E. Solberg",
+      "slug": "paal-solberg",
+      "image": "f7ad1065-6a53-3f4c-8bc8-3f75ac4b8397",
+      "email": "paal.solberg@adresseavisen.no",
+      "phone": "98620134"
+    }
+  ],
+  "tags": [
+    {
+      "id": "b4960a53-e203-43cf-8556-6daec6063a45",
+      "title": "Sterke Historier",
+      "type": "interest",
+      "slug": "sterke-historier"
+    },
+    {
+      "id": "344c8269-e3b9-4ff3-857d-8f2c580818e4",
+      "title": "Trondheim",
+      "type": "location",
+      "slug": "trondheim",
+      "metadata": [
+        {
+          "url": "https://no.wikipedia.org/wiki/Trondheim",
+          "type": "website"
+        },
+        {
+          "url": "https://www.trondheim.kommune.no/",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "id": "dd2fdaea-9c88-4137-83e1-2304e5270eb3",
+      "title": "Skansen",
+      "type": "location",
+      "slug": "skansen"
+    },
+    {
+      "id": "2e69a15f-8da1-43b8-bdb3-303490a3643e",
+      "title": "Dødsfall",
+      "type": "descriptor",
+      "slug": "doedsfall"
+    },
+    {
+      "id": "92facd1e-27b2-4a69-bdc1-b660a4243a41",
+      "title": "Etterforskning",
+      "type": "descriptor",
+      "slug": "etterforskning"
+    },
+    {
+      "id": "4f167d37-9928-402d-9862-f18d683e22e7",
+      "title": "Trøndelag politidistrikt",
+      "type": "organization",
+      "slug": "troendelag-politidistrikt"
+    }
+  ],
+  "presentationProperties": {
+    "introType": "scroll",
+    "navigation": "feature"
+  },
+  "promotionContent": {
+    "slug": "det-er-saa-mye-som-ikke-stemmer",
+    "context": {
+      "frontpage": [
+        {
+          "id": "ac9235da-f498-54a1-a719-152c56b34d62",
+          "weight": 100,
+          "title": {
+            "value": "Presten sto i stua da Marcus kom inn. Da husket han på meldinga han sendte"
+          },
+          "kicker": {
+            "value": ""
+          },
+          "imageAsset": {
+            "id": "50414031-c072-3ffc-b04f-52cdf2f7e154",
+            "size": {
+              "width": 5760,
+              "height": 8640
+            },
+            "hotspot": {
+              "x": 12,
+              "y": 1456,
+              "width": 5748,
+              "height": 4311
+            }
+          }
+        }
+      ]
+    }
+  },
+  "intro": {
+    "type": "FeatureIntro",
+    "title": "– Det er så mye som ikke stemmer",
+    "frontPageTitle": "Presten sto i stua da Marcus kom inn. Da husket han på meldinga han sendte",
+    "media": {
+      "components": [
+        {
+          "caption": {
+            "value": "Vannet beveger seg. Er det noen som har falt uti?"
+          },
+          "imageAsset": {
+            "id": "d02c3bd2-7ec5-3f16-913c-b8cd708090d9",
+            "size": {
+              "width": 558,
+              "height": 724
+            },
+            "hotspot": {
+              "x": 130,
+              "y": 190,
+              "width": 370,
+              "height": 278
+            }
+          },
+          "type": "image"
+        },
+        {
+          "caption": {
+            "value": "33 sekunder senere dukker en annen person opp."
+          },
+          "imageAsset": {
+            "id": "1f96897e-ace9-322e-b4e9-da22f86de5c6",
+            "size": {
+              "width": 745,
+              "height": 237
+            }
+          },
+          "type": "image"
+        },
+        {
+          "caption": {
+            "value": "Flere personer kommer og går. Ingen ble noensinne etterlyst."
+          },
+          "imageAsset": {
+            "id": "47bca193-a942-3a64-8f32-7802a73b5b2c",
+            "size": {
+              "width": 816,
+              "height": 280
+            }
+          },
+          "type": "image"
+        },
+        {
+          "byline": {
+            "title": "Håvard Haugseth Jensen"
+          },
+          "imageAsset": {
+            "id": "00e670cb-d119-3f48-a7a3-aa940e165187",
+            "size": {
+              "width": 5760,
+              "height": 8640
+            }
+          },
+          "type": "image"
+        }
+      ],
+      "characteristics": {
+        "intention": "vertical-fade"
+      },
+      "presentationProperties": {
+        "intention": "vertical-fade",
+        "figcaption": "addlayout"
+      },
+      "type": "fade"
+    },
+    "lead": "Hva skjedde med pappaen til Marcus? I to år har han lett etter svar.",
+    "promo": {
+      "caption": {
+        "value": "Vannet beveger seg. Er det noen som har falt uti?"
+      },
+      "imageAsset": {
+        "id": "d02c3bd2-7ec5-3f16-913c-b8cd708090d9",
+        "size": {
+          "width": 558,
+          "height": 724
+        },
+        "hotspot": {
+          "x": 130,
+          "y": 190,
+          "width": 370,
+          "height": 278
+        }
+      },
+      "type": "image"
+    },
+    "frontPageImage": {
+      "type": "image",
+      "imageAsset": {
+        "id": "50414031-c072-3ffc-b04f-52cdf2f7e154",
+        "size": {
+          "width": 5760,
+          "height": 8640
+        },
+        "hotspot": {
+          "x": 12,
+          "y": 1456,
+          "width": 5748,
+          "height": 4311
+        }
+      }
+    },
+    "subtype": "scroll"
+  },
+  "some": {
+    "title": "Presten sto i stua da Marcus kom inn. Da husket han på meldinga han sendte",
+    "description": "Hva skjedde med pappaen til Marcus? I to år har han lett etter svar.",
+    "image": {
+      "id": "50414031-c072-3ffc-b04f-52cdf2f7e154",
+      "size": {
+        "width": 5760,
+        "height": 8640
+      },
+      "hotspot": {
+        "x": 12,
+        "y": 1456,
+        "width": 5748,
+        "height": 4311
+      }
+    }
+  },
+  "seo": {
+    "title": "– Det er så mye som ikke stemmer",
+    "description": "Hva skjedde med pappaen til Marcus? I to år har han lett etter svar.",
+    "image": {
+      "id": "d02c3bd2-7ec5-3f16-913c-b8cd708090d9",
+      "size": {
+        "width": 558,
+        "height": 724
+      },
+      "hotspot": {
+        "x": 130,
+        "y": 190,
+        "width": 370,
+        "height": 278
+      }
+    }
+  },
+  "meta": {
+    "hasVideo": true
+  },
+  "components": [
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "En sko på brygga var det siste sporet Marius Raaken etterlot."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Ingen vet hvordan den havnet der eller hvorfor. "
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Det vi vet er at 10–20 meter unna, på to meters dyp, ble 48-åringen fra Trondheim funnet død på Skansen neste ettermiddag."
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "Sønnen Marcus Raaken vokste opp med farens båt og tok seg av den det første året etter dødsfallet. Det har blitt mange timer på Skansen. 25-åringen har tørket seil, pusset og tenkt på pappa."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Grublet over hva som kan ha skjedd den septembernatta for to år siden."
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "imageAsset": {
+        "id": "71bbb6b6-e71b-3cbb-a749-0e648950e936",
+        "size": {
+          "width": 5760,
+          "height": 8640
+        }
+      },
+      "type": "image"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "Båtene i den stille småbåthavna knirker i fortøyningene. Fra mastene kommer en hul, metallisk klang."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "– Det er tungt og trist å være der det skjedde. Samtidig er det litt godt å være på en plass pappa likte."
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "imageAsset": {
+        "id": "2bc725e6-25f1-32b1-a129-0ae65b4a53e6",
+        "size": {
+          "width": 446,
+          "height": 550
+        }
+      },
+      "presentationProperties": {
+        "overlapp": "front",
+        "addLayout": "overlapp"
+      },
+      "type": "image"
+    },
+    {
+      "imageAsset": {
+        "id": "8b2daef9-9ed6-35c7-8d44-c2cef4a76add",
+        "size": {
+          "width": 449,
+          "height": 548
+        }
+      },
+      "presentationProperties": {
+        "addLayout": "overlapp"
+      },
+      "type": "image"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "Marcus tar et steg opp på kanten av muren. Muren danner en smal glippe i vannet til den vesle brygga til Redningsselskapet rett nedenfor. "
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "– De mente pappa hadde falt ned her. På et eller annet vis."
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "loopingVideo",
+      "changes": {
+        "created": "2026-10-07T09:28:34Z",
+        "updated": "2026-10-07T09:29:14Z",
+        "firstPublished": "2026-10-07T09:29:14Z",
+        "published": "2026-10-07T09:29:14Z"
+      },
+      "videoAsset": {
+        "duration": 11042,
+        "flightTimes": {
+          "start": 1791365354
+        },
+        "id": "3025315",
+        "metadata": {
+          "aspectRatio": "0.56",
+          "preview": "https://dd-polaris.akamaized.net/adressa/vod/2026/10/lgayccw52rn0o485a68gm/meta_preview.mp4",
+          "preview_360p": "https://dd-polaris.akamaized.net/adressa/vod/2026/10/lgayccw52rn0o485a68gm/meta_preview_360p.mp4",
+          "preview_hq": "https://dd-polaris.akamaized.net/adressa/vod/2026/10/lgayccw52rn0o485a68gm/meta_1080_6000_preview_hq.mp4"
+        },
+        "section": {
+          "id": "27",
+          "title": "Kun til CNP",
+          "shortPath": "kun-til-cnp"
+        },
+        "showDisplays": true,
+        "showAds": true,
+        "sourceFiles": [
+          {
+            "width": 1080,
+            "height": 1920,
+            "bitrate": 6400,
+            "sourceFile": "/adressa/vod/2026/10/lgayccw52rn0o485a68gm/ps_1080_1920_6400.mp4"
+          }
+        ],
+        "streamType": "vod",
+        "assetType": "video",
+        "streamUrls": {
+          "hls": "https://amd-polaris.akamaized.net/adressa/vod/2026/10/lgayccw52rn0o485a68gm/,152_270_467,202_360_551,304_540_1046,406_720_1838,608_1080_3772,/master.m3u8",
+          "mp4": "https://dd-polaris.akamaized.net/adressa/vod/2026/10/lgayccw52rn0o485a68gm/ps_1080_1920_6400.mp4",
+          "pseudostreaming": [
+            "https://dd-polaris.akamaized.net/adressa/vod/2026/10/lgayccw52rn0o485a68gm/ps_1080_1920_6400.mp4"
+          ]
+        },
+        "title": "Raaken ved muren"
+      },
+      "imageAsset": {
+        "id": "9ac8d3a8e436727bbaa61d43f8d93353@tv",
+        "main": "https://images.stream.schibsted.media/users/adressa/images/9ac8d3a8e436727bbaa61d43f8d93353.jpg",
+        "snapshots": "https://images.stream.schibsted.media/users/adressa/images/4125832924462d128d8cb8527640470d.jpg"
+      },
+      "characteristics": {},
+      "provider": {
+        "service": "svp",
+        "id": "adressa"
+      },
+      "presentationProperties": {
+        "intention": "looping"
+      }
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "Oppå muren er ei gul stålbøyle som politiet mener faren kan ha snublet i."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "– Skoen ble funnet her en plass. Den var helt tørr, sier Marcus og peker ned på brygga."
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "imageAsset": {
+        "id": "68632671-2d3f-327c-8fda-dcbc765841d3",
+        "size": {
+          "width": 8640,
+          "height": 5760
+        }
+      },
+      "type": "image"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "Marius ble meldt savnet dagen etter en kveld ute på Solsiden og ble funnet død kort tid etterpå."
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "video",
+      "changes": {
+        "created": "2026-10-09T07:07:43Z",
+        "updated": "2026-10-09T09:29:58Z",
+        "firstPublished": "2026-10-09T09:29:58Z",
+        "published": "2026-10-09T09:29:58Z"
+      },
+      "videoAsset": {
+        "duration": 1093829,
+        "flightTimes": {
+          "start": 1791538199
+        },
+        "id": "3025326",
+        "metadata": {
+          "distributeAfter": "1791529665",
+          "isPodcast": "true",
+          "newsLifetime": "2",
+          "newsValue": "3",
+          "podcast_media": "https://dd-polaris.akamaized.net/adressa/vod/2026/10/w77v6ur0jiszb7v20hdxd/podcast_128.mp3"
+        },
+        "section": {
+          "id": "600209",
+          "title": "Adressa Fortalt",
+          "shortPath": "adressa-fortalt",
+          "metadata": {
+            "order": "0",
+            "podcast_author": "Adresseavisen",
+            "podcast_category": "News",
+            "podcast_language": "Norwegian",
+            "podcast_type": "serial"
+          },
+          "parent": {
+            "id": "600164",
+            "title": "Podkast",
+            "shortPath": "podkast",
+            "metadata": {
+              "theme": "podcast",
+              "view": "movieGrid"
+            },
+            "parent": {
+              "id": "600129",
+              "title": "Adresseavisen Play",
+              "shortPath": "adresseavisen-play",
+              "metadata": {
+                "discoverCategory": "07627dac-cf4e-4f6e-abbe-7665068634cc",
+                "custom_field_Publisheddate": "{\"type\": \"date\", \"label\":\"Release date\", \"group\": \"Ekstra metadata\"}",
+                "custom_field_articleLinkText": "{\n\"type\": \"text\", \"label\": \"Article link text\", \"group\": \"Ekstra metadata\", \"helper\": \"Text shown on the article link, if provided\" } "
+              }
+            }
+          }
+        },
+        "showDisplays": true,
+        "showAds": true,
+        "streamType": "vod",
+        "assetType": "audio",
+        "streamUrls": {
+          "hls": "https://amd-polaris.akamaized.net/adressa/vod/2026/10/w77v6ur0jiszb7v20hdxd/,audio_128_pkg,/master.m3u8",
+          "mp4": "https://dd-polaris.akamaized.net/adressa/vod/2026/10/w77v6ur0jiszb7v20hdxd/podcast_128.mp3",
+          "pseudostreaming": [
+            "https://dd-polaris.akamaized.net/adressa/vod/2026/10/w77v6ur0jiszb7v20hdxd/podcast_128.mp3"
+          ]
+        },
+        "title": "Hva skjedde med pappaen til Marcus?",
+        "tags": [
+          {
+            "id": "344c8269-e3b9-4ff3-857d-8f2c580818e4",
+            "title": "Trondheim",
+            "type": "location",
+            "slug": "trondheim",
+            "enabled": true,
+            "metadata": [
+              {
+                "url": "https://no.wikipedia.org/wiki/Trondheim",
+                "type": "website"
+              },
+              {
+                "url": "https://www.trondheim.kommune.no/",
+                "type": "website"
+              }
+            ]
+          },
+          {
+            "id": "5d0bc7a1-7b5c-42d0-872b-f7c9c5bc2b20",
+            "title": "Podkast",
+            "type": "descriptor",
+            "slug": "podkast",
+            "enabled": true,
+            "metadata": [
+              {
+                "url": "https://podtoppen.no/",
+                "type": "website"
+              },
+              {
+                "url": "https://snl.no/podkast",
+                "type": "website"
+              }
+            ]
+          },
+          {
+            "id": "2e69a15f-8da1-43b8-bdb3-303490a3643e",
+            "title": "Dødsfall",
+            "type": "descriptor",
+            "slug": "doedsfall",
+            "enabled": true
+          },
+          {
+            "id": "4f167d37-9928-402d-9862-f18d683e22e7",
+            "title": "Trøndelag politidistrikt",
+            "type": "organization",
+            "slug": "troendelag-politidistrikt",
+            "enabled": true
+          },
+          {
+            "id": "dd2fdaea-9c88-4137-83e1-2304e5270eb3",
+            "title": "Skansen",
+            "type": "location",
+            "slug": "skansen",
+            "enabled": true
+          },
+          {
+            "id": "b4960a53-e203-43cf-8556-6daec6063a45",
+            "title": "Sterke Historier",
+            "type": "interest",
+            "slug": "sterke-historier",
+            "enabled": true
+          },
+          {
+            "id": "6574cbbf-61f6-4efa-b246-be011864fdb4",
+            "title": "Adressa fortalt",
+            "type": "descriptor",
+            "slug": "adressa-fortalt",
+            "enabled": true
+          },
+          {
+            "id": "f484e2dc-b412-4240-8bee-deb52f145325",
+            "title": "Etterforsking",
+            "type": "event",
+            "slug": "etterforsking",
+            "enabled": true
+          }
+        ]
+      },
+      "title": {
+        "value": "Hva skjedde med pappaen til Marcus?"
+      },
+      "description": {
+        "value": "Marius Raaken døde etter en tur på byen i Trondheim. Sønnen Marcus leter etter svar."
+      },
+      "imageAsset": {
+        "id": "0d61ff44e4c52142ebb954e7577b3cfe@tv",
+        "main": "https://images.stream.schibsted.media/users/adressa/images/0d61ff44e4c52142ebb954e7577b3cfe.jpg",
+        "front": "https://images.stream.schibsted.media/users/adressa/images/acaf98ef40180e631e6e0755989b82f3.jpg",
+        "featured": "https://images.stream.schibsted.media/users/adressa/images/acaf98ef40180e631e6e0755989b82f3.jpg"
+      },
+      "characteristics": {},
+      "provider": {
+        "service": "svp",
+        "id": "adressa"
+      }
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "Dødsfallet ble ansett som en ulykke, men ingen kan med sikkerhet si hva som egentlig hendte."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "– Det er så mye som ikke stemmer, som jeg ikke klarer å få til å gå opp i hodet mitt, sier Marcus."
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "imageAsset": {
+        "id": "ca91e8e0-8987-3527-9fce-eaa85ac47128",
+        "size": {
+          "width": 900,
+          "height": 1246
+        }
+      },
+      "presentationProperties": {
+        "addLayout": "privat"
+      },
+      "type": "image"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "Nå har Adresseavisen fått innsyn i etterforskningsmaterialet som politiet først ikke ville dele. "
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "De mente det ikke hadde betydelig offentlig interesse. Etter en klage bestemte statsadvokaten at det skulle gis ut likevel."
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "Materialet viser at sentrale vitner ble avhørt først måneder etterpå, mens et kameraopptak ble slettet før noen rakk å sikre det."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Ukjente personer på kaia aldri ble etterlyst."
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "En usedvanlig bra kveld"
+          },
+          "blockType": "heading"
+        },
+        {
+          "text": {
+            "value": "Denne lørdagskvelden, 7. september, hadde Marius, samboeren og fire andre samlet seg på Solsiden. "
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Det var sjeldent bra septembervær. En av de pulserende lørdagskveldene der uteserveringene fylles av folk."
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "byline": {
+        "title": "Christine Schefte"
+      },
+      "imageAsset": {
+        "id": "7977ce66-f289-394a-999a-f112332f33fb",
+        "size": {
+          "width": 5400,
+          "height": 3600
+        }
+      },
+      "type": "image"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "Det følgende hendelsesforløpet er basert på hva andre rundt bordet har forklart til politiet."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Marius kom senere enn resten etter å ha vasket seilbåten på Skansen. Rundt syvtiden tok han en gummibåt, kjørte langs fjorden og bort til Solsiden der han fortøyde båten på gjestekaia."
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "imageAsset": {
+        "id": "d4a15dfa-f8d8-3a5e-a6b6-6120c35b4e8a",
+        "size": {
+          "width": 5440,
+          "height": 8160
+        }
+      },
+      "presentationProperties": {
+        "overlapp": "front",
+        "addLayout": "overlapp"
+      },
+      "type": "image"
+    },
+    {
+      "byline": {
+        "title": "Politiet"
+      },
+      "imageAsset": {
+        "id": "a9c4000d-a103-3118-b697-d8729fe383fc",
+        "size": {
+          "width": 664,
+          "height": 888
+        }
+      },
+      "presentationProperties": {
+        "addLayout": "overlapp"
+      },
+      "type": "image"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "Gjengen flirte av at Marius kom med gummibåt og tøysa med at han skulle kjøre taxi. «En usedvanlig bra kveld» var i gang."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "De drakk en god del. Shots og øl kom i flere runder."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "– Han bydde på seg selv og kjørte et «artig show». Det virket som han var i storform, leser man i ett av avhørene."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Så skjedde noe uventet. Marius kastet opp ved bordet. Andre ved bordet reagerte, for Marius hadde bare vært der i noen få timer. "
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Her spriker forklaringene. Samboeren mente han var veldig full. Andre oppfattet ham ikke sånn."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Uansett forlot paret snart Heidis. Det er siste gang noen kan huske å ha sett Marius."
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "integration",
+      "url": "https://enrichment.api.plan3.se/proxy/content/v3/publication/adresseavisen/multimedias/758036e1-3dd4-45eb-9797-19227cfa934e/Scrollekort%20med%20bilder",
+      "body": "<meta charset=\"UTF-8\">\r\n\r\n<!--\r\n  Nattetidslinje | 2026-10-09 | v3.13A\r\n  Selvforsynt MM-tool-widget. Ingen eksterne avhengigheter.\r\n-->\r\n\r\n<div id=\"pm-widget-nattkort-scrollsnap-v313\">\r\n  <p class=\"pm-instruction\" id=\"pm-v313-instruction\">\r\n    Bla for å lese om det vi vet<br>\r\n    fra natten Marius forsvant\r\n  </p>\r\n\r\n  <div class=\"pm-frame\">\r\n    <div class=\"pm-progress-box\">\r\n      <span class=\"pm-progress-label\" aria-live=\"polite\" aria-atomic=\"true\">\r\n        1 av 10\r\n      </span>\r\n\r\n      <div\r\n        class=\"pm-progress-track\"\r\n        role=\"progressbar\"\r\n        aria-label=\"Fremdrift i tidslinjen\"\r\n        aria-valuemin=\"1\"\r\n        aria-valuemax=\"10\"\r\n        aria-valuenow=\"1\"\r\n        aria-valuetext=\"Kort 1 av 10\"\r\n      >\r\n        <span class=\"pm-progress-fill\"></span>\r\n      </div>\r\n    </div>\r\n\r\n    <div class=\"pm-scroll-wrap\">\r\n      <div\r\n        class=\"pm-scroll\"\r\n        tabindex=\"0\"\r\n        role=\"region\"\r\n        aria-label=\"Tidslinje fra natten Marius forsvant\"\r\n        aria-describedby=\"pm-v313-instruction\"\r\n      ></div>\r\n\r\n      <div class=\"pm-swipe-hint\" aria-hidden=\"true\">\r\n        <div class=\"pm-hand-motion\">\r\n          <svg\r\n            class=\"pm-hand-icon\"\r\n            viewBox=\"0 0 76 92\"\r\n            focusable=\"false\"\r\n            aria-hidden=\"true\"\r\n          >\r\n            <path d=\"\r\n              M35 7\r\n              C30 7 27 11 27 16\r\n              L27 42\r\n              L21 36\r\n              C17 32 11 32 8 36\r\n              C5 40 6 45 9 49\r\n              L23 67\r\n              C28 73 34 77 43 77\r\n              L47 77\r\n              C59 77 66 69 66 57\r\n              L66 37\r\n              C66 33 63 30 59 30\r\n              C56 30 54 32 53 35\r\n              L53 31\r\n              C53 27 50 24 46 24\r\n              C43 24 40 26 39 30\r\n              L39 16\r\n              C39 11 40 7 35 7\r\n              Z\r\n            \"></path>\r\n          </svg>\r\n        </div>\r\n\r\n        <span class=\"pm-hint-label\">Sveip opp</span>\r\n      </div>\r\n    </div>\r\n\r\n    <div class=\"pm-controls\" aria-label=\"Navigasjon i tidslinjen\">\r\n      <button type=\"button\" class=\"pm-control pm-back\" disabled>\r\n        Forrige\r\n      </button>\r\n\r\n      <button type=\"button\" class=\"pm-control pm-next\">\r\n        Neste\r\n      </button>\r\n    </div>\r\n  </div>\r\n</div>\r\n\r\n<style>\r\n  #pm-widget-nattkort-scrollsnap-v313 {\r\n    width: 100%;\r\n    max-width: var(--content-width, 680px);\r\n    box-sizing: border-box;\r\n    color: var(--color-text, #1b1b1b);\r\n    line-height: var(--line-height, 1.5);\r\n  }\r\n\r\n  #pm-widget-nattkort-scrollsnap-v313 *,\r\n  #pm-widget-nattkort-scrollsnap-v313 *::before,\r\n  #pm-widget-nattkort-scrollsnap-v313 *::after {\r\n    box-sizing: border-box;\r\n  }\r\n\r\n  #pm-widget-nattkort-scrollsnap-v313,\r\n  #pm-widget-nattkort-scrollsnap-v313 * {\r\n    font-family:\r\n      var(\r\n        --font-system,\r\n        system-ui,\r\n        -apple-system,\r\n        BlinkMacSystemFont,\r\n        \"Segoe UI\",\r\n        sans-serif\r\n      ) !important;\r\n  }\r\n\r\n  #pm-widget-nattkort-scrollsnap-v313 .pm-instruction {\r\n    margin: 0 0 14px;\r\n    color: var(--color-text, #1b1b1b);\r\n    font-size: clamp(19px, 3.2vw, 22px);\r\n    font-weight: 600;\r\n    line-height: 1.35;\r\n  }\r\n\r\n  #pm-widget-nattkort-scrollsnap-v313 .pm-frame {\r\n    width: 100%;\r\n    padding: 12px;\r\n    border: 1px solid rgba(255, 255, 255, 0.10);\r\n    border-radius: 16px;\r\n    background: #151617;\r\n    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.14);\r\n  }\r\n\r\n  #pm-widget-nattkort-scrollsnap-v313 .pm-progress-box {\r\n    display: grid;\r\n    grid-template-columns: auto minmax(80px, 1fr);\r\n    align-items: center;\r\n    gap: 12px;\r\n    width: 100%;\r\n    padding: 2px 2px 10px;\r\n  }\r\n\r\n  #pm-widget-nattkort-scrollsnap-v313 .pm-progress-label {\r\n    color: #ff666b;\r\n    font-size: 12px;\r\n    font-weight: 800;\r\n    line-height: 1.2;\r\n    letter-spacing: 0.08em;\r\n    text-transform: uppercase;\r\n    white-space: nowrap;\r\n  }\r\n\r\n  #pm-widget-nattkort-scrollsnap-v313 .pm-progress-track {\r\n    position: relative;\r\n    width: 100%;\r\n    height: 3px;\r\n    overflow: hidden;\r\n    border-radius: 999px;\r\n    background: rgba(255, 255, 255, 0.16);\r\n  }\r\n\r\n  #pm-widget-nattkort-scrollsnap-v313 .pm-progress-fill {\r\n    position: absolute;\r\n    inset: 0 auto 0 0;\r\n    width: 10%;\r\n    height: 100%;\r\n    border-radius: 999px;\r\n    background: #d71920;\r\n    transition: width 260ms cubic-bezier(0.22, 0.82, 0.26, 1);\r\n  }\r\n\r\n  #pm-widget-nattkort-scrollsnap-v313 .pm-scroll-wrap {\r\n    position: relative;\r\n    width: 100%;\r\n  }\r\n\r\n  #pm-widget-nattkort-scrollsnap-v313 .pm-scroll {\r\n    position: relative;\r\n    display: flex;\r\n    flex-direction: column;\r\n    width: 100%;\r\n    height: clamp(500px, 92vw, 640px);\r\n    overflow-x: hidden;\r\n    overflow-y: hidden;\r\n    scroll-snap-type: y mandatory;\r\n    overscroll-behavior-x: contain;\r\n    overscroll-behavior-y: auto;\r\n    touch-action: pan-y;\r\n    -webkit-overflow-scrolling: touch;\r\n    scrollbar-width: thin;\r\n    scrollbar-color: #d71920 rgba(255, 255, 255, 0.10);\r\n    border-radius: 10px;\r\n  }\r\n\r\n  #pm-widget-nattkort-scrollsnap-v313.pm-scroll-ready .pm-scroll {\r\n    overflow-y: auto;\r\n  }\r\n\r\n  #pm-widget-nattkort-scrollsnap-v313 .pm-scroll:focus-visible {\r\n    outline: 3px solid #ff4046;\r\n    outline-offset: 3px;\r\n  }\r\n\r\n  #pm-widget-nattkort-scrollsnap-v313 .pm-card {\r\n    position: relative;\r\n    flex: 0 0 100%;\r\n    width: 100%;\r\n    height: 100%;\r\n    overflow: hidden;\r\n    scroll-snap-align: start;\r\n    scroll-snap-stop: always;\r\n    border: 1px solid rgba(255, 255, 255, 0.14);\r\n    border-radius: 10px;\r\n    isolation: isolate;\r\n  }\r\n\r\n  #pm-widget-nattkort-scrollsnap-v313 .pm-card-visual {\r\n    position: absolute;\r\n    inset: 0;\r\n    overflow: hidden;\r\n    border-radius: inherit;\r\n    background: #000000;\r\n  }\r\n\r\n  #pm-widget-nattkort-scrollsnap-v313.pm-hint-active\r\n    .pm-card:first-child\r\n    .pm-card-visual {\r\n    animation:\r\n      pm-v313-card-nudge\r\n      4s\r\n      cubic-bezier(0.25, 0.6, 0.3, 1)\r\n      infinite;\r\n  }\r\n\r\n  #pm-widget-nattkort-scrollsnap-v313 .pm-card-image {\r\n    position: absolute;\r\n    inset: 0;\r\n    z-index: 0;\r\n    display: block;\r\n    width: 100% !important;\r\n    height: 100% !important;\r\n    max-width: none !important;\r\n    max-height: none !important;\r\n    margin: 0 !important;\r\n    object-fit: cover;\r\n    object-position: center center;\r\n    border: 0;\r\n  }\r\n\r\n  #pm-widget-nattkort-scrollsnap-v313 .pm-card-shade {\r\n    position: absolute;\r\n    inset: 0;\r\n    z-index: 1;\r\n    pointer-events: none;\r\n    background:\r\n      linear-gradient(\r\n        to bottom,\r\n        rgba(0, 0, 0, 0.02) 0%,\r\n        rgba(0, 0, 0, 0.04) 38%,\r\n        rgba(0, 0, 0, 0.55) 68%,\r\n        rgba(0, 0, 0, 0.94) 100%\r\n      );\r\n  }\r\n\r\n  #pm-widget-nattkort-scrollsnap-v313 .pm-photo-credit {\r\n    position: absolute;\r\n    z-index: 3;\r\n    top: 12px;\r\n    right: 12px;\r\n    max-width: calc(100% - 24px);\r\n    padding: 5px 7px;\r\n    border: 1px solid rgba(255, 255, 255, 0.16);\r\n    border-radius: 6px;\r\n    background: rgba(0, 0, 0, 0.52);\r\n    color: rgba(255, 255, 255, 0.90);\r\n    font-size: 11px;\r\n    font-weight: 500;\r\n    line-height: 1.2;\r\n    letter-spacing: 0.01em;\r\n    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.7);\r\n  }\r\n\r\n  #pm-widget-nattkort-scrollsnap-v313 .pm-card-copy {\r\n    position: absolute;\r\n    z-index: 2;\r\n    right: 0;\r\n    bottom: 0;\r\n    left: 0;\r\n    padding: 24px;\r\n  }\r\n\r\n  #pm-widget-nattkort-scrollsnap-v313 .pm-card-text {\r\n    margin: 0;\r\n    color: #ffffff;\r\n    font-size:\r\n      max(\r\n        var(--font-size-body, 17px),\r\n        clamp(20px, 3.5vw, 23px)\r\n      );\r\n    font-weight: 500;\r\n    line-height: 1.36;\r\n    text-wrap: pretty;\r\n    text-shadow:\r\n      0 1px 2px rgba(0, 0, 0, 0.78),\r\n      0 2px 6px rgba(0, 0, 0, 0.44);\r\n  }\r\n\r\n  #pm-widget-nattkort-scrollsnap-v313 .pm-time {\r\n    color: #d71920;\r\n    font-weight: 800;\r\n    font-variant-numeric: tabular-nums;\r\n    white-space: nowrap;\r\n  }\r\n\r\n  #pm-widget-nattkort-scrollsnap-v313 .pm-time::before {\r\n    content: \"kl. \";\r\n    color: #ff666b;\r\n    font-size: 0.72em;\r\n    font-weight: 700;\r\n    letter-spacing: 0.01em;\r\n  }\r\n\r\n  #pm-widget-nattkort-scrollsnap-v313 .pm-red-lead {\r\n    color: #d71920;\r\n    font-weight: 800;\r\n  }\r\n\r\n  #pm-widget-nattkort-scrollsnap-v313\r\n    .pm-card.pm-accent-update\r\n    .pm-time,\r\n  #pm-widget-nattkort-scrollsnap-v313\r\n    .pm-card.pm-accent-update\r\n    .pm-red-lead {\r\n    animation: pm-v313-accent 560ms ease-out;\r\n  }\r\n\r\n  #pm-widget-nattkort-scrollsnap-v313 .pm-swipe-hint {\r\n    position: absolute;\r\n    z-index: 50;\r\n    left: 50%;\r\n    top: 33%;\r\n    display: flex;\r\n    flex-direction: column;\r\n    align-items: center;\r\n    gap: 8px;\r\n    transform: translate(-50%, -50%);\r\n    pointer-events: none;\r\n    opacity: 0;\r\n    visibility: hidden;\r\n    transition:\r\n      opacity 300ms ease,\r\n      visibility 300ms ease;\r\n  }\r\n\r\n  #pm-widget-nattkort-scrollsnap-v313.pm-scroll-ready.pm-hint-active\r\n    .pm-swipe-hint {\r\n    opacity: 1;\r\n    visibility: visible;\r\n  }\r\n\r\n  #pm-widget-nattkort-scrollsnap-v313 .pm-swipe-hint.is-hidden {\r\n    opacity: 0;\r\n    visibility: hidden;\r\n  }\r\n\r\n  #pm-widget-nattkort-scrollsnap-v313 .pm-hand-motion {\r\n    width: 54px;\r\n    height: 82px;\r\n    animation:\r\n      pm-v313-swipe-up\r\n      4s\r\n      cubic-bezier(0.25, 0.6, 0.3, 1)\r\n      infinite;\r\n  }\r\n\r\n  #pm-widget-nattkort-scrollsnap-v313 .pm-hand-icon {\r\n    display: block;\r\n    width: 54px;\r\n    height: 72px;\r\n    overflow: visible;\r\n    filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.46));\r\n  }\r\n\r\n  #pm-widget-nattkort-scrollsnap-v313 .pm-hand-icon path {\r\n    fill: rgba(255, 255, 255, 0.90);\r\n    stroke: rgba(32, 33, 36, 0.75);\r\n    stroke-width: 1.5;\r\n    stroke-linejoin: round;\r\n    stroke-linecap: round;\r\n  }\r\n\r\n  #pm-widget-nattkort-scrollsnap-v313 .pm-hint-label {\r\n    padding: 6px 9px;\r\n    border: 1px solid rgba(255, 255, 255, 0.20);\r\n    border-radius: 10px;\r\n    background: rgba(32, 33, 36, 0.88);\r\n    color: #ffffff;\r\n    font-size: 12px;\r\n    font-weight: 800;\r\n    line-height: 1.2;\r\n    letter-spacing: 0.08em;\r\n    text-transform: uppercase;\r\n    white-space: nowrap;\r\n  }\r\n\r\n  #pm-widget-nattkort-scrollsnap-v313 .pm-controls {\r\n    display: grid;\r\n    grid-template-columns: 1fr 1fr;\r\n    gap: 10px;\r\n    margin-top: 12px;\r\n  }\r\n\r\n  #pm-widget-nattkort-scrollsnap-v313 .pm-control {\r\n    width: 100%;\r\n    min-height: 46px;\r\n    padding: 10px 16px;\r\n    border: 1px solid rgba(255, 255, 255, 0.18);\r\n    border-radius: 10px;\r\n    background: #202124;\r\n    color: #ffffff;\r\n    font-size: var(--font-size-small, 15px);\r\n    font-weight: 600;\r\n    line-height: var(--line-height, 1.5);\r\n    appearance: none;\r\n    -webkit-appearance: none;\r\n    cursor: pointer;\r\n    transition:\r\n      border-color 140ms ease,\r\n      background 140ms ease,\r\n      opacity 140ms ease;\r\n  }\r\n\r\n  #pm-widget-nattkort-scrollsnap-v313\r\n    .pm-control:hover:not(:disabled) {\r\n    border-color: rgba(255, 255, 255, 0.38);\r\n    background: #292a2d;\r\n  }\r\n\r\n  #pm-widget-nattkort-scrollsnap-v313 .pm-control:focus-visible {\r\n    outline: 3px solid #ff4046;\r\n    outline-offset: 2px;\r\n  }\r\n\r\n  #pm-widget-nattkort-scrollsnap-v313 .pm-control:disabled {\r\n    opacity: 0.38;\r\n    cursor: default;\r\n  }\r\n\r\n  @keyframes pm-v313-card-nudge {\r\n    0%,\r\n    27%,\r\n    72%,\r\n    100% {\r\n      transform: translate3d(0, 0, 0);\r\n    }\r\n\r\n    55% {\r\n      transform: translate3d(0, -3px, 0);\r\n    }\r\n  }\r\n\r\n  @keyframes pm-v313-swipe-up {\r\n    0%,\r\n    20% {\r\n      transform: translateY(14px);\r\n      opacity: 0;\r\n    }\r\n\r\n    28% {\r\n      transform: translateY(14px);\r\n      opacity: 0.86;\r\n    }\r\n\r\n    57% {\r\n      transform: translateY(-18px);\r\n      opacity: 0.86;\r\n    }\r\n\r\n    69%,\r\n    100% {\r\n      transform: translateY(-18px);\r\n      opacity: 0;\r\n    }\r\n  }\r\n\r\n  @keyframes pm-v313-accent {\r\n    0%,\r\n    100% {\r\n      color: #d71920;\r\n    }\r\n\r\n    35% {\r\n      color: #ff4046;\r\n    }\r\n  }\r\n\r\n  @media (hover: hover) and (pointer: fine) {\r\n    #pm-widget-nattkort-scrollsnap-v313 .pm-scroll {\r\n      scrollbar-gutter: stable;\r\n    }\r\n\r\n    #pm-widget-nattkort-scrollsnap-v313\r\n      .pm-scroll::-webkit-scrollbar {\r\n      width: 7px;\r\n    }\r\n\r\n    #pm-widget-nattkort-scrollsnap-v313\r\n      .pm-scroll::-webkit-scrollbar-track {\r\n      background: rgba(255, 255, 255, 0.06);\r\n    }\r\n\r\n    #pm-widget-nattkort-scrollsnap-v313\r\n      .pm-scroll::-webkit-scrollbar-thumb {\r\n      border-radius: 999px;\r\n      background: rgba(215, 25, 32, 0.78);\r\n    }\r\n  }\r\n\r\n  @media (max-width: 480px) {\r\n    #pm-widget-nattkort-scrollsnap-v313 .pm-instruction {\r\n      font-size: 18px;\r\n      line-height: 1.38;\r\n    }\r\n\r\n    #pm-widget-nattkort-scrollsnap-v313 .pm-frame {\r\n      padding: 10px;\r\n    }\r\n\r\n    #pm-widget-nattkort-scrollsnap-v313 .pm-progress-box {\r\n      padding-bottom: 9px;\r\n    }\r\n\r\n    #pm-widget-nattkort-scrollsnap-v313 .pm-scroll {\r\n      height: 500px;\r\n    }\r\n\r\n    #pm-widget-nattkort-scrollsnap-v313 .pm-card-copy {\r\n      padding: 20px;\r\n    }\r\n\r\n    #pm-widget-nattkort-scrollsnap-v313 .pm-card-text {\r\n      font-size:\r\n        max(\r\n          var(--font-size-body, 17px),\r\n          clamp(18px, 4.8vw, 21px)\r\n        );\r\n    }\r\n\r\n    #pm-widget-nattkort-scrollsnap-v313 .pm-photo-credit {\r\n      top: 10px;\r\n      right: 10px;\r\n      max-width: calc(100% - 20px);\r\n      font-size: 10px;\r\n    }\r\n\r\n    #pm-widget-nattkort-scrollsnap-v313 .pm-control {\r\n      padding: 9px 12px;\r\n      font-size: 14px;\r\n    }\r\n  }\r\n\r\n  @media (prefers-reduced-motion: reduce) {\r\n    #pm-widget-nattkort-scrollsnap-v313 .pm-progress-fill,\r\n    #pm-widget-nattkort-scrollsnap-v313 .pm-control,\r\n    #pm-widget-nattkort-scrollsnap-v313 .pm-swipe-hint {\r\n      transition: none;\r\n    }\r\n\r\n    #pm-widget-nattkort-scrollsnap-v313 .pm-hand-motion,\r\n    #pm-widget-nattkort-scrollsnap-v313.pm-hint-active\r\n      .pm-card:first-child\r\n      .pm-card-visual,\r\n    #pm-widget-nattkort-scrollsnap-v313\r\n      .pm-card.pm-accent-update\r\n      .pm-time,\r\n    #pm-widget-nattkort-scrollsnap-v313\r\n      .pm-card.pm-accent-update\r\n      .pm-red-lead {\r\n      animation: none;\r\n    }\r\n  }\r\n</style>\r\n\r\n<script>\r\n(function () {\r\n  const root = document.getElementById(\r\n    \"pm-widget-nattkort-scrollsnap-v313\"\r\n  );\r\n\r\n  if (!root || root.dataset.initialized === \"true\") return;\r\n  root.dataset.initialized = \"true\";\r\n\r\n  const SCROLL_READY_RATIO = 0.78;\r\n  const SCROLL_READY_DELAY = 220;\r\n\r\n  const CARDS = [\r\n    {\r\n      image: null,\r\n      text:\r\n        \"22.54 betalte samboeren 421 kroner for en taxitur fra Solsiden til Skansen. Fordi hun var full, husker ikke samboeren om han var med.\"\r\n    },\r\n    {\r\n      image:\r\n        \"https://spesial.adressa.no/grafikk/CNP_bilder/skansenbilder/trappheidis.png\",\r\n      photoCredit: \"Foto: Christine Schefte\",\r\n      lead: \"Fra avhøret:\",\r\n      text:\r\n        \"«Det eneste hun husker fra de dro, er trappen ned fra Heidis. Etter det blir det dessverre svart».\"\r\n    },\r\n    {\r\n      image:\r\n        \"https://spesial.adressa.no/grafikk/CNP_bilder/skansenbilder/Skjermbilde_2026-10-07-121430.png\",\r\n      imagePosition: \"0% 15%\",\r\n      text:\r\n        \"22.59: Redningsselskapets kamera på Skansen viste to mørkkledde personer som gikk øst–vest og ut av kameravinkelen.\"\r\n    },\r\n    {\r\n      image:\r\n        \"https://spesial.adressa.no/grafikk/CNP_bilder/skansenbilder/Skjermbilde_2026-10-07_121645.png\",\r\n      text:\r\n        \"23.00 dukket samboeren opp på kameraet i båten til Marius. Hun hilste på hunden og sovnet på sofaen med klærne på.\"\r\n    },\r\n    {\r\n      image:\r\n        \"https://spesial.adressa.no/grafikk/CNP_bilder/skansenbilder/Skjermbilde_2026-10-07_121530.png\",\r\n      text:\r\n        \"23.06–23.27: Tre enkeltpersoner gikk forbi. En av dem stanset og så ut til å lese et skilt. To mørke biler passerte.\"\r\n    },\r\n    {\r\n      image: null,\r\n      text:\r\n        \"Samme minutt som bilen over passerte, mistet Marius' telefon forbindelsen til mobilnettet.\"\r\n    },\r\n    {\r\n      image:\r\n        \"https://spesial.adressa.no/grafikk/CNP_bilder/skansenbilder/Skjermbilde_2026-10-07_122117.png\",\r\n      text:\r\n        \"23.28: Kameraet registrerte bevegelse i vannet. En båt drev sakte bakover.\"\r\n    },\r\n    {\r\n      image:\r\n        \"https://spesial.adressa.no/grafikk/CNP_bilder/skansenbilder/Skjermbilde_2026-10-07_122220.png\",\r\n      imagePosition: \"0% 15%\",\r\n      text:\r\n        \"33 sekunder senere passerte en person med hund fra øst mot vest. Vedkommende hadde mørk underdel med noe lyst under.\"\r\n    },\r\n    {\r\n      image:\r\n        \"https://spesial.adressa.no/grafikk/CNP_bilder/skansenbilder/Skjermbilde_2026-10-07-122438.png\",\r\n      imagePosition: \"0% 50%\",\r\n      text:\r\n        \"23.30 og 23.32: To par passerte kameravinkelen.\"\r\n    },\r\n    {\r\n      image: null,\r\n      text:\r\n        \"23.36–23.43: Det kom enda mer bevegelse i vannet, brygga og flere båter. Dette pågikk i flere minutter.\"\r\n    }\r\n  ];\r\n\r\n  const scrollBox = root.querySelector(\".pm-scroll\");\r\n  const progressLabel = root.querySelector(\".pm-progress-label\");\r\n  const progressTrack = root.querySelector(\".pm-progress-track\");\r\n  const progressFill = root.querySelector(\".pm-progress-fill\");\r\n  const backButton = root.querySelector(\".pm-back\");\r\n  const nextButton = root.querySelector(\".pm-next\");\r\n  const swipeHint = root.querySelector(\".pm-swipe-hint\");\r\n\r\n  if (\r\n    !scrollBox ||\r\n    !progressLabel ||\r\n    !progressTrack ||\r\n    !progressFill ||\r\n    !backButton ||\r\n    !nextButton\r\n  ) return;\r\n\r\n  const reducedMotion =\r\n    window.matchMedia &&\r\n    window.matchMedia(\"(prefers-reduced-motion: reduce)\").matches;\r\n\r\n  const cards = [];\r\n  let currentIndex = 0;\r\n  let frame = null;\r\n  let hintDismissed = false;\r\n  let scrollReady = false;\r\n  let readyTimer = null;\r\n  let readyObserver = null;\r\n\r\n  function appendText(container, text) {\r\n    const timePattern =\r\n      /(\\b\\d{2}\\.\\d{2}(?:–\\d{2}\\.\\d{2})?\\b)/g;\r\n\r\n    text.split(timePattern).forEach(function (part) {\r\n      if (\r\n        /^\\d{2}\\.\\d{2}(?:–\\d{2}\\.\\d{2})?$/.test(part)\r\n      ) {\r\n        const span = document.createElement(\"span\");\r\n        span.className = \"pm-time\";\r\n        span.textContent = part;\r\n        container.appendChild(span);\r\n      } else {\r\n        container.appendChild(document.createTextNode(part));\r\n      }\r\n    });\r\n  }\r\n\r\n  CARDS.forEach(function (data, index) {\r\n    const card = document.createElement(\"article\");\r\n    const visual = document.createElement(\"div\");\r\n    const shade = document.createElement(\"div\");\r\n    const copy = document.createElement(\"div\");\r\n    const text = document.createElement(\"p\");\r\n\r\n    card.className = \"pm-card\";\r\n    visual.className = \"pm-card-visual\";\r\n    shade.className = \"pm-card-shade\";\r\n    copy.className = \"pm-card-copy\";\r\n    text.className = \"pm-card-text\";\r\n\r\n    card.setAttribute(\r\n      \"aria-label\",\r\n      \"Kort \" + (index + 1) + \" av \" + CARDS.length\r\n    );\r\n    card.setAttribute(\"aria-posinset\", String(index + 1));\r\n    card.setAttribute(\"aria-setsize\", String(CARDS.length));\r\n    shade.setAttribute(\"aria-hidden\", \"true\");\r\n\r\n    if (data.image) {\r\n      const image = document.createElement(\"img\");\r\n\r\n      image.className = \"pm-card-image\";\r\n      image.src = data.image;\r\n      image.alt = \"\";\r\n      image.decoding = \"async\";\r\n\r\n      if (data.imagePosition) {\r\n        image.style.objectPosition = data.imagePosition;\r\n      }\r\n\r\n      image.addEventListener(\r\n        \"error\",\r\n        function () {\r\n          image.remove();\r\n        },\r\n        { once: true }\r\n      );\r\n\r\n      visual.appendChild(image);\r\n    }\r\n\r\n    visual.appendChild(shade);\r\n\r\n    if (data.photoCredit) {\r\n      const credit = document.createElement(\"span\");\r\n      credit.className = \"pm-photo-credit\";\r\n      credit.textContent = data.photoCredit;\r\n      visual.appendChild(credit);\r\n    }\r\n\r\n    if (data.lead) {\r\n      const lead = document.createElement(\"span\");\r\n      lead.className = \"pm-red-lead\";\r\n      lead.textContent = data.lead;\r\n      text.appendChild(lead);\r\n      text.appendChild(document.createTextNode(\" \"));\r\n    }\r\n\r\n    appendText(text, data.text);\r\n\r\n    copy.appendChild(text);\r\n    visual.appendChild(copy);\r\n    card.appendChild(visual);\r\n    scrollBox.appendChild(card);\r\n    cards.push(card);\r\n  });\r\n\r\n  function activateScroll() {\r\n    if (scrollReady) return;\r\n\r\n    scrollReady = true;\r\n    window.clearTimeout(readyTimer);\r\n    root.classList.add(\"pm-scroll-ready\");\r\n\r\n    if (!hintDismissed) {\r\n      root.classList.add(\"pm-hint-active\");\r\n    }\r\n\r\n    if (readyObserver) {\r\n      readyObserver.disconnect();\r\n    }\r\n  }\r\n\r\n  if (\"IntersectionObserver\" in window) {\r\n    readyObserver = new IntersectionObserver(\r\n      function (entries) {\r\n        const entry = entries[0];\r\n        if (!entry) return;\r\n\r\n        window.clearTimeout(readyTimer);\r\n\r\n        if (\r\n          entry.isIntersecting &&\r\n          entry.intersectionRatio >= SCROLL_READY_RATIO\r\n        ) {\r\n          readyTimer = window.setTimeout(\r\n            activateScroll,\r\n            SCROLL_READY_DELAY\r\n          );\r\n        }\r\n      },\r\n      {\r\n        threshold: [0, 0.5, SCROLL_READY_RATIO, 1]\r\n      }\r\n    );\r\n\r\n    readyObserver.observe(scrollBox);\r\n  } else {\r\n    activateScroll();\r\n  }\r\n\r\n  scrollBox.addEventListener(\"click\", activateScroll, { once: true });\r\n  scrollBox.addEventListener(\"focus\", activateScroll, { once: true });\r\n\r\n  function dismissHint() {\r\n    if (hintDismissed) return;\r\n\r\n    hintDismissed = true;\r\n    root.classList.remove(\"pm-hint-active\");\r\n\r\n    if (swipeHint) {\r\n      swipeHint.classList.add(\"is-hidden\");\r\n    }\r\n  }\r\n\r\n  function flashAccent(index) {\r\n    if (reducedMotion || !cards[index]) return;\r\n\r\n    const card = cards[index];\r\n\r\n    card.classList.remove(\"pm-accent-update\");\r\n    void card.offsetWidth;\r\n    card.classList.add(\"pm-accent-update\");\r\n\r\n    window.setTimeout(function () {\r\n      card.classList.remove(\"pm-accent-update\");\r\n    }, 620);\r\n  }\r\n\r\n  function update() {\r\n    const height = scrollBox.clientHeight || 1;\r\n\r\n    const nextIndex = Math.max(\r\n      0,\r\n      Math.min(\r\n        cards.length - 1,\r\n        Math.round(scrollBox.scrollTop / height)\r\n      )\r\n    );\r\n\r\n    const changed = nextIndex !== currentIndex;\r\n    currentIndex = nextIndex;\r\n\r\n    cards.forEach(function (card, index) {\r\n      if (index === currentIndex) {\r\n        card.setAttribute(\"aria-current\", \"true\");\r\n      } else {\r\n        card.removeAttribute(\"aria-current\");\r\n      }\r\n    });\r\n\r\n    progressLabel.textContent =\r\n      currentIndex + 1 + \" av \" + cards.length;\r\n\r\n    progressFill.style.width =\r\n      ((currentIndex + 1) / cards.length) * 100 + \"%\";\r\n\r\n    progressTrack.setAttribute(\r\n      \"aria-valuenow\",\r\n      String(currentIndex + 1)\r\n    );\r\n\r\n    progressTrack.setAttribute(\r\n      \"aria-valuetext\",\r\n      \"Kort \" + (currentIndex + 1) + \" av \" + cards.length\r\n    );\r\n\r\n    const complete =\r\n      currentIndex === cards.length - 1;\r\n\r\n    backButton.disabled = currentIndex === 0;\r\n    nextButton.disabled = complete;\r\n    nextButton.textContent = complete ? \"Ferdig\" : \"Neste\";\r\n\r\n    if (changed) {\r\n      flashAccent(currentIndex);\r\n\r\n      if (currentIndex > 0) {\r\n        dismissHint();\r\n      }\r\n    }\r\n  }\r\n\r\n  scrollBox.addEventListener(\r\n    \"scroll\",\r\n    function () {\r\n      dismissHint();\r\n\r\n      if (frame !== null) return;\r\n\r\n      frame = window.requestAnimationFrame(function () {\r\n        frame = null;\r\n        update();\r\n      });\r\n    },\r\n    { passive: true }\r\n  );\r\n\r\n  function goTo(index) {\r\n    activateScroll();\r\n\r\n    const target = Math.max(\r\n      0,\r\n      Math.min(cards.length - 1, index)\r\n    );\r\n\r\n    if (target !== currentIndex) {\r\n      dismissHint();\r\n    }\r\n\r\n    scrollBox.scrollTo({\r\n      top: target * scrollBox.clientHeight,\r\n      behavior: reducedMotion ? \"auto\" : \"smooth\"\r\n    });\r\n  }\r\n\r\n  backButton.addEventListener(\"click\", function () {\r\n    update();\r\n    goTo(currentIndex - 1);\r\n  });\r\n\r\n  nextButton.addEventListener(\"click\", function () {\r\n    update();\r\n\r\n    if (currentIndex < cards.length - 1) {\r\n      goTo(currentIndex + 1);\r\n    }\r\n  });\r\n\r\n  scrollBox.addEventListener(\"keydown\", function (event) {\r\n    if (event.key === \"Home\") {\r\n      event.preventDefault();\r\n      goTo(0);\r\n    }\r\n\r\n    if (event.key === \"End\") {\r\n      event.preventDefault();\r\n      goTo(cards.length - 1);\r\n    }\r\n  });\r\n\r\n  update();\r\n})();\r\n</script>",
+      "title": "Scrollekort med bilder",
+      "subtype": "scriptembed"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "I løpet av de neste timene passerte flere personer og kjøretøy kameravinkelen. Mange var ute denne varme natta."
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "title": {
+        "value": "Alle som ble sett på kaia gjennom natten"
+      },
+      "paragraphs": [
+        {
+          "text": {
+            "value": "Dette er politiets beskrivelser av personer og kjøretøy som dukker opp i kameravinkelen ved brygga til Redningsselskapet på Skansen.\nKjenner du igjen deg selv, eller har annen kjennskap til saken? Kontakt oss her.",
+            "markup": [
+              {
+                "type": "link:external",
+                "offset": 197,
+                "length": 15,
+                "uri": "mailto:johannes.steen@adresseavisen.no"
+              }
+            ]
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "22.59.21\nTo mørkkledde personer går fra øst mot vest og ut av kamerabildet.",
+            "markup": [
+              {
+                "type": "style:strong",
+                "offset": 0,
+                "length": 8
+              }
+            ]
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "23.06.19\nÉn mørkkledd person går fra øst mot vest og ut av kamerabildet.",
+            "markup": [
+              {
+                "type": "style:strong",
+                "offset": 0,
+                "length": 8
+              }
+            ]
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "23.15.14\nÉn person går fra øst mot vest. Lys underdel og mørk overdel.",
+            "markup": [
+              {
+                "type": "style:strong",
+                "offset": 0,
+                "length": 8
+              }
+            ]
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "23.17.00\nÉn person går fra øst mot vest. Personen stopper, snur og går tilbake. Det ser ut som vedkommende leser på et skilt. Deretter snur personen igjen og fortsetter vestover ut av kamerabildet.",
+            "markup": [
+              {
+                "type": "style:strong",
+                "offset": 0,
+                "length": 8
+              }
+            ]
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "23.25.00\nEn mørk personbil kjører fra vest mot øst. Politiet skriver at bilen ikke har taxiskilt på taket.",
+            "markup": [
+              {
+                "type": "style:strong",
+                "offset": 0,
+                "length": 8
+              }
+            ]
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "23.27.00 – mobilen mister nettet\nPolitiets logg viser at Marius’ telefon mister kontakten med mobilnettet klokka 23.27.",
+            "markup": [
+              {
+                "type": "style:strong",
+                "offset": 0,
+                "length": 32
+              }
+            ]
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "23.27.22\nEn mørk bil kjører fra øst mot vest. Politiet vet ikke om dette er den samme bilen som passerte to minutter tidligere. Den har ikke taxiskilt på taket. Bilen passerer altså samme minutt som Marius’ telefon registreres ute av nettet.",
+            "markup": [
+              {
+                "type": "style:strong",
+                "offset": 0,
+                "length": 8
+              }
+            ]
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "23.28.14\nDet oppstår bevegelse i vannet, og en av båtene i havna siger bakover. Dette skjer omtrent ett minutt etter at telefonen mister nettet.",
+            "markup": [
+              {
+                "type": "style:strong",
+                "offset": 0,
+                "length": 8
+              }
+            ]
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "23.28.47\nÉn person med hund går fra øst mot vest. Mørk underdel med noe lyst under. Dette er 33 sekunder etter bevegelsen i vannet og rundt to minutter etter at telefonen mister nettet.",
+            "markup": [
+              {
+                "type": "style:strong",
+                "offset": 0,
+                "length": 8
+              }
+            ]
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "23.30.43\nTo personer går fra øst mot vest. Én har lys overdel, den andre mørk overdel.",
+            "markup": [
+              {
+                "type": "style:strong",
+                "offset": 0,
+                "length": 8
+              }
+            ]
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "23.32.51\nTo personer går fra øst mot vest. Én har lys overdel, den andre mørk overdel.",
+            "markup": [
+              {
+                "type": "style:strong",
+                "offset": 0,
+                "length": 8
+              }
+            ]
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "00.07.32\nEn lys bil står parkert med motoren på. Politiet skriver at videoen har gjort et lite hopp, og at det derfor er uklart nøyaktig når bilen kom inn i kamerabildet. Den har ikke taxiskilt.",
+            "markup": [
+              {
+                "type": "style:strong",
+                "offset": 0,
+                "length": 8
+              }
+            ]
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "00.07.32–00.14.15\nDen lyse bilen kjører fram og tilbake i området. Klokka 00.14.15 kjører den vestover ut av kamerabildet.",
+            "markup": [
+              {
+                "type": "style:strong",
+                "offset": 0,
+                "length": 17
+              }
+            ]
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "00.18.50\nÉn mørkkledd person kommer gående fra vest og går ned på brygga hvor Marius senere ble funnet død under vann.",
+            "markup": [
+              {
+                "type": "style:strong",
+                "offset": 0,
+                "length": 8
+              }
+            ]
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "00.23.53\nÉn person går fra øst mot vest. Hvit underdel og lys overdel.",
+            "markup": [
+              {
+                "type": "style:strong",
+                "offset": 0,
+                "length": 8
+              }
+            ]
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "00.26.20\nTo personer kommer fra sør og går østover ut av kamerabildet. Én er lyskledd, den andre mørkkledd.",
+            "markup": [
+              {
+                "type": "style:strong",
+                "offset": 0,
+                "length": 8
+              }
+            ]
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "00.38.10\nEn svart bil kjører fra vest mot øst og ut av kamerabildet.",
+            "markup": [
+              {
+                "type": "style:strong",
+                "offset": 0,
+                "length": 8
+              }
+            ]
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "00.43.15\nEn svart bil kjører fra øst mot vest og ut av kamerabildet. Politiet vet ikke om dette er den samme bilen som passerte fem minutter tidligere.",
+            "markup": [
+              {
+                "type": "style:strong",
+                "offset": 0,
+                "length": 8
+              }
+            ]
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "00.46.06\nÉn person, trolig en mann, går fra øst mot vest. Lys overdel, mørk bukse og lyse sko.",
+            "markup": [
+              {
+                "type": "style:strong",
+                "offset": 0,
+                "length": 8
+              }
+            ]
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "00.49.41\nTo personer går fra vest mot øst. Én er mørkkledd, den andre lyskledd.",
+            "markup": [
+              {
+                "type": "style:strong",
+                "offset": 0,
+                "length": 8
+              }
+            ]
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "00.56.00\nÉn mørkkledd person går fra vest mot øst og ut av kamerabildet.",
+            "markup": [
+              {
+                "type": "style:strong",
+                "offset": 0,
+                "length": 8
+              }
+            ]
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "01.17.28\nTo mørkkledde personer går fra øst mot vest og ut av kamerabildet.",
+            "markup": [
+              {
+                "type": "style:strong",
+                "offset": 0,
+                "length": 8
+              }
+            ]
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "01.19.42\nEn hvit taxi kjører fra øst mot vest og ut av kamerabildet.",
+            "markup": [
+              {
+                "type": "style:strong",
+                "offset": 0,
+                "length": 8
+              }
+            ]
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "02.29.23\nTre personer kommer fra øst og går ned på brygga hvor Marius senere ble funnet død under vann. Politiet mener trolig de samme tre kommer opp igjen klokka 02.41.10 og går østover ut av kamerabildet.",
+            "markup": [
+              {
+                "type": "style:strong",
+                "offset": 0,
+                "length": 8
+              }
+            ]
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "02.35.35\nTre personer går fra vest mot øst og ned på samme brygge. Politiet mener trolig de samme tre kommer opp igjen klokka 02.56.43 og går vestover ut av kamerabildet.",
+            "markup": [
+              {
+                "type": "style:strong",
+                "offset": 0,
+                "length": 8
+              }
+            ]
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "02.38.16\nTo personer går fra vest mot øst. Én har lys overdel, den andre mørk overdel.",
+            "markup": [
+              {
+                "type": "style:strong",
+                "offset": 0,
+                "length": 8
+              }
+            ]
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "presentationProperties": {
+        "legend": "Full oversikt"
+      },
+      "type": "fact"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "Samboeren sa hun var veldig full og tenkte Marius kunne ha dratt videre. "
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Utover formiddagen vokste uroen. Hun ringte familiemedlemmer og sa det var rart at han ikke svarte på telefonen. "
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Marius hadde avtalt å dra ut med seilbåten med sønnen Marcus på søndagen. Klokka ett natt til søndag sendte Marcus melding og spurte når de skulle dra ut."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "– Jeg fikk en uggen følelse fordi han ikke svarte. Men han var veldig dårlig til å svare på meldinger. Det var typisk ham, sier Marcus."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Klokken 15.52 ringte samboeren politiet. Det ble umiddelbart igangsatt søk. "
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "byline": {
+        "title": "Mariann Dydbahl"
+      },
+      "imageAsset": {
+        "id": "f2186bfb-db0b-3638-b746-85a5dd4b9e14",
+        "size": {
+          "width": 5616,
+          "height": 3744
+        }
+      },
+      "presentationProperties": {
+        "overlapp": "front",
+        "addLayout": "overlapp"
+      },
+      "type": "image"
+    },
+    {
+      "byline": {
+        "title": "Mariann Dydbahl"
+      },
+      "imageAsset": {
+        "id": "c9ad6a1c-79fb-399a-9deb-dc49971b8d3c",
+        "size": {
+          "width": 5616,
+          "height": 3744
+        }
+      },
+      "presentationProperties": {
+        "addLayout": "overlapp"
+      },
+      "type": "image"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "Ikke lenge etter fant letemannskapene en tørr Jean Paul-sko i størrelse 44 på brygga til Redningsselskapet. Samboeren fikk se bildet og bekreftet at det var hans. Dykkerne fant mobil og lommebok på 4–5 meters dyp."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Så fant de Marius under vann, 10–20 meter unna brygga. Han lå ikke på bunnen, men hadde hektet seg fast i noen vaiere inntil en annen båtbrygge."
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "integration",
+      "url": "https://enrichment.api.plan3.se/proxy/content/v3/publication/adresseavisen/multimedias/66eb0d2f-a218-40e7-902b-efdeed3ae1fb/HTML%20-%20raaken%20ny",
+      "body": "<meta charset=\"UTF-8\">\r\n\r\n<!--\r\n  Widget: Interaktivt havnekart\r\n  Dato: 2026-10-08\r\n  Versjon: 2.5\r\n  Beskrivelse: Klikkbare punkter på beskåret databasebilde med geotag.\r\n  Avhengigheter: Ingen.\r\n-->\r\n\r\n<div id=\"pm-widget-havnekart\">\r\n  <p class=\"pm-instruction\" id=\"pm-havnekart-instruction\">\r\n    <span class=\"pm-instruction-line\">\r\n      Klikk på de røde punktene for å\r\n    </span>\r\n    <span class=\"pm-instruction-line\">\r\n      lese om funnene på åstedet.\r\n    </span>\r\n  </p>\r\n\r\n  <div\r\n    class=\"pm-geotag\"\r\n    aria-label=\"Sted: Skansen småbåthavn, Trondheim\"\r\n  >\r\n    <svg\r\n      class=\"pm-geotag-icon\"\r\n      viewBox=\"0 0 24 24\"\r\n      aria-hidden=\"true\"\r\n      focusable=\"false\"\r\n    >\r\n      <path\r\n        d=\"M12 2a7 7 0 0 0-7 7c0 5.2 7 13 7 13s7-7.8 7-13a7 7 0 0 0-7-7Zm0 9.5A2.5 2.5 0 1 1 12 6a2.5 2.5 0 0 1 0 5.5Z\"\r\n      ></path>\r\n    </svg>\r\n\r\n    <span>\r\n      Skansen småbåthavn, Trondheim\r\n    </span>\r\n  </div>\r\n\r\n  <div\r\n    class=\"pm-map\"\r\n    aria-describedby=\"pm-havnekart-instruction\"\r\n  >\r\n    <img\r\n      class=\"pm-image\"\r\n      src=\"https://spesial.adressa.no/grafikk/CNP_bilder/skansen_havn.jpg\"\r\n      alt=\"Flyfoto av en småbåthavn med brygger, båter og kaiområde.\"\r\n      decoding=\"async\"\r\n    >\r\n\r\n    <div class=\"pm-loading\" aria-live=\"polite\">\r\n      Laster bilde …\r\n    </div>\r\n\r\n    <div\r\n      class=\"pm-markers\"\r\n      aria-label=\"Klikkbare punkter i bildet\"\r\n    ></div>\r\n  </div>\r\n\r\n  <div class=\"pm-error\" role=\"alert\" hidden>\r\n    Bildet kunne ikke lastes i denne visningen.\r\n  </div>\r\n\r\n  <section\r\n    class=\"pm-info\"\r\n    aria-live=\"polite\"\r\n    aria-atomic=\"true\"\r\n  >\r\n    <h3 class=\"pm-info-label\">Velg et punkt</h3>\r\n\r\n    <p class=\"pm-info-text\">\r\n      Velg et rødt punkt i bildet.\r\n    </p>\r\n  </section>\r\n</div>\r\n\r\n<style>\r\n  #pm-widget-havnekart {\r\n    width: 100%;\r\n    max-width: var(--content-width, 680px);\r\n    box-sizing: border-box;\r\n\r\n    color: var(--color-text, #1b1b1b);\r\n    line-height: var(--line-height, 1.5);\r\n  }\r\n\r\n  #pm-widget-havnekart *,\r\n  #pm-widget-havnekart *::before,\r\n  #pm-widget-havnekart *::after {\r\n    box-sizing: border-box;\r\n\r\n    font-family:\r\n      var(\r\n        --font-system,\r\n        system-ui,\r\n        -apple-system,\r\n        BlinkMacSystemFont,\r\n        \"Segoe UI\",\r\n        sans-serif\r\n      ) !important;\r\n  }\r\n\r\n  #pm-widget-havnekart .pm-instruction {\r\n    margin: 0 0 14px;\r\n\r\n    color: var(--color-text, #1b1b1b);\r\n\r\n    font-size: clamp(17px, 3vw, 21px);\r\n    font-weight: 600;\r\n    line-height: 1.35;\r\n\r\n    text-wrap: pretty;\r\n  }\r\n\r\n  #pm-widget-havnekart .pm-instruction-line {\r\n    display: block;\r\n    white-space: nowrap;\r\n  }\r\n\r\n  #pm-widget-havnekart .pm-geotag {\r\n    display: inline-flex;\r\n    align-items: center;\r\n\r\n    gap: 6px;\r\n\r\n    max-width: 100%;\r\n\r\n    margin: 0 0 8px;\r\n    padding: 6px 9px;\r\n\r\n    border:\r\n      1px solid rgba(255, 255, 255, 0.20);\r\n\r\n    border-radius: 8px;\r\n\r\n    background: #202124;\r\n    color: #ffffff;\r\n\r\n    font-size: 12px;\r\n    font-weight: 650;\r\n    line-height: 1.2;\r\n\r\n    box-shadow:\r\n      0 2px 7px rgba(0, 0, 0, 0.18);\r\n  }\r\n\r\n  #pm-widget-havnekart .pm-geotag-icon {\r\n    flex: 0 0 auto;\r\n\r\n    display: block;\r\n\r\n    width: 15px;\r\n    height: 15px;\r\n\r\n    color: #ff4046;\r\n  }\r\n\r\n  #pm-widget-havnekart .pm-geotag-icon path {\r\n    fill: currentColor;\r\n  }\r\n\r\n  #pm-widget-havnekart .pm-map {\r\n    position: relative;\r\n\r\n    width: 100%;\r\n    aspect-ratio: 3 / 4;\r\n\r\n    overflow: hidden;\r\n\r\n    border-radius: 12px;\r\n    background: #e7e7e7;\r\n  }\r\n\r\n  #pm-widget-havnekart .pm-image {\r\n    position: absolute;\r\n\r\n    left: 0;\r\n    top: -24%;\r\n\r\n    display: block;\r\n\r\n    width: 133.333333% !important;\r\n    max-width: none !important;\r\n\r\n    height: auto !important;\r\n    max-height: none !important;\r\n\r\n    margin: 0 !important;\r\n\r\n    opacity: 0;\r\n\r\n    transition: opacity 120ms ease;\r\n  }\r\n\r\n  #pm-widget-havnekart .pm-map.is-ready .pm-image {\r\n    opacity: 1;\r\n  }\r\n\r\n  #pm-widget-havnekart .pm-loading {\r\n    position: absolute;\r\n    inset: 0;\r\n    z-index: 3;\r\n\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: center;\r\n\r\n    padding: 20px;\r\n\r\n    background: #e7e7e7;\r\n    color: var(--color-text, #1b1b1b);\r\n\r\n    font-size: 14px;\r\n    font-weight: 500;\r\n    line-height: 1.4;\r\n  }\r\n\r\n  #pm-widget-havnekart .pm-map.is-ready .pm-loading {\r\n    display: none;\r\n  }\r\n\r\n  #pm-widget-havnekart .pm-markers {\r\n    position: absolute;\r\n    inset: 0;\r\n    z-index: 4;\r\n\r\n    opacity: 0;\r\n\r\n    pointer-events: none;\r\n\r\n    transition: opacity 120ms ease;\r\n  }\r\n\r\n  #pm-widget-havnekart .pm-map.is-ready .pm-markers {\r\n    opacity: 1;\r\n  }\r\n\r\n  #pm-widget-havnekart .pm-leader {\r\n    position: absolute;\r\n    z-index: 1;\r\n\r\n    height: 1px;\r\n\r\n    background: rgba(255, 255, 255, 0.92);\r\n\r\n    transform-origin: 0 50%;\r\n\r\n    pointer-events: none;\r\n\r\n    box-shadow:\r\n      0 1px 2px rgba(0, 0, 0, 0.55);\r\n  }\r\n\r\n  #pm-widget-havnekart .pm-leader.is-strong {\r\n    height: 2px;\r\n\r\n    background: #ffffff;\r\n\r\n    box-shadow:\r\n      0 0 1px rgba(0, 0, 0, 0.95),\r\n      0 1px 3px rgba(0, 0, 0, 0.85);\r\n  }\r\n\r\n  #pm-widget-havnekart .pm-marker {\r\n    position: absolute;\r\n    z-index: 2;\r\n\r\n    width: 44px;\r\n    height: 44px;\r\n\r\n    padding: 0;\r\n\r\n    border: 0;\r\n    border-radius: 50%;\r\n\r\n    background: transparent;\r\n\r\n    transform:\r\n      translate(-50%, -50%)\r\n      translate(\r\n        var(--pm-offset-x, 0px),\r\n        var(--pm-offset-y, 0px)\r\n      );\r\n\r\n    cursor: pointer;\r\n    pointer-events: auto;\r\n\r\n    appearance: none;\r\n    -webkit-appearance: none;\r\n\r\n    touch-action: manipulation;\r\n  }\r\n\r\n  #pm-widget-havnekart .pm-marker::after {\r\n    content: \"\";\r\n\r\n    position: absolute;\r\n\r\n    left: 50%;\r\n    top: 50%;\r\n\r\n    width: 18px;\r\n    height: 18px;\r\n\r\n    border: 2px solid #ffffff;\r\n    border-radius: 50%;\r\n\r\n    background: #d71920;\r\n\r\n    transform: translate(-50%, -50%);\r\n\r\n    box-shadow:\r\n      0 1px 5px rgba(0, 0, 0, 0.5);\r\n\r\n    transition:\r\n      transform 140ms ease,\r\n      box-shadow 140ms ease;\r\n  }\r\n\r\n  #pm-widget-havnekart .pm-marker:hover::after {\r\n    transform:\r\n      translate(-50%, -50%)\r\n      scale(1.15);\r\n  }\r\n\r\n  #pm-widget-havnekart .pm-marker[aria-pressed=\"true\"]::after {\r\n    box-shadow:\r\n      0 0 0 3px #ffffff,\r\n      0 0 0 5px #d71920,\r\n      0 2px 7px rgba(0, 0, 0, 0.5);\r\n  }\r\n\r\n  #pm-widget-havnekart .pm-marker:focus-visible {\r\n    outline: 3px solid #ffffff;\r\n    outline-offset: 1px;\r\n\r\n    box-shadow:\r\n      0 0 0 5px #d71920;\r\n  }\r\n\r\n  #pm-widget-havnekart .pm-info {\r\n    margin-top: 12px;\r\n    padding: 16px;\r\n\r\n    border: 1px solid #d71920;\r\n    border-radius: 10px;\r\n\r\n    background: #202124;\r\n    color: #ffffff;\r\n\r\n    box-shadow:\r\n      0 5px 18px rgba(0, 0, 0, 0.15);\r\n\r\n    transform: translateY(0);\r\n\r\n    transition:\r\n      transform 150ms ease,\r\n      box-shadow 150ms ease,\r\n      border-color 150ms ease;\r\n  }\r\n\r\n  #pm-widget-havnekart .pm-info.is-updated {\r\n    transform: translateY(-4px);\r\n\r\n    border-color: #ff4046;\r\n\r\n    box-shadow:\r\n      0 0 0 3px rgba(215, 25, 32, 0.2),\r\n      0 9px 24px rgba(0, 0, 0, 0.23);\r\n  }\r\n\r\n  #pm-widget-havnekart .pm-info-label {\r\n    margin: 0 0 6px;\r\n\r\n    color: #ffffff;\r\n\r\n    font-size: 18px;\r\n    font-weight: 800;\r\n    line-height: 1.25;\r\n  }\r\n\r\n  #pm-widget-havnekart .pm-info-text {\r\n    margin: 0;\r\n\r\n    color: #ffffff;\r\n\r\n    font-size: var(--font-size-body, 17px);\r\n    font-weight: 500;\r\n    line-height: var(--line-height, 1.5);\r\n  }\r\n\r\n  #pm-widget-havnekart .pm-error {\r\n    margin-top: 12px;\r\n    padding: 12px 14px;\r\n\r\n    border: 1px solid #d71920;\r\n    border-radius: 8px;\r\n\r\n    background: #ffffff;\r\n    color: var(--color-text, #1b1b1b);\r\n\r\n    font-size: 14px;\r\n    font-weight: 500;\r\n    line-height: 1.4;\r\n  }\r\n\r\n  @media (max-width: 480px) {\r\n    #pm-widget-havnekart .pm-instruction {\r\n      font-size: 17px;\r\n      line-height: 1.38;\r\n    }\r\n\r\n    #pm-widget-havnekart .pm-geotag {\r\n      padding: 6px 9px;\r\n      font-size: 12px;\r\n    }\r\n\r\n    #pm-widget-havnekart .pm-marker {\r\n      width: 44px;\r\n      height: 44px;\r\n    }\r\n\r\n    #pm-widget-havnekart .pm-marker::after {\r\n      width: 17px;\r\n      height: 17px;\r\n    }\r\n\r\n    #pm-widget-havnekart .pm-info {\r\n      padding: 14px;\r\n    }\r\n\r\n    #pm-widget-havnekart .pm-info-label {\r\n      font-size: 17px;\r\n    }\r\n\r\n    #pm-widget-havnekart .pm-info-text {\r\n      font-size: 16px;\r\n    }\r\n  }\r\n\r\n  @media (max-width: 350px) {\r\n    #pm-widget-havnekart .pm-instruction {\r\n      font-size: 16px;\r\n    }\r\n  }\r\n\r\n  @media (prefers-reduced-motion: reduce) {\r\n    #pm-widget-havnekart .pm-image,\r\n    #pm-widget-havnekart .pm-markers,\r\n    #pm-widget-havnekart .pm-marker::after,\r\n    #pm-widget-havnekart .pm-info {\r\n      transition: none;\r\n    }\r\n  }\r\n</style>\r\n\r\n<script>\r\n(function () {\r\n  const root =\r\n    document.getElementById(\r\n      \"pm-widget-havnekart\"\r\n    );\r\n\r\n  if (\r\n    !root ||\r\n    root.dataset.initialized === \"true\"\r\n  ) {\r\n    return;\r\n  }\r\n\r\n  root.dataset.initialized = \"true\";\r\n\r\n  const POINTS = [\r\n    {\r\n      title: \"Taxituren\",\r\n      x: 3.299,\r\n      y: 93.513,\r\n      offsetX: 28,\r\n      offsetY: -18,\r\n      label:\r\n        \"Vis informasjon om stedet der taxien stoppet\",\r\n      text:\r\n        \"Her stoppet taxien som samboeren betalte for. Ingen husker om Marius var med eller ikke.\"\r\n    },\r\n    {\r\n      title: \"Funn\",\r\n      x: 72.309,\r\n      y: 56.599,\r\n      offsetX: 0,\r\n      offsetY: 0,\r\n      label:\r\n        \"Vis informasjon om stedet der dykkere fant Marius\",\r\n      text:\r\n        \"Her fant dykkere Marius under vann. Han lå ikke på bunnen, men var hektet fast i moringsvaiere på rundt to meters dyp.\"\r\n    },\r\n    {\r\n      title: \"Skoen\",\r\n      x: 51.736,\r\n      y: 55.036,\r\n      offsetX: 30,\r\n      offsetY: -22,\r\n      label:\r\n        \"Vis informasjon om stedet der en sko ble funnet\",\r\n      text:\r\n        \"Her ble én av Marius' sko funnet. Skoen var tørr.\"\r\n    },\r\n    {\r\n      title: \"Gjenstandene\",\r\n      x: 47.917,\r\n      y: 50.219,\r\n      offsetX: -26,\r\n      offsetY: -20,\r\n      label:\r\n        \"Vis informasjon om stedet der mobiltelefon og lommebok ble funnet\",\r\n      text:\r\n        \"Her ble mobiltelefonen og lommeboken funnet sammen, på rundt fire–fem meters dyp.\"\r\n    },\r\n    {\r\n      title: \"Kameravinkelen som gikk tapt\",\r\n      x: 52.777,\r\n      y: 59.073,\r\n      offsetX: 34,\r\n      offsetY: 18,\r\n      label:\r\n        \"Vis informasjon om Redningsselskapets andre kamera\",\r\n      text:\r\n        \"Redningsselskapets andre kamera. Politiet så på vinkelen, men vurderte den først som ikke relevant og sikret ikke opptaket. Da etterforskeren senere ville hente det inn, var opptaket overskrevet.\"\r\n    },\r\n    {\r\n      title: \"Båten\",\r\n      x: 47.917,\r\n      y: 5.948,\r\n      offsetX: 6,\r\n      offsetY: 30,\r\n      strongLeader: true,\r\n      label:\r\n        \"Vis informasjon om Marius sin seilbåt\",\r\n      text:\r\n        \"Her var Marius sin seilbåt, «Forsøk».\"\r\n    },\r\n    {\r\n      title: \"Kamera\",\r\n      x: 49.827,\r\n      y: 60.636,\r\n      offsetX: 0,\r\n      offsetY: 38,\r\n      label:\r\n        \"Vis informasjon om kameraet som fanget opp personer og kjøretøy\",\r\n      text:\r\n        \"Dette kameraet fanget opp flere personer og kjøretøy. Kl. 23.28.14 viser opptaket bevegelse i vannet og at en båt siger bakover. 33 sekunder senere kommer en person med hund inn i bildet.\"\r\n    },\r\n    {\r\n      title: \"Mulig fallsted\",\r\n      x: 45.833,\r\n      y: 59.203,\r\n      offsetX: -32,\r\n      offsetY: 18,\r\n      label:\r\n        \"Vis informasjon om stedet politiet mener Marius mest sannsynlig falt i vannet\",\r\n      text:\r\n        \"Her mener politiet Marius mest sannsynlig falt i vannet. På muren står en gul stålbøyle som politiet beskriver som lett å snuble i.\"\r\n    }\r\n  ];\r\n\r\n  const map =\r\n    root.querySelector(\".pm-map\");\r\n\r\n  const image =\r\n    root.querySelector(\".pm-image\");\r\n\r\n  const loading =\r\n    root.querySelector(\".pm-loading\");\r\n\r\n  const markerLayer =\r\n    root.querySelector(\".pm-markers\");\r\n\r\n  const errorBox =\r\n    root.querySelector(\".pm-error\");\r\n\r\n  const infoBox =\r\n    root.querySelector(\".pm-info\");\r\n\r\n  const infoTitle =\r\n    root.querySelector(\".pm-info-label\");\r\n\r\n  const infoText =\r\n    root.querySelector(\".pm-info-text\");\r\n\r\n  if (\r\n    !map ||\r\n    !image ||\r\n    !loading ||\r\n    !markerLayer ||\r\n    !errorBox ||\r\n    !infoBox ||\r\n    !infoTitle ||\r\n    !infoText\r\n  ) {\r\n    return;\r\n  }\r\n\r\n  let updateTimer = null;\r\n\r\n  function addLeader(point) {\r\n    if (\r\n      point.offsetX === 0 &&\r\n      point.offsetY === 0\r\n    ) {\r\n      return;\r\n    }\r\n\r\n    const length =\r\n      Math.hypot(\r\n        point.offsetX,\r\n        point.offsetY\r\n      );\r\n\r\n    const angle =\r\n      Math.atan2(\r\n        point.offsetY,\r\n        point.offsetX\r\n      ) *\r\n      180 /\r\n      Math.PI;\r\n\r\n    const leader =\r\n      document.createElement(\"span\");\r\n\r\n    leader.className =\r\n      point.strongLeader\r\n        ? \"pm-leader is-strong\"\r\n        : \"pm-leader\";\r\n\r\n    leader.setAttribute(\r\n      \"aria-hidden\",\r\n      \"true\"\r\n    );\r\n\r\n    leader.style.left =\r\n      point.x + \"%\";\r\n\r\n    leader.style.top =\r\n      point.y + \"%\";\r\n\r\n    leader.style.width =\r\n      length + \"px\";\r\n\r\n    leader.style.transform =\r\n      \"rotate(\" +\r\n      angle +\r\n      \"deg)\";\r\n\r\n    markerLayer.appendChild(\r\n      leader\r\n    );\r\n  }\r\n\r\n  function selectPoint(\r\n    point,\r\n    button\r\n  ) {\r\n    markerLayer\r\n      .querySelectorAll(\".pm-marker\")\r\n      .forEach(function (marker) {\r\n        marker.setAttribute(\r\n          \"aria-pressed\",\r\n          marker === button\r\n            ? \"true\"\r\n            : \"false\"\r\n        );\r\n      });\r\n\r\n    infoTitle.textContent =\r\n      point.title;\r\n\r\n    infoText.textContent =\r\n      point.text;\r\n\r\n    infoBox.classList.remove(\r\n      \"is-updated\"\r\n    );\r\n\r\n    void infoBox.offsetWidth;\r\n\r\n    infoBox.classList.add(\r\n      \"is-updated\"\r\n    );\r\n\r\n    window.clearTimeout(\r\n      updateTimer\r\n    );\r\n\r\n    updateTimer =\r\n      window.setTimeout(\r\n        function () {\r\n          infoBox.classList.remove(\r\n            \"is-updated\"\r\n          );\r\n        },\r\n        280\r\n      );\r\n  }\r\n\r\n  POINTS.forEach(\r\n    function (point) {\r\n      addLeader(point);\r\n\r\n      const button =\r\n        document.createElement(\r\n          \"button\"\r\n        );\r\n\r\n      button.type = \"button\";\r\n      button.className = \"pm-marker\";\r\n\r\n      button.style.left =\r\n        point.x + \"%\";\r\n\r\n      button.style.top =\r\n        point.y + \"%\";\r\n\r\n      button.style.setProperty(\r\n        \"--pm-offset-x\",\r\n        point.offsetX + \"px\"\r\n      );\r\n\r\n      button.style.setProperty(\r\n        \"--pm-offset-y\",\r\n        point.offsetY + \"px\"\r\n      );\r\n\r\n      button.setAttribute(\r\n        \"aria-label\",\r\n        point.label\r\n      );\r\n\r\n      button.setAttribute(\r\n        \"aria-pressed\",\r\n        \"false\"\r\n      );\r\n\r\n      button.addEventListener(\r\n        \"click\",\r\n        function () {\r\n          selectPoint(\r\n            point,\r\n            button\r\n          );\r\n        }\r\n      );\r\n\r\n      markerLayer.appendChild(\r\n        button\r\n      );\r\n    }\r\n  );\r\n\r\n  function imageReady() {\r\n    map.classList.add(\r\n      \"is-ready\"\r\n    );\r\n  }\r\n\r\n  function imageError() {\r\n    loading.textContent =\r\n      \"Bildet kunne ikke lastes.\";\r\n\r\n    errorBox.hidden =\r\n      false;\r\n  }\r\n\r\n  if (\r\n    image.complete &&\r\n    image.naturalWidth > 0\r\n  ) {\r\n    imageReady();\r\n  } else {\r\n    image.addEventListener(\r\n      \"load\",\r\n      imageReady,\r\n      { once: true }\r\n    );\r\n\r\n    image.addEventListener(\r\n      \"error\",\r\n      imageError,\r\n      { once: true }\r\n    );\r\n  }\r\n})();\r\n</script>",
+      "title": "HTML - raaken ny",
+      "subtype": "scriptembed"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "Det var bestemor som ringte til Marcus."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "– Hun sa jeg måtte komme hjem. Hun var på gråten og jeg fikk en stor klump i magen."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Hjemme sto bilene til nær sagt hele familien i gårdsplassen. Marcus åpnet døra. Det første han så var presten i stua. "
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Brått tenke han på meldingen pappa aldri svarte på."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "– Synet av presten har brent seg fast og kommer aldri til å forsvinne. Jeg skjønte ingenting. Det er det verste jeg har opplevd."
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "Et mysterium"
+          },
+          "blockType": "heading"
+        },
+        {
+          "text": {
+            "value": "Politiet kalte det først et «mistenkelig dødsfall».",
+            "markup": [
+              {
+                "type": "explanation",
+                "offset": 28,
+                "length": 22,
+                "symbol": "Vanlig når en person blir funnet død uten at politiet vet hva som har skjedd."
+              }
+            ]
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "De neste månedene ble vitner avhørt, overvåkingsbilder gjennomgått og økonomiske transaksjoner undersøkt. Marius ble obdusert."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Politiet holdt mange muligheter åpne."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "– I denne konkrete saken var hypotesen om at det kunne skjedd noe straffbart, én av hypotesene, skriver politiadvokat June Falk-Larssen i en e-post til Adresseavisen."
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "caption": {
+        "value": "Politiadvokat June Falk-Larssen, Trøndelag politidistrikt."
+      },
+      "byline": {
+        "title": "Kim Nygård"
+      },
+      "imageAsset": {
+        "id": "8f618367-d0ed-3f2f-a5f3-c5f17160682c",
+        "size": {
+          "width": 2850,
+          "height": 3384
+        }
+      },
+      "presentationProperties": {
+        "addLayout": "mini"
+      },
+      "type": "image"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "Drøyt tre måneder etter dødsfallet, skrev hun til Statsadvokaten i 2024 at etterforskningen ikke ga noen avklaring på saken og foreslo å henlegge."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Statsadvokaten var enig. De la til grunn at Marius «av ukjente årsaker har falt i vannet og druknet»."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Stålbøylen på muren ble omtalt av politiet som det mest sannsynlige fallstedet, men de er ikke sikre."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "– Det er ingenting i etterforskningen som tilsier at dødsfallet skyldes en kriminell handling, skriver Falk-Larssen."
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "– Tror han har møtt noen"
+          },
+          "blockType": "heading"
+        },
+        {
+          "text": {
+            "value": "Marcus har vanskelig for å tro at faren snublet i stålbøyla. Han kjente havna godt og hadde lært sønnen om sjøvett hele livet."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "– Jeg får ikke teorien til å stemme. Hvorfor ligger én sko igjen her? Og hvorfor ligger eiendelene hans i vannet ti meter lenger bort?"
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Ifølge Marcus satt buksa såpass stramt at sakene neppe bare skled ut av lomma i vannet. Smekken skal dessuten ha vært lukket.",
+            "markup": [
+              {
+                "type": "explanation",
+                "offset": 96,
+                "length": 28,
+                "symbol": "Hvorvidt en buksesmekk er åpen eller lukket kan være med å forklare om en person som har tisset for så å falle i vannet. På spørsmål svarer politiet at de ikke har noen informasjon om smekken var lukket eller åpen."
+              }
+            ]
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Adresseavisen har undersøkt størrelsen på glippen mellom brygga og muren, og fallhøyden gitt tidevannet akkurat da. "
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Marius må ha falt over tre meter, ned i en glippe på maksimalt 1,15 meter."
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "imageAsset": {
+        "id": "c74874fc-2153-39f7-987a-625d7d682d2e",
+        "size": {
+          "width": 5760,
+          "height": 8640
+        }
+      },
+      "presentationProperties": {
+        "overlapp": "front",
+        "addLayout": "overlapp"
+      },
+      "type": "image"
+    },
+    {
+      "imageAsset": {
+        "id": "fc47268b-fb55-31db-81c3-e4923d7b1f03",
+        "size": {
+          "width": 5760,
+          "height": 8640
+        }
+      },
+      "presentationProperties": {
+        "addLayout": "overlapp"
+      },
+      "type": "image"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "– Det er veldig smalt. Det skal godt gjøres å havne i vannet herfra uten å treffe brygga og slå seg. Da burde det ha vist seg i obduksjonsrapporten. Hvis han falt ned her uten å skade seg, hvorfor brukte han ikke stigen rett ved for å komme seg opp?"
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Familien er ikke overbevist om at ingenting kriminelt har skjedd."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "– Han var sosial og slo alltid av en prat. Jeg tviler på at han ville gå og legge seg klokka 23 en lørdag kveld. Jeg tror han har møtt på noen og at noe kan ha skjedd, sier Marcus."
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "Kameraopptak forsvant: – Trist"
+          },
+          "blockType": "heading"
+        },
+        {
+          "text": {
+            "value": "Etterforskningsmaterialet viser at flere ting lugget da politiet arbeidet med saken."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Redningsselskapet hadde to overvåkingskameraer på Skansen, men kun ett ble vurdert som relevant av politifolkene på stedet da de fant Marius."
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "byline": {
+        "title": "Håvard Haugseth Jensen"
+      },
+      "imageAsset": {
+        "id": "ca177780-31a7-3f14-be08-e5c8242594a3",
+        "size": {
+          "width": 5760,
+          "height": 8640
+        }
+      },
+      "type": "image"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "Dermed ante ikke etterforskeren som overtok saken at det fantes et kamera til."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "11. september oppdaget hun tilfeldigvis den andre vinkelen på et bilde fra Redningsselskapet. ",
+            "markup": [
+              {
+                "type": "explanation",
+                "offset": 65,
+                "length": 27,
+                "symbol": "Personen i Redningsselskapet sendte et bilde som skulle vise at klokka på kameraet var ti minutter for sen."
+              }
+            ]
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Hun ville se videoen."
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "De avtalte at politiet skulle komme fredag 20. september for å se på videoen og eventuelt sikre den. Da ville det ha gått tolv dager siden Marius ble funnet."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Like før møtet fikk etterforskeren en melding: Opptaket var overskrevet, personen i Redningsselskapet hadde tatt feil av lagringstiden. "
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Videoen fra det andre kameraet ble aldri sikret."
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "caption": {
+        "value": "Slik var vinkelen til det andre kameraet."
+      },
+      "byline": {
+        "title": "RS, fra politiets etterforskningsdokumenter"
+      },
+      "imageAsset": {
+        "id": "8ac99554-a6ac-317f-92ca-a82d79bc5080",
+        "size": {
+          "width": 903,
+          "height": 676
+        }
+      },
+      "type": "image"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "Familien ante ikke at den hadde gått tapt før intervjuet med Adresseavisen. "
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "– Det er trist. Kanskje kunne kameravinkelen gitt oss svar på hva som skjedde. Jeg synes det er ganske utrolig, sier Marcus."
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "intro": {
+        "type": "Intro",
+        "title": "Har du tips i saken om Marius?",
+        "media": {
+          "caption": {
+            "value": "Har du tips i saken om Marius?, Husker du at du var på Skansen sensommerkvelden 7. september, samme dag som Trondheim maraton? Har du andre innspill? Ta kontakt på e-post eller på telefon +47 988 84 485"
+          },
+          "imageAsset": {
+            "id": "aaacbb57-3bb5-3076-a223-fd01f11b12c3",
+            "size": {
+              "width": 621,
+              "height": 1344
+            },
+            "hotspot": {
+              "x": 7,
+              "y": 375,
+              "width": 614,
+              "height": 461
+            }
+          },
+          "type": "image"
+        }
+      },
+      "type": "who-is-who",
+      "presentationProperties": {
+        "richType": "who-is-who"
+      },
+      "text": {
+        "paragraphs": [
+          {
+            "text": {
+              "value": "Husker du at du var på Skansen sensommerkvelden 7. september, samme dag som Trondheim maraton? Har du andre innspill? Ta kontakt på e-post eller på telefon +47 988 84 485",
+              "markup": [
+                {
+                  "type": "link:external",
+                  "offset": 132,
+                  "length": 6,
+                  "uri": "mailto:johannes.steen@adresseavisen.no"
+                }
+              ]
+            },
+            "blockType": "paragraph"
+          }
+        ],
+        "type": "text"
+      }
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "Ifølge politiet ble opptaket sett på av en patrulje i begynnelsen."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "– Det betyr at politiet er kjent med innholdet, og at dette har inngått i bevisbildet i etterforskningen, skriver politiadvokat Falk-Larssen."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Når det gjelder kameraovervåkning fra Solsiden, der festen startet, fant politiet ikke grunn til å sjekke dette. Familien mener det er ubegripelig, da det kunne avklart hva som skjedde etter at de dro fra Heidis."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Dessuten: Kunne man raskere funnet taxisjåføren?"
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Taxisjåføren husket ikke"
+          },
+          "blockType": "heading"
+        },
+        {
+          "text": {
+            "value": "Politiet mente taxisjåføren kunne være et viktig vitne."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Sjåføren kunne vite om begge satt i bilen og hva som hendte etterpå. "
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "I nettbanken til samboeren sto det bare 421 kroner til «Uavhengig taxi». "
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "title": {
+        "value": "Jakten på taxisjåføren"
+      },
+      "paragraphs": [
+        {
+          "text": {
+            "value": "421 kroner ble betalt til «Uavhengig taxi» kvelden 7. september.",
+            "markup": [
+              {
+                "type": "style:strong",
+                "offset": 51,
+                "length": 12
+              }
+            ]
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Først sa samboeren til politiet at Marius var med i taxien. Tre dager senere var hun blitt usikker og sa at hun ikke husket selve taxituren.",
+            "markup": [
+              {
+                "type": "style:strong",
+                "offset": 60,
+                "length": 9
+              }
+            ]
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "15. oktober ba politiet betalingsformidleren Nets om hjelp til å identifisere terminalen. ",
+            "markup": [
+              {
+                "type": "style:strong",
+                "offset": 0,
+                "length": 11
+              }
+            ]
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "To dager senere svarte Nets at vedlegget manglet. ",
+            "markup": [
+              {
+                "type": "style:strong",
+                "offset": 0,
+                "length": 8
+              }
+            ]
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Så gikk det 13 dager før politiet sendte bilaget de hadde fått fra banken.",
+            "markup": [
+              {
+                "type": "style:strong",
+                "offset": 12,
+                "length": 8
+              }
+            ]
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Nets koblet terminalen til Oslo Taxi, men Oslo Taxi oppga først feil sjåfør på grunn av et gammelt ID-kort som var i bruk. Sjåføren sa han aldri hadde vært i Trondheim før."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "1. november fikk politiet navnet på riktig sjåfør, Han ble avhørt 7. november.",
+            "markup": [
+              {
+                "type": "style:strong",
+                "offset": 0,
+                "length": 11
+              },
+              {
+                "type": "style:strong",
+                "offset": 66,
+                "length": 11
+              }
+            ]
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "fact"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "Da de endelig fant taxisjåføren og fikk snakket med ham, hadde det gått to måneder siden turen."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Etterforskeren forklarte at turen gikk fra Solsiden til Skansen båthavn, men sjåføren husket ikke. Han sa han hadde kjørt flere ganger dit."
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "imageAsset": {
+        "id": "5d4736f1-1339-3047-9c29-0a6b416fae2d",
+        "size": {
+          "width": 1240,
+          "height": 940
+        }
+      },
+      "type": "image"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "Han fikk så spørsmål om han husket en tur hvor passasjeren eller passasjerene skulle til båthavna for å sove i båten sin."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Sjåføren ristet på hodet. «Ingen sa de skulle til båthavna»."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Utenom samboeren ble ingen andre ved bordet avhørt før to måneder var gått. Etter de siste avhørene gikk det under fire uker før saken ble henlagt.",
+            "markup": [
+              {
+                "type": "explanation",
+                "offset": 54,
+                "length": 20,
+                "symbol": "Et ektepar ble avhørt av politiet. Det skjedde henholdsvis 59 og 75 dager etter den kvelden på Solsiden."
+              }
+            ]
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "– I utgangspunktet er det best å avhøre vitner så raskt som mulig, skriver politiadvokat Falk-Larssen."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Her endret politiets prioriteringer seg underveis, forklarer hun. Verken taxisjåføren eller de andre rundt bordet var prioritert i begynnelsen."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Kameraopptak fra Solsiden ble ikke hentet inn. Politiet forklarer at de i begynnelsen ikke tvilte på at Marius var med i taxien."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "De hadde heller ikke grunn til å tro at noe straffbart hadde skjedd på Solsiden. Det hadde betydning for om politiet kunne kreve å få opptakene utlevert, forklarer politiadvokaten."
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "Hvem var personene på kaia?"
+          },
+          "blockType": "heading"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "Marcus ser mot kaia, der en hundelufter passerte 33 sekunder etter bevegelsen i vannet."
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "imageAsset": {
+        "id": "360de2e2-4298-35e4-b52d-7d1bbb0b2077",
+        "size": {
+          "width": 1080,
+          "height": 1920
+        }
+      },
+      "type": "image"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "– Jeg synes det er rart at politiet ikke gikk ut tidligere og ba om tips, når det er så mye folk på Skansen i sommervarmen en lørdagskveld."
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "Svaret politiet har gitt, gir ikke mening for familien."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Fordi det ikke var mulig å se hvem de var, var det ikke behov for å etterlyse dem.",
+            "markup": [
+              {
+                "type": "explanation",
+                "offset": 51,
+                "length": 30,
+                "symbol": "Politiet skrev følgende i svaret på familiens klage over etterforskningen: «Av videoen fra åstedet var det ikke mulig å identifisere noen vitner. Det ble derfor ikke ansett å være etterforskningsmessige behov for via media å etterlyse vitner.»"
+              }
+            ]
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Adresseavisen har spurt politiet om ikke personene selv kunne kjent seg igjen om de så en etterlysning i media. "
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Det svarer de ikke på, men skriver at en etterlysning også må vurderes opp mot personvern, taushetsplikt og etterforskningshensyn."
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "Har mistet tillit til politiet"
+          },
+          "blockType": "heading"
+        },
+        {
+          "text": {
+            "value": "Faren til den avdøde Marius, Ottar Raaken, har bedt politiet om svar på hva de gjorde for å finne ut hvordan sønnen døde."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Han og Marius var svært nære og jobbet i et lite firma sammen."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "– Vi møtte opp hver dag klokka sju om morgenen. Marius var flink og dyktig, og det var aldri noe tull. Så plutselig mistet vi ham."
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "caption": {
+        "value": "Pappa Ottar Raaken sammen med Marius sin søster, Marianne."
+      },
+      "imageAsset": {
+        "id": "ff582372-7b78-3a7e-8313-c8e9e22246d5",
+        "size": {
+          "width": 8640,
+          "height": 5760
+        }
+      },
+      "type": "image"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "Familien opplever at etterforskningen har vært lettvint og preget av hemmelighold."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "1. juli 2025 sendte Ottar Raaken en klage til politiet."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Svaret kom 106 dager senere. "
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Politiet beklaget tidsbruken, men mente samtidig at familien var fulgt opp gjennom en relativt omfattende kontakt på telefon, SMS og e-post."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "– Vi har slitt mye med å få informasjon. Alt har vært så tregt, sier Ottar."
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "article",
+      "linkTitle": "Hør podcasten: Hva skjedde med pappaen til Marcus?",
+      "teaser": {
+        "id": "aOO3JO",
+        "slug": "hva-skjedde-med-pappaen-til-marcus",
+        "title": {
+          "value": "Håper nye vitner kan dukke opp: - Det er så mye som ikke stemmer"
+        },
+        "type": "article",
+        "characteristics": {
+          "lifetime": 40,
+          "hotness": 50,
+          "timed": {
+            "from": "2026-10-09T09:29:59Z",
+            "to": null
+          }
+        },
+        "changes": {
+          "published": "2026-10-09T09:30:04Z",
+          "updated": "2026-10-12T08:57:03Z"
+        },
+        "section": {
+          "id": "f1a624d0-b1e9-4443-b562-b97fed545bb8",
+          "title": "Video"
+        },
+        "urls": {
+          "relative": "/video/i/aOO3JO/hva-skjedde-med-pappaen-til-marcus",
+          "canonical": "https://play.adressa.no/video/3025326/hva-skjedde-med-pappaen-til-marcus",
+          "redirectToCanonical": true
+        },
+        "access": {
+          "paywall": false
+        },
+        "contentType": "podcast",
+        "media": {
+          "imageAsset": {
+            "id": "64fe78a7-e6d4-3419-aa7a-6f2c62295da0",
+            "size": {
+              "width": 8640,
+              "height": 5760
+            },
+            "hotspot": {
+              "x": 1168,
+              "y": 1127,
+              "width": 2417,
+              "height": 1813
+            }
+          },
+          "prioritizeImage": true
+        },
+        "tags": [
+          {
+            "id": "344c8269-e3b9-4ff3-857d-8f2c580818e4",
+            "title": "Trondheim",
+            "type": "location",
+            "slug": "trondheim",
+            "metadata": [
+              {
+                "url": "https://no.wikipedia.org/wiki/Trondheim",
+                "type": "website"
+              },
+              {
+                "url": "https://www.trondheim.kommune.no/",
+                "type": "website"
+              }
+            ]
+          },
+          {
+            "id": "5d0bc7a1-7b5c-42d0-872b-f7c9c5bc2b20",
+            "title": "Podkast",
+            "type": "descriptor",
+            "slug": "podkast",
+            "metadata": [
+              {
+                "url": "https://podtoppen.no/",
+                "type": "website"
+              },
+              {
+                "url": "https://snl.no/podkast",
+                "type": "website"
+              }
+            ]
+          },
+          {
+            "id": "2e69a15f-8da1-43b8-bdb3-303490a3643e",
+            "title": "Dødsfall",
+            "type": "descriptor",
+            "slug": "doedsfall"
+          },
+          {
+            "id": "4f167d37-9928-402d-9862-f18d683e22e7",
+            "title": "Trøndelag politidistrikt",
+            "type": "organization",
+            "slug": "troendelag-politidistrikt"
+          },
+          {
+            "id": "dd2fdaea-9c88-4137-83e1-2304e5270eb3",
+            "title": "Skansen",
+            "type": "location",
+            "slug": "skansen"
+          },
+          {
+            "id": "b4960a53-e203-43cf-8556-6daec6063a45",
+            "title": "Sterke Historier",
+            "type": "interest",
+            "slug": "sterke-historier"
+          },
+          {
+            "id": "6574cbbf-61f6-4efa-b246-be011864fdb4",
+            "title": "Adressa fortalt",
+            "type": "descriptor",
+            "slug": "adressa-fortalt"
+          },
+          {
+            "id": "f484e2dc-b412-4240-8bee-deb52f145325",
+            "title": "Etterforsking",
+            "type": "event",
+            "slug": "etterforsking"
+          },
+          {
+            "id": "0407ad7e-47f8-40ce-b281-0c86f017c75c",
+            "title": "Autoplay",
+            "type": "machine",
+            "slug": "autoplay"
+          }
+        ],
+        "customProperties": {
+          "presentation": "news",
+          "frontPageCardSize": "medium",
+          "fontSize": "100",
+          "skin": "auto",
+          "frontPageImageHeightOverride": "h-normal"
+        },
+        "presentationProperties": {
+          "customSkin": "podcast"
+        },
+        "contentSharing": {
+          "sourceId": "3025326",
+          "sourceNewsroom": "adressa-svp",
+          "immediateSourceId": "3025326"
+        },
+        "videoDuration": 1093829
+      }
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "Familien hadde også håpet å få hjelp fra Åsted Norge. I januar 2025 søkte TV 2-programmet om innsyn i etterforskningen for å lage en reportasje og hente inn tips fra publikum.",
+            "markup": [
+              {
+                "type": "explanation",
+                "offset": 41,
+                "length": 11,
+                "symbol": "Program på TV 2 om kriminalsaker og som ber publikum om tips for å oppklare dem."
+              }
+            ]
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Politiet avslo.",
+            "markup": [
+              {
+                "type": "explanation",
+                "offset": 9,
+                "length": 5,
+                "symbol": "De mente saken ikke var av betydelig offentlig interesse, og viste til at adgangen til innsyn i avsluttede straffesaker er snever. De viste også til taushetsplikt og avdødes personvern."
+              }
+            ]
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "– Når politiet velger å nekte dem innsyn i saken, mister jeg tilliten til politiet. Da føler man at det er noe de skjuler, sier sønnen Marcus."
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "Politiadvokat Falk-Larssen er ikke enig i at de «skjuler» informasjon. Hun viser til at de har hatt omfattende dialog med pårørende og at de har fått se på alle dokumentene i saken."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Hun viser også til at Nord statsadvokatembeter har vurdert saken etter at familien ba om ny etterforskning. Statsadvokaten mente politiet har etterforsket det som er naturlig å etterforske."
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "imageAsset": {
+        "id": "f36ac6cc-ba5e-33fe-b984-71b831d497b0",
+        "size": {
+          "width": 5372,
+          "height": 8058
+        }
+      },
+      "type": "image"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "Nå håper familien at oppmerksomheten rundt saken kan få noen som så eller hørte noe, til å melde seg."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Marius’ søster, Marianne, sier de aldri vil gi opp."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "– Vi går hele tiden rundt med uvisshet. Hadde det skjedd noe med meg eller Marcus, vet jeg at Marius hadde kjempet med nebb og klør for å få svar. Han stilte opp for alle."
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "presentationProperties": {
+        "iframe": "true"
+      },
+      "type": "integration",
+      "url": "https://enrichment.api.plan3.se/proxy/content/v3/publication/adresseavisen/multimedias/bcac5336-f64d-4b97-815c-47f44329943e",
+      "body": "<script type=\"module\" crossorigin src=\"https://mm.adressa.no/static/tools/adressa-tip-box/index.js?v4\"></script><link rel=\"stylesheet\" crossorigin href=\"https://mm.adressa.no/static/tools/adressa-tip-box/index.css?v4\"><script type=\"application/json\" class=\"adressa-tip-box\">{\"title\":{\"value\":\"Johannes Steen\"},\"role\":{\"value\":\"Journalist\"},\"paragraphs\":[{\"text\":{\"value\":\"Takk for at du leste saken. \\n\\nJeg jobber med å finne sterke historier fra Trøndelag som ennå ikke er fortalt.\\n\\nHar du tips til denne saken eller andre ting vi bør se på?\",\"markup\":[]},\"blockType\":\"paragraph\"}],\"imageAsset\":{\"sourceId\":\"https://vcdn.polarismedia.no/cce3a9f2-1317-4131-9e6e-3b874a1b5dd5?w=500&fit=clip&q=80\",\"source\":\"author-photo\",\"size\":{\"width\":500,\"height\":500},\"x\":0,\"y\":0,\"width\":500,\"height\":500,\"url\":\"data:image/webp;base64,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\"},\"presentationProperties\":{\"theme\":\"default\",\"emails\":[\"johannes.steen@adresseavisen.no\"],\"buttonLabel\":\"Send oss en e-post\",\"buttonStyle\":\"button\",\"layout\":\"side\"}}</script>",
+      "title": "Byline Raaken Johannes",
+      "subtype": "scriptembed"
+    },
+    {
+      "type": "article",
+      "linkTitle": "Legene trodde Mads var full og sendte ham til arresten. Så gikk det fullstendig galt",
+      "teaser": {
+        "id": "M7EQAM",
+        "slug": "legene-trodde-mads-var-full-og-sendte-ham-til-arresten-saa-gikk-det-fullstendig-galt",
+        "title": {
+          "value": "Lappen fra mamma sa at Mads hadde vært i en ulykke. Først senere røpet hun detaljene"
+        },
+        "type": "article",
+        "characteristics": {
+          "lifetime": 60,
+          "hotness": 80
+        },
+        "changes": {
+          "published": "2026-09-03T19:10:41Z",
+          "updated": "2026-10-09T08:51:29Z"
+        },
+        "section": {
+          "id": "b89679f1-ba14-4ecf-9314-7b8e46b657c1",
+          "title": "Trondheim",
+          "parent": {
+            "id": "890e4515-8b99-410f-bd2d-7019a5c8f9b5",
+            "title": "Nyheter"
+          }
+        },
+        "urls": {
+          "relative": "/nyheter/trondheim/i/M7EQAM/legene-trodde-mads-var-full-og-sendte-ham-til-arresten-saa-gikk-det-fullstendig-galt",
+          "canonical": "https://www.adressa.no/nyheter/trondheim/i/M7EQAM/legene-trodde-mads-var-full-og-sendte-ham-til-arresten-saa-gikk-det-fullstendig-galt",
+          "redirectToCanonical": false
+        },
+        "access": {
+          "paywall": true
+        },
+        "lead": "Tre politifolk er mistenkt, mens sykehuset fortsatt etterforskes. Dette er kvelden da alt gikk galt for Mads Walker (29).",
+        "media": {
+          "imageAsset": {
+            "id": "8dabd032-c3a9-3666-9b27-c28cb1cc8f89",
+            "size": {
+              "width": 5011,
+              "height": 7517
+            },
+            "hotspot": {
+              "x": 239,
+              "y": 400,
+              "width": 3455,
+              "height": 2591
+            }
+          }
+        },
+        "authors": [
+          {
+            "fullname": "Johannes Steen",
+            "slug": "johannes-steen",
+            "image": "cce3a9f2-1317-4131-9e6e-3b874a1b5dd5"
+          },
+          {
+            "fullname": "Camilla Kilnes",
+            "slug": "camilla-kilnes",
+            "image": "a1ad68a5-320b-4188-af82-b621c057a34e"
+          },
+          {
+            "fullname": "Martin Strøm (foto)",
+            "slug": "martin-stroem-foto",
+            "image": "6bcd03ec-3ea4-328d-a91b-fac1e036f36c"
+          }
+        ],
+        "tags": [
+          {
+            "id": "fbbce54d-8bf4-4bfd-8012-c23c70c62e56",
+            "title": "St Olavs",
+            "type": "descriptor",
+            "slug": "st-olavs",
+            "customization": {
+              "promotionContent": {
+                "title": "St. Olav"
+              },
+              "hidden": false
+            }
+          },
+          {
+            "id": "ec663795-2685-406c-a26a-8adcfe707918",
+            "title": "St. Olavs hospital",
+            "type": "organization",
+            "slug": "st-olavs-hospital"
+          },
+          {
+            "id": "4a38144c-3a14-4b6a-8f82-e5da9c1f616f",
+            "title": "Spesialenheten",
+            "type": "descriptor",
+            "slug": "spesialenheten"
+          },
+          {
+            "id": "4f167d37-9928-402d-9862-f18d683e22e7",
+            "title": "Trøndelag politidistrikt",
+            "type": "organization",
+            "slug": "troendelag-politidistrikt"
+          },
+          {
+            "id": "92facd1e-27b2-4a69-bdc1-b660a4243a41",
+            "title": "Etterforskning",
+            "type": "descriptor",
+            "slug": "etterforskning"
+          },
+          {
+            "id": "a66ec01b-47d5-44ed-9d51-a3abcabb0cc1",
+            "title": "Ulykke",
+            "type": "descriptor",
+            "slug": "ulykke",
+            "metadata": [
+              {
+                "url": "https://sml.snl.no/ulykke#:~:text=Ulykke%20er%20samlebetegnelse%20for%20en,eksempel%20terroranslag)%20i%20akuttmedisinsk%20beredskapsarbeid.",
+                "type": "website"
+              },
+              {
+                "url": "https://no.wikipedia.org/wiki/Ulykke",
+                "type": "website"
+              }
+            ]
+          },
+          {
+            "id": "9a577f48-4b83-4033-a3b8-3777e050c034",
+            "title": "Statsforvalteren",
+            "type": "descriptor",
+            "slug": "statsforvalteren"
+          },
+          {
+            "id": "b4960a53-e203-43cf-8556-6daec6063a45",
+            "title": "Sterke Historier",
+            "type": "interest",
+            "slug": "sterke-historier"
+          }
+        ],
+        "customProperties": {
+          "presentation": "feature",
+          "frontPageCardSize": "large",
+          "fontSize": "110",
+          "skin": "auto",
+          "frontPageImageHeightOverride": "h-normal"
+        }
+      }
+    },
+    {
+      "type": "integration",
+      "url": "https://enrichment.api.plan3.se/proxy/content/v3/publication/adresseavisen/multimedias/423bd964-5959-4b03-94a1-057916719e83",
+      "body": "<style>\r\n    .article-header.feature-intro .content .item.empty {\r\n        height: 2vh !important;\r\n    }\r\n</style>",
+      "title": "HTML - empty fade"
+    }
+  ]
+}

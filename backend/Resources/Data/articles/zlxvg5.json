@@ -1,0 +1,764 @@
+{
+  "urls": {
+    "relative": "/nyheter/trondheim/i/zlxvg5/brann-i-trondheim-i-natt",
+    "canonical": "https://www.adressa.no/nyheter/trondheim/i/zlxvg5/brann-i-trondheim-i-natt",
+    "redirectToCanonical": false
+  },
+  "components": [
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "Den ene brannen startet ved kornsiloen i Ila natt til tirsdag. På ettermiddagen begynte det også å brenne i Fiskå mølle på Spongdal i Trondheim. ",
+            "markup": [
+              {
+                "type": "link:external",
+                "offset": 63,
+                "length": 82,
+                "uri": "https://www.adressa.no/nyheter/trondheim/i/BM6BnE/rykker-ut-til-mulig-brann-i-naeringsbygg-i-trondheim"
+              }
+            ]
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Klokka 19.45 anser brannvesenet for begge brannene som slukket. Eierne av de to byggene skal ha brannvakt hele natta dersom noe skulle skje, opplyser Edvin Mattieson ved 110-sentralen. "
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "I Ila hadde brannmannskapene jobbet med slukking siden klokka tre natt til fredag. "
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Klokka 2.55 natt til tirsdag meldte politiet at nødetatene rykket ut til Nedre Ila etter melding om brann i en korntørker i kornmottaket til Felleskjøpet. "
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Ingen personer ble skadet i brannen, men store mengder korn har gått tapt. "
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "loopingVideo",
+      "changes": {
+        "created": "2026-10-13T04:54:08Z",
+        "updated": "2026-10-13T04:54:33Z",
+        "firstPublished": "2026-10-13T04:54:30Z",
+        "published": "2026-10-13T04:54:30Z"
+      },
+      "videoAsset": {
+        "duration": 11587,
+        "flightTimes": {
+          "start": 1791867270
+        },
+        "id": "3025349",
+        "metadata": {
+          "aspectRatio": "0.75",
+          "preview": "https://dd-polaris.akamaized.net/adressa/vod/2026/10/plv6lfoawlidgrhktyr8v/meta_preview.mp4",
+          "preview_360p": "https://dd-polaris.akamaized.net/adressa/vod/2026/10/plv6lfoawlidgrhktyr8v/meta_preview_360p.mp4",
+          "preview_hq": "https://dd-polaris.akamaized.net/adressa/vod/2026/10/plv6lfoawlidgrhktyr8v/meta_1080_6000_preview_hq.mp4"
+        },
+        "section": {
+          "id": "27",
+          "title": "Kun til CNP",
+          "shortPath": "kun-til-cnp"
+        },
+        "showDisplays": true,
+        "showAds": true,
+        "sourceFiles": [
+          {
+            "width": 1080,
+            "height": 1440,
+            "bitrate": 5912,
+            "sourceFile": "/adressa/vod/2026/10/plv6lfoawlidgrhktyr8v/ps_1080_1440_5912.mp4"
+          }
+        ],
+        "streamType": "vod",
+        "assetType": "video",
+        "streamUrls": {
+          "hls": "https://amd-polaris.akamaized.net/adressa/vod/2026/10/plv6lfoawlidgrhktyr8v/,202_270_427,270_360_579,406_540_1018,540_720_1459,810_1080_3251,/master.m3u8",
+          "mp4": "https://dd-polaris.akamaized.net/adressa/vod/2026/10/plv6lfoawlidgrhktyr8v/ps_1080_1440_5912.mp4",
+          "pseudostreaming": [
+            "https://dd-polaris.akamaized.net/adressa/vod/2026/10/plv6lfoawlidgrhktyr8v/ps_1080_1440_5912.mp4"
+          ]
+        },
+        "title": "Her brenner det i Ilsvika"
+      },
+      "imageAsset": {
+        "id": "78a3eac2fa80ef2beac44fee9867bc68@tv",
+        "main": "https://images.stream.schibsted.media/users/adressa/images/78a3eac2fa80ef2beac44fee9867bc68.jpg",
+        "snapshots": "https://images.stream.schibsted.media/users/adressa/images/fe0cca7108d98d4ceef907f68c0f5e59.jpg"
+      },
+      "characteristics": {},
+      "provider": {
+        "service": "svp",
+        "id": "adressa"
+      },
+      "presentationProperties": {
+        "intention": "looping"
+      }
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "Vanskelig å komme til"
+          },
+          "blockType": "heading"
+        },
+        {
+          "text": {
+            "value": "Ifølge innsatsleder Jørund Berg i brannvesenet startet brannen med varmegang i en av viftene på Felleskjøpets korntørkeanlegg. "
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "caption": {
+        "value": "Brannvesenet jobber på stedet tirsdag morgen."
+      },
+      "byline": {
+        "title": "Frank Cadamarteri"
+      },
+      "imageAsset": {
+        "id": "3a5d36a7-dc33-392e-b49e-1bc2a88a0fa0",
+        "size": {
+          "width": 6720,
+          "height": 4480
+        }
+      },
+      "type": "image"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "Anlegget ligger rett ved siloen. Brannen spredte seg deretter, ifølge Berg, til kornet i anlegget."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Han fortalte at det var vanskelig å komme til i tørkeanlegget. "
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "caption": {
+        "value": "Innsatsleder Jørund Berg."
+      },
+      "byline": {
+        "title": "Espen Bakken"
+      },
+      "imageAsset": {
+        "id": "1afdaeb7-5a1c-3e28-8f10-a3575dd1e622",
+        "size": {
+          "width": 4849,
+          "height": 7273
+        }
+      },
+      "type": "image"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "Skjærer hull i siloen"
+          },
+          "blockType": "heading"
+        },
+        {
+          "text": {
+            "value": "I 11-tiden opplyste han at de begynte å få kontroll på situasjonen. Men det brann da fortsatt i tørkeanlegget."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "– Vi har fått ut en del korn og fortsetter med det, sier han."
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "caption": {
+        "value": "Det er synlige flammer ved siloen."
+      },
+      "byline": {
+        "title": "Espen Bakken"
+      },
+      "imageAsset": {
+        "id": "02505626-c65e-3f4a-8a5d-e8a7b691ef5c",
+        "size": {
+          "width": 3411,
+          "height": 5117
+        }
+      },
+      "type": "image"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "– Hvordan går dere fram?",
+            "markup": [
+              {
+                "type": "style:strong",
+                "offset": 0,
+                "length": 24
+              }
+            ]
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "– Vi har begynt å skjære hull i siloen. I tillegg har vi fått åpnet noen luker hvor vi prøver å få tatt ut kornet litt etter litt. Så slukker vi det når kornet kommer ut, sier Berg.",
+            "markup": [
+              {
+                "type": "style:strong",
+                "offset": 0,
+                "length": 2
+              }
+            ]
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "caption": {
+        "value": "Varmekamera viser at det er over 600 grader inne i siloen."
+      },
+      "byline": {
+        "title": "Espen Bakken"
+      },
+      "imageAsset": {
+        "id": "3ba9bcda-e6c5-3f71-9438-844b9a31023c",
+        "size": {
+          "width": 5760,
+          "height": 8640
+        }
+      },
+      "type": "image"
+    },
+    {
+      "byline": {
+        "title": "Espen Bakken"
+      },
+      "imageAsset": {
+        "id": "84311836-3045-355d-8042-ca7fcd5e6625",
+        "size": {
+          "width": 8640,
+          "height": 5760
+        }
+      },
+      "type": "image"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "Tirsdag ettermiddag så det ut som at alt kornet i tørkeanlegget hadde gått tapt. "
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "– Det er 60 tonn havre i anlegget som er berørt, forteller ommunikasjonssjef i Felleskjøpet Sigbjørn Vedeld. ",
+            "markup": [
+              {
+                "type": "link:external",
+                "offset": 0,
+                "length": 48,
+                "uri": "https://www.adressa.no/nyheter/trondelag/i/BM68Ml/60-tonn-havre-i-brannherjet-moelle-i-ila"
+              }
+            ]
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "caption": {
+        "value": "Tirsdag kveld foregår det fortsatt arbeid ved anlegget i Ila."
+      },
+      "byline": {
+        "title": "Marius Kalleberg Mydland"
+      },
+      "imageAsset": {
+        "id": "5e9ecb65-ce80-3274-a2d9-975c91a19df7",
+        "size": {
+          "width": 8640,
+          "height": 5760
+        }
+      },
+      "type": "image"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "Han understreket at brannen var i tørkeanlegget og at kraftfôrfabrikken deres på samme område ikke er berørt."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "– Produksjonen der går som normalt, sier han. "
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "caption": {
+        "value": "Kommunikasjonssjef i Felleskjøpet Sigbjørn Vedeld"
+      },
+      "byline": {
+        "title": "Felleskjøpet"
+      },
+      "imageAsset": {
+        "id": "259cc40b-1edb-3c36-bc73-b6635283a398",
+        "size": {
+          "width": 250,
+          "height": 313
+        }
+      },
+      "presentationProperties": {
+        "addLayout": "mini"
+      },
+      "type": "image"
+    },
+    {
+      "caption": {
+        "value": "Det er mulig å se brannen fra flere steder i byen. Her fra Festningen."
+      },
+      "byline": {
+        "title": "Hilde Skjesol"
+      },
+      "imageAsset": {
+        "id": "7e5a91e3-7a73-33b7-af82-857ec82c4cd3",
+        "size": {
+          "width": 5712,
+          "height": 4284
+        }
+      },
+      "type": "image"
+    },
+    {
+      "caption": {
+        "value": "Det var synlige glør på utsiden av siloen."
+      },
+      "byline": {
+        "title": "Frank Cadamarteri"
+      },
+      "imageAsset": {
+        "id": "d7afa0ab-e1ba-3e66-9add-de0d70aa74ca",
+        "size": {
+          "width": 2048,
+          "height": 1365
+        },
+        "hotspot": {
+          "x": 569,
+          "y": 138,
+          "width": 1190,
+          "height": 893
+        }
+      },
+      "type": "image"
+    },
+    {
+      "type": "video",
+      "changes": {
+        "created": "2026-10-13T05:01:59Z",
+        "updated": "2026-10-13T05:02:44Z",
+        "firstPublished": "2026-10-13T05:02:44Z",
+        "published": "2026-10-13T05:02:44Z"
+      },
+      "videoAsset": {
+        "duration": 8951,
+        "flightTimes": {
+          "start": 1791867765
+        },
+        "id": "3025350",
+        "metadata": {
+          "aspectRatio": "1.33",
+          "preview": "https://dd-polaris.akamaized.net/adressa/vod/2026/10/cbaqs2ovqku426pl6fdtc/meta_preview.mp4",
+          "preview_360p": "https://dd-polaris.akamaized.net/adressa/vod/2026/10/cbaqs2ovqku426pl6fdtc/preview/1791867759111/meta_preview_360p.mp4",
+          "preview_hq": "https://dd-polaris.akamaized.net/adressa/vod/2026/10/cbaqs2ovqku426pl6fdtc/preview/1791867759111/meta_preview_hq.mp4"
+        },
+        "section": {
+          "id": "27",
+          "title": "Kun til CNP",
+          "shortPath": "kun-til-cnp"
+        },
+        "showDisplays": true,
+        "showAds": true,
+        "sourceFiles": [
+          {
+            "width": 1440,
+            "height": 1080,
+            "bitrate": 6529,
+            "sourceFile": "/adressa/vod/2026/10/cbaqs2ovqku426pl6fdtc/ps_1440_1080_6529.mp4"
+          }
+        ],
+        "streamType": "vod",
+        "assetType": "video",
+        "streamUrls": {
+          "hls": "https://amd-polaris.akamaized.net/adressa/vod/2026/10/cbaqs2ovqku426pl6fdtc/,360_270_546,480_360_926,720_540_2006,960_720_3788,1440_1080_6516,/master.m3u8",
+          "mp4": "https://dd-polaris.akamaized.net/adressa/vod/2026/10/cbaqs2ovqku426pl6fdtc/ps_1440_1080_6529.mp4",
+          "pseudostreaming": [
+            "https://dd-polaris.akamaized.net/adressa/vod/2026/10/cbaqs2ovqku426pl6fdtc/ps_1440_1080_6529.mp4"
+          ]
+        },
+        "title": "videotilfront brann"
+      },
+      "title": {
+        "value": "videotilfront brann"
+      },
+      "imageAsset": {
+        "id": "4c7844504a7ae1a003b1885f8df45913@tv",
+        "main": "https://images.stream.schibsted.media/users/adressa/images/4c7844504a7ae1a003b1885f8df45913.jpg",
+        "snapshots": "https://images.stream.schibsted.media/users/adressa/images/5441d602718db463eb206179596eb339.jpg"
+      },
+      "characteristics": {},
+      "provider": {
+        "service": "svp",
+        "id": "adressa"
+      },
+      "presentationProperties": {
+        "hide": "video"
+      }
+    }
+  ],
+  "changes": {
+    "published": "2026-10-13T04:14:35Z",
+    "updated": "2026-10-13T18:08:45Z"
+  },
+  "customProperties": {
+    "livemode": "",
+    "snapTitle": "",
+    "prefix": "Siste:",
+    "snapDescription": "",
+    "snapDateTime": "",
+    "presentation": "news",
+    "varselsignal": "",
+    "postnr": "",
+    "tip": false,
+    "breaking": false,
+    "frontPageLeadText": "",
+    "seoDescription": "",
+    "countdown": "",
+    "toPrint": true,
+    "frontPageTitle": "Begge brannene er slukket",
+    "frontPageCardSize": "large",
+    "bundleTitle": "",
+    "grade": null,
+    "fontSize": "100",
+    "bundlePlacementFooter": "",
+    "showAds": true,
+    "showByline": false,
+    "skin": "is-hendelse-skin",
+    "blockSearchEngineIndexing": false,
+    "seoTitle": "",
+    "frontPageImage": {
+      "id": "33800025-e2de-3f41-8eb0-067901fe764d",
+      "size": {
+        "width": 8640,
+        "height": 5760
+      },
+      "hotspot": {
+        "x": 1151,
+        "y": 1065,
+        "width": 3179,
+        "height": 2384
+      }
+    },
+    "someDescription": "",
+    "paywall": "closed",
+    "feature": false,
+    "someTitle": "",
+    "bundleSkinTest": "default",
+    "comments": "no",
+    "bundlePlacementHeader": "",
+    "frontPageImageHeightOverride": "h-normal",
+    "label": "",
+    "showArticleSummary": false,
+    "wordCount": 287
+  },
+  "schemaType": "article",
+  "id": "zlxvg5",
+  "section": {
+    "id": "b89679f1-ba14-4ecf-9314-7b8e46b657c1",
+    "title": "Trondheim",
+    "parent": {
+      "id": "890e4515-8b99-410f-bd2d-7019a5c8f9b5",
+      "title": "Nyheter",
+      "enabled": true
+    },
+    "enabled": true
+  },
+  "title": {
+    "value": "Anser kornbrannen i Ila for slukket"
+  },
+  "characteristics": {
+    "lifetime": 20,
+    "hotness": 60
+  },
+  "access": {
+    "restrictions": [
+      "closed"
+    ]
+  },
+  "newsroom": "adresseavisen",
+  "schemaVersion": 5,
+  "version": {
+    "sequenceNo": 126,
+    "time": "2026-10-13T18:08:54.434675Z"
+  },
+  "language": "nb",
+  "authors": [
+    {
+      "fullname": "Frank Cadamarteri",
+      "slug": "frank-cadamarteri",
+      "image": "a6a1c9cd-393c-4965-bee0-27b953332c15",
+      "email": "frank.cadamarteri@adresseavisen.no",
+      "phone": "99006540"
+    },
+    {
+      "fullname": "Toini Thanem",
+      "slug": "toini-thanem",
+      "image": "99116058-f510-467c-85cb-6704ce201b88",
+      "email": "toini.thanem@adresseavisen.no"
+    },
+    {
+      "fullname": "Hanna Risnes Solligård",
+      "slug": "hanna-risnes-solligaard",
+      "image": "fae4c4b9-3d46-42f5-9501-668ea46f799c",
+      "email": "hanna.risnes.solligard@adresseavisen.no"
+    },
+    {
+      "fullname": "Pål E. Solberg",
+      "slug": "paal-solberg",
+      "image": "f7ad1065-6a53-3f4c-8bc8-3f75ac4b8397",
+      "email": "paal.solberg@adresseavisen.no",
+      "phone": "98620134"
+    },
+    {
+      "fullname": "Espen Bakken",
+      "slug": "espen-bakken",
+      "image": "5b2ed41b-e7c6-472c-b689-4faa41cff01b",
+      "email": "espen.bakken@adresseavisen.no"
+    },
+    {
+      "fullname": "Aagot Opheim",
+      "slug": "aagot-opheim",
+      "image": "c758baab-5aac-452a-a42e-fd01dbda13b9",
+      "email": "aagot.opheim@adresseavisen.no",
+      "phone": "99542014"
+    },
+    {
+      "fullname": "Stian Wallum",
+      "slug": "stian-wallum",
+      "image": "9741b625-c179-4328-82a5-c925bc9fd41c",
+      "email": "stian.wallum@adresseavisen.no",
+      "phone": "98283751"
+    }
+  ],
+  "tags": [
+    {
+      "id": "7f26644b-5eac-4c9b-885c-654f37882ff7",
+      "title": "Felleskjøpet",
+      "type": "organization",
+      "slug": "felleskjoepet"
+    },
+    {
+      "id": "344c8269-e3b9-4ff3-857d-8f2c580818e4",
+      "title": "Trondheim",
+      "type": "location",
+      "slug": "trondheim",
+      "metadata": [
+        {
+          "url": "https://no.wikipedia.org/wiki/Trondheim",
+          "type": "website"
+        },
+        {
+          "url": "https://www.trondheim.kommune.no/",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "id": "3f86823a-5e17-4ac3-a64b-12a068de5e37",
+      "title": "Brannvesenet",
+      "type": "organization",
+      "slug": "brannvesenet"
+    },
+    {
+      "id": "c4d30319-e9dc-468d-ad53-03d1483cbc55",
+      "title": "Ila",
+      "type": "location",
+      "slug": "ila-2"
+    },
+    {
+      "id": "3ba0a291-6dba-41bb-b8f5-aecf11c7f799",
+      "title": "Brann",
+      "type": "descriptor",
+      "slug": "brann",
+      "metadata": [
+        {
+          "url": "https://www.brannvesenet.no/",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "id": "0656cd0f-dfcc-476e-8157-b17450e7955c",
+      "title": "Nødetatene",
+      "type": "descriptor",
+      "slug": "noedetatene"
+    },
+    {
+      "id": "aa9d9796-21a0-4d10-b6ce-42a97ed09147",
+      "title": "110-sentralen",
+      "type": "organization",
+      "slug": "110-sentralen"
+    }
+  ],
+  "promotionContent": {
+    "slug": "brann-i-trondheim-i-natt",
+    "context": {
+      "frontpage": [
+        {
+          "id": "8817e338-9513-5985-9c75-5d3d5258d5f1",
+          "weight": 100,
+          "title": {
+            "value": "Begge brannene er slukket"
+          },
+          "kicker": {
+            "value": ""
+          },
+          "imageAsset": {
+            "id": "33800025-e2de-3f41-8eb0-067901fe764d",
+            "size": {
+              "width": 8640,
+              "height": 5760
+            },
+            "hotspot": {
+              "x": 1151,
+              "y": 1065,
+              "width": 3179,
+              "height": 2384
+            }
+          }
+        }
+      ]
+    }
+  },
+  "intro": {
+    "type": "Intro",
+    "title": "Anser kornbrannen i Ila for slukket",
+    "frontPageTitle": "Begge brannene er slukket",
+    "media": {
+      "caption": {
+        "value": "Det strømmer røyk opp fra siloen i Ila."
+      },
+      "byline": {
+        "title": "Bjørnar Kvalen"
+      },
+      "imageAsset": {
+        "id": "9b007e27-b636-35d1-89ce-16d2e81d91af",
+        "size": {
+          "width": 6000,
+          "height": 4000
+        }
+      },
+      "type": "image"
+    },
+    "lead": "Det har vært to branner i kornmottak i Trondheim tirsdag. Nå anser brannvesenet begge brannene for slukket. ",
+    "promo": {
+      "caption": {
+        "value": "Det strømmer røyk opp fra siloen i Ila."
+      },
+      "byline": {
+        "title": "Bjørnar Kvalen"
+      },
+      "imageAsset": {
+        "id": "9b007e27-b636-35d1-89ce-16d2e81d91af",
+        "size": {
+          "width": 6000,
+          "height": 4000
+        }
+      },
+      "type": "image"
+    },
+    "frontPageImage": {
+      "type": "image",
+      "imageAsset": {
+        "id": "33800025-e2de-3f41-8eb0-067901fe764d",
+        "size": {
+          "width": 8640,
+          "height": 5760
+        },
+        "hotspot": {
+          "x": 1151,
+          "y": 1065,
+          "width": 3179,
+          "height": 2384
+        }
+      }
+    }
+  },
+  "some": {
+    "title": "Begge brannene er slukket",
+    "description": "Det har vært to branner i kornmottak i Trondheim tirsdag. Nå anser brannvesenet begge brannene for slukket. ",
+    "image": {
+      "id": "33800025-e2de-3f41-8eb0-067901fe764d",
+      "size": {
+        "width": 8640,
+        "height": 5760
+      },
+      "hotspot": {
+        "x": 1151,
+        "y": 1065,
+        "width": 3179,
+        "height": 2384
+      }
+    }
+  },
+  "seo": {
+    "title": "Anser kornbrannen i Ila for slukket",
+    "description": "Det har vært to branner i kornmottak i Trondheim tirsdag. Nå anser brannvesenet begge brannene for slukket. ",
+    "image": {
+      "id": "9b007e27-b636-35d1-89ce-16d2e81d91af",
+      "size": {
+        "width": 6000,
+        "height": 4000
+      }
+    }
+  },
+  "meta": {
+    "hasVideo": true
+  }
+}

@@ -1,0 +1,632 @@
+{
+  "urls": {
+    "relative": "/nyheter/trondheim/i/eGz299/barna-satt-i-stua-da-et-skudd-gikk-gjennom-verandadoera",
+    "canonical": "https://www.adressa.no/nyheter/trondheim/i/eGz299/barna-satt-i-stua-da-et-skudd-gikk-gjennom-verandadoera",
+    "redirectToCanonical": false
+  },
+  "components": [
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "SISTE: Mannen i 50-årene som er siktet etter at et skudd gikk gjennom verandadøra til en bolig på Tanem lørdag, erkjenner ikke straffskyld.",
+            "markup": [
+              {
+                "type": "style:strong",
+                "offset": 0,
+                "length": 6
+              }
+            ]
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Mannen tilhører jaktlaget politiet kom i kontakt med etter hendelsen. Han er ikke pågrepet, men har gjennomført et innledende avhør."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Det opplyser jourhavende jurist Silje Nyland i Trøndelag politidistrikt til Adresseavisen søndag."
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "– Hørte kraftig smell"
+          },
+          "blockType": "heading"
+        },
+        {
+          "text": {
+            "value": "Like før 09.00 lørdag morgen satt tre barn på fire, sju og åtte år i stua i boligen på Tanem. Foreldrene lå enda og sov. Plutselig hørte de et kraftig smell. Vinduet på verandadøren knuste. "
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "– Ungene kom springende inn på rommet og sa at vinduet hadde eksplodert, forteller faren."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "De to yngste satt i sofaen da det smalt, mens den eldste akkurat hadde reist seg for å ordne mat."
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "caption": {
+        "value": "To av de tre barna satt i sofaen da skuddet kom igjennom verandadøra. De satt i sofaen lengst unna vinduet.  Den tredje satt i sofaen mot vinduet like før."
+      },
+      "byline": {
+        "title": "Mariann Dybdahl"
+      },
+      "imageAsset": {
+        "id": "e6eeddd9-8555-3c6f-a7b8-78c618fd8f14",
+        "size": {
+          "width": 8000,
+          "height": 5333
+        }
+      },
+      "type": "image"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "Barna ble svært redde og løp rett inn til soverommet til foreldrene. Da skal de ha hørt enda et smell."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "– De ble kjemperedde."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Da foreldrene kom inn i stua, lå det glasskår utover gulvet. "
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "– Jeg tenkte først at vinduet bare hadde sprukket. "
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Så fikk han øye på hullene. Deretter fant han et prosjektil på gulvet."
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "caption": {
+        "value": "Faren så hullet i vinduet og i sofaen. Så fant han et prosjektil på gulvet."
+      },
+      "byline": {
+        "title": "Mariann Dybdahl"
+      },
+      "imageAsset": {
+        "id": "cb30b789-408b-3452-b75f-cfe93d14381c",
+        "size": {
+          "width": 5345,
+          "height": 8017
+        }
+      },
+      "type": "image"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "Han ringte politiet umiddelbart."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "– Snakk om noen få centimeter"
+          },
+          "blockType": "heading"
+        },
+        {
+          "text": {
+            "value": "Da Adresseavisen besøker familien noen timer senere, får vi beskjed om å beholde skoene på. Det ligger fortsatt glasskår på gulvet."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Familien hadde begynt å rydde opp, men fikk beskjed fra politiet om å ikke støvsuge mer."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Etter hendelsen tok moren barna med seg til besteforeldrene, som bor like i nærheten."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "For moren er det særlig én tanke som er vanskelig å legge fra seg."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "– Eldstemann ligger jo alltid med hodet mot sofaen akkurat der hullet er. Det er snakk om noen få centimeter eller millimeter til, så hadde det gått veldig galt."
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "caption": {
+        "value": "Her pleier eldstemann å ligge med hodet mot armlenet. Det gjorde han i dag og. Akkurat når skuddet kom, var han på kjøkkenet."
+      },
+      "byline": {
+        "title": "Mariann Dybdahl"
+      },
+      "imageAsset": {
+        "id": "19ce04d0-cf7a-3e03-b2da-daea0f6b2cca",
+        "size": {
+          "width": 6861,
+          "height": 4574
+        }
+      },
+      "type": "image"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "Hun forteller at det eldste barnet selv har begynt å forstå hvor alvorlig hendelsen kunne ha blitt."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Mens Adresseavisen er hos familien, ankommer krimteknikere hjemmet. "
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "Sendte flere ressurser"
+          },
+          "blockType": "heading"
+        },
+        {
+          "text": {
+            "value": "– Det er ingen tvil om at dette må ha vært en ganske tøff opplevelse for familien som bor der, sa operasjonsleder Ketil Stene i Trøndelag politidistrikt til Adresseavisen lørdag."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Politiet fikk melding om hendelsen klokken 09.09 og sendte flere patruljer til stedet."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "– Det er alvorlig når et prosjektil går gjennom et vindu på et hus. Derfor setter vi inn ekstra ressurser på dette."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "De kom tidlig i kontakt med et jaktlag som hadde drevet jakt i området."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "– Vi har vært i kontakt med medlemmer av jaktlaget og fått forklaringer fra dem. Vi har også tatt beslag i et våpen for å undersøke det tekniske rundt våpenet, sa Stene."
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "byline": {
+        "title": "Mariann Dybdahl"
+      },
+      "imageAsset": {
+        "id": "d282db63-255c-337f-b855-a322bdff09d0",
+        "size": {
+          "width": 8640,
+          "height": 5760
+        }
+      },
+      "type": "image"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "Politiet undersøker blant annet om prosjektilet kan ha vært en rikosjett, altså at det først har truffet noe annet og deretter endret retning."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "– Vi må kartlegge omstendighetene rundt dette og undersøke om noen har vært uaktsomme, eller om det er et hendelig uhell, sa Stene."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Søndag opplyser jourhavende jurist Silje Nyland at mannen i 50-årene har gjennomført et innledende avhør."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "– Jeg kan ikke si noe om hva som har kommet fram i avhøret, men han erkjenner ikke straffskyld, sier Nyland."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Hun presiserer at mannen har fått status som siktet som følge av at politiet har beslaglagt skytevåpenet hans."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "– Han er siktet som følge av at det er brukt tvangsmidler. Når vi tar beslag i skytevåpenet, får vedkommende automatisk status som siktet."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Politiet har foreløpig ikke avklart hvordan prosjektilet traff boligen."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "De kriminaltekniske undersøkelsene omfatter blant annet våpenet, prosjektilet og siktforholdene. At prosjektilet kan ha rikosjettert, er fortsatt en aktuell teori."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "– Når et skudd går gjennom et vindu i en bolig hvor det sitter barn, er det alvorlig både for de fornærmede og noe politiet ser alvorlig på, sier Nyland."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Politiet vil følge opp etterforskningen etter helgen."
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "imageAsset": {
+        "id": "830d7ad8-f873-3295-b487-1cc43ba5b7a1",
+        "size": {
+          "width": 6792,
+          "height": 4528
+        }
+      },
+      "type": "image"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "Krimteknikere ankom stedet like etter klokken 12 lørdag for å gjøre undersøkelser."
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "– Tenkte jakt med en gang"
+          },
+          "blockType": "heading"
+        },
+        {
+          "text": {
+            "value": "Også foreldrene mistenkte tidlig at prosjektilet kunne stamme fra jakt i området."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "– Når jeg ser hvor prosjektilet kommer fra, ser det ut til at det kommer fra åsen opp mot Vassfjellet. Derfor tenkte jeg jakt med en gang, sier faren."
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "caption": {
+        "value": "Basert på hvor prosjektilet kom fra og vinkelen, tror faren at det kom fra åsen like ved."
+      },
+      "byline": {
+        "title": "Mariann Dybdahl"
+      },
+      "imageAsset": {
+        "id": "226edc43-9dc3-3153-8a70-11093cc16997",
+        "size": {
+          "width": 6480,
+          "height": 4320
+        }
+      },
+      "type": "image"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "Familien forteller at politiet har tilbudt hjelp dersom de trenger noen å snakke med etter hendelsen."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "– Vi har snakket litt med ungene om det som skjedde. Vi har fortalt dem at det sannsynligvis er noen som har skutt feil, og at det ikke kommer til å skje igjen, sier faren."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "– Nå går det egentlig bra, men de snakker fortsatt om det og stiller mange spørsmål."
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    }
+  ],
+  "changes": {
+    "published": "2026-10-10T12:05:30Z",
+    "updated": "2026-10-11T10:26:00Z"
+  },
+  "customProperties": {
+    "livemode": "",
+    "snapTitle": "",
+    "prefix": "",
+    "snapDescription": "",
+    "snapDateTime": "",
+    "presentation": "news",
+    "varselsignal": "",
+    "postnr": "",
+    "tip": false,
+    "breaking": false,
+    "frontPageLeadText": "",
+    "seoDescription": "",
+    "countdown": "",
+    "toPrint": true,
+    "frontPageTitle": "Mann siktet etter skudd mot hus i Trondheim",
+    "frontPageCardSize": "medium",
+    "bundleTitle": "",
+    "grade": null,
+    "fontSize": "130",
+    "bundlePlacementFooter": "",
+    "showAds": true,
+    "showByline": false,
+    "skin": "is-hendelse-skin",
+    "blockSearchEngineIndexing": false,
+    "seoTitle": "",
+    "frontPageImage": {
+      "id": "b0df18a4-040a-3b4a-818e-a93e9257a7b5",
+      "size": {
+        "width": 6861,
+        "height": 4574
+      },
+      "hotspot": {
+        "x": 2513,
+        "y": 542,
+        "width": 3844,
+        "height": 2883
+      }
+    },
+    "someDescription": "",
+    "paywall": "closed",
+    "feature": false,
+    "someTitle": "",
+    "comments": "no",
+    "bundlePlacementHeader": "",
+    "frontPageImageHeightOverride": "h-normal",
+    "label": "",
+    "wordCount": 745
+  },
+  "schemaType": "article",
+  "id": "eGz299",
+  "section": {
+    "id": "b89679f1-ba14-4ecf-9314-7b8e46b657c1",
+    "title": "Trondheim",
+    "parent": {
+      "id": "890e4515-8b99-410f-bd2d-7019a5c8f9b5",
+      "title": "Nyheter",
+      "enabled": true
+    },
+    "enabled": true
+  },
+  "title": {
+    "value": "Barna satt i stua da det gikk et skudd gjennom verandadøra"
+  },
+  "characteristics": {
+    "lifetime": 40,
+    "hotness": 60
+  },
+  "access": {
+    "restrictions": [
+      "closed"
+    ]
+  },
+  "newsroom": "adresseavisen",
+  "schemaVersion": 5,
+  "version": {
+    "sequenceNo": 111,
+    "time": "2026-10-11T10:26:00.281839Z"
+  },
+  "language": "nb",
+  "authors": [
+    {
+      "fullname": "Sara Gulliksen Wik",
+      "slug": "sara-gulliksen-wik",
+      "email": "Sara.wik@adresseavisen.no"
+    },
+    {
+      "fullname": "Mariann Dybdahl (foto og tekst)",
+      "slug": "mariann-dybdahl-foto-og-tekst",
+      "email": "mariann.dybdahl@adresseavisen.no"
+    },
+    {
+      "fullname": "Mia With-Kalland",
+      "slug": "mia-with-kalland",
+      "image": "bfc3c5c6-d0a4-3713-8d06-0a6a1d95efc0",
+      "email": "mia.with-kalland@adresseavisen.no"
+    }
+  ],
+  "tags": [],
+  "promotionContent": {
+    "slug": "barna-satt-i-stua-da-et-skudd-gikk-gjennom-verandadoera",
+    "context": {
+      "frontpage": [
+        {
+          "id": "399fee1a-92ec-5d3b-b35d-108a79fc68ea",
+          "weight": 100,
+          "title": {
+            "value": "Mann siktet etter skudd mot hus i Trondheim"
+          },
+          "kicker": {
+            "value": ""
+          },
+          "imageAsset": {
+            "id": "b0df18a4-040a-3b4a-818e-a93e9257a7b5",
+            "size": {
+              "width": 6861,
+              "height": 4574
+            },
+            "hotspot": {
+              "x": 2513,
+              "y": 542,
+              "width": 3844,
+              "height": 2883
+            }
+          }
+        }
+      ]
+    }
+  },
+  "intro": {
+    "type": "Intro",
+    "title": "Barna satt i stua da det gikk et skudd gjennom verandadøra",
+    "frontPageTitle": "Mann siktet etter skudd mot hus i Trondheim",
+    "media": {
+      "caption": {
+        "value": "Skuddet kom igjennom vinduet på verandadøren i stua."
+      },
+      "byline": {
+        "title": "Mariann Dybdahl"
+      },
+      "imageAsset": {
+        "id": "e8e262b2-6714-3ef8-990b-6f8ce3caeb87",
+        "size": {
+          "width": 7136,
+          "height": 4757
+        }
+      },
+      "type": "image"
+    },
+    "lead": "– Først tenkte jeg at vinduet kanskje bare hadde sprukket. Men så så jeg hullet i sofaen og fant et prosjektil på gulvet, forteller faren.",
+    "promo": {
+      "caption": {
+        "value": "Skuddet kom igjennom vinduet på verandadøren i stua."
+      },
+      "byline": {
+        "title": "Mariann Dybdahl"
+      },
+      "imageAsset": {
+        "id": "e8e262b2-6714-3ef8-990b-6f8ce3caeb87",
+        "size": {
+          "width": 7136,
+          "height": 4757
+        }
+      },
+      "type": "image"
+    },
+    "frontPageImage": {
+      "type": "image",
+      "imageAsset": {
+        "id": "b0df18a4-040a-3b4a-818e-a93e9257a7b5",
+        "size": {
+          "width": 6861,
+          "height": 4574
+        },
+        "hotspot": {
+          "x": 2513,
+          "y": 542,
+          "width": 3844,
+          "height": 2883
+        }
+      }
+    }
+  },
+  "some": {
+    "title": "Mann siktet etter skudd mot hus i Trondheim",
+    "description": "– Først tenkte jeg at vinduet kanskje bare hadde sprukket. Men så så jeg hullet i sofaen og fant et prosjektil på gulvet, forteller faren.",
+    "image": {
+      "id": "b0df18a4-040a-3b4a-818e-a93e9257a7b5",
+      "size": {
+        "width": 6861,
+        "height": 4574
+      },
+      "hotspot": {
+        "x": 2513,
+        "y": 542,
+        "width": 3844,
+        "height": 2883
+      }
+    }
+  },
+  "seo": {
+    "title": "Barna satt i stua da det gikk et skudd gjennom verandadøra",
+    "description": "– Først tenkte jeg at vinduet kanskje bare hadde sprukket. Men så så jeg hullet i sofaen og fant et prosjektil på gulvet, forteller faren.",
+    "image": {
+      "id": "e8e262b2-6714-3ef8-990b-6f8ce3caeb87",
+      "size": {
+        "width": 7136,
+        "height": 4757
+      }
+    }
+  }
+}

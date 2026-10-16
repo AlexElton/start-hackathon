@@ -1,0 +1,1155 @@
+{
+  "urls": {
+    "relative": "/nyheter/trondelag/i/BM0E00/ingenting-aa-rope-hurra-for",
+    "canonical": "https://www.adressa.no/nyheter/trondelag/i/BM0E00/ingenting-aa-rope-hurra-for",
+    "redirectToCanonical": false
+  },
+  "changes": {
+    "published": "2026-10-07T10:28:20Z",
+    "updated": "2026-10-07T13:32:16Z"
+  },
+  "customProperties": {
+    "livemode": "",
+    "snapTitle": "",
+    "prefix": "",
+    "snapDescription": "",
+    "snapDateTime": "",
+    "presentation": "news",
+    "varselsignal": "",
+    "postnr": "",
+    "tip": false,
+    "breaking": false,
+    "frontPageLeadText": "",
+    "seoDescription": "",
+    "countdown": "",
+    "toPrint": true,
+    "frontPageTitle": "Dette er veisatsingene i Trøndelag: - Ikke fornøyde",
+    "frontPageCardSize": "medium",
+    "bundleTitle": "",
+    "grade": null,
+    "fontSize": "100",
+    "bundlePlacementFooter": "",
+    "showAds": true,
+    "showByline": false,
+    "skin": "auto",
+    "blockSearchEngineIndexing": false,
+    "seoTitle": "",
+    "frontPageImage": {
+      "id": "011fd9c5-923c-363a-8be1-c38afa9fcc6f",
+      "size": {
+        "width": 8064,
+        "height": 6048
+      },
+      "hotspot": {
+        "x": 696,
+        "y": 1764,
+        "width": 2866,
+        "height": 2150
+      }
+    },
+    "someDescription": "",
+    "paywall": "closed",
+    "feature": false,
+    "someTitle": "",
+    "comments": "no",
+    "bundlePlacementHeader": "",
+    "frontPageImageHeightOverride": "h-normal",
+    "label": "",
+    "wordCount": 910
+  },
+  "schemaType": "article",
+  "id": "BM0E00",
+  "section": {
+    "id": "5a91ba4e-b0fe-4841-9cd9-088e1e2f831b",
+    "title": "Trøndelag",
+    "parent": {
+      "id": "890e4515-8b99-410f-bd2d-7019a5c8f9b5",
+      "title": "Nyheter",
+      "enabled": true
+    },
+    "enabled": true
+  },
+  "title": {
+    "value": "– Ingenting å rope hurra for"
+  },
+  "characteristics": {
+    "lifetime": 40,
+    "hotness": 70
+  },
+  "access": {
+    "restrictions": [
+      "closed"
+    ]
+  },
+  "newsroom": "adresseavisen",
+  "schemaVersion": 5,
+  "version": {
+    "sequenceNo": 57,
+    "time": "2026-10-07T13:32:16.564647Z"
+  },
+  "language": "nb",
+  "authors": [
+    {
+      "fullname": "Aagot Opheim",
+      "slug": "aagot-opheim",
+      "image": "c758baab-5aac-452a-a42e-fd01dbda13b9",
+      "email": "aagot.opheim@adresseavisen.no",
+      "phone": "99542014"
+    },
+    {
+      "fullname": "Torun Støbakk",
+      "slug": "torun-stoebakk",
+      "image": "49d1195d-f522-476b-b40d-3856851d7271",
+      "email": "torun.stobakk@adresseavisen.no",
+      "phone": "90164061"
+    }
+  ],
+  "tags": [
+    {
+      "id": "998f55a5-5bc2-4044-9a7e-3dacbfb202ef",
+      "title": "Bjørn Arild Gram",
+      "type": "person",
+      "slug": "bjoern-arild-gram"
+    },
+    {
+      "id": "4800f2c5-18df-4811-a9c4-8ef4f473df18",
+      "title": "Meråker",
+      "type": "location",
+      "slug": "meraaker"
+    },
+    {
+      "id": "8e3a15a3-f60c-40c8-b4e8-7ba50e5a6807",
+      "title": "Stjørdal",
+      "type": "location",
+      "slug": "stjoerdal"
+    },
+    {
+      "id": "5086fcdd-e6a8-4c8a-86d5-16ef2fea7229",
+      "title": "Meråkerbanen",
+      "type": "descriptor",
+      "slug": "meraakerbanen"
+    },
+    {
+      "id": "f4773e92-ce7d-4b6a-a22f-acaea99a97bf",
+      "title": "E14",
+      "type": "location",
+      "slug": "e14"
+    },
+    {
+      "id": "8aeccabb-97ee-430d-b9bb-58d3cafaab72",
+      "title": "E6",
+      "type": "descriptor",
+      "slug": "e6-2",
+      "metadata": [
+        {
+          "url": "https://no.wikipedia.org/wiki/Europavei_6",
+          "type": "website"
+        },
+        {
+          "url": "https://www.vegvesen.no/vegprosjekter/europaveg/e6osloost/",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "id": "87710701-023a-4fb3-8a32-786dd3b49b5d",
+      "title": "Nye Veier",
+      "type": "organization",
+      "slug": "nye-veier-2"
+    },
+    {
+      "id": "d98e04a1-eb29-4ffe-9826-e2c2590fe83b",
+      "title": "Jon-Ivar Nygård",
+      "type": "person",
+      "slug": "jon-ivar-nygaard"
+    },
+    {
+      "id": "980c25a7-7406-4399-adfa-36e108beb835",
+      "title": "Ingvild Kjerkol",
+      "type": "person",
+      "slug": "ingvild-kjerkol"
+    },
+    {
+      "id": "c598802a-5f7e-430d-b0d6-2e5121c3f23b",
+      "title": "Ap",
+      "type": "person",
+      "slug": "ap"
+    },
+    {
+      "id": "f22da84d-6f52-413b-8aaa-78eb8cb3fc97",
+      "title": "Senterpartiet",
+      "type": "organization",
+      "slug": "senterpartiet"
+    },
+    {
+      "id": "14bcb046-3cad-44fd-b3a5-c86c1d408367",
+      "title": "Statsbudsjettet 2027",
+      "type": "event",
+      "slug": "statsbudsjettet-2027"
+    }
+  ],
+  "promotionContent": {
+    "slug": "ingenting-aa-rope-hurra-for",
+    "context": {
+      "frontpage": [
+        {
+          "id": "62ce1ba6-e6cc-5dda-b815-650ccafd071d",
+          "weight": 100,
+          "title": {
+            "value": "Dette er veisatsingene i Trøndelag: - Ikke fornøyde"
+          },
+          "kicker": {
+            "value": ""
+          },
+          "imageAsset": {
+            "id": "011fd9c5-923c-363a-8be1-c38afa9fcc6f",
+            "size": {
+              "width": 8064,
+              "height": 6048
+            },
+            "hotspot": {
+              "x": 696,
+              "y": 1764,
+              "width": 2866,
+              "height": 2150
+            }
+          }
+        }
+      ]
+    }
+  },
+  "intro": {
+    "type": "Intro",
+    "title": "– Ingenting å rope hurra for",
+    "frontPageTitle": "Dette er veisatsingene i Trøndelag: - Ikke fornøyde",
+    "media": {
+      "caption": {
+        "value": "Både E14 og Meråkerbanen er sværtutsatt for ras. Men det er ingen penger på statsbudsjettet."
+      },
+      "byline": {
+        "title": "Morten Antonsen"
+      },
+      "imageAsset": {
+        "id": "c985657c-a196-34f5-9399-8267fd2f96eb",
+        "size": {
+          "width": 8064,
+          "height": 6048
+        }
+      },
+      "type": "image"
+    },
+    "lead": "– Alle snakker om at vi må ruste oss for krig og krise, men ingen viser det med penger, sier ordføreren i Meråker.  ",
+    "promo": {
+      "caption": {
+        "value": "Både E14 og Meråkerbanen er sværtutsatt for ras. Men det er ingen penger på statsbudsjettet."
+      },
+      "byline": {
+        "title": "Morten Antonsen"
+      },
+      "imageAsset": {
+        "id": "c985657c-a196-34f5-9399-8267fd2f96eb",
+        "size": {
+          "width": 8064,
+          "height": 6048
+        }
+      },
+      "type": "image"
+    },
+    "frontPageImage": {
+      "type": "image",
+      "imageAsset": {
+        "id": "011fd9c5-923c-363a-8be1-c38afa9fcc6f",
+        "size": {
+          "width": 8064,
+          "height": 6048
+        },
+        "hotspot": {
+          "x": 696,
+          "y": 1764,
+          "width": 2866,
+          "height": 2150
+        }
+      }
+    }
+  },
+  "some": {
+    "title": "Dette er veisatsingene i Trøndelag: - Ikke fornøyde",
+    "description": "– Alle snakker om at vi må ruste oss for krig og krise, men ingen viser det med penger, sier ordføreren i Meråker.  ",
+    "image": {
+      "id": "011fd9c5-923c-363a-8be1-c38afa9fcc6f",
+      "size": {
+        "width": 8064,
+        "height": 6048
+      },
+      "hotspot": {
+        "x": 696,
+        "y": 1764,
+        "width": 2866,
+        "height": 2150
+      }
+    }
+  },
+  "seo": {
+    "title": "– Ingenting å rope hurra for",
+    "description": "– Alle snakker om at vi må ruste oss for krig og krise, men ingen viser det med penger, sier ordføreren i Meråker.  ",
+    "image": {
+      "id": "c985657c-a196-34f5-9399-8267fd2f96eb",
+      "size": {
+        "width": 8064,
+        "height": 6048
+      }
+    }
+  },
+  "meta": {
+    "hasSummary": true
+  },
+  "components": [
+    {
+      "type": "article-summary",
+      "content": [
+        {
+          "items": [
+            {
+              "value": "Ordfører i Meråker, Gjøran Sandvik, er skuffet over mangel på penger til E14 og Meråkerbanen i statsbudsjettet. ",
+              "markup": []
+            },
+            {
+              "value": "I mars 2024 lovet flere statsråder ny E14,  men ordføreren etterlyser nå disse midlene. ",
+              "markup": []
+            },
+            {
+              "value": "Meråkerordføreren unmderstreker at Meråkerbanen og E14 er viktig dersom det skulle bli krig eller krise hos oss eller i nabolandene i øst. ",
+              "markup": []
+            },
+            {
+              "value": "Vei-selskapet Nye Veier får 7 milliarder kroner, men varsler redusert kapasitet grunnet prisøkning og økte driftskostnader.",
+              "markup": []
+            }
+          ],
+          "blockType": "list:unordered"
+        }
+      ]
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "Meråkerordfører Gjøran Sandvik er skuffet. Onsdag morgen ventet han spent på at regjeringa skulle legge fram statsbudsjettet."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "– Hva er du mest spent på? ",
+            "markup": [
+              {
+                "type": "style:strong",
+                "offset": 0,
+                "length": 27
+              }
+            ]
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "– E14 og Meråkerbanen, sa han før statsbudsjettet ble lagt fram. "
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Etter at han har sett budsjettet og leita etter penger til E14 og Meråkerbanen, sier han bare:"
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "– Dette er ingenting å rope hurra for. Det er positivt at det blir varslet tiltak for militær mobilitet i 2027, men det er ikke noe penger eller tiltak, sier en oppgitt ordfører. "
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "caption": {
+        "value": "Meråker-ordfører Gjøran Sandvik (Sp)"
+      },
+      "byline": {
+        "title": "Frank Cadamarteri"
+      },
+      "imageAsset": {
+        "id": "1f977958-7c21-3855-86e9-803119a77a04",
+        "size": {
+          "width": 2673,
+          "height": 1909
+        }
+      },
+      "presentationProperties": {
+        "addLayout": "mini"
+      },
+      "type": "image"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "– Alle snakker om hvor viktig både Meråkerbanen og E14 er dersom det skulle bli krig og krise enten her eller nabolandene Sverige og Finland, og vi trenger å transportere store mengder materiell og mannskaper østover, men ingen kommer med penger. "
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "byline": {
+        "title": "Christine Schefte"
+      },
+      "imageAsset": {
+        "id": "1bdd064c-9eab-3fe8-84f8-5774358dc680",
+        "size": {
+          "width": 5616,
+          "height": 3744
+        }
+      },
+      "type": "image"
+    },
+    {
+      "type": "article",
+      "linkTitle": "Fikk se krisen på nært hold: – Et nytt alvor krever prioritering",
+      "teaser": {
+        "id": "JOvnGX",
+        "slug": "fikk-se-krisen-paa-naert-hold-et-nytt-alvor-krever-prioritering",
+        "title": {
+          "value": "Fikk se hvor sårbar jernbanen er: – Det er et nytt alvor"
+        },
+        "type": "article",
+        "characteristics": {
+          "lifetime": 40,
+          "hotness": 70
+        },
+        "changes": {
+          "published": "2026-06-25T19:24:35Z",
+          "updated": "2026-06-25T21:15:14Z"
+        },
+        "section": {
+          "id": "5a91ba4e-b0fe-4841-9cd9-088e1e2f831b",
+          "title": "Trøndelag",
+          "parent": {
+            "id": "890e4515-8b99-410f-bd2d-7019a5c8f9b5",
+            "title": "Nyheter"
+          }
+        },
+        "urls": {
+          "relative": "/nyheter/trondelag/i/JOvnGX/fikk-se-krisen-paa-naert-hold-et-nytt-alvor-krever-prioritering",
+          "canonical": "https://www.adressa.no/nyheter/trondelag/i/JOvnGX/fikk-se-krisen-paa-naert-hold-et-nytt-alvor-krever-prioritering",
+          "redirectToCanonical": false
+        },
+        "access": {
+          "paywall": true
+        },
+        "media": {
+          "imageAsset": {
+            "id": "b40c9981-e40b-3501-b0c4-f92f1cabf652",
+            "size": {
+              "width": 4032,
+              "height": 3024
+            }
+          }
+        },
+        "authors": [
+          {
+            "fullname": "Stian Wallum",
+            "slug": "stian-wallum",
+            "image": "9741b625-c179-4328-82a5-c925bc9fd41c"
+          }
+        ],
+        "tags": [
+          {
+            "id": "8fcfc1d2-7ed4-4413-a33e-4d8b84757eb4",
+            "title": "NATO",
+            "type": "descriptor",
+            "slug": "nato-2"
+          },
+          {
+            "id": "a69900f2-d851-4062-bb5b-fe7a66c2f021",
+            "title": "SJ",
+            "type": "organization",
+            "slug": "sj"
+          },
+          {
+            "id": "5086fcdd-e6a8-4c8a-86d5-16ef2fea7229",
+            "title": "Meråkerbanen",
+            "type": "descriptor",
+            "slug": "meraakerbanen"
+          },
+          {
+            "id": "68b92443-39ab-4524-a1bd-a3d166c32248",
+            "title": "Randi Ness",
+            "type": "person",
+            "slug": "randi-ness"
+          },
+          {
+            "id": "331e990d-70fd-4965-8adf-0920d432e17b",
+            "title": "Nato",
+            "type": "organization",
+            "slug": "nato"
+          },
+          {
+            "id": "3b412fb3-8060-47ac-99e1-c58b29fdcbc0",
+            "title": "Nordlandsbanen",
+            "type": "location",
+            "slug": "nordlandsbanen"
+          },
+          {
+            "id": "26e39ccf-e61a-4540-a67b-e1b44b8d0fec",
+            "title": "Nesvatnet",
+            "type": "location",
+            "slug": "nesvatnet"
+          }
+        ],
+        "customProperties": {
+          "presentation": "feature",
+          "frontPageCardSize": "small",
+          "fontSize": "100",
+          "skin": "auto",
+          "frontPageImageHeightOverride": "h-normal"
+        }
+      }
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "– Trenger ny E14"
+          },
+          "blockType": "heading"
+        },
+        {
+          "text": {
+            "value": "E14 og Meråkerbanen er forbindelsen mellom Stjørdal og Sverige. Mange har snakket om hvor viktig denne strekningen i beredskap særlig etter at Sverige og Finland ble Nato-medlemmer. Veien og banen går på hver side av et svært rasutsatt dalføre med elv og bratte fjellsider på begge sider. Både vei og bane er stadig stengt på grunn av ras etter kraftig regn. "
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Staten har nettopp brukt over to milliarder kroner på å elektrifisere Meråkerbanen, men det trengs fortsatt rassikring. "
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "– Men det er ikke noen vits i å rassikre en vei som ikke har plass til militær transport. Vi trenger ny E14, sier Sandvik. "
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "– I dag må veien bli enveiskjørt for å kunne takle store militære kjøretøy. Da blir Meråker-samfunnet isolert i en krisesituasjon, sier ordføreren videre. "
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Nå håper han på sitt eget parti."
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "Spiste kake for E14"
+          },
+          "blockType": "heading"
+        },
+        {
+          "text": {
+            "value": "– I mars 2024 kom tre statsråder som lovet ny E14 og vi spiste kake for ny E14. Det er på tide at pengene kommer. Nå må Senterpartiet følge opp. "
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "caption": {
+        "value": "Tre statsråder lovet penger til ny E14 i mars 2024. Fra venstre:  Helseminister Ingvild Kjerkol (Ap), samferdselsminister Jon-Ivar Nygård (Ap) og forsvarsminister Bjørn Arild Gram (Sp)"
+      },
+      "byline": {
+        "title": "THERESE ALICE SANNE"
+      },
+      "imageAsset": {
+        "id": "8c7aa306-11e8-3472-a8bb-e3669f3950fa",
+        "size": {
+          "width": 9504,
+          "height": 6336
+        }
+      },
+      "type": "image"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "Tre daværende statsråder lovet penger til ny E14. Samferdselsminister Jon-Ivar Nygård (Ap), forsvarsminister Bjørn Arild Gram (Sp) og helseminister Ingvild Kjerkol deltok på et pressetreff der de understreket at E14 var særlig viktig i beredskapssammenheng. Da var det snakk om investeringer på mellom, 500 millioner og 1,5 milliard kroner i første omgang.",
+            "markup": [
+              {
+                "type": "link:external",
+                "offset": 0,
+                "length": 50,
+                "uri": "https://www.adressa.no/nyheter/trondelag/i/JQK64b/her-kommer-de-med-penger-til-e14"
+              }
+            ]
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "– Vi kan ikke sitte og vente på at krisa treffer oss eller naboene i øst. Ny E14 vil ta mange år. Vi kan ikke være så naive at vi håper det beste, sier Sandvik. "
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "byline": {
+        "title": "Morten Antonsen"
+      },
+      "imageAsset": {
+        "id": "16c4ba24-9e30-3609-b158-59a52ae335d6",
+        "size": {
+          "width": 6048,
+          "height": 8064
+        }
+      },
+      "type": "image"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "– Skuffende lite penger, sier også samferdselspolitiker Guri Heggem i Trøndelag. "
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "– Det virker ikke som om regjeringa har sett de store utfordringene Trøndelag har på samferdsel. Enda en gang blir det forsinkelser både på vei og jernbane, sier hun. "
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "article",
+      "linkTitle": "Milliardene ruller. Togene gjør det knapt",
+      "teaser": {
+        "id": "e7pdwQ",
+        "slug": "milliardene-ruller-togene-gjoer-det-knapt",
+        "title": {
+          "value": "Det er neppe lurt å ta folkets støtte for gitt"
+        },
+        "type": "article",
+        "characteristics": {
+          "lifetime": 40,
+          "hotness": 60
+        },
+        "changes": {
+          "published": "2026-09-23T17:46:04Z"
+        },
+        "section": {
+          "id": "3b893c9c-02f3-4585-b85b-7c1f288bd2ab",
+          "title": "Debatt"
+        },
+        "urls": {
+          "relative": "/debatt/i/e7pdwQ/milliardene-ruller-togene-gjoer-det-knapt",
+          "canonical": "https://www.adressa.no/debatt/i/e7pdwQ/milliardene-ruller-togene-gjoer-det-knapt",
+          "redirectToCanonical": false
+        },
+        "access": {
+          "paywall": true
+        },
+        "lead": "Utstillingen på Hell  strutter av militær styrke. Utenfor ligger en jernbane som knapt kan brukes.",
+        "media": {
+          "imageAsset": {
+            "id": "a93cbcb5-e016-3239-95a4-2edfba75c210",
+            "size": {
+              "width": 8640,
+              "height": 5760
+            }
+          }
+        },
+        "authors": [
+          {
+            "fullname": "Kato Nykvist",
+            "slug": "kato-nykvist",
+            "image": "786d194c-066f-4bef-a189-c25331223b0e",
+            "description": "Kommentator"
+          }
+        ],
+        "tags": [
+          {
+            "id": "8e3a15a3-f60c-40c8-b4e8-7ba50e5a6807",
+            "title": "Stjørdal",
+            "type": "location",
+            "slug": "stjoerdal"
+          },
+          {
+            "id": "00bd6ffc-4112-4608-8ea9-41c007465213",
+            "title": "Trøndelag",
+            "type": "location",
+            "slug": "troendelag"
+          },
+          {
+            "id": "f4773e92-ce7d-4b6a-a22f-acaea99a97bf",
+            "title": "E14",
+            "type": "location",
+            "slug": "e14"
+          },
+          {
+            "id": "057e6c0e-f4fc-4379-945d-3632f33c23a0",
+            "title": "Forsvarsindustrien",
+            "type": "descriptor",
+            "slug": "forsvarsindustrien"
+          },
+          {
+            "id": "5086fcdd-e6a8-4c8a-86d5-16ef2fea7229",
+            "title": "Meråkerbanen",
+            "type": "descriptor",
+            "slug": "meraakerbanen"
+          },
+          {
+            "id": "0b015a90-fe98-48a0-be94-b4c3edbcbe31",
+            "title": "Forsvarskonferansen",
+            "type": "descriptor",
+            "slug": "forsvarskonferansen"
+          },
+          {
+            "id": "7b53764f-c016-4d7d-81a4-6e7424526aed",
+            "title": "Ukraina",
+            "type": "location",
+            "slug": "ukraina",
+            "metadata": [
+              {
+                "url": "https://no.wikipedia.org/wiki/Ukraina",
+                "type": "website"
+              },
+              {
+                "url": "https://snl.no/Ukraina",
+                "type": "website"
+              }
+            ]
+          },
+          {
+            "id": "e95a7d16-f7eb-4548-8611-c74b0f647031",
+            "title": "Militær",
+            "type": "descriptor",
+            "slug": "militaer"
+          },
+          {
+            "id": "331e990d-70fd-4965-8adf-0920d432e17b",
+            "title": "Nato",
+            "type": "organization",
+            "slug": "nato"
+          },
+          {
+            "id": "210fb140-88d0-4ff0-9ba9-3e01ac08abc9",
+            "title": "Ine Eriksen Søreide",
+            "type": "person",
+            "slug": "ine-eriksen-soereide"
+          },
+          {
+            "id": "efdb0698-7c2f-45b2-a5d4-c1f7ea7a9e33",
+            "title": "Forsvar",
+            "type": "descriptor",
+            "slug": "forsvar"
+          },
+          {
+            "id": "aa706703-4b69-4dc0-8722-e8e84866312b",
+            "title": "Sikkerhet",
+            "type": "descriptor",
+            "slug": "sikkerhet"
+          },
+          {
+            "id": "25177e20-a1f0-4daa-ab2f-eb42addcf842",
+            "title": "Jernbanen",
+            "type": "location",
+            "slug": "jernbanen"
+          },
+          {
+            "id": "75aa94e4-63a8-4335-a662-30d7a859b235",
+            "title": "Nasjonal Transportplan",
+            "type": "descriptor",
+            "slug": "nasjonal-transportplan"
+          },
+          {
+            "id": "08dcefa2-21f9-4515-8258-1142768f00a9",
+            "title": "Statens vegvesen",
+            "type": "organization",
+            "slug": "statens-vegvesen"
+          },
+          {
+            "id": "05622be7-cd1e-4047-aa46-91e374fd8906",
+            "title": "Infrastruktur",
+            "type": "descriptor",
+            "slug": "infrastruktur"
+          },
+          {
+            "id": "94043aab-ee4e-45bf-b425-2613935ff794",
+            "title": "Konflikt",
+            "type": "descriptor",
+            "slug": "konflikt"
+          },
+          {
+            "id": "e4d4e47f-055a-4f36-95fe-8f53e72d8c71",
+            "title": "Russland",
+            "type": "location",
+            "slug": "russland",
+            "metadata": [
+              {
+                "url": "https://no.wikipedia.org/wiki/Russland",
+                "type": "website"
+              },
+              {
+                "url": "https://snl.no/Russland",
+                "type": "website"
+              }
+            ]
+          },
+          {
+            "id": "3d7cb3e9-0ca1-42a3-8549-c4ba932c9546",
+            "title": "Kommentarer",
+            "type": "descriptor",
+            "slug": "kommentarer"
+          },
+          {
+            "id": "4a79a951-0fac-4113-be74-c8d83e0ec021",
+            "title": "Kato Nykvist",
+            "type": "person",
+            "slug": "kato-nykvist"
+          }
+        ],
+        "customProperties": {
+          "presentation": "opinion",
+          "frontPageCardSize": "medium",
+          "fontSize": "110",
+          "showByline": true,
+          "skin": "auto",
+          "comments": true,
+          "frontPageImageHeightOverride": "h-normal"
+        }
+      }
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "Lite nytt til vei"
+          },
+          "blockType": "heading"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "Statsbudsjettet for neste år bringer få konkrete vei-nyheter for Trøndelag – og er en skuffelse for de som hadde håpet på nye penger til en større utbygging av E14, utbedringer av Meråkerbanen, eller nye E6-prosjekter i Trøndelag utover de som allerede er prioritert. "
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "I regjeringens liste over trønderske satsinger trekker de fram veier som allerede er ferdig bygd – og som det ville vært mer oppsiktsvekkende om ikke ble finansiert. ",
+            "markup": [
+              {
+                "type": "style:em",
+                "offset": 145,
+                "length": 4
+              }
+            ]
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Det gjelder blant annet E39-strekningen Betna-Stormyra-Vinje, hvor siste delstrekning ventes åpnet neste høst. "
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Og veier Nye Veier allerede er i gang med, men uten å øke potten til Nye Veier nevneverdig. "
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Får  drøyt 7 milliarder"
+          },
+          "blockType": "heading"
+        },
+        {
+          "text": {
+            "value": "Vei-selskapet får overført om lag 7 milliarder kroner fra neste års statsbudsjett, men anslår at de på grunn av prisvekst har 1,5 milliarder mindre å bruke på veiutbygginger nå enn i oppstartsårene på grunn av prisveksten på samfunnet og økte kostnader til drift av vei. "
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Denne høsten åpner Nye Veier til sammen 34 kilometer E6 mellom Berkåk – Vindåsliene i Rennebu og Kvithammer (Stjørdal) – Åsen (Levanger). "
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "caption": {
+        "value": "Ny E6 Skatval - Åsen skal åpne neste år."
+      },
+      "byline": {
+        "title": "Erling Skjervold"
+      },
+      "imageAsset": {
+        "id": "2ef86cf6-e773-3da3-a59d-00f2d5f974d3",
+        "size": {
+          "width": 5464,
+          "height": 8192
+        }
+      },
+      "type": "image"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "I tillegg har E6-utbyggingen fra Trondheim og nordover til Stjørdal høy prioritet, men har møtt på store forsinkelser. "
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Nye Veier prioriterer også prosjektet Ulsberg-Berkåk, hvor Nye Veier håper å få lagt ut anbud innen kort tid. "
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "De andre veiprosjektene i Nye Veier-porteføljen – som E6 gjennom Innherred, den ulykkesutsatte E6 mellom Gyllan-Kvål i Melhus, og E6 Selli-Asp nord for Steinkjer,  er fortsatt helt i det blå. "
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Fylkesordfører Tomas Hallem (Sp) mener veiselskapet burde blitt tilført mer penger. "
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "– For oss som er opptatt av investeringer på samferdsel, er realiteten sånn at den største delen av E6 i Trøndelag ligger i Nye Veier, så penger til dem betyr penger til Trøndelag. Vi har store behov fra Melhus og sørover og fra Levanger til Steinkjer som det jobbes med nå, og som dessverre ikke har holdt opp tempoet som er ønskelig på utbygging, sier han.  "
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "– Viktig første skritt"
+          },
+          "blockType": "heading"
+        },
+        {
+          "text": {
+            "value": "Han liker heller ikke at Meråkerbanen ikke nevnes konkret. "
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "– Meråkerbanen er det viktigste tiltaket når det gjelder å flytte militært utstyr over 20 mil, så da må vi i alle fall sikre oss at det ikke er stengt der halve året, sier fylkesordføreren. "
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Samtidig er han glad for at regjeringen varsler en øremerket finansiering av konkrete bruer som skal utbedres for militære formål, deriblant i Trøndelag. "
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "caption": {
+        "value": "Tomas Hallem (Sp) er fylkesordfører i Trøndelag."
+      },
+      "byline": {
+        "title": "Morten Antonsen"
+      },
+      "imageAsset": {
+        "id": "e86dcd1c-82d7-3986-9cd9-f260d5a4dffc",
+        "size": {
+          "width": 8640,
+          "height": 5760
+        }
+      },
+      "type": "image"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "Og at E14 i alle fall skal utbedres enkelte steder for å bedre den militære mobiltiteten. Statens Vegvesen planlegger utbedringer mellom Austkil og grensa til Meråker, og Gudå bru.  ",
+            "markup": [
+              {
+                "type": "link:external",
+                "offset": 137,
+                "length": 45,
+                "uri": "https://www.vegvesen.no/vegprosjekter/europaveg/e14stjordalriksgrensen/e14gudabru/"
+              }
+            ]
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "– Jeg er positiv til at statsbudsjettet snakker om Øst/Vest-aksen og at man nå snakker om konkrete tiltak for å bedre den militære transporten hva gjelder E14. Det er i alle fall et skritt i riktig retning, mener han. "
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "– Vi som jobber med dette, er ikke fornøyde, men i det minste går det i riktig retning.  Nå må vi bare få økt nivået, sier han.   "
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "article",
+      "linkTitle": "Derfor ble toget utrygt",
+      "teaser": {
+        "id": "nyJqEJ",
+        "slug": "derfor-ble-toget-utrygt",
+        "title": {
+          "value": "Trodde den merkelige lyden han hørte var et godstog. Så sjekket han klokka"
+        },
+        "type": "article",
+        "characteristics": {
+          "lifetime": 60,
+          "hotness": 60
+        },
+        "changes": {
+          "published": "2025-05-31T05:46:53Z",
+          "updated": "2025-06-01T19:32:39Z"
+        },
+        "section": {
+          "id": "c9990533-6784-47ad-9cd4-6a74c291ec8b",
+          "title": "Magasin"
+        },
+        "urls": {
+          "relative": "/magasin/i/nyJqEJ/derfor-ble-toget-utrygt",
+          "canonical": "https://www.adressa.no/magasin/i/nyJqEJ/derfor-ble-toget-utrygt",
+          "redirectToCanonical": false
+        },
+        "access": {
+          "paywall": true
+        },
+        "media": {
+          "imageAsset": {
+            "id": "9c5b87c7-75d4-4d51-a0ed-643e0f91008c",
+            "size": {
+              "width": 8640,
+              "height": 5760
+            }
+          }
+        },
+        "authors": [
+          {
+            "fullname": "Lajla Ellingsen",
+            "slug": "lajla-ellingsen",
+            "image": "57c2d9af-a307-39c3-afce-22c746d605a1"
+          },
+          {
+            "fullname": "Ingrid Meisingset og Marit Bardal (presentasjon)",
+            "slug": "ingrid-meisingset-og-marit-bardal-presentasjon"
+          },
+          {
+            "fullname": "Aagot Opheim",
+            "slug": "aagot-opheim",
+            "image": "c758baab-5aac-452a-a42e-fd01dbda13b9"
+          },
+          {
+            "fullname": "Frank Cadamarteri",
+            "slug": "frank-cadamarteri",
+            "image": "a6a1c9cd-393c-4965-bee0-27b953332c15"
+          },
+          {
+            "fullname": "Gunnar Okstad",
+            "slug": "gunnar-okstad",
+            "image": "103bd0c2-648c-40ec-87ff-575eade4d49b"
+          },
+          {
+            "fullname": "Espen Bakken (foto)",
+            "slug": "espen-bakken-foto",
+            "image": "9dce05c1-15aa-4253-9166-8d7d5f3a7ca4"
+          },
+          {
+            "fullname": "Morten Antonsen (foto)",
+            "slug": "morten-antonsen-foto",
+            "image": "be3b05d3-0ad6-4917-ab87-11b298b94643"
+          },
+          {
+            "fullname": "Terje Svaan",
+            "slug": "terje-svaan",
+            "image": "99cc23d5-4008-4116-a511-8034d912f1c0"
+          }
+        ],
+        "tags": [
+          {
+            "id": "6fb0db12-05df-4924-a221-e46038bb1f08",
+            "title": "Tog",
+            "type": "descriptor",
+            "slug": "tog",
+            "metadata": [
+              {
+                "url": "https://www.banenor.no/",
+                "type": "website"
+              },
+              {
+                "url": "https://www.vy.no/",
+                "type": "website"
+              },
+              {
+                "url": "https://no.wikipedia.org/wiki/Jernbane_i_Norge",
+                "type": "website"
+              }
+            ]
+          },
+          {
+            "id": "4246788c-4a1d-4523-956a-fda5ae4628ee",
+            "title": "Jernbane",
+            "type": "descriptor",
+            "slug": "jernbane"
+          }
+        ],
+        "customProperties": {
+          "presentation": "feature",
+          "frontPageCardSize": "large",
+          "fontSize": "95",
+          "skin": "auto",
+          "frontPageImageHeightOverride": "h-normal"
+        }
+      }
+    }
+  ]
+}

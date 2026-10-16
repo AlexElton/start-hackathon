@@ -1,0 +1,1062 @@
+{
+  "urls": {
+    "relative": "/nytte/lopeklubben/i/JO8X9P/nedturen-ble-toeff-for-hege-52-mange-opplever-det-samme-ifoelge-ekspert",
+    "canonical": "https://www.adressa.no/nytte/lopeklubben/i/JO8X9P/nedturen-ble-toeff-for-hege-52-mange-opplever-det-samme-ifoelge-ekspert",
+    "redirectToCanonical": false
+  },
+  "changes": {
+    "published": "2026-10-11T04:26:06Z"
+  },
+  "customProperties": {
+    "livemode": "",
+    "snapTitle": "",
+    "prefix": "",
+    "snapDescription": "",
+    "snapDateTime": "",
+    "presentation": "feature",
+    "varselsignal": "",
+    "postnr": "",
+    "tip": false,
+    "breaking": false,
+    "frontPageLeadText": "",
+    "seoDescription": "",
+    "countdown": "",
+    "toPrint": true,
+    "frontPageTitle": "Ingen sa fra da Hege gikk opp i vekt igjen: - Jeg blir litt irritert ",
+    "frontPageCardSize": "small",
+    "bundleTitle": "",
+    "grade": null,
+    "fontSize": "100",
+    "bundlePlacementFooter": "",
+    "showAds": true,
+    "showByline": false,
+    "skin": "auto",
+    "blockSearchEngineIndexing": false,
+    "seoTitle": "",
+    "frontPageImage": {
+      "id": "1e37e364-a957-3b9d-87e7-380ef5acdf8b",
+      "size": {
+        "width": 5008,
+        "height": 7512
+      },
+      "hotspot": {
+        "x": 521,
+        "y": 880,
+        "width": 3634,
+        "height": 2725
+      }
+    },
+    "someDescription": "",
+    "paywall": "closed",
+    "feature": false,
+    "someTitle": "",
+    "comments": "no",
+    "bundlePlacementHeader": "",
+    "frontPageImageHeightOverride": "h-normal",
+    "label": "",
+    "wordCount": 908
+  },
+  "schemaType": "article",
+  "id": "JO8X9P",
+  "section": {
+    "id": "4890f9dc-06d2-481e-957d-64c78e18fcf8",
+    "title": "Løpeklubben",
+    "parent": {
+      "id": "d2d99508-c2ba-4f83-9dab-d95c18b55c82",
+      "title": "Nytte",
+      "enabled": true
+    },
+    "enabled": true
+  },
+  "title": {
+    "value": "Nedturen ble tøff for Hege (52). Mange opplever det samme, ifølge ekspert"
+  },
+  "characteristics": {
+    "lifetime": 60,
+    "hotness": 70
+  },
+  "access": {
+    "restrictions": [
+      "closed"
+    ]
+  },
+  "newsroom": "adresseavisen",
+  "schemaVersion": 5,
+  "version": {
+    "sequenceNo": 81,
+    "time": "2026-10-13T13:50:37.822438Z"
+  },
+  "language": "nb",
+  "authors": [
+    {
+      "fullname": "Anne-Marit Dahl",
+      "slug": "anne-marit-dahl",
+      "image": "36fc4283-fe92-43cc-b7b6-a218e7a5edbc",
+      "email": "anne-marit.dahl@adresseavisen.no"
+    },
+    {
+      "fullname": "Christine Schefte (foto)",
+      "slug": "christine-schefte",
+      "image": "f3bc0d42-fbb4-4ee1-94cf-288c0521c42a",
+      "email": "christine.schefte@adresseavisen.no"
+    }
+  ],
+  "tags": [
+    {
+      "id": "1f1421ce-e425-49ab-b581-21da37d48f63",
+      "title": "Sprek",
+      "type": "descriptor",
+      "slug": "sprek"
+    },
+    {
+      "id": "d616093f-1276-4d91-9abf-cd6ef01417ca",
+      "title": "Nytte",
+      "type": "descriptor",
+      "slug": "nytte"
+    }
+  ],
+  "presentationProperties": {
+    "introType": "scroll",
+    "navigation": "feature"
+  },
+  "promotionContent": {
+    "slug": "nedturen-ble-toeff-for-hege-52-mange-opplever-det-samme-ifoelge-ekspert",
+    "context": {
+      "frontpage": [
+        {
+          "id": "87251bdd-aaeb-5c5a-abca-75bde4768b36",
+          "weight": 100,
+          "title": {
+            "value": "Ingen sa fra da Hege gikk opp i vekt igjen: - Jeg blir litt irritert "
+          },
+          "kicker": {
+            "value": ""
+          },
+          "imageAsset": {
+            "id": "1e37e364-a957-3b9d-87e7-380ef5acdf8b",
+            "size": {
+              "width": 5008,
+              "height": 7512
+            },
+            "hotspot": {
+              "x": 521,
+              "y": 880,
+              "width": 3634,
+              "height": 2725
+            }
+          }
+        }
+      ]
+    }
+  },
+  "intro": {
+    "type": "FeatureIntro",
+    "title": "Nedturen ble tøff for Hege (52). Mange opplever det samme, ifølge ekspert",
+    "frontPageTitle": "Ingen sa fra da Hege gikk opp i vekt igjen: - Jeg blir litt irritert ",
+    "media": {
+      "components": [
+        {
+          "type": "video",
+          "changes": {
+            "created": "2026-09-29T13:22:12Z",
+            "updated": "2026-09-29T13:25:36Z",
+            "firstPublished": "2026-09-29T13:23:30Z",
+            "published": "2026-09-29T13:23:30Z"
+          },
+          "videoAsset": {
+            "duration": 6882,
+            "flightTimes": {
+              "start": 1790688209
+            },
+            "id": "3025248",
+            "metadata": {
+              "aspectRatio": "0.56",
+              "authors": "[\"e5a4d276-cc78-4531-85a1-9265e7343221\",\"73e2e77c-0bba-40c3-b878-f14d8d1e69a3\"]",
+              "newsLifetime": "2",
+              "newsValue": "3",
+              "preview": "https://dd-polaris.akamaized.net/adressa/vod/2026/09/p9uohuwcf4rmbum6qk5ho/meta_preview.mp4",
+              "preview_360p": "https://dd-polaris.akamaized.net/adressa/vod/2026/09/p9uohuwcf4rmbum6qk5ho/meta_preview_360p.mp4",
+              "preview_hq": "https://dd-polaris.akamaized.net/adressa/vod/2026/09/p9uohuwcf4rmbum6qk5ho/meta_1080_6000_preview_hq.mp4"
+            },
+            "section": {
+              "id": "27",
+              "title": "Kun til CNP",
+              "shortPath": "kun-til-cnp"
+            },
+            "showDisplays": true,
+            "showAds": true,
+            "sourceFiles": [
+              {
+                "width": 1080,
+                "height": 1920,
+                "bitrate": 6462,
+                "sourceFile": "/adressa/vod/2026/09/p9uohuwcf4rmbum6qk5ho/ps_1080_1920_6462.mp4"
+              }
+            ],
+            "streamType": "vod",
+            "assetType": "video",
+            "streamUrls": {
+              "hls": "https://amd-polaris.akamaized.net/adressa/vod/2026/09/p9uohuwcf4rmbum6qk5ho/,152_270_550,202_360_718,304_540_1355,406_720_2247,608_1080_4275,/master.m3u8",
+              "mp4": "https://dd-polaris.akamaized.net/adressa/vod/2026/09/p9uohuwcf4rmbum6qk5ho/ps_1080_1920_6462.mp4",
+              "pseudostreaming": [
+                "https://dd-polaris.akamaized.net/adressa/vod/2026/09/p9uohuwcf4rmbum6qk5ho/ps_1080_1920_6462.mp4"
+              ]
+            },
+            "title": "Hege Rimol"
+          },
+          "title": {
+            "value": "Hege Rimol"
+          },
+          "description": {
+            "value": "Hege Rimol har brukt seks år på å gå ned over 30 kilo."
+          },
+          "imageAsset": {
+            "id": "846b43240913f99ada05908ea0441d3a@tv",
+            "main": "https://images.stream.schibsted.media/users/adressa/images/846b43240913f99ada05908ea0441d3a.jpg",
+            "snapshots": "https://images.stream.schibsted.media/users/adressa/images/2231980188734511788317eefecf35ba.jpg"
+          },
+          "characteristics": {},
+          "provider": {
+            "service": "svp",
+            "id": "adressa"
+          }
+        },
+        {
+          "caption": {
+            "value": "Men for to år siden kom kiloene tilbake."
+          },
+          "byline": {
+            "title": "privat"
+          },
+          "imageAsset": {
+            "id": "86ed7e74-9fd5-355b-a141-947b461ee9f1",
+            "size": {
+              "width": 1536,
+              "height": 2048
+            }
+          },
+          "presentationProperties": {
+            "addLlayout": "contain"
+          },
+          "type": "image"
+        }
+      ],
+      "presentationProperties": {
+        "addLayout": "contain",
+        "intention": "vertical-fade"
+      },
+      "type": "fade"
+    },
+    "promo": {
+      "type": "image",
+      "imageAsset": {
+        "url": "https://images.stream.schibsted.media/users/adressa/images/846b43240913f99ada05908ea0441d3a.jpg?t[]=980q80"
+      }
+    },
+    "frontPageImage": {
+      "type": "image",
+      "imageAsset": {
+        "id": "1e37e364-a957-3b9d-87e7-380ef5acdf8b",
+        "size": {
+          "width": 5008,
+          "height": 7512
+        },
+        "hotspot": {
+          "x": 521,
+          "y": 880,
+          "width": 3634,
+          "height": 2725
+        }
+      }
+    },
+    "subtype": "scroll"
+  },
+  "some": {
+    "title": "Ingen sa fra da Hege gikk opp i vekt igjen: - Jeg blir litt irritert ",
+    "image": {
+      "id": "1e37e364-a957-3b9d-87e7-380ef5acdf8b",
+      "size": {
+        "width": 5008,
+        "height": 7512
+      },
+      "hotspot": {
+        "x": 521,
+        "y": 880,
+        "width": 3634,
+        "height": 2725
+      }
+    }
+  },
+  "seo": {
+    "title": "Nedturen ble tøff for Hege (52). Mange opplever det samme, ifølge ekspert",
+    "image": {
+      "url": "https://images.stream.schibsted.media/users/adressa/images/846b43240913f99ada05908ea0441d3a.jpg?t[]=980q80"
+    }
+  },
+  "meta": {
+    "hasVideo": true
+  },
+  "components": [
+    {
+      "type": "integration",
+      "url": "https://enrichment.api.plan3.se/proxy/content/v3/publication/adresseavisen/multimedias/f7af516f-fca0-42b8-80d3-8c0ba6852e6e",
+      "body": "<style>\r\n    .article-header.introType-overlay:not(:has(.Storycard))>.media img {\r\n        object-fit: contain !important;\r\n    }\r\n</style>",
+      "title": "Feature - contain"
+    },
+    {
+      "type": "integration",
+      "url": "https://enrichment.api.plan3.se/proxy/content/v3/publication/adresseavisen/multimedias/60a44676-e8aa-405e-ae66-f292af112e58",
+      "body": "<style>\r\n@media screen and (min-width: 701px) {\r\n    .addLayout-contain video {\r\n        object-fit: contain !important;\r\n        background-color: var(--color-background);\r\n    }\r\n}\r\n</style>",
+      "title": "Feature - video høyde på desktop"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "Det startet i 2020. "
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Da følte Hege Rimol seg som «ei bumsideisi» på tur etter vektoppgang som følge av en inaktiv livsstil og et usunt kosthold. "
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Fem uker med trening og sunnere kosthold i regi av arbeidsgiveren ga store resultater. Rimol, som var aktiv håndballspiller i ungdommen, kjente på energi og overskudd i hverdagen. "
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Les intervjuet med Hege Rimol fra 2020 her: ",
+            "markup": [
+              {
+                "type": "style:em",
+                "offset": 0,
+                "length": 44
+              },
+              {
+                "type": "style:strong",
+                "offset": 0,
+                "length": 44
+              }
+            ]
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "article",
+      "linkTitle": "Hege (46) fikk livet snudd på hodet etter fem uker. Slik ble hun 12 centimeter tynnere rundt magen.",
+      "teaser": {
+        "id": "aPlq84",
+        "slug": "hege-46-fikk-livet-snudd-paa-hodet-etter-fem-uker-slik-ble-hun-12-centimeter-tynnere-rundt-magen",
+        "title": {
+          "value": "Hege (46) fikk livet snudd på hodet etter fem uker. Slik ble hun 12 centimeter tynnere rundt magen."
+        },
+        "type": "article",
+        "characteristics": {
+          "lifetime": 60,
+          "hotness": 60
+        },
+        "changes": {
+          "published": "2020-06-28T07:00:00Z"
+        },
+        "section": {
+          "id": "59c40cf7-7d6a-4ea1-a882-d68b9b2f3d2d",
+          "title": "Sprek",
+          "parent": {
+            "id": "d2d99508-c2ba-4f83-9dab-d95c18b55c82",
+            "title": "Nytte"
+          }
+        },
+        "urls": {
+          "relative": "/nytte/sprek/i/aPlq84/hege-46-fikk-livet-snudd-paa-hodet-etter-fem-uker-slik-ble-hun-12-centimeter-tynnere-rundt-magen",
+          "canonical": "https://www.adressa.no/nytte/sprek/i/aPlq84/hege-46-fikk-livet-snudd-paa-hodet-etter-fem-uker-slik-ble-hun-12-centimeter-tynnere-rundt-magen",
+          "redirectToCanonical": false
+        },
+        "access": {
+          "paywall": true
+        },
+        "lead": "Valget Hege Rimol og kollega Morten Elverum gjorde, har gjort dem smalere, raskere, sterkere og lettere.",
+        "media": {
+          "imageAsset": {
+            "id": "ba859495-1a95-4f42-9c90-9f2d25ac0d6a",
+            "size": {
+              "width": 6000,
+              "height": 4000
+            },
+            "hotspot": {
+              "x": 1274,
+              "y": 248,
+              "width": 4030,
+              "height": 3020
+            }
+          }
+        },
+        "authors": [
+          {
+            "fullname": "Anne-Marit Dahl",
+            "slug": "anne-marit-dahl",
+            "image": "673accc2-c5be-4701-84ee-44413424bfde",
+            "isExternal": true
+          }
+        ],
+        "tags": [
+          {
+            "id": "cc551349-4441-4d17-a078-d9976d8ca33c",
+            "title": "Livsstil",
+            "type": "descriptor",
+            "slug": "livsstil"
+          },
+          {
+            "id": "ed9e57bb-d100-4207-a45e-016300f551ee",
+            "title": "Trening",
+            "type": "descriptor",
+            "slug": "trening"
+          },
+          {
+            "id": "8e6776c8-ed30-47b7-8345-2714853c817b",
+            "title": "Kosthold",
+            "type": "descriptor",
+            "slug": "kosthold"
+          },
+          {
+            "id": "1f1421ce-e425-49ab-b581-21da37d48f63",
+            "title": "Sprek",
+            "type": "descriptor",
+            "slug": "sprek"
+          }
+        ],
+        "customProperties": {
+          "frontPageCardSize": "medium",
+          "presentation": "news"
+        },
+        "contentSharing": {
+          "sourceId": "1nK1pK",
+          "sourceNewsroom": "100-sport",
+          "immediateSourceId": "1nK1pK"
+        }
+      }
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "Slik fortsatte det i et par år. Men så kom den store nedturen. "
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "– Jeg nådde bunnen i desember 2024. Da var jeg over 100 kilo igjen, sier Rimol. "
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Vil fortelle "
+          },
+          "blockType": "heading"
+        },
+        {
+          "text": {
+            "value": "Nå tar hun imot Adresseavisen på jobb. "
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Dagen startet som vanlig med transportetappen på elsykkel fra Hommelvik til Leangen. Der jobber hun som leder for IT i Koteng Eiendom. "
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "imageAsset": {
+        "id": "e1077cd7-c50c-33b2-b1a6-43b1fbe87118",
+        "size": {
+          "width": 6628,
+          "height": 4419
+        }
+      },
+      "presentationProperties": {
+        "addLayout": "overlapp "
+      },
+      "type": "image"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "Hun sprudler av overskudd og har akkurat gjennomført sin første Hyrox-konkurranse. "
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "imageAsset": {
+        "id": "45d81d6c-0119-3d38-9556-13115a0d8707",
+        "size": {
+          "width": 6332,
+          "height": 4221
+        }
+      },
+      "presentationProperties": {
+        "addLayout": "overlapp"
+      },
+      "type": "image"
+    },
+    {
+      "byline": {
+        "title": "Privat"
+      },
+      "imageAsset": {
+        "id": "e1a5edf2-f03f-3654-8adb-d5515e381d29",
+        "size": {
+          "width": 1123,
+          "height": 1203
+        },
+        "hotspot": {
+          "x": 456,
+          "y": 196,
+          "width": 366,
+          "height": 274
+        }
+      },
+      "presentationProperties": {
+        "addLayout": "overlapp"
+      },
+      "type": "image"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "– Jeg er stolt over hva jeg har fått til, sier Rimol. "
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Nå vil hun dele sin erfaring:  "
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "For hvorfor falt hun tilbake til en usunn livsstil og gikk opp i vekt igjen?",
+            "markup": [
+              {
+                "type": "style:strong",
+                "offset": 0,
+                "length": 76
+              }
+            ]
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Og hvordan klarte hun å finne tilbake til en aktiv hverdag og trivselsvekta?   ",
+            "markup": [
+              {
+                "type": "style:strong",
+                "offset": 0,
+                "length": 77
+              }
+            ]
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "caption": {
+        "value": "Bildet til venstre fra 2020. Bildet til høyre er Hege Rimol i dag."
+      },
+      "byline": {
+        "title": "Privat/Christine Schefte"
+      },
+      "imageAsset": {
+        "id": "356390fa-2ca0-32d9-a232-3d397dfee093",
+        "size": {
+          "width": 777,
+          "height": 776
+        }
+      },
+      "presentationProperties": {
+        "addLayout": "wide"
+      },
+      "type": "image"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "Rimol har ikke et enkelt svar. Men i perioden hvor vekta økte fra 80 kilo til over 100 kilo igjen, skjedde det mye i livet hennes. Blant annet gikk hun gjennom et samlivsbrudd."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "– Og jeg jobbet alt for mye. Jeg slutta å trene fordi jeg hadde så mye å holde på med. Rett og slett, sier hun. "
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "– Jeg hadde tusen tanker i hodet, sier hun om hverdagskabalen. "
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Hun følte seg tung og nedfor. Rett før jul i 2024 fikk hun resultatet fra et legebesøk:  "
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "– Han ringte meg og sa at blodprøvene ikke var så bra, sier Rimol. "
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Blodprøvene viste høye verdier av lipoprotein, noe som gir en arvelig risikofaktor for hjerte- og karsykdom. ",
+            "markup": [
+              {
+                "type": "explanation",
+                "offset": 35,
+                "length": 10,
+                "symbol": "Lipoprotein(a) er en arvelig risikofaktor for hjerte- og karsykdom. Det er vist at rundt 20% av befolkningen har forhøyet Lp(a)-verdi i blodet. Kilde: Landsforeningen for hjerte, lunge og hjerneslag"
+              }
+            ]
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "1. juledag tok hun på seg treningstøy og gikk på tur. "
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Hun holdt prøveresultatene for seg selv, men tenkte at:  "
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "– Skal jeg få det bra, så må jeg prioritere meg selv. Og jeg elsker jo egentlig å trene. "
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "52-åringen ser på et bilde av seg selv fra den gangen. "
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "imageAsset": {
+        "id": "9f36a3ac-1068-37f3-9c60-043ee6b54798",
+        "size": {
+          "width": 1536,
+          "height": 2048
+        }
+      },
+      "presentationProperties": {
+        "addLayout": "privat"
+      },
+      "type": "image"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "– Jeg så ikke selv at jeg var blitt så tjukk. Jeg blir litt irritert over at folk ikke sa det til meg. Nå er jeg på et stadium i livet hvor jeg tør å fortelle. "
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "Vanlig med tilbakefall "
+          },
+          "blockType": "heading"
+        },
+        {
+          "text": {
+            "value": "Nina Elise Møllerløkken sier at det Hege Rimol har opplevd i forbindelse med omleggingen av livsstil er vanlig. Møllerløkken er fysioterapeut og frisklivsveileder ved det kommunale tilbudet Friskliv og Mestring. "
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "– Livsstilsendring går veldig sjelden i rett linje. Det er veldig mange som opplever det vi betegner som tilbakefall, sier Møllerløkken.  "
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "caption": {
+        "value": "Nina Elise Møllerløkken er frisklivsveileder."
+      },
+      "byline": {
+        "title": "Christine Schefte"
+      },
+      "imageAsset": {
+        "id": "6acc416c-93f1-3a6a-92b1-fd14dcaeb005",
+        "size": {
+          "width": 5931,
+          "height": 3954
+        }
+      },
+      "type": "image"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "Hun understreker at det er en krevende og langvarig prosess å legge om livsstilen. Hvis man ramler ut av nye trenings- og kostholdsrutiner, så trekker Møllerløkken fram hvor viktig det er å ha sosial støtte rundt seg, eller heiagjeng, om du vil."
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "Hun oppfordrer til å spørre hvordan man har det i en slik prosess.     "
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "– At noen viser omsorg uten å komme med råd eller en pekefinger, kan være en god start, sier hun.   "
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Gåturen i romjula 2024 ble et vendepunkt for Rimol. ",
+            "markup": [
+              {
+                "type": "style:strong",
+                "offset": 0,
+                "length": 52
+              }
+            ]
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Da påska kom, dro hun til løpebanen på Røros og løp intervaller. "
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Hun delte bilder fra ulike treningsøkter på sosiale medier og fikk mange positive tilbakemeldinger.   "
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "– Det skapte også noe i meg. Det var artig, smiler hun. "
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "På jobb tok hun initiativ til at kollegene skulle stille stafettlag i mosjonsløp."
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "imageAsset": {
+        "id": "fe5bb8cc-66b1-3c52-a2c4-29b61bc87db8",
+        "size": {
+          "width": 1242,
+          "height": 2208
+        }
+      },
+      "presentationProperties": {
+        "addLayout": "privat"
+      },
+      "type": "image"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": " Hun meldte seg på treningsreise for aller første gang. På Gran Canaria stilte hun opp i sort treningstøy, usikker på hva som ventet henne.   "
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "– Jeg var livredd for at jeg ikke skulle klare øvelsene, men det gikk bra. Og da kledde jeg meg bare i svart. Nå har jeg begynt å bruke farger. Jeg kjenner at jeg er litt stolt av meg selv. At jeg tør være den jeg er. At jeg tør å være Hege. Hege som egentlig er glad og som elsker å trene. Og som kanskje byr litt for mye på seg selv noen ganger, ler hun.   "
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "– Optimist "
+          },
+          "blockType": "heading"
+        },
+        {
+          "text": {
+            "value": "Nå opplever hun soloppganger på treningstur og kaster seg uredd ut i nye utfordringer. "
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "imageAsset": {
+        "id": "3b0394e8-f9ad-30ac-9d3a-adf6da3ed6b5",
+        "size": {
+          "width": 1536,
+          "height": 2048
+        }
+      },
+      "presentationProperties": {
+        "addLayout": "privat"
+      },
+      "type": "image"
+    },
+    {
+      "imageAsset": {
+        "id": "72403f38-729a-31e7-b264-713858146f5d",
+        "size": {
+          "width": 1369,
+          "height": 1291
+        }
+      },
+      "presentationProperties": {
+        "addLayout": "privat"
+      },
+      "type": "image"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "Hun abonnerer på treningsprogram via nett og har funnet en god struktur på treningen og har et  kosthold med renere råvarer og fravær av brus. Samtidig har hun bedre balanse mellom arbeid og fritid.  "
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "type": "loopingVideo",
+      "changes": {
+        "created": "2026-09-30T10:42:48Z",
+        "updated": "2026-09-30T10:43:43Z",
+        "firstPublished": "2026-09-30T10:43:43Z",
+        "published": "2026-09-30T10:43:43Z"
+      },
+      "videoAsset": {
+        "duration": 14282,
+        "flightTimes": {
+          "start": 1790765023
+        },
+        "id": "3025256",
+        "metadata": {
+          "aspectRatio": "0.56",
+          "authors": "[\"e5a4d276-cc78-4531-85a1-9265e7343221\",\"73e2e77c-0bba-40c3-b878-f14d8d1e69a3\"]",
+          "newsLifetime": "2",
+          "newsValue": "3",
+          "preview": "https://dd-polaris.akamaized.net/adressa/vod/2026/09/ixomcawju8ucgt9iw1cot/meta_preview.mp4",
+          "preview_360p": "https://dd-polaris.akamaized.net/adressa/vod/2026/09/ixomcawju8ucgt9iw1cot/meta_preview_360p.mp4",
+          "preview_hq": "https://dd-polaris.akamaized.net/adressa/vod/2026/09/ixomcawju8ucgt9iw1cot/meta_1080_6000_preview_hq.mp4"
+        },
+        "section": {
+          "id": "27",
+          "title": "Kun til CNP",
+          "shortPath": "kun-til-cnp"
+        },
+        "showDisplays": true,
+        "showAds": true,
+        "sourceFiles": [
+          {
+            "width": 1080,
+            "height": 1920,
+            "bitrate": 6257,
+            "sourceFile": "/adressa/vod/2026/09/ixomcawju8ucgt9iw1cot/ps_1080_1920_6257.mp4"
+          }
+        ],
+        "streamType": "vod",
+        "assetType": "video",
+        "streamUrls": {
+          "hls": "https://amd-polaris.akamaized.net/adressa/vod/2026/09/ixomcawju8ucgt9iw1cot/,152_270_481,202_360_640,304_540_1178,406_720_1942,608_1080_3821,/master.m3u8",
+          "mp4": "https://dd-polaris.akamaized.net/adressa/vod/2026/09/ixomcawju8ucgt9iw1cot/ps_1080_1920_6257.mp4",
+          "pseudostreaming": [
+            "https://dd-polaris.akamaized.net/adressa/vod/2026/09/ixomcawju8ucgt9iw1cot/ps_1080_1920_6257.mp4"
+          ]
+        },
+        "title": "Hege Rimol"
+      },
+      "imageAsset": {
+        "id": "68da1cd2afde09ee7cca96f5a0d8a3db@tv",
+        "main": "https://images.stream.schibsted.media/users/adressa/images/68da1cd2afde09ee7cca96f5a0d8a3db.jpg",
+        "snapshots": "https://images.stream.schibsted.media/users/adressa/images/1c7fc55bbc1220f2ff48053d98f8f590.jpg"
+      },
+      "characteristics": {},
+      "provider": {
+        "service": "svp",
+        "id": "adressa"
+      },
+      "presentationProperties": {
+        "intention": "looping",
+        "withMuteControl": "true",
+        "withProgressBar": "true"
+      }
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "Nina Elise Møllerløkken blir inspirert av Hege Rimols historie.  "
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "– Når det ikke går bra, er det lett å tenke: Da fikk jeg ikke til det. Aksepter at tilbakefall kan skje. At det er ganske vanlig, sier hun.  "
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "– Hva øker sjansen for å få til en varig endring av vaner?",
+            "markup": [
+              {
+                "type": "style:strong",
+                "offset": 0,
+                "length": 58
+              }
+            ]
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "– Mange kan være ivrige i starten og gape over for mye. Det handler om å finne et realistisk nivå på målet sitt og se på hva man kan få til i den hverdagen man står i. Ha fokus på det som er viktig for deg og på det som du vil ha mer av, sier eksperten. "
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "caption": {
+        "value": "Arbeidsgiveren har gode fasiliteter for trening. Hege Rimol sykler til jobb, og hun trener ofte på treningsrommet i bygget to ganger om dagen."
+      },
+      "imageAsset": {
+        "id": "65c6e3f7-36f2-3899-bbf0-d9d93b41eaea",
+        "size": {
+          "width": 8132,
+          "height": 5421
+        }
+      },
+      "type": "image"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "Hege Rimol ser lyst på framtida. "
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "– Jeg er gladere og har mer selvtillit."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "– Hvordan tror du livet er om fem år? Kan det komme en historie om en ny nedtur?",
+            "markup": [
+              {
+                "type": "style:strong",
+                "offset": 0,
+                "length": 80
+              }
+            ]
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "– Nei.. Det er jeg egentlig hundre prosent sikker på. Jeg kan jo være litt redd for at treningsgleden kan gå over. Men jeg tror ikke det gjør det. Jeg kjenner på noe som jeg nesten ikke klarer å beskrive. Det er helt fantastisk, sier Hege Rimol. "
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "imageAsset": {
+        "id": "d0f50236-a70d-3a0f-ab6f-7705e83ba7d4",
+        "size": {
+          "width": 5334,
+          "height": 3556
+        },
+        "hotspot": {
+          "x": 1919,
+          "y": 795,
+          "width": 1499,
+          "height": 1124
+        }
+      },
+      "type": "image"
+    },
+    {
+      "type": "integration",
+      "url": "https://enrichment.api.plan3.se/proxy/content/v3/publication/adresseavisen/multimedias/0c41043a-2ce5-494b-aab4-f93e10f9a943",
+      "body": "<script type=\"module\" crossorigin src=\"https://mm.adressa.no/static/tools/adressa-tip-box/index.js?v4\"></script><link rel=\"stylesheet\" crossorigin href=\"https://mm.adressa.no/static/tools/adressa-tip-box/index.css?v4\"><script type=\"application/json\" class=\"adressa-tip-box\">{\"title\":{\"value\":\"Anne-Marit Dahl\"},\"role\":{\"value\":\"Journalist\"},\"paragraphs\":[{\"text\":{\"value\":\"Takk for at du leste saken. Jeg skriver om løping og trening. Tips meg gjerne om tema som du vil lese om for å bli inspirert til en aktiv livsstil. \",\"markup\":[]},\"blockType\":\"paragraph\"}],\"imageAsset\":{\"sourceId\":\"https://vcdn.polarismedia.no/36fc4283-fe92-43cc-b7b6-a218e7a5edbc?w=500&fit=clip&q=80\",\"source\":\"author-photo\",\"size\":{\"width\":500,\"height\":500},\"x\":0,\"y\":0,\"width\":500,\"height\":500,\"url\":\"data:image/webp;base64,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\"},\"presentationProperties\":{\"theme\":\"default\",\"emails\":[\"anne-marit.dahl@adresseavisen.no\"],\"buttonLabel\":\"Send oss en e-post\",\"buttonStyle\":\"button\",\"layout\":\"side\"}}</script>",
+      "title": "Tipsboks Anne-Marit",
+      "subtype": "scriptembed"
+    }
+  ]
+}

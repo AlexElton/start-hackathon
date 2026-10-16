@@ -1,0 +1,724 @@
+{
+  "urls": {
+    "relative": "/restaurantguiden/i/31EkrM/en-av-byens-beste-butikker-er-en-av-byens-beste-spisesteder",
+    "canonical": "https://www.adressa.no/restaurantguiden/i/31EkrM/en-av-byens-beste-butikker-er-en-av-byens-beste-spisesteder",
+    "redirectToCanonical": false
+  },
+  "components": [
+    {
+      "title": {
+        "value": "Her får du den beste cortadoen i byen. Ferdig snakka"
+      },
+      "paragraphs": [
+        {
+          "text": {
+            "value": "Åpningstider:"
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Mandag - torsdag: 07.00 - 19.00"
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Fredag: 07.00 - 20.00 "
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Lørdag: 09.00 - 20.00 "
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Søndag: 10.00 - 18.00 "
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Kjøkkenet stenger en time før"
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "fact"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "En av de beste duftene i byen finner du inne på Te og kaffehuset. Før var de en relativt liten sjappe, men nå har de flytta et par hakk bortover gata, og åpna for servering."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Det tar litt tid fra jeg kommer inn døra til jeg finner meg et sted å sitte. Litt av grunnen var at jeg ble distrahert av utsalgsdelen. Aller mest fordi lokalet er nesten fullt, og de få ledige var vanskelige å se der de sto urydda."
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "presentationProperties": {
+        "rgFolketsMening": "true"
+      },
+      "type": "breakpoint"
+    },
+    {
+      "byline": {
+        "title": "Richard Sagen"
+      },
+      "imageAsset": {
+        "id": "b0ef13f2-4d40-310c-bf15-3dcae70d61a5",
+        "size": {
+          "width": 7500,
+          "height": 5000
+        }
+      },
+      "type": "image"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "Lunken og smelta"
+          },
+          "blockType": "heading"
+        },
+        {
+          "text": {
+            "value": "Lokalet er fint, med gode stoler, pent treverk og en rolig atmosfære. Menyen består mest av salat og sandwich, samt søtsaker. Bestilling går via QR-kode. Det tar en god stund før drikken kommer, og jeg blir usikker på om jeg skal hente den selv der den står på disken, eller om de kommer med den."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Endelig kommer noen med den, og da har teen rukket å bli lunken, og isen i glasset til juicen er ganske smelta. Servitøren minner meg om en skuespiller som har glemt replikkene sine, men hun gjør et ærlig forsøk på å fortelle meg om dagens te. Jeg tror hun kan bli en fabelaktig servitør med litt mer selvtillit og fart. Hun rydder også bordet mitt, men jeg får beholde de mange flekkene som forrige gjest etterlot seg."
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "components": [
+        {
+          "byline": {
+            "title": "Richard Sagen"
+          },
+          "imageAsset": {
+            "id": "f30852fd-47ec-3678-977e-b1060e0d4ad5",
+            "size": {
+              "width": 8018,
+              "height": 5345
+            }
+          },
+          "type": "image"
+        },
+        {
+          "caption": {
+            "value": "Bastian Kvarme Gilstad og Nora Sæther."
+          },
+          "byline": {
+            "title": "Richard Sagen"
+          },
+          "imageAsset": {
+            "id": "be5e5820-a2b9-34a9-b790-03518ca73590",
+            "size": {
+              "width": 7774,
+              "height": 5183
+            }
+          },
+          "type": "image"
+        },
+        {
+          "byline": {
+            "title": "Richard Sagen"
+          },
+          "imageAsset": {
+            "id": "d80a2109-33bf-3bc8-b1d8-534714f96917",
+            "size": {
+              "width": 8640,
+              "height": 5760
+            }
+          },
+          "type": "image"
+        },
+        {
+          "caption": {
+            "value": "Avdelingsleder Camilla Løvik serverer kake."
+          },
+          "byline": {
+            "title": "Richard Sagen"
+          },
+          "imageAsset": {
+            "id": "84e6e701-052f-3766-9cea-d341b401f644",
+            "size": {
+              "width": 6691,
+              "height": 4461
+            }
+          },
+          "type": "image"
+        },
+        {
+          "byline": {
+            "title": "Richard Sagen"
+          },
+          "imageAsset": {
+            "id": "a6e8e348-c25c-379f-90a5-18225866b9c4",
+            "size": {
+              "width": 7911,
+              "height": 5274
+            }
+          },
+          "type": "image"
+        },
+        {
+          "byline": {
+            "title": "Richard Sagen"
+          },
+          "imageAsset": {
+            "id": "3a05a007-5363-3b2f-8fed-5afe3daa5019",
+            "size": {
+              "width": 8395,
+              "height": 5597
+            }
+          },
+          "type": "image"
+        }
+      ],
+      "type": "gallery"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "Super salat"
+          },
+          "blockType": "heading"
+        },
+        {
+          "text": {
+            "value": "Teen smaker nydelig, som seg hør og bør. Maten kommer like etter. Salaten med tofu og avokado er fantastisk. Rugbrødet er fabelaktig, og jeg kunne levd på denne rugcrunchen resten av livet. Alle grønnsakene er friske og crispy, og avokadoen er perfekt moden. Tofuen er saftig og dressingen er perfekt, både i mengde og smak. Jeg tror jammen dette er en av de beste salatene jeg har spist her i byen."
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "caption": {
+        "value": "Salat med tofu og avokado."
+      },
+      "imageAsset": {
+        "id": "dee559e9-3475-33cc-8ff7-c4dcc27615c8",
+        "size": {
+          "width": 2992,
+          "height": 2992
+        }
+      },
+      "type": "image"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "Forvirra mozzarella"
+          },
+          "blockType": "heading"
+        },
+        {
+          "text": {
+            "value": "Så var det sandwich med mozzarella. Tomatmarmeladen som ligger over mozzarellaballene er jeg dypt skeptisk til. Den er god i seg selv, men den føles malplassert i denne sammenhengen. Syrligheten overdøver totalt den (skikkelig!!!) gode pestoen. Det føles som en fusjonering av to smørbrød, der de aldri ble helt enige om hvilken retning de skulle. Pestoen, mozzarellaen og selv brødet blir overskygget av den brautende marmeladen. Igjen, det er gode smaker hver for seg, men kanskje burde sammensettingen revurderes?"
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "caption": {
+        "value": "Sandwich med mozzarella."
+      },
+      "imageAsset": {
+        "id": "95aa3b7b-c2c9-37ac-89c8-26c211183c2a",
+        "size": {
+          "width": 2698,
+          "height": 2699
+        }
+      },
+      "type": "image"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "Osten tar kaka"
+          },
+          "blockType": "heading"
+        },
+        {
+          "text": {
+            "value": "Det er på tide å teste kaffedelen av navnet, så jeg bestiller meg kake og cortado. Og jeg bare sier det rett ut, jeg: Her får du den beste cortadoen i byen. Ferdig snakka."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "I toppsjiktet finner du også ostekaka deres. Med smidig bærsmak og en enestående kremethet er dette kanskje en av de beste ostekakene jeg har smakt. Tenk riskrem med rødsaus på julaften, men skru go’stemninga opp femten tusen hakk, så har du denne kaka her. Den teinfuserte honningen gir også en litt weird edge til smaksbildet, som jeg setter veldig pris på."
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "imageAsset": {
+        "id": "57ac0493-4af4-3041-823e-0caecf415b8a",
+        "size": {
+          "width": 2601,
+          "height": 2600
+        }
+      },
+      "type": "image"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "Beklager til nabobordet"
+          },
+          "blockType": "heading"
+        },
+        {
+          "text": {
+            "value": "Pavlovaen er ikke like heldig i dag. Kremen er god, og harmonerer fint med bærene, men marengsen er så tørr og hard at noen biter flyver over til nabobordet når jeg endelig får delt den med gaffelen. Det er en helt OK dessert, men jeg er glad jeg har mer ostekake igjen sånn at jeg kan avslutte måltidet med den."
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "imageAsset": {
+        "id": "b8450dc3-c34b-3fbb-9a5d-8dc3a4d2dfad",
+        "size": {
+          "width": 2683,
+          "height": 2683
+        }
+      },
+      "type": "image"
+    },
+    {
+      "presentationProperties": {
+        "rgTipsOss": "true"
+      },
+      "type": "breakpoint"
+    },
+    {
+      "paragraphs": [
+        {
+          "text": {
+            "value": "Jeg er herved fan"
+          },
+          "blockType": "heading"
+        },
+        {
+          "text": {
+            "value": "Te og Kaffehuset har en smaksprofil jeg setter pris på. De har personlighet, og når de treffer blink, da treffer de virkelig blink. Jeg finskriver denne anmeldelsen flere dager etter besøket, og jeg gliser fremdeles av tanken på salaten, pestoen, kaffen og ostekaka. Det er ikke ofte det skjer."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Mitt håp er at dette stedet blir en selvfølge når vi trondheimsboere skal ha oss lunsj, kaffe, eller en ny og spennende pose te. For meg har de havna i favorittkategorien, og jeg hadde ikke blitt overraska hvis terningen får seks øyne dersom jeg skulle anmelde dem igjen om tre-fire måneder."
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "caption": {
+        "value": "TRONDHEIM: Restaurantguiden på Te og Kaffehuset"
+      },
+      "byline": {
+        "title": "Richard Sagen"
+      },
+      "imageAsset": {
+        "id": "c9e9ddbe-b552-34d1-9267-b68bb54a1454",
+        "size": {
+          "width": 7960,
+          "height": 5307
+        }
+      },
+      "type": "image"
+    },
+    {
+      "title": {
+        "value": "Vurdering"
+      },
+      "paragraphs": [
+        {
+          "text": {
+            "value": "Mat: 9/10 To av de beste rettene jeg har spist på en stund, og to retter som ikke helt nådde mål. Jeg velger å tro at de to beste representerer stedet bedre enn de to andre."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Meny: 10/10 Omfattende på kaffe- og tefronten. Kanskje byens beste utvalg? Også mye spennende på matfronten, av både salt og søtt. Det de har av alkoholholdig er også fint. "
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Miljø: 8/10 Pent sted, og rommet bak i lokalet virker behagelig. Trekk for en del rot."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Service: 5/10 Det er her de har mest å jobbe med. Slappe på rydding, hadde ikke kunnskapen helt på plass, og treg service gikk utover visse deler av måltidet. Men helt på jordet var de absolutt ikke!"
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "Pris: 8/10 Virker ganske rimelig i forhold til det man får. Men kaffe er jo alltid dyrt."
+          },
+          "blockType": "paragraph"
+        },
+        {
+          "text": {
+            "value": "SUM: 49 = Terningkast 5"
+          },
+          "blockType": "paragraph"
+        }
+      ],
+      "type": "fact"
+    }
+  ],
+  "changes": {
+    "published": "2026-10-09T11:25:30Z"
+  },
+  "customProperties": {
+    "livemode": "",
+    "snapTitle": "",
+    "prefix": "",
+    "snapDescription": "",
+    "snapDateTime": "",
+    "presentation": "review",
+    "varselsignal": "",
+    "postnr": "",
+    "tip": false,
+    "breaking": false,
+    "frontPageLeadText": "",
+    "seoDescription": "",
+    "countdown": "",
+    "toPrint": true,
+    "frontPageTitle": "En av byens beste butikker er en av byens beste spisesteder",
+    "frontPageCardSize": "medium",
+    "bundleTitle": "",
+    "grade": 5,
+    "fontSize": "100",
+    "bundlePlacementFooter": "",
+    "showAds": true,
+    "showByline": false,
+    "skin": "auto",
+    "blockSearchEngineIndexing": false,
+    "seoTitle": "",
+    "frontPageImage": {
+      "id": "d9b779ef-0832-3cad-93af-68c2050fd543",
+      "size": {
+        "width": 8459,
+        "height": 5639
+      },
+      "hotspot": {
+        "x": 1865,
+        "y": 462,
+        "width": 6049,
+        "height": 4537
+      }
+    },
+    "someDescription": "",
+    "paywall": "closed",
+    "feature": false,
+    "someTitle": "",
+    "comments": "no",
+    "bundlePlacementHeader": "",
+    "frontPageImageHeightOverride": "h-normal",
+    "label": "",
+    "originalId": "a3a2342c-a14b-4e73-93c3-d20af8b6ecda",
+    "wordCount": 635
+  },
+  "schemaType": "article",
+  "id": "31EkrM",
+  "section": {
+    "id": "46824673-2d29-4b0b-b29c-447b1c615998",
+    "title": "Restaurantguiden",
+    "enabled": true
+  },
+  "title": {
+    "value": "En av byens beste butikker er en av byens beste spisesteder"
+  },
+  "characteristics": {
+    "lifetime": 60,
+    "hotness": 60
+  },
+  "access": {
+    "restrictions": [
+      "closed"
+    ]
+  },
+  "newsroom": "adresseavisen",
+  "schemaVersion": 5,
+  "version": {
+    "sequenceNo": 42,
+    "time": "2026-10-13T08:58:31.495637Z"
+  },
+  "language": "nb",
+  "authors": [
+    {
+      "fullname": "Alva Hognestad Alvestrand",
+      "slug": "alva-hognestad-alvestrand",
+      "image": "7c00c1de-ea7b-4edb-81e9-2af7881b1819",
+      "description": "Matanmelder",
+      "email": "kultur@adresseavisen.no"
+    }
+  ],
+  "tags": [
+    {
+      "id": "83daf60d-1135-4adb-968a-4f66a713bc07",
+      "title": "Restaurantguiden/Måltid: Lunsj",
+      "type": "descriptor",
+      "slug": "restaurantguiden-maaltid-lunsj"
+    },
+    {
+      "id": "1549f58e-fb98-43e1-8d26-cb36d6115955",
+      "title": "Restaurantguiden/Type mat: Suppe",
+      "type": "machine",
+      "slug": "restaurantguiden-type-mat-suppe"
+    },
+    {
+      "id": "e7a4e504-104c-4eb6-a092-1273f43a2c9e",
+      "title": "Restaurantguiden/Type mat: Salat",
+      "type": "machine",
+      "slug": "restaurantguiden-type-mat-salat"
+    },
+    {
+      "id": "8b370e53-5f40-4bd1-aed9-798a4d9da4bf",
+      "title": "Restaurantguiden/Type mat: Sandwich",
+      "type": "machine",
+      "slug": "restaurantguiden-type-mat-sandwich"
+    },
+    {
+      "id": "8b628a4c-8140-43f7-a7b7-5d85695ce67e",
+      "title": "Restaurantguiden/Type mat: Søtt",
+      "type": "machine",
+      "slug": "restaurantguiden-type-mat-soett"
+    },
+    {
+      "id": "19428689-4e8a-451f-95c3-ad417c982947",
+      "title": "Restaurantguiden/Type mat: Bakst",
+      "type": "machine",
+      "slug": "restaurantguiden-type-mat-bakst"
+    },
+    {
+      "id": "b6aad188-5895-4e72-91e1-80df2aedaee0",
+      "title": "Restaurantguiden/Type mat: Lokale råvarer",
+      "type": "machine",
+      "slug": "restaurantguiden-type-mat-lokale-raavarer"
+    },
+    {
+      "id": "c432a5e6-4a59-4685-a87e-f48cfcce9f80",
+      "title": "Restaurantguiden/Type mat: Vegetar",
+      "type": "machine",
+      "slug": "restaurantguiden-type-mat-vegetar"
+    },
+    {
+      "id": "fa3f55d0-0cdc-436d-b865-976deae9c79e",
+      "title": "Restaurantguiden/Type mat: Vegansk",
+      "type": "machine",
+      "slug": "restaurantguiden-type-mat-vegansk"
+    },
+    {
+      "id": "61e3a474-e82a-4ddf-9f00-0552c5bba777",
+      "title": "Restaurantguiden/Kjøkken: Europeisk",
+      "type": "machine",
+      "slug": "restaurantguiden-kjoekken-europeisk"
+    },
+    {
+      "id": "ffda6804-0020-4ca4-9b38-b137bcf86498",
+      "title": "Restaurantguiden/Annet: Tilpasset lokale",
+      "type": "machine",
+      "slug": "restaurantguiden-annet-tilpasset-lokale"
+    },
+    {
+      "id": "a836b70e-b580-4e78-8677-85ad0f7bdff2",
+      "title": "Restaurantguiden/Annet: Lokale råvarer",
+      "type": "machine",
+      "slug": "restaurantguiden-annet-lokale-raavarer"
+    },
+    {
+      "id": "cf3c4533-effa-4e2b-ad86-81f169309025",
+      "title": "Restaurantguiden/Annet: Vegetar",
+      "type": "machine",
+      "slug": "restaurantguiden-annet-vegetar",
+      "customization": {
+        "promotionContent": {},
+        "hidden": false
+      }
+    },
+    {
+      "id": "fb2bd498-f2ae-4082-bb0e-ca38d0259273",
+      "title": "Restaurantguiden/Prisnivå: Middels (3/5)",
+      "type": "machine",
+      "slug": "restaurantguiden-prisnivaa-middels-3-5"
+    }
+  ],
+  "presentationProperties": {
+    "rgNavn": "Te og kaffehuset",
+    "rgScore": "49",
+    "rgAdresse": "Dronningens gate 30",
+    "rgLokasjon": "Midtbyen"
+  },
+  "promotionContent": {
+    "slug": "en-av-byens-beste-butikker-er-en-av-byens-beste-spisesteder",
+    "context": {
+      "frontpage": [
+        {
+          "id": "d6781ce2-da29-5b11-a282-bf6f70612154",
+          "weight": 100,
+          "title": {
+            "value": "En av byens beste butikker er en av byens beste spisesteder"
+          },
+          "kicker": {
+            "value": ""
+          },
+          "imageAsset": {
+            "id": "d9b779ef-0832-3cad-93af-68c2050fd543",
+            "size": {
+              "width": 8459,
+              "height": 5639
+            },
+            "hotspot": {
+              "x": 1865,
+              "y": 462,
+              "width": 6049,
+              "height": 4537
+            }
+          }
+        }
+      ]
+    }
+  },
+  "intro": {
+    "type": "Intro",
+    "title": "En av byens beste butikker er en av byens beste spisesteder",
+    "frontPageTitle": "En av byens beste butikker er en av byens beste spisesteder",
+    "media": {
+      "caption": {
+        "value": "Bastian Kvarme Gilstad og Nora Sæther på Te og Kaffehuset."
+      },
+      "byline": {
+        "title": "Richard Sagen"
+      },
+      "imageAsset": {
+        "id": "d9b779ef-0832-3cad-93af-68c2050fd543",
+        "size": {
+          "width": 8459,
+          "height": 5639
+        },
+        "hotspot": {
+          "x": 1865,
+          "y": 462,
+          "width": 6049,
+          "height": 4537
+        }
+      },
+      "type": "image"
+    },
+    "lead": "Dette er en av de beste lunsjstedene i byen. Men det kan fremdeles bli bedre.",
+    "promo": {
+      "caption": {
+        "value": "Bastian Kvarme Gilstad og Nora Sæther på Te og Kaffehuset."
+      },
+      "byline": {
+        "title": "Richard Sagen"
+      },
+      "imageAsset": {
+        "id": "d9b779ef-0832-3cad-93af-68c2050fd543",
+        "size": {
+          "width": 8459,
+          "height": 5639
+        },
+        "hotspot": {
+          "x": 1865,
+          "y": 462,
+          "width": 6049,
+          "height": 4537
+        }
+      },
+      "type": "image"
+    },
+    "frontPageImage": {
+      "type": "image",
+      "imageAsset": {
+        "id": "d9b779ef-0832-3cad-93af-68c2050fd543",
+        "size": {
+          "width": 8459,
+          "height": 5639
+        },
+        "hotspot": {
+          "x": 1865,
+          "y": 462,
+          "width": 6049,
+          "height": 4537
+        }
+      }
+    }
+  },
+  "some": {
+    "title": "En av byens beste butikker er en av byens beste spisesteder",
+    "description": "Dette er en av de beste lunsjstedene i byen. Men det kan fremdeles bli bedre.",
+    "image": {
+      "id": "d9b779ef-0832-3cad-93af-68c2050fd543",
+      "size": {
+        "width": 8459,
+        "height": 5639
+      },
+      "hotspot": {
+        "x": 1865,
+        "y": 462,
+        "width": 6049,
+        "height": 4537
+      }
+    }
+  },
+  "seo": {
+    "title": "En av byens beste butikker er en av byens beste spisesteder",
+    "description": "Dette er en av de beste lunsjstedene i byen. Men det kan fremdeles bli bedre.",
+    "image": {
+      "id": "d9b779ef-0832-3cad-93af-68c2050fd543",
+      "size": {
+        "width": 8459,
+        "height": 5639
+      },
+      "hotspot": {
+        "x": 1865,
+        "y": 462,
+        "width": 6049,
+        "height": 4537
+      }
+    }
+  }
+}

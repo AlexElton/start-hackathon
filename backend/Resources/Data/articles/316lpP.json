@@ -1,0 +1,231 @@
+{
+  "urls": {
+    "relative": "/nyheter/i/316lpP/statsbudsjettet-2027",
+    "canonical": "https://www.adressa.no/nyheter/i/316lpP/statsbudsjettet-2027",
+    "redirectToCanonical": false
+  },
+  "components": [
+    {
+      "type": "integration",
+      "url": "https://liveblog-embed.schibsted.tech/v1/polaris/liveblogs/6948?publicationId=adresseavisen&placement=1",
+      "subtype": "liveblog",
+      "publication": "polaris",
+      "liveblogId": 6948,
+      "publicationId": "adresseavisen",
+      "placement": 1
+    }
+  ],
+  "changes": {
+    "published": "2026-10-07T04:40:55Z",
+    "updated": "2026-10-07T12:11:58Z"
+  },
+  "customProperties": {
+    "livemode": "",
+    "snapTitle": "",
+    "prefix": "",
+    "snapDescription": "",
+    "snapDateTime": "",
+    "presentation": "news",
+    "varselsignal": "",
+    "postnr": "",
+    "tip": false,
+    "breaking": false,
+    "frontPageLeadText": "",
+    "seoDescription": "",
+    "countdown": "",
+    "toPrint": true,
+    "frontPageTitle": "Dette er alt du må vite om statsbudsjettet",
+    "frontPageCardSize": "medium",
+    "bundleTitle": "",
+    "grade": null,
+    "fontSize": "130",
+    "bundlePlacementFooter": "",
+    "showAds": true,
+    "showByline": false,
+    "skin": "auto",
+    "blockSearchEngineIndexing": false,
+    "seoTitle": "",
+    "frontPageImage": {
+      "id": "1043df73-9a29-3c5a-9161-796561b10fc5",
+      "size": {
+        "width": 7677,
+        "height": 5118
+      },
+      "hotspot": {
+        "x": 0,
+        "y": 0,
+        "width": 6336,
+        "height": 4752
+      }
+    },
+    "someDescription": "",
+    "paywall": "closed",
+    "feature": false,
+    "someTitle": "",
+    "comments": "no",
+    "bundlePlacementHeader": "",
+    "frontPageImageHeightOverride": "h-normal",
+    "label": "",
+    "wordCount": 0
+  },
+  "schemaType": "article",
+  "id": "316lpP",
+  "section": {
+    "id": "890e4515-8b99-410f-bd2d-7019a5c8f9b5",
+    "title": "Nyheter",
+    "enabled": true
+  },
+  "title": {
+    "value": "Statsbudsjettet 2027"
+  },
+  "characteristics": {
+    "lifetime": 20,
+    "hotness": 60
+  },
+  "access": {
+    "restrictions": [
+      "closed"
+    ]
+  },
+  "newsroom": "adresseavisen",
+  "schemaVersion": 5,
+  "version": {
+    "sequenceNo": 86,
+    "time": "2026-10-07T13:12:17.376087Z"
+  },
+  "language": "nb",
+  "authors": [
+    {
+      "fullname": "Kristin Norli",
+      "slug": "kristin-norli",
+      "image": "6816ea84-30e3-3be0-9805-74c2c0f5f200",
+      "email": "kristin.norli@adresseavisen.no"
+    }
+  ],
+  "tags": [
+    {
+      "id": "14bcb046-3cad-44fd-b3a5-c86c1d408367",
+      "title": "Statsbudsjettet 2027",
+      "type": "event",
+      "slug": "statsbudsjettet-2027"
+    }
+  ],
+  "presentationProperties": {
+    "hideAuthors": "true"
+  },
+  "promotionContent": {
+    "slug": "statsbudsjettet-2027",
+    "context": {
+      "frontpage": [
+        {
+          "id": "328934fc-dd64-531b-b031-a5e2231cd83d",
+          "weight": 100,
+          "title": {
+            "value": "Dette er alt du må vite om statsbudsjettet"
+          },
+          "kicker": {
+            "value": ""
+          },
+          "imageAsset": {
+            "id": "1043df73-9a29-3c5a-9161-796561b10fc5",
+            "size": {
+              "width": 7677,
+              "height": 5118
+            },
+            "hotspot": {
+              "x": 0,
+              "y": 0,
+              "width": 6336,
+              "height": 4752
+            }
+          }
+        }
+      ]
+    }
+  },
+  "intro": {
+    "type": "Intro",
+    "title": "Statsbudsjettet 2027",
+    "frontPageTitle": "Dette er alt du må vite om statsbudsjettet",
+    "media": {
+      "caption": {
+        "value": "Finansminister Jens Stoltenberg (Ap) presenterte statsbudsjettet for 2027 onsdag."
+      },
+      "byline": {
+        "title": "Fredrik Varfjell / NTB"
+      },
+      "imageAsset": {
+        "id": "d89f78a2-3f5d-36b9-b4b7-a7a82674e8f6",
+        "size": {
+          "width": 7856,
+          "height": 5240
+        }
+      },
+      "type": "image"
+    },
+    "lead": "Adresseavisen følger presentasjonen av budsjettet live gjennom dagen. Har du tips eller spørsmål, vil vi gjerne høre fra deg!",
+    "promo": {
+      "caption": {
+        "value": "Finansminister Jens Stoltenberg (Ap) presenterte statsbudsjettet for 2027 onsdag."
+      },
+      "byline": {
+        "title": "Fredrik Varfjell / NTB"
+      },
+      "imageAsset": {
+        "id": "d89f78a2-3f5d-36b9-b4b7-a7a82674e8f6",
+        "size": {
+          "width": 7856,
+          "height": 5240
+        }
+      },
+      "type": "image"
+    },
+    "frontPageImage": {
+      "type": "image",
+      "imageAsset": {
+        "id": "1043df73-9a29-3c5a-9161-796561b10fc5",
+        "size": {
+          "width": 7677,
+          "height": 5118
+        },
+        "hotspot": {
+          "x": 0,
+          "y": 0,
+          "width": 6336,
+          "height": 4752
+        }
+      }
+    }
+  },
+  "some": {
+    "title": "Dette er alt du må vite om statsbudsjettet",
+    "description": "Adresseavisen følger presentasjonen av budsjettet live gjennom dagen. Har du tips eller spørsmål, vil vi gjerne høre fra deg!",
+    "image": {
+      "id": "1043df73-9a29-3c5a-9161-796561b10fc5",
+      "size": {
+        "width": 7677,
+        "height": 5118
+      },
+      "hotspot": {
+        "x": 0,
+        "y": 0,
+        "width": 6336,
+        "height": 4752
+      }
+    }
+  },
+  "seo": {
+    "title": "Statsbudsjettet 2027",
+    "description": "Adresseavisen følger presentasjonen av budsjettet live gjennom dagen. Har du tips eller spørsmål, vil vi gjerne høre fra deg!",
+    "image": {
+      "id": "d89f78a2-3f5d-36b9-b4b7-a7a82674e8f6",
+      "size": {
+        "width": 7856,
+        "height": 5240
+      }
+    }
+  },
+  "meta": {
+    "hasLiveblog": true
+  }
+}
