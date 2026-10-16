@@ -88,7 +88,6 @@ public struct JSONContentRepository: ContentRepository {
         let metas: [ArticleMeta] = try Self.load("article-meta.json", from: base)
         for meta in metas {
             try validate(category: meta.categoryId, paper: meta.paperId, item: meta.id)
-            guard !meta.locations.isEmpty else { throw ContentError.noLocation(meta.id) }
             let file = base.appendingPathComponent("articles/\(meta.id).json")
             guard FileManager.default.fileExists(atPath: file.path) else { throw ContentError.missingArticleFile(meta.id) }
             let raw: PolarisArticle = try Self.load("articles/\(meta.id).json", from: base)
@@ -116,6 +115,20 @@ public struct JSONContentRepository: ContentRepository {
                 summary: summary,
                 readMinutes: raw.readMinutes
             )
+            if meta.locations.isEmpty {
+                // Articles without a place cannot be pins; they show up in the side panel instead.
+                let item = FeedItem(
+                    id: raw.id,
+                    title: raw.title.value,
+                    categoryId: meta.categoryId,
+                    paperId: meta.paperId,
+                    location: nil,
+                    imageUrl: raw.imageURL,
+                    date: raw.changes.published,
+                    details: .article(details)
+                )
+                pins.append(IndexedFeedItem(item: item, tags: raw.tagTitles))
+            }
             for (index, location) in meta.locations.enumerated() {
                 let item = FeedItem(
                     id: meta.locations.count == 1 ? raw.id : "\(raw.id)-\(index + 1)",

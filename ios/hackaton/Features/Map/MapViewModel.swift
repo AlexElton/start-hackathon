@@ -14,6 +14,8 @@ final class MapViewModel {
     static let startHeading: Double = 0
 
     private(set) var items: [FeedItem] = []
+    /// Articles that cannot be placed on the map; shown in the side panel.
+    private(set) var unplacedItems: [FeedItem] = []
     private(set) var errorMessage: String?
 
     /// The pin or bunch whose sheet is open.
@@ -29,6 +31,7 @@ final class MapViewModel {
     var isSliderActive = false
 
     private var fetchTask: Task<Void, Never>?
+    private var unplacedTask: Task<Void, Never>?
     private var visibleBox: FeedFilter.BoundingBox?
     private var fetchedBox: FeedFilter.BoundingBox?
 
@@ -188,6 +191,7 @@ final class MapViewModel {
         guard kind != layer else { return }
         layer = kind
         items = items.filter { $0.kind == kind } // Drop the old layer's pins right away.
+        unplacedItems = []
         fetchedBox = nil
         scheduleFetch(debounce: false)
     }
@@ -214,6 +218,7 @@ final class MapViewModel {
         fetchTask?.cancel()
         let box = (visibleBox ?? Self.defaultBox).scaled(by: 1.5)
         let filter = FeedFilter(kinds: [layer], exclude: excluded, mute: muted, bbox: box, prefer: preferred)
+        fetchUnplacedItems()
         fetchTask = Task {
             if debounce {
                 try? await Task.sleep(for: .milliseconds(300))
@@ -231,6 +236,22 @@ final class MapViewModel {
                 guard !Task.isCancelled else { return }
                 Self.logger.error("Feed request failed: \(error)")
                 errorMessage = "Fikk ikke hentet innhold"
+            }
+        }
+    }
+
+    /// Fetches the current layer without a bbox and keeps only the items without a place.
+    private func fetchUnplacedItems() {
+        unplacedTask?.cancel()
+        let filter = FeedFilter(kinds: [layer], exclude: excluded, mute: muted, prefer: preferred)
+        unplacedTask = Task {
+            do {
+                let page = try await feed.feed(filter)
+                guard !Task.isCancelled else { return }
+                unplacedItems = page.items.filter { $0.location == nil }
+            } catch is CancellationError {
+            } catch {
+                Self.logger.error("Unplaced feed request failed: \(error)")
             }
         }
     }

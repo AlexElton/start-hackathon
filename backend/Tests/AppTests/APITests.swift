@@ -53,6 +53,14 @@ final class APITests: XCTestCase {
         XCTAssertEqual(pins.first?.id, "16grxK-1")
     }
 
+    func testUnplacedArticleHasNoLocationAndIsOutsideBbox() async throws {
+        let all = try await feed("?kinds=article")
+        let unplaced = all.items.filter { $0.location == nil }
+        XCTAssertEqual(unplaced.map(\.id), ["eG5bky"], "the unplaced article appears once, without a bbox")
+        let boxed = try await feed("?kinds=article&bbox=63.3,10.2,63.5,10.6")
+        XCTAssertFalse(boxed.items.contains { $0.id == "eG5bky" }, "unplaced articles never match a bbox")
+    }
+
     func testTonightIsEventsAfterFourAndDeals() async throws {
         let page = try await feed("?when=tonight")
         XCTAssertEqual(Set(page.items.filter { $0.kind == .event }.map(\.id)), ["evt_quiz_lyche", "evt_smashburger_hammerhead"])
@@ -87,7 +95,7 @@ final class APITests: XCTestCase {
 
     func testBoundingBoxAndLimit() async throws {
         let bakklandet = try await feed("?bbox=63.427,10.400,63.431,10.406")
-        XCTAssertEqual(Set(bakklandet.items.map(\.location.name)), ["Den Gode Nabo, Bakklandet", "Daglig Deig, Bakklandet", "Burger.no, Nedre Bakklandet"])
+        XCTAssertEqual(Set(bakklandet.items.compactMap(\.location?.name)), ["Den Gode Nabo, Bakklandet", "Daglig Deig, Bakklandet", "Burger.no, Nedre Bakklandet"])
         let limited = try await feed("?limit=3")
         XCTAssertEqual(limited.items.count, 3)
         XCTAssertEqual(limited.total, 30)

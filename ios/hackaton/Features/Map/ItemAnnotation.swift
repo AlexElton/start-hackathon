@@ -10,7 +10,7 @@ final class ItemAnnotation: NSObject, MKAnnotation {
     }
 
     var coordinate: CLLocationCoordinate2D {
-        CLLocationCoordinate2D(latitude: item.location.lat, longitude: item.location.lon)
+        CLLocationCoordinate2D(latitude: item.location?.lat ?? 0, longitude: item.location?.lon ?? 0)
     }
 
     var title: String? { item.title }

@@ -41,7 +41,10 @@ public struct FeedQuery: Sendable {
         if filter.exclude.contains(item.categoryId) { return false }
         if filter.mute.contains(where: indexed.searchText.contains) { return false }
         if let paper = filter.paper, item.paperId != paper { return false }
-        if let bbox = filter.bbox, !bbox.contains(item.location) { return false }
+        if let bbox = filter.bbox {
+            // Unplaced articles never match an area; they are fetched without a bbox.
+            guard let location = item.location, bbox.contains(location) else { return false }
+        }
         return true
     }
 
@@ -75,8 +78,10 @@ public struct FeedQuery: Sendable {
     /// Fills `distanceKm` when the request has `near`, and drops items outside `radiusKm`.
     private func withDistance(_ indexed: IndexedFeedItem) -> IndexedFeedItem? {
         guard let near = filter.near else { return indexed }
+        // Unplaced articles have no distance to anything.
+        guard let location = indexed.item.location else { return nil }
         var indexed = indexed
-        let distance = near.distanceKm(to: indexed.item.location)
+        let distance = near.distanceKm(to: location)
         if let radius = filter.radiusKm, distance > radius { return nil }
         indexed.item.distanceKm = (distance * 100).rounded() / 100
         return indexed
