@@ -2,15 +2,21 @@ import Foundation
 import SharedModels
 
 /// Applies a `FeedFilter` to the in-memory items: filter by kind, category, words, paper, area and time, then sort.
-struct FeedQuery {
-    let filter: FeedFilter
-    let now: Date
-    var calendar: Calendar = .oslo
+public struct FeedQuery: Sendable {
+    public let filter: FeedFilter
+    public let now: Date
+    public var calendar: Calendar
 
     /// Within this distance an item counts as "near" for the relevance score.
-    static let nearbyKm = 5.0
+    public static let nearbyKm = 5.0
 
-    func run(on items: [IndexedFeedItem]) -> FeedPage {
+    public init(filter: FeedFilter, now: Date, calendar: Calendar = .oslo) {
+        self.filter = filter
+        self.now = now
+        self.calendar = calendar
+    }
+
+    public func run(on items: [IndexedFeedItem]) -> FeedPage {
         var matches = items.filter(isCurrent)
             .filter(matchesContent)
             .filter(matchesTime)
@@ -92,7 +98,7 @@ struct FeedQuery {
     }
 
     /// +2 if the category is one the user prefers, +1 if within 5 km. Ties go to the newest.
-    func relevance(_ item: FeedItem) -> Int {
+    public func relevance(_ item: FeedItem) -> Int {
         var score = 0
         if filter.prefer.contains(item.categoryId) { score += 2 }
         if let distance = item.distanceKm, distance <= Self.nearbyKm { score += 1 }

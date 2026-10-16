@@ -45,7 +45,7 @@ struct AdRecord: Decodable {
 
 extension Calendar {
     /// All relative mock dates are resolved in Norwegian time.
-    static let oslo: Calendar = {
+    public static let oslo: Calendar = {
         var calendar = Calendar(identifier: .gregorian)
         calendar.timeZone = TimeZone(identifier: "Europe/Oslo")!
         return calendar

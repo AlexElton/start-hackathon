@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		32C7586030810580008A9EA6 /* SharedModels in Frameworks */ = {isa = PBXBuildFile; productRef = 32C7586230810580008A9EA6 /* SharedModels */; };
+		32C7586330810580008A9EA6 /* FeedEngine in Frameworks */ = {isa = PBXBuildFile; productRef = 32C7586430810580008A9EA6 /* FeedEngine */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				32C7586030810580008A9EA6 /* SharedModels in Frameworks */,
+				32C7586330810580008A9EA6 /* FeedEngine in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +73,7 @@
 			name = hackaton;
 			packageProductDependencies = (
 				32C7586230810580008A9EA6 /* SharedModels */,
+				32C7586430810580008A9EA6 /* FeedEngine */,
 			);
 			productName = hackaton;
 			productReference = 32C7584630810575008A9EA6 /* hackaton.app */;
@@ -265,6 +268,8 @@
 				DEVELOPMENT_TEAM = 5YJY63395Z;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Vi bruker posisjonen din for å vise hva som skjer rundt deg på kartet.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -297,6 +302,8 @@
 				DEVELOPMENT_TEAM = 5YJY63395Z;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Vi bruker posisjonen din for å vise hva som skjer rundt deg på kartet.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -353,6 +360,11 @@
 		32C7586230810580008A9EA6 /* SharedModels */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = SharedModels;
+		};
+		32C7586430810580008A9EA6 /* FeedEngine */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 32C7586130810580008A9EA6 /* XCLocalSwiftPackageReference "../SharedModels" */;
+			productName = FeedEngine;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

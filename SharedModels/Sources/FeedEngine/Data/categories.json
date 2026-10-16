@@ -1,8 +1,8 @@
 [
-  { "id": "nyheter", "name": "Nyheter", "symbol": "newspaper", "color": "#1F4E79" },
-  { "id": "kultur", "name": "Kultur", "symbol": "theatermasks", "color": "#8E44AD" },
-  { "id": "sport", "name": "Sport", "symbol": "figure.run", "color": "#27AE60" },
-  { "id": "studentliv", "name": "Studentliv", "symbol": "graduationcap", "color": "#E67E22" },
+  { "id": "nyheter", "name": "Nyheter", "symbol": "newspaper", "color": "#005379" },
+  { "id": "kultur", "name": "Kultur", "symbol": "theatermasks", "color": "#C31632" },
+  { "id": "sport", "name": "Sport", "symbol": "figure.run", "color": "#4E9D2D" },
+  { "id": "studentliv", "name": "Studentliv", "symbol": "graduationcap", "color": "#28AAE2" },
   { "id": "mat", "name": "Mat og drikke", "symbol": "fork.knife", "color": "#D35400" },
   { "id": "helse", "name": "Helse", "symbol": "heart.text.square", "color": "#16A085" },
   { "id": "politikk", "name": "Politikk", "symbol": "building.columns", "color": "#34495E" },

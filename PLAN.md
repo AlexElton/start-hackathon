@@ -21,7 +21,7 @@ The demo at the end of day 2 must cover five points:
 | 4 | Hva kan vi bidra med | What a local media house adds: content, journalists, data, closeness to the city |
 | 5 | Retention | How the product reaches students, and why they come back |
 
-**Our scope:** an iOS app (SwiftUI) with a Swift backend (Vapor). All articles, events, ads and categories are mocked JSON served by the backend. Gemini is used only for the "Forklar" explanations.
+**Our scope:** an iOS app (SwiftUI) that runs fully on the phone, plus a Swift backend (Vapor) that serves the same engine over HTTP. All articles, events, ads and categories are mocked JSON served by the backend. Gemini is used only for the "Forklar" explanations.
 
 ## 2. Problem and solution
 
@@ -104,7 +104,7 @@ We build a SwiftUI app (MVVM) against a small Vapor backend. The backend serves 
 
 ### 3.3 Mock data: JSON files, no database
 
-The backend reads five JSON files and one GeoJSON file from `Resources/Data/` once at startup, keeps them in memory, and filters per request. Nothing is stored on the server: the only per-user state, settings and read items, lives on the phone.
+The engine reads five JSON files and one GeoJSON file from `SharedModels/Sources/FeedEngine/Data/` once at startup (on the phone, and in the backend), keeps them in memory, and filters per request. Nothing is stored on the server: the only per-user state, settings and read items, lives on the phone.
 
 | File | Contents | Notes |
 | --- | --- | --- |
@@ -119,10 +119,13 @@ One file per kind is best. Each kind has its own schema, teammates can edit them
 
 ### 3.4 Backend (Vapor)
 
+> **Update:** everything must run on the phone. The repository, `FeedQuery`, the Polaris decoder and the JSON now live in the `FeedEngine` library (`SharedModels/Sources/FeedEngine`). The app runs it in-process via `LocalFeedService`; the Vapor app below wraps the same engine, so both always return identical results. Gemini "Forklar" will still need the network.
+
+
 ```text
 Backend/
 ├─ Package.swift          // Vapor, AsyncHTTPClient, SharedModels
-├─ Resources/Data/        // articles, events, ads, categories, papers (.json)
+├─ (data now in SharedModels/Sources/FeedEngine/Data)
 └─ Sources/App/
    ├─ configure.swift     // load JSON, set up GeminiClient, register routes
    ├─ routes.swift        // the /api/v1 group
@@ -226,7 +229,7 @@ Build the two steps with `mapCameraKeyframeAnimator(trigger:)` on the globe map,
   3. Debounce region changes to about 300 ms before fetching, cancel the previous request, and fetch a box 1.5× the visible area so small pans don't refetch.
   4. Keep the `MKMapView` out of SwiftUI's re-render path. The representable only pushes diffs, and read-state changes restyle existing views in place.
 - **Zoom slider:**
-  - A vertical slider on the right side, mapped logarithmically to camera distance, from about 1 km (your location) to about 1,500 km (all of Norway): distance = 1 km × 1500^t for t from 0 to 1. A log scale makes the zoom feel even rather than jumpy.
+  - A vertical slider on the right side, mapped logarithmically to camera distance, from about 1 km (your location) to about 5,500 km (all of Norway; far out the view glides to the middle of Norway): distance = 1 km × 5500^t for t from 0 to 1. A log scale makes the zoom feel even rather than jumpy.
   - The slider sets a target distance, and a `CADisplayLink` eases the camera toward it each frame. Smooth, but not too fast.
   - Use an `isUserDrivenChange` flag so pinch gestures update the slider without creating a feedback loop.
   - Set `cameraZoomRange` after the intro, so pinch stays inside the same range.
@@ -273,7 +276,50 @@ Build the two steps with `mapCameraKeyframeAnimator(trigger:)` on the globe map,
 - VG-like structure: bold, tight headlines, card-based layout and fast scanning.
 - Polaris flavour: avis logo and source badge on every card, a restrained palette with category accent colours, and dark mode support.
 
-### 3.6 Two-day plan
+### 3.6 Design: Adresseavisen brand, VG-style iOS
+
+Source: Adresseavisen's style guide on Frontify (Adressafargene, Adressaskriftene, Stil og tone, hierarki). The look is a newspaper made modern: VG-like structure (bold, tight headlines, cards, fast scanning) in Adresseavisen's colours and type. Tokens live in `DesignSystem/Theme.swift`; never hard-code a colour in a view.
+
+**Colours (official hex)**
+
+| Token | Hex | Source palette | Use in the app |
+| --- | --- | --- | --- |
+| `adressaBlue` | `#005379` | Hovedfarger: Adresseablå (PMS 7693 C) | Brand and primary: selected chips, buttons, kickers, the source badge, article pins |
+| `cyan` | `#28aae2` | Hovedfarger: Cyan popup | Highlights and links on dark backgrounds, "i kveld" badge |
+| `ink` | `#101010` | Hovedfarger: Svart | Headlines and body text (light mode) |
+| `grey` | `#e2e2e2` | Hovedfarger: Grå | Dividers, unselected chip borders |
+| `lightGrey` | `#f6f6f6` | Hovedfarger: Lys grå | Screen and sheet background (light mode) |
+| `paperBlue` | `#e5edf5` | Redaksjonelle: Lyseblå papir | Fact boxes, "Kort fortalt" summary panel |
+| `paperBeige` | `#dfded8` | Redaksjonelle: Beige papir | Quiet secondary panels |
+| `kultur` | `#c31632` | Redaksjonelle: Kultur | Kultur category |
+| `sport` | `#4e9d2d` | Redaksjonelle: Sport | Sport category |
+| `korngul` | `#f7a800` | Kommersielle: Korngul | Ads / tilbud (commercial content), ad pins |
+| `trdby` | `#ff9e18` | Trd.by: Pantone 1375C | Events (Trd.by is Adressa's "what's on" brand), event pins |
+
+Layer colours: Saker = `adressaBlue`, Arrangementer = `trdby`, Tilbud = `korngul`. Dark mode swaps `ink`/`lightGrey` for near-black `#101010` backgrounds and white text; brand colours stay.
+
+**Typography.** Adresseavisen uses Acta (titles and body, digital), Roboto (UI, commercial) and Stag Semibold (vignettes, product names). These are licensed, so the app maps them to iOS system fonts with the same roles:
+
+| Brand font | Role | iOS stand-in |
+| --- | --- | --- |
+| Acta | Headlines and article body | New York (`.serif`): heavy for titles, regular for body |
+| Stag Semibold | Vignettes / kickers ("KULTUR", "ARRANGEMENT") | SF Pro heavy, uppercase, small, tracked, in `adressaBlue` |
+| Roboto Regular/Bold | UI: chips, buttons, meta lines | SF Pro regular/bold |
+
+**Brand rules we follow**
+
+- The logo is Adressablå (or white on Adressablå), never black. On small digital surfaces use the Adressasirkelen: a blue circle with a white A. We use it in the "Fra Adresseavisen" source badge.
+- Commercial content is labelled "ANNONSE" so it is never confused with journalism. Every ad card shows it.
+- Voice: talk *with* people, use "du/vi", few words, serious but light and modern. Say "Adresseavisen" in full when naming the brand; "adressa.no" with a lower-case a for the web.
+
+**Components**
+
+- *Map pins:* white card, serif title on top, photo below, pointer at the bottom; layer badge in the layer colour. Bunches: newest card on top, two smaller photo cards peeking out behind, count merged into the white frame.
+- *Filter chips:* solid capsules. Selected = `adressaBlue` with white text; unselected = white with `ink` text and a soft shadow. One layer at a time.
+- *Item sheet:* `lightGrey` background, standard iOS sheet corners. Kicker → serif headline → lead. Articles open in a short sheet (headline + lead) and expand to the full-height sheet with the photo, a "Kort fortalt" panel and "Les hele saken". Events and ads open in the full-height sheet directly. Bunches page left/right with an "n / total" counter; an article with several pins counts once.
+- *Article reader:* full screen, edge-to-edge photo, serif headline and body, byline and date, the source badge, "Les saken på adressa.no", and a back button straight to the map.
+
+### 3.7 Two-day plan
 
 Assumes 4–5 people. The app team starts on `MockFeedService` with bundled JSON, so nobody waits for the backend.
 

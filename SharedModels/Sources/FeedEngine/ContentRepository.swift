@@ -2,18 +2,18 @@ import Foundation
 import SharedModels
 
 /// A feed item plus the text that muted words are matched against (title and tags).
-struct IndexedFeedItem: Sendable {
-    var item: FeedItem
-    let searchText: String
+public struct IndexedFeedItem: Sendable {
+    public var item: FeedItem
+    public let searchText: String
 
-    init(item: FeedItem, tags: [String]) {
+    public init(item: FeedItem, tags: [String]) {
         self.item = item
         searchText = ([item.title] + tags).joined(separator: " ").lowercased()
     }
 }
 
 /// Read-only content source. A protocol so the JSON files can later be swapped for a database or a real Polaris API.
-protocol ContentRepository: Sendable {
+public protocol ContentRepository: Sendable {
     var categories: [SharedModels.Category] { get }
     var papers: [Paper] { get }
     /// Every article pin, event and deal, with relative dates resolved against `now`.
@@ -21,14 +21,14 @@ protocol ContentRepository: Sendable {
     func article(id: String) -> ArticleDetail?
 }
 
-enum ContentError: Error, CustomStringConvertible {
+public enum ContentError: Error, CustomStringConvertible {
     case missingArticleFile(String)
     case unknownCategory(String, in: String)
     case unknownPaper(String, in: String)
     case noLocation(String)
     case badTime(String, in: String)
 
-    var description: String {
+    public var description: String {
         switch self {
         case .missingArticleFile(let id): "article-meta.json lists '\(id)' but articles/\(id).json is missing"
         case .unknownCategory(let category, let item): "'\(item)' uses unknown category '\(category)'"
@@ -39,16 +39,24 @@ enum ContentError: Error, CustomStringConvertible {
     }
 }
 
-/// Loads every JSON file from `Resources/Data` into memory once, and validates the references between them.
-struct JSONContentRepository: ContentRepository {
-    let categories: [SharedModels.Category]
-    let papers: [Paper]
+/// Loads every JSON file from `Data/` into memory once, and validates the references between them.
+public struct JSONContentRepository: ContentRepository {
+    public let categories: [SharedModels.Category]
+    public let papers: [Paper]
     private let articles: [String: ArticleDetail]
     private let articlePins: [IndexedFeedItem]
     private let events: [EventRecord]
     private let ads: [AdRecord]
 
-    init(dataDirectory: String) throws {
+    /// The mock data shipped inside this package. Used by both the app and the backend.
+    public static func bundled() throws -> JSONContentRepository {
+        guard let directory = Bundle.module.url(forResource: "Data", withExtension: nil) else {
+            throw ContentError.missingArticleFile("Data")
+        }
+        return try JSONContentRepository(dataDirectory: directory.path)
+    }
+
+    public init(dataDirectory: String) throws {
         let base = URL(fileURLWithPath: dataDirectory)
         categories = try Self.load("categories.json", from: base)
         papers = try Self.load("papers.json", from: base)
@@ -88,9 +96,11 @@ struct JSONContentRepository: ContentRepository {
                 locations: meta.locations
             )
 
+            let summary = meta.summary.isEmpty ? Array(raw.newsroomSummary.prefix(3)) : meta.summary
             let details = FeedItem.ArticleDetails(
                 articleId: raw.id,
-                summary: meta.summary.isEmpty ? Array(raw.newsroomSummary.prefix(3)) : meta.summary,
+                lead: raw.lead ?? summary.first,
+                summary: summary,
                 readMinutes: raw.readMinutes
             )
             for (index, location) in meta.locations.enumerated() {
@@ -122,11 +132,11 @@ struct JSONContentRepository: ContentRepository {
         }
     }
 
-    func article(id: String) -> ArticleDetail? {
+    public func article(id: String) -> ArticleDetail? {
         articles[id]
     }
 
-    func feedItems(now: Date) -> [IndexedFeedItem] {
+    public func feedItems(now: Date) -> [IndexedFeedItem] {
         articlePins + events.compactMap { resolve($0, now: now) } + ads.compactMap { resolve($0, now: now) }
     }
 
@@ -178,9 +188,9 @@ struct JSONContentRepository: ContentRepository {
 }
 
 /// Names the file that failed, so a typo in mock data is easy to find.
-struct DecodingFailure: Error, CustomStringConvertible {
+public struct DecodingFailure: Error, CustomStringConvertible {
     let file: String
     let underlying: any Error
 
-    var description: String { "Could not decode \(file): \(underlying)" }
+    public var description: String { "Could not decode \(file): \(underlying)" }
 }
