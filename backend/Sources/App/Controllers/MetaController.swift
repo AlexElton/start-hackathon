@@ -1,3 +1,4 @@
+import FeedEngine
 import SharedModels
 import Vapor
 

@@ -55,12 +55,15 @@ public struct FeedItem: Codable, Identifiable, Hashable, Sendable {
     public struct ArticleDetails: Codable, Hashable, Sendable {
         /// The article to load with `GET /articles/:id`. One article can have several pins.
         public var articleId: String
+        /// One or two sentences for the short sheet: the newsroom's lead, or the first bullet.
+        public var lead: String?
         /// Three short bullets for the card.
         public var summary: [String]
         public var readMinutes: Int
 
-        public init(articleId: String, summary: [String], readMinutes: Int) {
+        public init(articleId: String, lead: String? = nil, summary: [String], readMinutes: Int) {
             self.articleId = articleId
+            self.lead = lead
             self.summary = summary
             self.readMinutes = readMinutes
         }

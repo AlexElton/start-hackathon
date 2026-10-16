@@ -14,6 +14,11 @@ The app alone can also be opened with `ios/hackaton.xcodeproj`.
 
 Run the backend tests with `make test`.
 
+**Everything runs on the phone.** The content engine (Polaris article decoder, repository, `FeedQuery`) and the mock
+data live in the `FeedEngine` library in `SharedModels/`. The app runs it in-process through `LocalFeedService`, so a
+phone needs no server; only the photos load from Polaris' image server. The Vapor backend wraps the same engine and
+serves identical results over HTTP; `LiveFeedService` can talk to it if we deploy it later.
+
 ## API (`/api/v1`)
 
 | Method | Path | Notes |
@@ -35,7 +40,7 @@ curl "localhost:8080/api/v1/feed?near=63.4183,10.4045&radiusKm=2&sort=distance"
 curl "localhost:8080/api/v1/articles/16grxK"
 ```
 
-## Mock data (`backend/Resources/Data`)
+## Mock data (`SharedModels/Sources/FeedEngine/Data`)
 
 | File | What |
 | --- | --- |
@@ -63,14 +68,14 @@ ios/
    │  └─ Stores/          SettingsStore (UserDefaults), later ReadStore
    ├─ DesignSystem/       Colours and shared UI pieces
    └─ Resources/          Assets.xcassets
-backend/                  Vapor 4 server (Swift package)
+backend/                  Vapor 4 server: thin HTTP wrapper around FeedEngine
 ├─ Sources/App/
-│  ├─ configure.swift     Loads JSON data, registers routes
+│  ├─ configure.swift     Loads the bundled data, registers routes
 │  ├─ routes.swift        The /api/v1 group
-│  ├─ Controllers/        Thin route handlers
-│  └─ Services/           ContentRepository and, later, FeedQuery and GeminiClient
-└─ Resources/Data/        Mock JSON (categories, papers, then articles, events, ads)
-SharedModels/             Codable DTOs shared by the app and the backend
+│  └─ Controllers/        Thin route handlers
+SharedModels/             Swift package used by the app and the backend
+├─ Sources/SharedModels/  Codable API types (FeedItem, ArticleDetail, FeedFilter, …)
+└─ Sources/FeedEngine/    PolarisArticle, ContentRepository, FeedQuery + Data/ (the mock JSON)
 ```
 
 ## Conventions

@@ -1,3 +1,4 @@
+import FeedEngine
 import SharedModels
 import Vapor
 
@@ -9,9 +10,9 @@ func configure(_ app: Application, now: @escaping @Sendable () -> Date = Date.in
     ContentConfiguration.global.use(encoder: JSONEncoder.api, for: .json)
     ContentConfiguration.global.use(decoder: JSONDecoder.api, for: .json)
 
-    // Data lives in backend/Resources/Data and is loaded once at startup.
-    let dataDirectory = app.directory.resourcesDirectory + "Data/"
-    let repository = try JSONContentRepository(dataDirectory: dataDirectory)
+    // The mock data ships inside the FeedEngine package (SharedModels/Sources/FeedEngine/Data),
+    // the same content the app runs on the phone. Loaded once at startup.
+    let repository = try JSONContentRepository.bundled()
     app.logger.info("Loaded \(repository.categories.count) categories, \(repository.papers.count) papers, \(repository.feedItems(now: now()).count) feed items")
 
     try routes(app, repository: repository, now: now)

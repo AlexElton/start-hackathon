@@ -1,4 +1,5 @@
 @testable import App
+import FeedEngine
 import SharedModels
 import XCTVapor
 
@@ -10,8 +11,6 @@ final class APITests: XCTestCase {
 
     override func setUp() async throws {
         app = try await Application.make(.testing)
-        let backendRoot = URL(fileURLWithPath: #filePath).deletingLastPathComponent().deletingLastPathComponent().deletingLastPathComponent()
-        app.directory = DirectoryConfiguration(workingDirectory: backendRoot.path + "/")
         try await configure(app, now: { Self.noon })
     }
 

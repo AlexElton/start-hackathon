@@ -14,12 +14,14 @@ let package = Package(
             dependencies: [
                 .product(name: "Vapor", package: "vapor"),
                 .product(name: "SharedModels", package: "SharedModels"),
+                .product(name: "FeedEngine", package: "SharedModels"),
             ]
         ),
         .testTarget(
             name: "AppTests",
             dependencies: [
                 .target(name: "App"),
+                .product(name: "FeedEngine", package: "SharedModels"),
                 .product(name: "XCTVapor", package: "vapor"),
             ]
         ),
