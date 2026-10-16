@@ -15,6 +15,10 @@ enum Theme {
 
     /// Text: Svart in light mode, white in dark mode.
     static let ink = Color(uiColor: UIColor { $0.userInterfaceStyle == .dark ? .white : UIColor(hex: "#101010") })
+    /// `ink` as a UIColor, for UIKit-backed views.
+    static let inkUIColor = UIColor { $0.userInterfaceStyle == .dark ? .white : UIColor(hex: "#101010") }
+    /// `secondaryInk` as a UIColor, for UIKit-backed views.
+    static let secondaryInkUIColor = UIColor { $0.userInterfaceStyle == .dark ? UIColor(white: 1, alpha: 0.65) : UIColor(hex: "#101010").withAlphaComponent(0.62) }
     static let secondaryInk = Color(uiColor: UIColor { $0.userInterfaceStyle == .dark ? UIColor(white: 1, alpha: 0.65) : UIColor(hex: "#101010").withAlphaComponent(0.62) })
     /// Screen and sheet background: Lys grå / near black.
     static let background = Color(uiColor: UIColor { $0.userInterfaceStyle == .dark ? UIColor(hex: "#101010") : UIColor(hex: "#F6F6F6") })
@@ -25,6 +29,13 @@ enum Theme {
 
     static func headline(_ size: CGFloat) -> Font { .system(size: size, weight: .heavy, design: .serif) }
     static func serifBody(_ size: CGFloat = 18) -> Font { .system(size: size, weight: .regular, design: .serif) }
+    /// `serifBody` as a UIFont, for UIKit-backed text views.
+    static func serifBodyUIFont(_ size: CGFloat = 18) -> UIFont {
+        if let descriptor = UIFont.systemFont(ofSize: size, weight: .regular).fontDescriptor.withDesign(.serif) {
+            return UIFont(descriptor: descriptor, size: size)
+        }
+        return UIFont.systemFont(ofSize: size)
+    }
     static let lead = Font.system(size: 17, weight: .semibold)
     static let meta = Font.system(size: 13, weight: .medium)
     static let button = Font.system(size: 16, weight: .bold)

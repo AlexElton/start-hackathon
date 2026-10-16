@@ -11,6 +11,7 @@ public enum API {
         public static let categories = "categories"
         public static let papers = "papers"
         public static let summarize = "summarize"
+        public static let explain = "explain"
     }
 }
 

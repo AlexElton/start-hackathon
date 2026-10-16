@@ -8,12 +8,20 @@ final class AppEnvironment {
     let feed: any FeedServicing
     let location: LocationService
     let images: ImageLoader
+    let explain: any ExplainServicing
 
-    init(settings: SettingsStore, feed: any FeedServicing, location: LocationService, images: ImageLoader) {
+    init(
+        settings: SettingsStore,
+        feed: any FeedServicing,
+        location: LocationService,
+        images: ImageLoader,
+        explain: any ExplainServicing
+    ) {
         self.settings = settings
         self.feed = feed
         self.location = location
         self.images = images
+        self.explain = explain
     }
 
     static func live() -> AppEnvironment {
@@ -28,7 +36,8 @@ final class AppEnvironment {
             settings: SettingsStore(),
             feed: feed,
             location: LocationService(),
-            images: ImageLoader()
+            images: ImageLoader(),
+            explain: LiveExplainService(baseURL: AppConfig.apiBaseURL)
         )
     }
 
@@ -38,7 +47,8 @@ final class AppEnvironment {
             settings: SettingsStore(defaults: UserDefaults(suiteName: "preview") ?? .standard),
             feed: MockFeedService(),
             location: LocationService(),
-            images: ImageLoader()
+            images: ImageLoader(),
+            explain: MockExplainService()
         )
     }
 }

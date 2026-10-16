@@ -1,3 +1,4 @@
+import FeedEngine
 import SharedModels
 import Vapor
 
@@ -28,23 +29,11 @@ struct SummarizeController: RouteCollection {
 
         // No key set (offline demo, tests): stream the article's own 3-bullet summary.
         guard gemini.isConfigured else {
-            return Self.sseResponse(chunks: Self.fallbackChunks(for: article))
+            return SSEResponse.make(chunks: Self.fallbackChunks(for: article))
         }
 
         let stream = try await gemini.summarize(article: article)
-        return Self.sseResponse(chunks: AsyncThrowingStream<SummaryDelta, Error> { continuation in
-            let task = Task {
-                do {
-                    for try await delta in stream {
-                        continuation.yield(SummaryDelta(delta: delta))
-                    }
-                    continuation.finish()
-                } catch {
-                    continuation.finish(throwing: error)
-                }
-            }
-            continuation.onTermination = { _ in task.cancel() }
-        })
+        return SSEResponse.make(chunks: SSEResponse.deltas(from: stream))
     }
 
     /// The article's own 3-bullet summary, one chunk per bullet.
@@ -54,30 +43,6 @@ struct SummarizeController: RouteCollection {
         return AsyncThrowingStream<SummaryDelta, Error> {
             iterator.next().map { SummaryDelta(delta: "\($0)\n\n") }
         }
-    }
-
-    /// Wraps chunks in an SSE response: `text/event-stream`, no caching, `event: done` at the end.
-    static func sseResponse(
-        chunks: AsyncThrowingStream<SummaryDelta, Error>
-    ) -> Response {
-        let body = Response.Body(managedAsyncStream: { writer in
-            do {
-                for try await chunk in chunks {
-                    let data = try JSONEncoder.api.encode(chunk)
-                    try await writer.write(.buffer(ByteBuffer(data: Data("data: ".utf8) + data + Data("\n\n".utf8))))
-                }
-                try await writer.write(.buffer(ByteBuffer(string: "event: done\ndata: {}\n\n")))
-                try await writer.write(.end)
-            } catch {
-                let payload = "event: error\ndata: {\"reason\": \"Gemini is unavailable\"}\n\n"
-                try? await writer.write(.buffer(ByteBuffer(string: payload)))
-                try? await writer.write(.end)
-            }
-        })
-        let response = Response(status: .ok, body: body)
-        response.headers.replaceOrAdd(name: .contentType, value: "text/event-stream")
-        response.headers.replaceOrAdd(name: .cacheControl, value: "no-cache")
-        return response
     }
 }
 

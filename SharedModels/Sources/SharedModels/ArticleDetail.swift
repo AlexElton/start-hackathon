@@ -18,6 +18,39 @@ public struct SummaryDelta: Codable, Hashable, Sendable {
     }
 }
 
+/// Request of `POST /explain`: the selected term plus the text around it, so names get resolved correctly.
+public struct ExplainRequest: Codable, Hashable, Sendable {
+    /// The word, name or place the user selected. 1–80 characters.
+    public var term: String
+    /// The paragraph the term was selected in. At most 2,000 characters.
+    public var context: String
+    /// The article title, so "formannskapet" is explained in the right municipality.
+    public var title: String
+    /// The item the term came from, for traceability.
+    public var itemId: String
+
+    public init(term: String, context: String, title: String, itemId: String) {
+        self.term = term
+        self.context = context
+        self.title = title
+        self.itemId = itemId
+    }
+
+    /// The input rules from the API design: term 1–80 characters, context at most 2,000.
+    public var isValid: Bool {
+        (1...80).contains(term.count) && context.count <= 2_000
+    }
+}
+
+/// One streamed chunk of the AI explanation, sent as `data:` in the SSE response.
+public struct ExplanationDelta: Codable, Hashable, Sendable {
+    public var delta: String
+
+    public init(delta: String) {
+        self.delta = delta
+    }
+}
+
 /// Response of `GET /articles/:id`: the full article for the reader.
 public struct ArticleDetail: Codable, Identifiable, Hashable, Sendable {
     public var id: String

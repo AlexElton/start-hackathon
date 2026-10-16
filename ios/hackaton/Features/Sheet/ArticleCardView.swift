@@ -1,5 +1,6 @@
 import SharedModels
 import SwiftUI
+import UIKit
 
 /// Article card: photo, kicker, headline, lead, "Kort fortalt" and "Les hele saken".
 struct ArticleCardView: View {
@@ -30,9 +31,13 @@ struct ArticleCardView: View {
                         .foregroundStyle(Theme.ink)
                         .fixedSize(horizontal: false, vertical: true)
                     if let lead = details.lead {
-                        Text(lead)
-                            .font(Theme.lead)
-                            .foregroundStyle(Theme.secondaryInk)
+                        ExplainableText(
+                            text: lead,
+                            font: UIFont.systemFont(ofSize: 17, weight: .semibold),
+                            color: Theme.secondaryInkUIColor,
+                            title: item.title,
+                            itemId: item.id
+                        )
                     }
                 }
                 .padding(.horizontal, 20)
@@ -46,10 +51,14 @@ struct ArticleCardView: View {
                                     .fill(Theme.adressaBlue)
                                     .frame(width: 6, height: 6)
                                     .alignmentGuide(.firstTextBaseline) { $0[.bottom] - 1 }
-                                Text(point)
-                                    .font(Theme.serifBody(17))
-                                    .foregroundStyle(Theme.ink)
-                                    .fixedSize(horizontal: false, vertical: true)
+                                ExplainableText(
+                                    text: point,
+                                    font: Theme.serifBodyUIFont(17),
+                                    color: Theme.inkUIColor,
+                                    title: item.title,
+                                    itemId: item.id
+                                )
+                                .fixedSize(horizontal: false, vertical: true)
                             }
                         }
                     }

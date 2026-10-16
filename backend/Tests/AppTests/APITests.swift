@@ -11,7 +11,8 @@ final class APITests: XCTestCase {
 
     override func setUp() async throws {
         app = try await Application.make(.testing)
-        try await configure(app, now: { Self.noon })
+        // Key-less client: tests exercise the canned fallback, never the real Gemini API.
+        try await configure(app, now: { Self.noon }, gemini: GeminiClient(apiKey: nil))
     }
 
     override func tearDown() async throws {
@@ -144,6 +145,49 @@ final class APITests: XCTestCase {
 
     func testSummarizeBadBodyIs400() async throws {
         try await app.test(.POST, "api/v1/summarize", beforeRequest: { req in
+            req.headers.contentType = .json
+            req.body = .init(string: #"{"wrong": true}"#)
+        }) { res async in
+            XCTAssertEqual(res.status, .badRequest)
+        }
+    }
+
+    // MARK: POST /explain
+
+    private func explainRequest(
+        term: String = "formannskapet",
+        context: String = "Formannskapet behandlet saken tirsdag.",
+        title: String = "Ny satsing på Bakklandet",
+        itemId: String = "16grxK"
+    ) -> ExplainRequest {
+        ExplainRequest(term: term, context: context, title: title, itemId: itemId)
+    }
+
+    /// Without GEMINI_API_KEY the endpoint streams a canned explanation as SSE.
+    func testExplainStreamsSSE() async throws {
+        try await app.test(.POST, "api/v1/explain", beforeRequest: { req in
+            try req.content.encode(explainRequest())
+        }) { res async in
+            XCTAssertEqual(res.status, .ok)
+            XCTAssertEqual(res.headers.contentType?.description.hasPrefix("text/event-stream"), true)
+            let body = res.body.string
+            XCTAssertTrue(body.contains("data: {\"delta\":"), body)
+            XCTAssertTrue(body.contains("event: done"), body)
+        }
+    }
+
+    func testExplainRejectsEmptyTermAndLongContext() async throws {
+        for bad in [explainRequest(term: ""), explainRequest(term: String(repeating: "a", count: 81)), explainRequest(context: String(repeating: "a", count: 2_001))] {
+            try await app.test(.POST, "api/v1/explain", beforeRequest: { req in
+                try req.content.encode(bad)
+            }) { res async in
+                XCTAssertEqual(res.status, .badRequest)
+            }
+        }
+    }
+
+    func testExplainBadBodyIs400() async throws {
+        try await app.test(.POST, "api/v1/explain", beforeRequest: { req in
             req.headers.contentType = .json
             req.body = .init(string: #"{"wrong": true}"#)
         }) { res async in

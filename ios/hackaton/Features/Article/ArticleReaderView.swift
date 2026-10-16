@@ -1,5 +1,6 @@
 import SharedModels
 import SwiftUI
+import UIKit
 
 /// "Les hele saken": the full article, full screen. Back returns to the sheet (in a bunch) or the map.
 struct ArticleReaderView: View {
@@ -100,12 +101,15 @@ struct ArticleReaderView: View {
                         .foregroundStyle(Theme.ink)
                         .padding(.top, 8)
                 } else {
-                    Text(paragraph)
-                        .font(Theme.serifBody(18))
-                        .foregroundStyle(Theme.ink)
-                        .lineSpacing(4)
-                        .fixedSize(horizontal: false, vertical: true)
-                        .textSelection(.enabled)
+                    ExplainableText(
+                        text: paragraph,
+                        font: Theme.serifBodyUIFont(18),
+                        color: Theme.inkUIColor,
+                        title: article.title,
+                        itemId: article.id
+                    )
+                    .lineSpacing(4)
+                    .fixedSize(horizontal: false, vertical: true)
                 }
             }
         }
