@@ -12,7 +12,17 @@ enum ZoomScale {
 
     /// Beyond this distance the slider glides the view towards the middle of Norway, so the whole country fits.
     static let overviewStartDistance: Double = 800_000
-    static let norwayCenter = CLLocationCoordinate2D(latitude: 64.6, longitude: 17.9)
+    static let norwayCenter = CLLocationCoordinate2D(latitude: 64.6, longitude: 17.9 + globeLongitudeNudge)
+
+    /// On a real phone MapKit draws the map this far out as a 3D globe, which shows Norway a few degrees left
+    /// of where the flat simulator does. Aiming the camera this much further west puts it back in the middle.
+    static var globeLongitudeNudge: Double {
+        #if targetEnvironment(simulator)
+        0
+        #else
+        -3
+        #endif
+    }
 
     /// 0 at `overviewStartDistance` and closer, 1 at `maxDistance`, on the same log scale as the slider.
     static func overviewWeight(for distance: Double) -> Double {

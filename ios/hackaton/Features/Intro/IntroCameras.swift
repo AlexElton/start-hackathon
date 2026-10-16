@@ -32,7 +32,7 @@ enum IntroCameras {
     /// All of Norway, like the onboarding map. Start of the first intro when we don't know where step 3 ended,
     /// and of a replay from Innstillinger.
     /// Also the onboarding map's starting camera: centred a little north so Norway sits below the title.
-    static let norway = CameraSpec(center: CLLocationCoordinate2D(latitude: 66.2, longitude: 17.6), distance: 6_800_000, pitch: 0)
+    static let norway = CameraSpec(center: CLLocationCoordinate2D(latitude: 66.2, longitude: 17.6 + ZoomScale.globeLongitudeNudge), distance: 6_800_000, pitch: 0)
 
     /// Above the target at 3,000 km. Start of the fast intro on later launches.
     static func europe(over target: CameraSpec) -> CameraSpec {

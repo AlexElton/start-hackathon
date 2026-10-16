@@ -6,8 +6,8 @@ struct RootView: View {
 
     var body: some View {
         ZStack {
-            // The main map opens on the onboarding map's camera. Onboarding stays on top until that map has
-            // drawn, then fades away, so the switch can't be seen.
+            // Onboarding dives down to the city on its own map while the main map waits underneath on the same
+            // camera. Once both have landed and drawn, onboarding fades away; both maps are still, so it's smooth.
             if settings.hasOnboarded {
                 MainTabView()
             }
@@ -16,7 +16,7 @@ struct RootView: View {
                     .transition(.opacity)
             }
         }
-        .animation(.easeOut(duration: 0.25), value: settings.isHandingOff)
+        .animation(.easeInOut(duration: 0.35), value: settings.isHandingOff)
     }
 }
 

@@ -163,11 +163,12 @@ final class PinCardView: UIView {
 
 extension UIView {
     /// Small spring "pop" used when a pin or cluster appears.
-    func popIn() {
+    func popIn(delay: TimeInterval = .random(in: 0...0.12)) {
         guard !UIAccessibility.isReduceMotionEnabled else { return }
         transform = CGAffineTransform(scaleX: 0.6, y: 0.6)
         alpha = 0
-        UIView.animate(withDuration: 0.45, delay: 0, usingSpringWithDamping: 0.62, initialSpringVelocity: 0.4, options: [.allowUserInteraction, .beginFromCurrentState]) {
+        // A small random delay per pin, so they pop in one after another instead of all at once.
+        UIView.animate(withDuration: 0.38, delay: delay, usingSpringWithDamping: 0.7, initialSpringVelocity: 0.3, options: [.allowUserInteraction, .beginFromCurrentState]) {
             self.transform = .identity
             self.alpha = 1
         }

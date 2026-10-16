@@ -16,6 +16,9 @@ final class OnboardingViewModel {
     /// Set by "Kom i gang" on step 3: the white around Norway fades out, then onboarding finishes.
     private(set) var isFadingOut = false
     private var pendingSettings: SettingsStore?
+    /// After the fade: where the onboarding map dives to. The main map opens there underneath.
+    private(set) var diveTarget: CameraSpec?
+    private var location: LocationService?
 
     private(set) var categories: [SharedModels.Category] = []
     private(set) var papers: [Paper] = []
@@ -113,6 +116,7 @@ final class OnboardingViewModel {
 
     /// "Hopp over": go to the next step without choosing. On the last step: finish and start at your position.
     func skip(settings: SettingsStore, location: LocationService) {
+        self.location = location
         switch step {
         case .interests: step = .blacklist
         case .blacklist: step = .region
@@ -140,9 +144,22 @@ final class OnboardingViewModel {
     }
 
     func fadeFinished() {
+        prefetch?.cancel() // Never let tile warm-up compete with the dive for the GPU.
         guard let settings = pendingSettings else { return }
         pendingSettings = nil
         finish(into: settings)
+        // Dive right away on this very map: it already shows the right picture, so there's no pause.
+        diveTarget = IntroCameras.target(settings: settings, papers: papers, regions: regions, location: location ?? LocationService())
+    }
+
+    /// The dive has landed. Hand over once the main map underneath has drawn the same view.
+    func diveLanded(settings: SettingsStore) {
+        Task {
+            for _ in 0..<60 where !settings.mainMapRendered {
+                try? await Task.sleep(for: .milliseconds(50))
+            }
+            settings.isHandingOff = false
+        }
     }
 
     func back() {

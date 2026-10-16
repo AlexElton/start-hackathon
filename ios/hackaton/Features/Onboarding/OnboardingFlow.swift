@@ -40,7 +40,9 @@ private struct OnboardingContent: View {
                         selectedId: $model.selectedRegionId,
                         camera: $model.regionCamera,
                         isFadingOut: model.isFadingOut,
-                        onFadedOut: model.fadeFinished
+                        onFadedOut: model.fadeFinished,
+                        diveTarget: model.diveTarget,
+                        onLanded: { model.diveLanded(settings: environment.settings) }
                     )
                     .ignoresSafeArea()
                     VStack(spacing: 0) {

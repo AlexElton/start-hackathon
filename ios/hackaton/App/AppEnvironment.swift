@@ -8,6 +8,7 @@ final class AppEnvironment {
     let feed: any FeedServicing
     let location: LocationService
     let images: ImageLoader
+    let router = AppRouter()
 
     init(settings: SettingsStore, feed: any FeedServicing, location: LocationService, images: ImageLoader) {
         self.settings = settings

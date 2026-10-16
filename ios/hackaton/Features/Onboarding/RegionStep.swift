@@ -18,6 +18,9 @@ struct RegionMapView: UIViewRepresentable {
     /// When true, the white cover and the fylker fade out, then `onFadedOut` runs.
     let isFadingOut: Bool
     let onFadedOut: () -> Void
+    /// Set after the fade: the cinematic dive down to the user's city.
+    let diveTarget: CameraSpec?
+    let onLanded: () -> Void
 
     /// Mainland Norway, Lindesnes to Nordkapp (Svalbard left out).
     static let norwayRect: MKMapRect = {
@@ -26,16 +29,38 @@ struct RegionMapView: UIViewRepresentable {
         return MKMapRect(x: min(southWest.x, northEast.x), y: min(southWest.y, northEast.y), width: abs(northEast.x - southWest.x), height: abs(northEast.y - southWest.y))
     }()
 
+    /// Fits all of Norway between the title and the button. Applied after layout and again after MapKit's first
+    /// layout pass, and with no camera boundary: the boundary pushed the view sideways on a real phone.
+    static func frameNorway(in map: MKMapView) {
+        let fit: () -> Void = { [weak map] in
+            guard let map else { return }
+            map.setVisibleMapRect(norwayRect, edgePadding: UIEdgeInsets(top: 205, left: 40, bottom: 135, right: 40), animated: false)
+            let nudge = ZoomScale.globeLongitudeNudge
+            if nudge != 0 {
+                let camera = map.camera.copy() as! MKMapCamera
+                camera.centerCoordinate.longitude += nudge
+                map.camera = camera
+            }
+        }
+        fit()
+        DispatchQueue.main.async(execute: fit)
+    }
+
     static let fill = UIColor(hex: "#5BA2CB")
     static let selectedFill = UIColor.adressaBlue
 
     func makeUIView(context: Context) -> MKMapView {
-        let mapView = MKMapView()
+        let mapView = FramingMapView()
         mapView.delegate = context.coordinator
         mapView.preferredConfiguration = style.configuration
-        // Norway framed between the title and the button.
-        mapView.setVisibleMapRect(Self.norwayRect, edgePadding: UIEdgeInsets(top: 190, left: 24, bottom: 110, right: 24), animated: false)
-        mapView.cameraBoundary = MKMapView.CameraBoundary(mapRect: Self.norwayRect.insetBy(dx: -Self.norwayRect.width * 0.3, dy: -Self.norwayRect.height * 0.3))
+        // Norway framed between the title and the button, once the view knows its real size
+        // (framing at zero size put Norway off-centre on bigger phones).
+        // Fit Norway whenever the map's size changes, until the user moves the map themselves.
+        mapView.onSizeChange = { [weak coordinator = context.coordinator] map in
+            guard coordinator?.userMoved == false else { return }
+            Self.frameNorway(in: map)
+            coordinator?.reportCurrentCamera()
+        }
         mapView.cameraZoomRange = MKMapView.CameraZoomRange(minCenterCoordinateDistance: 50_000, maxCenterCoordinateDistance: 12_000_000)
         mapView.isRotateEnabled = false
         mapView.isPitchEnabled = false
@@ -58,6 +83,7 @@ struct RegionMapView: UIViewRepresentable {
         }
         coordinator.highlight(selectedId)
         if isFadingOut { coordinator.fadeOut() }
+        if let diveTarget { coordinator.dive(to: diveTarget) }
     }
 
     func makeCoordinator() -> Coordinator { Coordinator(parent: self) }
@@ -74,8 +100,10 @@ struct RegionMapView: UIViewRepresentable {
         private var hatched = Set<ObjectIdentifier>()
         private var borderLine: MKMultiPolyline?
         private var highlighted: String?
-        private var fadeLink: CADisplayLink?
-        private var fadeStart: CFTimeInterval = 0
+        private var isFading = false
+        private var flight: CameraFlight?
+        /// Set once the user pans or zooms; after that we never re-frame.
+        var userMoved = false
 
         init(parent: RegionMapView) { self.parent = parent }
 
@@ -157,6 +185,12 @@ struct RegionMapView: UIViewRepresentable {
             return MKOverlayRenderer(overlay: overlay)
         }
 
+        func mapView(_ mapView: MKMapView, regionWillChangeAnimated animated: Bool) {
+            // A pan or pinch shows up as a gesture recognizer in progress.
+            let touching = mapView.subviews.first?.gestureRecognizers?.contains { $0.state == .began || $0.state == .changed } ?? false
+            if touching { userMoved = true }
+        }
+
         func mapView(_ mapView: MKMapView, regionDidChangeAnimated animated: Bool) {
             reportCamera(mapView)
         }
@@ -166,30 +200,40 @@ struct RegionMapView: UIViewRepresentable {
             parent.camera = CameraSpec(center: camera.centerCoordinate, distance: camera.centerCoordinateDistance, pitch: camera.pitch, heading: camera.heading)
         }
 
-        /// Fades the white cover and the fylker out over 0.5 s, leaving the plain map: the same view the
-        /// main map opens on.
-        func fadeOut() {
-            guard fadeLink == nil, let mapView, !mapView.overlays.isEmpty else { return }
-            reportCamera(mapView) // The exact view the main map must open on.
-            fadeStart = CACurrentMediaTime()
-            let link = CADisplayLink(target: self, selector: #selector(stepFade))
-            link.add(to: .main, forMode: .common)
-            fadeLink = link
+        func dive(to target: CameraSpec) {
+            guard flight == nil, let mapView else { return }
+            mapView.cameraZoomRange = nil // The onboarding zoom limits must not stop the dive.
+            mapView.isScrollEnabled = false
+            mapView.isZoomEnabled = false
+            flight = CameraFlight(mapView: mapView, to: target, duration: 3.6, cinematic: true) { [weak self] in
+                self?.parent.onLanded()
+            }
         }
 
-        @objc private func stepFade() {
-            guard let mapView else { return }
-            let t = min((CACurrentMediaTime() - fadeStart) / 0.5, 1)
-            let alpha = 1 - t * t * (3 - 2 * t)
-            for overlay in mapView.overlays {
-                guard let renderer = mapView.renderer(for: overlay) else { continue }
-                renderer.alpha = alpha
-                renderer.setNeedsDisplay()
-            }
-            if t >= 1 {
-                fadeLink?.invalidate()
-                fadeLink = nil
+        func reportCurrentCamera() {
+            if let mapView { reportCamera(mapView) }
+        }
+
+        /// Fades the white, the hatching and the fylker out over 0.5 s, leaving the plain map: the same view
+        /// the main map opens on. Fades a still picture of the map instead of redrawing every shape each frame,
+        /// so it stays smooth.
+        func fadeOut() {
+            guard !isFading, let mapView, !mapView.overlays.isEmpty else { return }
+            isFading = true
+            reportCamera(mapView) // The exact view the main map must open on.
+            guard let still = mapView.snapshotView(afterScreenUpdates: false) else {
+                mapView.removeOverlays(mapView.overlays)
                 parent.onFadedOut()
+                return
+            }
+            still.frame = mapView.bounds
+            mapView.addSubview(still)
+            mapView.removeOverlays(mapView.overlays) // The plain map is ready underneath.
+            UIView.animate(withDuration: 0.5, delay: 0.05, options: [.curveEaseInOut]) {
+                still.alpha = 0
+            } completion: { [weak self] _ in
+                still.removeFromSuperview()
+                self?.parent.onFadedOut()
             }
         }
     }
@@ -233,3 +277,24 @@ final class HatchedPolygonRenderer: MKPolygonRenderer {
         context.restoreGState()
     }
 }
+
+/// Calls `onFirstLayout` once when the map first has a real size, and `onSizeChange` every time its size changes.
+final class FramingMapView: MKMapView {
+    var onFirstLayout: ((MKMapView) -> Void)?
+    var onSizeChange: ((MKMapView) -> Void)?
+    private var lastSize: CGSize = .zero
+
+    override func layoutSubviews() {
+        super.layoutSubviews()
+        guard bounds.width > 0, bounds.height > 0 else { return }
+        if let action = onFirstLayout {
+            onFirstLayout = nil
+            action(self)
+        }
+        if bounds.size != lastSize {
+            lastSize = bounds.size
+            onSizeChange?(self)
+        }
+    }
+}
+
