@@ -12,7 +12,7 @@ struct SelectableTextView: UIViewRepresentable {
     let onExplain: (_ term: String, _ paragraph: String) -> Void
 
     func makeUIView(context: Context) -> UITextView {
-        let view = UITextView()
+        let view = ContentSizingTextView()
         view.isEditable = false
         view.isScrollEnabled = false
         view.backgroundColor = .clear
@@ -78,5 +78,22 @@ struct SelectableTextView: UIViewRepresentable {
             let paragraphRange = full.paragraphRange(for: range)
             return full.substring(with: paragraphRange)
         }
+    }
+}
+
+/// A text view that reports its wrapped content size to SwiftUI. A plain `UITextView`
+/// sizes itself to one long line when first measured, which made the article wider
+/// than the screen; this one re-measures against the width SwiftUI actually gives it.
+private final class ContentSizingTextView: UITextView {
+    override var intrinsicContentSize: CGSize {
+        let width = bounds.width
+        let height = sizeThatFits(CGSize(width: max(width, 1), height: .greatestFiniteMagnitude)).height
+        return CGSize(width: width > 0 ? width : UIView.noIntrinsicMetric, height: height)
+    }
+
+    override func layoutSubviews() {
+        super.layoutSubviews()
+        // The first layout pass starts at width 0; re-measure once the real width is set.
+        invalidateIntrinsicContentSize()
     }
 }

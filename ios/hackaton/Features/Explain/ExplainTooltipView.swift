@@ -54,8 +54,11 @@ struct ExplainTooltipView: View {
                 }
             }
         }
-        .padding(12)
-        .frame(width: 280, alignment: .leading)
+        .padding(16)
+        .frame(
+            width: UIScreen.main.bounds.width - 32,
+            alignment: .leading
+        )
         .background(Theme.surface, in: RoundedRectangle(cornerRadius: 12))
         .overlay(
             RoundedRectangle(cornerRadius: 12)
