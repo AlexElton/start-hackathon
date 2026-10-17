@@ -1,0 +1,78 @@
+{
+ "id": "tOpd5w",
+ "schemaType": "article",
+ "title": {
+  "value": "Oppdal skisenter åpner tidligste på 15 år"
+ },
+ "urls": {
+  "canonical": "https://www.opdalingen.no/oppdal/i/tOpd5w/oppdal-skisenter-apner-tidligste-pa-15-ar"
+ },
+ "changes": {
+  "published": "2026-10-17T08:00:00Z",
+  "updated": null
+ },
+ "section": {
+  "title": "Oppdal"
+ },
+ "newsroom": "opdalingen",
+ "authors": [
+  {
+   "fullname": "Kjersti Aune"
+  }
+ ],
+ "tags": [
+  {
+   "title": "Oppdal",
+   "type": "tag"
+  },
+  {
+   "title": "skisenter",
+   "type": "tag"
+  },
+  {
+   "title": "sesongstart",
+   "type": "tag"
+  }
+ ],
+ "intro": {
+  "lead": "Snøkanonene har gått i ti dager. Lørdag åpner de første bakkene."
+ },
+ "customProperties": {
+  "frontPageImage": {
+   "id": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Hovden_oppdal.jpg/960px-Hovden_oppdal.jpg"
+  },
+  "wordCount": 59
+ },
+ "components": [
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Kaldt vær og snøproduksjon i ti dager gjør at Oppdal skisenter kan åpne lørdag."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Det er den tidligste sesongstarten på 15 år. To heiser og tre nedfarter er klare fra start."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "– Vi ser allerede mange bestillinger fra Trondheim. Det blir travelt i helgen, sier markedssjef Ola Morken."
+     }
+    }
+   ]
+  }
+ ]
+}

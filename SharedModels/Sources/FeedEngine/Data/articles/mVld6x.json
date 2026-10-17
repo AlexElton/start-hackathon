@@ -1,0 +1,78 @@
+{
+ "id": "mVld6x",
+ "schemaType": "article",
+ "title": {
+  "value": "Studentane i Volda vil ha nattbuss til Ørsta"
+ },
+ "urls": {
+  "canonical": "https://www.mn24.no/volda/i/mVld6x/studentane-i-volda-vil-ha-nattbuss-til-orsta"
+ },
+ "changes": {
+  "published": "2026-10-17T08:00:00Z",
+  "updated": null
+ },
+ "section": {
+  "title": "Volda"
+ },
+ "newsroom": "more-nytt",
+ "authors": [
+  {
+   "fullname": "Ingvild Aarflot"
+  }
+ ],
+ "tags": [
+  {
+   "title": "Volda",
+   "type": "tag"
+  },
+  {
+   "title": "studentar",
+   "type": "tag"
+  },
+  {
+   "title": "buss",
+   "type": "tag"
+  }
+ ],
+ "intro": {
+  "lead": "Studentrådet seier mange går langs riksvegen om natta."
+ },
+ "customProperties": {
+  "frontPageImage": {
+   "id": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Volda_-_panoramio.jpg/960px-Volda_-_panoramio.jpg"
+  },
+  "wordCount": 52
+ },
+ "components": [
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Studentrådet ved Høgskulen i Volda ber fylket om nattbuss mellom Volda og Ørsta fredag og laurdag."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "– Mange går langs riksvegen om natta. Det er berre flaks at ingen har blitt påkøyrde, seier studentrådsleiar Even Bakke."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Fylket seier dei vurderer ei prøveordning frå januar."
+     }
+    }
+   ]
+  }
+ ]
+}

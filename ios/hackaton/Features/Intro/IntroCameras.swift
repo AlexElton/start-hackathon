@@ -13,6 +13,11 @@ struct CameraSpec {
         MKMapCamera(lookingAtCenter: center, fromDistance: distance, pitch: pitch, heading: heading)
     }
 
+    /// False for NaN or out-of-range values, which MapKit throws on ("Invalid camera centerCoordinate nan, nan").
+    var isValid: Bool {
+        CLLocationCoordinate2DIsValid(center) && distance.isFinite && distance > 0 && pitch.isFinite && heading.isFinite
+    }
+
     var mapCamera: MapCamera {
         MapCamera(centerCoordinate: center, distance: distance, heading: heading, pitch: pitch)
     }
@@ -65,5 +70,21 @@ enum IntroCameras {
             return CameraSpec(center: region.label, distance: 80_000, pitch: 20) // A fylke without a Polaris paper.
         }
         return trondheim
+    }
+}
+
+extension MKMapCamera {
+    var isValid: Bool {
+        CLLocationCoordinate2DIsValid(centerCoordinate) && centerCoordinateDistance.isFinite && centerCoordinateDistance > 0
+            && pitch.isFinite && heading.isFinite
+    }
+}
+
+extension MKMapView {
+    /// Sets the camera, but drops one with NaN in it instead of crashing. A map that hasn't been laid out yet
+    /// (zero size) reports NaN, and any math built on that carries it along.
+    func setCameraSafely(_ camera: MKMapCamera) {
+        guard camera.isValid else { return }
+        self.camera = camera
     }
 }

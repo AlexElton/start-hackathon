@@ -2,21 +2,24 @@ import SharedModels
 import SwiftUI
 
 /// Three steps: what you want to read → what you don't → your region on the map.
+/// With `onDone` set (opened from Innstillinger) it's just the first two, saved straight back.
 struct OnboardingFlow: View {
+    var onDone: (() -> Void)?
+
     @Environment(AppEnvironment.self) private var environment
     @State private var model: OnboardingViewModel?
 
     var body: some View {
         Group {
             if let model {
-                OnboardingContent(model: model, environment: environment)
+                OnboardingContent(model: model, environment: environment, onDone: onDone)
             } else {
                 Theme.background.ignoresSafeArea()
             }
         }
         .task {
             guard model == nil else { return }
-            let model = OnboardingViewModel(feed: environment.feed, settings: environment.settings)
+            let model = OnboardingViewModel(feed: environment.feed, settings: environment.settings, isEditing: onDone != nil)
             await model.load()
             self.model = model
         }
@@ -26,6 +29,7 @@ struct OnboardingFlow: View {
 private struct OnboardingContent: View {
     @Bindable var model: OnboardingViewModel
     let environment: AppEnvironment
+    let onDone: (() -> Void)?
 
     var body: some View {
         Group {
@@ -83,14 +87,28 @@ private struct OnboardingContent: View {
     }
 
     private var header: some View {
-        StepHeader(step: model.step, back: model.back) {
-            model.skip(settings: environment.settings, location: environment.location)
+        StepHeader(step: model.step, steps: model.steps, skipTitle: onDone == nil ? "Hopp over" : "Avbryt", back: model.back) {
+            if let onDone {
+                onDone()
+            } else {
+                model.skip(settings: environment.settings, location: environment.location)
+            }
         }
     }
 
+    private var nextTitle: String {
+        if model.step == .region { return "Kom i gang" }
+        return onDone != nil && model.step == model.steps.last ? "Lagre" : "Neste"
+    }
+
     private var nextButton: some View {
-        Button(model.step == .region ? "Kom i gang" : "Neste") {
-            model.next(settings: environment.settings)
+        Button(nextTitle) {
+            if let onDone, model.step == model.steps.last {
+                model.saveChoices(into: environment.settings)
+                onDone()
+            } else {
+                model.next(settings: environment.settings)
+            }
         }
         .buttonStyle(PrimaryButtonStyle())
         .disabled(!model.canContinue)
@@ -104,6 +122,8 @@ private struct OnboardingContent: View {
 /// "STEG 1 AV 3" with a progress bar, a back button from step 2 and "Hopp over" on every step.
 private struct StepHeader: View {
     let step: OnboardingViewModel.Step
+    let steps: [OnboardingViewModel.Step]
+    let skipTitle: String
     let back: () -> Void
     let skip: () -> Void
 
@@ -120,15 +140,15 @@ private struct StepHeader: View {
                     }
                     .accessibilityLabel("Tilbake")
                 }
-                Kicker(text: "Steg \(step.number) av \(OnboardingViewModel.Step.allCases.count)")
+                Kicker(text: "Steg \(step.number) av \(steps.count)")
                 Spacer()
-                Button("Hopp over", action: skip)
+                Button(skipTitle, action: skip)
                     .font(.system(size: 15, weight: .semibold))
                     .foregroundStyle(Theme.secondaryInk)
             }
             .frame(height: 36)
             HStack(spacing: 6) {
-                ForEach(OnboardingViewModel.Step.allCases, id: \.self) { item in
+                ForEach(steps, id: \.self) { item in
                     Capsule()
                         .fill(item.rawValue <= step.rawValue ? Theme.adressaBlue : Theme.grey)
                         .frame(height: 4)
@@ -144,26 +164,31 @@ private struct StepHeader: View {
 /// Step 1: categories to read, plus own interests.
 private struct InterestsStep: View {
     @Bindable var model: OnboardingViewModel
+    @State private var showAll = false
 
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: 20) {
                 StepTitle(title: "Hva vil du lese om?", subtitle: "Velg det som interesserer deg. Vi viser det først på kartet.")
-                FlowLayout(spacing: 8) {
-                    ForEach(model.categories) { category in
-                        ChipButton(title: category.name, symbol: category.symbol, isOn: model.preferred.contains(category.id)) {
-                            model.togglePreferred(category.id)
+                VStack(alignment: .leading, spacing: 12) {
+                    FlowLayout(spacing: 8) {
+                        ForEach(visibleCategories) { category in
+                            ChipButton(title: category.name, symbol: category.symbol, isOn: model.preferred.contains(category.id)) {
+                                model.togglePreferred(category.id)
+                            }
+                        }
+                        ForEach(visibleWords, id: \.self) { word in
+                            WordChip(word: word, selected: model.interestWords) { model.toggleInterest(word) }
                         }
                     }
-                    ForEach(model.interestWords, id: \.self) { word in
-                        ChipButton(title: word, symbol: "xmark", isOn: true) {
-                            model.interestWords.removeAll { $0 == word }
-                        }
-                    }
+                    ShowMoreButton(isExpanded: $showAll)
                 }
                 VStack(alignment: .leading, spacing: 8) {
                     Kicker(text: "Legg til egne")
                     AddWordField(placeholder: "F.eks. Rosenborg, festival, NTNU", add: model.addInterest)
+                    OwnWords(words: model.ownInterestWords, tint: Theme.adressaBlue) { word in
+                        model.interestWords.removeAll { $0 == word }
+                    }
                 }
             }
             .padding(.horizontal, 20)
@@ -171,37 +196,122 @@ private struct InterestsStep: View {
         }
         .scrollDismissesKeyboard(.interactively)
     }
+
+    /// The first few, plus anything already picked so a choice never disappears.
+    private var visibleCategories: [SharedModels.Category] {
+        showAll ? model.categories : model.categories.enumerated()
+            .filter { $0.offset < collapsedCount || model.preferred.contains($0.element.id) }.map(\.element)
+    }
+
+    private var visibleWords: [String] {
+        OnboardingViewModel.interestSuggestions.filter { showAll || OnboardingViewModel.contains($0, in: model.interestWords) }
+    }
 }
 
 /// Step 2: categories and words to hide.
 private struct BlacklistStep: View {
     @Bindable var model: OnboardingViewModel
+    @State private var showAll = false
 
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: 20) {
                 StepTitle(title: "Hva vil du slippe?", subtitle: "Det du velger her, ser du aldri på kartet. Du kan endre det senere.")
-                FlowLayout(spacing: 8) {
-                    ForEach(model.blockableCategories) { category in
-                        ChipButton(title: category.name, symbol: model.blocked.contains(category.id) ? "nosign" : category.symbol, isOn: model.blocked.contains(category.id), tint: Theme.ink) {
-                            model.toggleBlocked(category.id)
+                VStack(alignment: .leading, spacing: 12) {
+                    FlowLayout(spacing: 8) {
+                        ForEach(visibleCategories) { category in
+                            ChipButton(title: category.name, symbol: model.blocked.contains(category.id) ? "nosign" : category.symbol, isOn: model.blocked.contains(category.id), tint: Theme.ink) {
+                                model.toggleBlocked(category.id)
+                            }
+                        }
+                        ForEach(visibleWords, id: \.self) { word in
+                            WordChip(word: word, selected: model.mutedWords, tint: Theme.ink) { model.toggleMuted(word) }
                         }
                     }
-                    ForEach(model.mutedWords, id: \.self) { word in
-                        ChipButton(title: word, symbol: "xmark", isOn: true, tint: Theme.ink) {
-                            model.mutedWords.removeAll { $0 == word }
-                        }
-                    }
+                    ShowMoreButton(isExpanded: $showAll)
                 }
                 VStack(alignment: .leading, spacing: 8) {
-                    Kicker(text: "Skjul ord")
-                    AddWordField(placeholder: "F.eks. valg, krim, budsjett", add: model.addMuted)
+                    Kicker(text: "Skjul egne ord")
+                    AddWordField(placeholder: "F.eks. valg, budsjett, bompenger", add: model.addMuted)
+                    OwnWords(words: model.ownMutedWords, tint: Theme.ink) { word in
+                        model.mutedWords.removeAll { $0 == word }
+                    }
                 }
             }
             .padding(.horizontal, 20)
             .padding(.bottom, 20)
         }
         .scrollDismissesKeyboard(.interactively)
+    }
+
+    private var visibleCategories: [SharedModels.Category] {
+        let all = model.blockableCategories
+        return showAll ? all : all.enumerated()
+            .filter { $0.offset < collapsedCount || model.blocked.contains($0.element.id) }.map(\.element)
+    }
+
+    private var visibleWords: [String] {
+        OnboardingViewModel.mutedSuggestions.filter {
+            showAll || OnboardingViewModel.popularMuted.contains($0) || OnboardingViewModel.contains($0, in: model.mutedWords)
+        }
+    }
+}
+
+/// How many categories show before "Vis flere forslag".
+private let collapsedCount = 8
+
+/// "Vis flere forslag" / "Vis færre" under the chips: quiet grey, not a main action.
+private struct ShowMoreButton: View {
+    @Binding var isExpanded: Bool
+
+    var body: some View {
+        Button {
+            withAnimation(.snappy(duration: 0.3)) { isExpanded.toggle() }
+        } label: {
+            HStack(spacing: 4) {
+                Text(isExpanded ? "Vis færre" : "Vis flere forslag")
+                Image(systemName: isExpanded ? "chevron.up" : "chevron.down")
+                    .font(.system(size: 11, weight: .semibold))
+            }
+            .font(.system(size: 14, weight: .medium))
+            .foregroundStyle(Theme.secondaryInk.opacity(0.7))
+            .padding(.vertical, 4)
+            .contentShape(.rect)
+        }
+        .buttonStyle(.plain)
+    }
+}
+
+/// A ready-made word to tap on and off, among the categories.
+private struct WordChip: View {
+    let word: String
+    let selected: [String]
+    var tint: Color = Theme.adressaBlue
+    let toggle: () -> Void
+
+    var body: some View {
+        let isOn = OnboardingViewModel.contains(word, in: selected)
+        ChipButton(title: word, symbol: isOn ? "checkmark" : "plus", isOn: isOn, tint: tint, action: toggle)
+    }
+}
+
+/// Words the user typed in themselves, each removable.
+private struct OwnWords: View {
+    let words: [String]
+    let tint: Color
+    let remove: (String) -> Void
+
+    var body: some View {
+        if !words.isEmpty {
+            FlowLayout(spacing: 8) {
+                ForEach(words, id: \.self) { word in
+                    ChipButton(title: word, symbol: "xmark", isOn: true, tint: tint) {
+                        remove(word)
+                    }
+                }
+            }
+            .padding(.top, 4)
+        }
     }
 }
 

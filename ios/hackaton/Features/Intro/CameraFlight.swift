@@ -38,7 +38,14 @@ final class CameraFlight {
 
     @objc private func step() {
         guard let mapView else { return stop() }
-        let t = min((CACurrentMediaTime() - start) / duration, 1)
+        let t = duration > 0 ? min((CACurrentMediaTime() - start) / duration, 1) : 1
+        // Started on a map without a usable camera (not laid out yet): just land on the target.
+        guard from.isValid, t < 1 else {
+            mapView.setCameraSafely(to.mkCamera)
+            stop()
+            completion()
+            return
+        }
         let logFrom = log(from.centerCoordinateDistance)
         let logTo = log(to.distance)
         let center: CLLocationCoordinate2D
@@ -70,16 +77,11 @@ final class CameraFlight {
             tilt = tiltProgress * tiltProgress * (3 - 2 * tiltProgress)
         }
 
-        mapView.camera = MKMapCamera(
+        mapView.setCameraSafely(MKMapCamera(
             lookingAtCenter: center,
             fromDistance: distance,
             pitch: from.pitch + (to.pitch - from.pitch) * tilt,
             heading: to.heading
-        )
-        if t >= 1 {
-            mapView.camera = to.mkCamera // Land exactly on the target, so the hand-off matches to the pixel.
-            stop()
-            completion()
-        }
+        ))
     }
 }

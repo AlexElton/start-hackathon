@@ -46,8 +46,14 @@ final class OnboardingViewModel {
     private let mapStyle: MapStyle
     private var prefetch: Task<Void, Never>?
 
-    init(feed: any FeedServicing, settings: SettingsStore) {
+    /// Opened from Innstillinger: only the first two steps, saved straight back without the map and intro.
+    let isEditing: Bool
+
+    var steps: [Step] { isEditing ? [.interests, .blacklist] : Step.allCases }
+
+    init(feed: any FeedServicing, settings: SettingsStore, isEditing: Bool = false) {
         self.feed = feed
+        self.isEditing = isEditing
         mapStyle = settings.mapStyle
         // Start from earlier choices when onboarding is shown again from Innstillinger.
         preferred = Set(settings.preferredCategories)
@@ -101,9 +107,12 @@ final class OnboardingViewModel {
         return papers.filter { $0.regionId == regionId && $0.level == .local }
     }
 
-    /// Categories left for the blacklist: the ones the user did not pick as interests.
+    /// Categories left for the blacklist: the ones the user did not pick as interests,
+    /// with the ones people most often hide first.
     var blockableCategories: [SharedModels.Category] {
-        categories.filter { !preferred.contains($0.id) }
+        let first = ["krim", "politikk", "sport", "naeringsliv"]
+        let left = categories.filter { !preferred.contains($0.id) }
+        return first.compactMap { id in left.first { $0.id == id } } + left.filter { !first.contains($0.id) }
     }
 
     var canContinue: Bool {
@@ -182,6 +191,44 @@ final class OnboardingViewModel {
         interestWords.append(word)
     }
 
+    func toggleInterest(_ word: String) {
+        if interestWords.contains(where: { $0.caseInsensitiveCompare(word) == .orderedSame }) {
+            interestWords.removeAll { $0.caseInsensitiveCompare(word) == .orderedSame }
+        } else {
+            interestWords.append(word)
+        }
+    }
+
+    func toggleMuted(_ word: String) {
+        if mutedWords.contains(where: { $0.caseInsensitiveCompare(word) == .orderedSame }) {
+            mutedWords.removeAll { $0.caseInsensitiveCompare(word) == .orderedSame }
+        } else {
+            mutedWords.append(word)
+        }
+    }
+
+    /// Typed-in words that aren't one of the suggestions (suggestions show as chips among the categories).
+    var ownInterestWords: [String] { interestWords.filter { !Self.contains($0, in: Self.interestSuggestions) } }
+    var ownMutedWords: [String] { mutedWords.filter { !Self.contains($0, in: Self.mutedSuggestions) } }
+
+    static func contains(_ word: String, in words: [String]) -> Bool {
+        words.contains { $0.caseInsensitiveCompare(word) == .orderedSame }
+    }
+
+    /// Students, Trondheim and a bit of everything; shown after "Vis flere forslag".
+    static let interestSuggestions = [
+        "NTNU", "Samfundet", "UKA", "ISFiT", "Studentbolig", "Fadderuke", "Deltidsjobb",
+        "Rosenborg", "Olavsfestdagene", "Bymarka", "Solsiden", "Bakklandet", "Trondheim Kino", "Kollektivtrafikk", "Trøndersk mat",
+        "Festival", "Konsert", "Loppemarked", "Gaming", "Klatring", "Ski", "Bærekraft", "Hund",
+    ]
+
+    /// The first ones are shown right away on step 2; the rest after "Vis flere forslag".
+    static let popularMuted = ["Kjendiser", "Kongehuset", "Reality-TV", "Ulykker"]
+    static let mutedSuggestions = popularMuted + [
+        "Influensere", "Sladder", "Horoskop", "Dødsfall", "Krig", "Voldssaker", "Rettssaker",
+        "Valgkamp", "Bompenger", "Pengespill", "Børs", "Eiendomspriser", "Fotball",
+    ]
+
     func addMuted(_ word: String) {
         guard !mutedWords.contains(where: { $0.caseInsensitiveCompare(word) == .orderedSame }) else { return }
         mutedWords.append(word)
@@ -189,10 +236,7 @@ final class OnboardingViewModel {
 
     /// Saves the draft. The map then plays the globe intro once.
     func finish(into settings: SettingsStore) {
-        settings.preferredCategories = categories.map(\.id).filter(preferred.contains)
-        settings.interestWords = interestWords
-        settings.blockedCategories = categories.map(\.id).filter(blocked.contains)
-        settings.mutedWords = mutedWords
+        saveChoices(into: settings)
         settings.regionId = usePosition ? nil : selectedRegionId
         settings.paperIds = usePosition ? [] : [regionalPaper?.id].compactMap { $0 } + localPapers.map(\.id)
         settings.startMode = usePosition ? .position : .paper
@@ -201,5 +245,13 @@ final class OnboardingViewModel {
         // Keep this screen on top until the main map has drawn the same view underneath.
         settings.isHandingOff = true
         settings.hasOnboarded = true
+    }
+
+    /// Steps 1 and 2: what to read and what to hide.
+    func saveChoices(into settings: SettingsStore) {
+        settings.preferredCategories = categories.map(\.id).filter(preferred.contains)
+        settings.interestWords = interestWords
+        settings.blockedCategories = categories.map(\.id).filter(blocked.contains)
+        settings.mutedWords = mutedWords
     }
 }

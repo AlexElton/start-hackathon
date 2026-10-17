@@ -37,8 +37,8 @@ struct MapView: UIViewRepresentable {
         // set at zero size it opened at the wrong height on the 3D globe.
         let start = initialCamera
         mapView.onFirstLayout = { map in
-            map.camera = start.mkCamera
-            DispatchQueue.main.async { [weak map] in map?.camera = start.mkCamera }
+            map.setCameraSafely(start.mkCamera)
+            DispatchQueue.main.async { [weak map] in map?.setCameraSafely(start.mkCamera) }
         }
         context.coordinator.holdStartCamera(start)
         context.coordinator.mapView = mapView
@@ -59,7 +59,7 @@ struct MapView: UIViewRepresentable {
             if command.duration > 0 {
                 coordinator.fly(to: command.camera, duration: command.duration, cinematic: command.cinematic)
             } else {
-                mapView.camera = command.camera.mkCamera
+                mapView.setCameraSafely(command.camera.mkCamera)
             }
         }
         if isSliderActive {
@@ -84,8 +84,9 @@ struct MapView: UIViewRepresentable {
         private var annotations: [String: ItemAnnotation] = [:]
         private var displayLink: CADisplayLink?
         private var targetDistance: Double?
-        /// Where the user was before zooming out to the Norway overview, so zooming back in returns there.
-        private var localCenter: CLLocationCoordinate2D?
+        /// Where the map was when the slider grabbed it, and how far towards the Norway overview it already was.
+        /// Zooming out glides from here, so it never pulls back to a place the user has since panned away from.
+        private var glideStart: (center: CLLocationCoordinate2D, weight: Double)?
 
         init(parent: MapView) {
             self.parent = parent
@@ -215,15 +216,12 @@ struct MapView: UIViewRepresentable {
                 return
             }
             if abs(log(mapView.camera.centerCoordinateDistance / start.distance)) > 0.1 {
-                mapView.camera = start.mkCamera
+                mapView.setCameraSafely(start.mkCamera)
             }
         }
 
         func mapView(_ mapView: MKMapView, regionDidChangeAnimated animated: Bool) {
             restoreStartCameraIfOverridden(mapView)
-            if mapView.camera.centerCoordinateDistance <= ZoomScale.overviewStartDistance {
-                localCenter = mapView.camera.centerCoordinate
-            }
             let region = mapView.region
             parent.onRegionChange(FeedFilter.BoundingBox(
                 minLat: region.center.latitude - region.span.latitudeDelta / 2,
@@ -237,6 +235,9 @@ struct MapView: UIViewRepresentable {
         func zoom(toFraction fraction: Double) {
             targetDistance = ZoomScale.distance(for: fraction)
             guard displayLink == nil else { return }
+            if let mapView {
+                glideStart = (mapView.camera.centerCoordinate, ZoomScale.overviewWeight(for: mapView.camera.centerCoordinateDistance))
+            }
             let link = CADisplayLink(target: self, selector: #selector(stepZoom))
             link.add(to: .main, forMode: .common)
             displayLink = link
@@ -250,6 +251,7 @@ struct MapView: UIViewRepresentable {
         @objc private func stepZoom() {
             guard let mapView, let targetDistance else { return stopZoomAnimation() }
             let current = mapView.camera.centerCoordinateDistance
+            guard current.isFinite, current > 0, targetDistance.isFinite, targetDistance > 0 else { return }
             // Ease in log space, so a step feels the same size near and far.
             let logCurrent = log(current)
             let logTarget = log(targetDistance)
@@ -266,14 +268,18 @@ struct MapView: UIViewRepresentable {
             camera.centerCoordinateDistance = next
             // Zooming out far, glide from where the user was towards the middle of Norway so the whole country
             // fits. Zooming back in goes straight into whatever is in the middle of the screen.
-            if let local = localCenter, next > current, next > ZoomScale.overviewStartDistance {
+            // It starts from where the map was when the slider was grabbed, and only moves further out than that.
+            if let start = glideStart, next > current, start.weight < 1 {
                 let weight = ZoomScale.overviewWeight(for: next)
-                camera.centerCoordinate = CLLocationCoordinate2D(
-                    latitude: local.latitude + (ZoomScale.norwayCenter.latitude - local.latitude) * weight,
-                    longitude: local.longitude + (ZoomScale.norwayCenter.longitude - local.longitude) * weight
-                )
+                if weight > start.weight {
+                    let progress = (weight - start.weight) / (1 - start.weight)
+                    camera.centerCoordinate = CLLocationCoordinate2D(
+                        latitude: start.center.latitude + (ZoomScale.norwayCenter.latitude - start.center.latitude) * progress,
+                        longitude: start.center.longitude + (ZoomScale.norwayCenter.longitude - start.center.longitude) * progress
+                    )
+                }
             }
-            mapView.camera = camera
+            mapView.setCameraSafely(camera)
         }
     }
 }

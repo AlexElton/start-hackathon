@@ -1,0 +1,88 @@
+{
+ "id": "tStu1d",
+ "schemaType": "article",
+ "title": {
+  "value": "Studentene drikker mindre enn før"
+ },
+ "urls": {
+  "canonical": "https://www.adressa.no/studentliv/i/tStu1d/studentene-drikker-mindre-enn-for"
+ },
+ "changes": {
+  "published": "2026-10-17T08:00:00Z",
+  "updated": null
+ },
+ "section": {
+  "title": "Studentliv"
+ },
+ "newsroom": "adressa",
+ "authors": [
+  {
+   "fullname": "Ingrid Solberg"
+  }
+ ],
+ "tags": [
+  {
+   "title": "studenter",
+   "type": "tag"
+  },
+  {
+   "title": "alkohol",
+   "type": "tag"
+  },
+  {
+   "title": "undersøkelse",
+   "type": "tag"
+  }
+ ],
+ "intro": {
+  "lead": "Ny undersøkelse viser at bare halvparten av studentene i Trondheim drikker hver uke."
+ },
+ "customProperties": {
+  "frontPageImage": {
+   "id": "17b142e5-8672-3fdf-b88e-85348c973a63"
+  },
+  "wordCount": 71
+ },
+ "components": [
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Halvparten av studentene i Trondheim drikker alkohol hver uke. For ti år siden var det sju av ti."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Det viser den nye studentundersøkelsen fra Sit."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "– Vi ser at flere bruker kveldene på trening, frivillighet og kafé. Festkulturen har endret seg, sier forsker Ida Strøm."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Studentersamfundet bekrefter trenden og sier de aldri har solgt så mye alkoholfritt øl."
+     }
+    }
+   ]
+  }
+ ]
+}

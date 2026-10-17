@@ -39,7 +39,7 @@ struct RegionMapView: UIViewRepresentable {
             if nudge != 0 {
                 let camera = map.camera.copy() as! MKMapCamera
                 camera.centerCoordinate.longitude += nudge
-                map.camera = camera
+                map.setCameraSafely(camera)
             }
         }
         fit()
@@ -197,6 +197,7 @@ struct RegionMapView: UIViewRepresentable {
 
         private func reportCamera(_ mapView: MKMapView) {
             let camera = mapView.camera
+            guard camera.isValid else { return }
             parent.camera = CameraSpec(center: camera.centerCoordinate, distance: camera.centerCoordinateDistance, pitch: camera.pitch, heading: camera.heading)
         }
 

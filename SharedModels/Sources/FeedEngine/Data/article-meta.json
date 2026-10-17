@@ -222,5 +222,833 @@
         "name": "Fiskå mølle, Spongdal"
       }
     ]
+  },
+  {
+    "id": "tR4mKq",
+    "categoryId": "bolig",
+    "paperId": "adressa",
+    "hoursAgo": 5,
+    "summary": [
+      "4120 studenter står i kø for bolig hos Sit, den lengste køen på ti år.",
+      "Sit vil bygge 600 nye hybler på Moholt og Dragvoll innen 2029.",
+      "En hybel i privat leie i Trondheim koster nå i snitt 7400 kroner i måneden."
+    ],
+    "locations": [
+      {
+        "lat": 63.4128,
+        "lon": 10.433,
+        "name": "Moholt studentby"
+      }
+    ]
+  },
+  {
+    "id": "tLrk26",
+    "categoryId": "sport",
+    "paperId": "adressa",
+    "hoursAgo": 3,
+    "summary": [
+      "Rosenborg møter serielederen på Lerkendal søndag klokka 18.",
+      "Over 20 000 billetter er solgt, og klubben venter fullt stadion.",
+      "Med seier er RBK bare to poeng bak toppen med fire runder igjen."
+    ],
+    "locations": [
+      {
+        "lat": 63.4125,
+        "lon": 10.4044,
+        "name": "Lerkendal stadion"
+      }
+    ]
+  },
+  {
+    "id": "tSn8By",
+    "categoryId": "friluft",
+    "paperId": "adressa",
+    "hoursAgo": 9,
+    "summary": [
+      "15 centimeter snø ved Skistua natt til torsdag.",
+      "Kommunen kjører opp de første løypene fra lørdag om været holder.",
+      "Lysløypa fra Skistua til Elgsethytta åpner først."
+    ],
+    "locations": [
+      {
+        "lat": 63.4115,
+        "lon": 10.297,
+        "name": "Skistua, Bymarka"
+      }
+    ]
+  },
+  {
+    "id": "tRck8m",
+    "categoryId": "konserter",
+    "paperId": "adressa",
+    "hoursAgo": 20,
+    "summary": [
+      "Utstillingen «Fra Ila til lista» åpner på Rockheim fredag.",
+      "Den viser 30 år med trøndersk hiphop, fra kassetter til strømmerekorder.",
+      "Studenter kommer inn for halv pris hele høsten."
+    ],
+    "locations": [
+      {
+        "lat": 63.4396,
+        "lon": 10.4037,
+        "name": "Rockheim, Brattøra"
+      }
+    ]
+  },
+  {
+    "id": "tSol4n",
+    "categoryId": "mat",
+    "paperId": "adressa",
+    "hoursAgo": 28,
+    "summary": [
+      "Tre nye spisesteder åpner i verkstedhallene på Solsiden i vinter.",
+      "En ramenbar åpner først, i midten av november.",
+      "Huseieren vil ha flere steder med lave priser for studenter."
+    ],
+    "locations": [
+      {
+        "lat": 63.4365,
+        "lon": 10.4165,
+        "name": "Nedre Elvehavn, Solsiden"
+      }
+    ]
+  },
+  {
+    "id": "tSlp7k",
+    "categoryId": "teknologi",
+    "paperId": "adressa",
+    "hoursAgo": 30,
+    "summary": [
+      "Selskapet Fjordsense henter 80 millioner kroner fra investorer.",
+      "Det ble startet av tre NTNU-studenter i 2022.",
+      "Pengene skal brukes til 40 nye ansatte i Trondheim."
+    ],
+    "locations": [
+      {
+        "lat": 63.3975,
+        "lon": 10.3985,
+        "name": "Sluppen"
+      }
+    ]
+  },
+  {
+    "id": "tHmd3s",
+    "categoryId": "nabolag",
+    "paperId": "adressa",
+    "hoursAgo": 50,
+    "summary": [
+      "Den nye ungdomsskolen på Heimdal åpner høsten 2028, ett år senere enn planlagt.",
+      "Årsaken er økte byggekostnader og en ny anbudsrunde.",
+      "Rundt 300 elever må gå ett år til i midlertidige brakker."
+    ],
+    "locations": [
+      {
+        "lat": 63.35,
+        "lon": 10.359,
+        "name": "Heimdal"
+      }
+    ]
+  },
+  {
+    "id": "tTll9e",
+    "categoryId": "trafikk",
+    "paperId": "adressa",
+    "hoursAgo": 2,
+    "summary": [
+      "To biler kolliderte på E6 ved Tiller i morgenrushet.",
+      "Ingen er alvorlig skadet, men ett felt var stengt i over en time.",
+      "Det var kø fra Sluppen og sørover."
+    ],
+    "locations": [
+      {
+        "lat": 63.364,
+        "lon": 10.38,
+        "name": "E6 ved Tiller"
+      }
+    ]
+  },
+  {
+    "id": "tGrn5h",
+    "categoryId": "sport",
+    "paperId": "adressa",
+    "hoursAgo": 44,
+    "summary": [
+      "Granåsen er godkjent for verdenscuphopp i desember.",
+      "Arrangøren trenger rundt 300 frivillige.",
+      "Frivillige får gratis mat og jakke."
+    ],
+    "locations": [
+      {
+        "lat": 63.383,
+        "lon": 10.315,
+        "name": "Granåsen skisenter"
+      }
+    ]
+  },
+  {
+    "id": "tLad2b",
+    "categoryId": "bolig",
+    "paperId": "adressa",
+    "hoursAgo": 70,
+    "summary": [
+      "Det er søkt om å bygge 220 leiligheter ved Ladebekken.",
+      "30 av dem skal selges med rabatt til førstegangskjøpere.",
+      "Naboene er bekymret for trafikken i Haakon VIIs gate."
+    ],
+    "locations": [
+      {
+        "lat": 63.446,
+        "lon": 10.458,
+        "name": "Ladebekken, Lade"
+      }
+    ]
+  },
+  {
+    "id": "tNid6p",
+    "categoryId": "kultur",
+    "paperId": "adressa",
+    "hoursAgo": 95,
+    "summary": [
+      "4300 pilegrimer har fått pilegrimsbrev i Trondheim i år, flere enn noen gang.",
+      "Andelen under 30 år har doblet seg på fem år.",
+      "Nidaros pilegrimsgård vil utvide med flere senger."
+    ],
+    "locations": [
+      {
+        "lat": 63.4269,
+        "lon": 10.3969,
+        "name": "Nidarosdomen"
+      }
+    ]
+  },
+  {
+    "id": "tIla3p",
+    "categoryId": "nabolag",
+    "paperId": "adressa",
+    "hoursAgo": 120,
+    "summary": [
+      "Den nye Ilaparken åpnet lørdag med lekeplass, ballbinge og grillplass.",
+      "Parken kostet 28 millioner kroner.",
+      "Naboene har kjempet for parken i over ti år."
+    ],
+    "locations": [
+      {
+        "lat": 63.4288,
+        "lon": 10.3725,
+        "name": "Ilaparken"
+      }
+    ]
+  },
+  {
+    "id": "tRnh8f",
+    "categoryId": "sport",
+    "paperId": "adressa",
+    "hoursAgo": 55,
+    "summary": [
+      "Ranheim ligger på kvalifiseringsplass til Eliteserien med tre runder igjen.",
+      "Neste hjemmekamp spilles på EXTRA Arena lørdag.",
+      "Klubben har Norges yngste tropp i OBOS-ligaen."
+    ],
+    "locations": [
+      {
+        "lat": 63.429,
+        "lon": 10.533,
+        "name": "EXTRA Arena, Ranheim"
+      }
+    ]
+  },
+  {
+    "id": "tPir1x",
+    "categoryId": "nabolag",
+    "paperId": "adressa",
+    "hoursAgo": 80,
+    "summary": [
+      "Pirbadet stenger fra 1. desember til 1. mars for oppussing.",
+      "Lekkasjer under bassengene må utbedres.",
+      "Svømmeklubbene får låne tid i andre haller."
+    ],
+    "locations": [
+      {
+        "lat": 63.4413,
+        "lon": 10.3975,
+        "name": "Pirbadet, Brattøra"
+      }
+    ]
+  },
+  {
+    "id": "tEsk7q",
+    "categoryId": "trafikk",
+    "paperId": "adressa",
+    "hoursAgo": 15,
+    "summary": [
+      "Elgeseter gate bygges om til miljøgate fra mandag.",
+      "Ett felt i hver retning stenges i halvannet år.",
+      "Bussene får prioritet, og syklister skal bruke Klostergata."
+    ],
+    "locations": [
+      {
+        "lat": 63.417,
+        "lon": 10.3958,
+        "name": "Elgeseter gate"
+      }
+    ]
+  },
+  {
+    "id": "tLvg4r",
+    "categoryId": "trafikk",
+    "paperId": "innherred",
+    "hoursAgo": 26,
+    "summary": [
+      "Den nye gang- og sykkelbrua over Levangerelva åpner fredag.",
+      "Den gir en tryggere skolevei for rundt 400 elever.",
+      "Brua kostet 42 millioner kroner."
+    ],
+    "locations": [
+      {
+        "lat": 63.7455,
+        "lon": 11.299,
+        "name": "Levangerelva"
+      }
+    ]
+  },
+  {
+    "id": "tVrd8j",
+    "categoryId": "jobb",
+    "paperId": "innherred",
+    "hoursAgo": 60,
+    "summary": [
+      "Verftet på Verdal har fått kontrakt på fundamenter til havvind.",
+      "150 nye skal ansettes fra januar.",
+      "Det trengs sveisere, ingeniører og lærlinger."
+    ],
+    "locations": [
+      {
+        "lat": 63.793,
+        "lon": 11.484,
+        "name": "Verdal"
+      }
+    ]
+  },
+  {
+    "id": "tOrl2k",
+    "categoryId": "nyheter",
+    "paperId": "fosna-folket",
+    "hoursAgo": 40,
+    "summary": [
+      "Forsvaret flytter flere F-35 til Ørland flystasjon neste år.",
+      "Rundt 200 naboer vil ha bedre støyisolering.",
+      "Kommunen ber om et nytt møte med Forsvarsbygg."
+    ],
+    "locations": [
+      {
+        "lat": 63.699,
+        "lon": 9.604,
+        "name": "Ørland flystasjon"
+      }
+    ]
+  },
+  {
+    "id": "tFry6m",
+    "categoryId": "naeringsliv",
+    "paperId": "hitra-froya",
+    "hoursAgo": 75,
+    "summary": [
+      "Oppdretterne på Frøya ventet rekordomsetning i år.",
+      "Kommunen får over 60 millioner fra havbruksfondet.",
+      "Næringen er bekymret for nye skatteregler."
+    ],
+    "locations": [
+      {
+        "lat": 63.728,
+        "lon": 8.834,
+        "name": "Sistranda, Frøya"
+      }
+    ]
+  },
+  {
+    "id": "tOpd5w",
+    "categoryId": "friluft",
+    "paperId": "opdalingen",
+    "hoursAgo": 36,
+    "summary": [
+      "Oppdal skisenter åpner lørdag, den tidligste starten på 15 år.",
+      "To heiser og tre nedfarter er klare.",
+      "Sesongkortet er 300 kroner billigere for studenter."
+    ],
+    "locations": [
+      {
+        "lat": 62.6,
+        "lon": 9.68,
+        "name": "Oppdal skisenter"
+      }
+    ]
+  },
+  {
+    "id": "tOrk3t",
+    "categoryId": "naeringsliv",
+    "paperId": "sor-trondelag",
+    "hoursAgo": 100,
+    "summary": [
+      "Orkanger havn skal utvides med ny kai.",
+      "Utbyggingen koster rundt 300 millioner kroner.",
+      "Skip skal få landstrøm fra 2027."
+    ],
+    "locations": [
+      {
+        "lat": 63.307,
+        "lon": 9.848,
+        "name": "Orkanger havn"
+      }
+    ]
+  },
+  {
+    "id": "tMlh9n",
+    "categoryId": "trafikk",
+    "paperId": "tronderbladet",
+    "hoursAgo": 48,
+    "summary": [
+      "Over 1000 har skrevet under for halvtimesavganger fra Melhus.",
+      "I dag går toget bare én gang i timen utenom rushtid.",
+      "Fylket sier saken vurderes i neste ruteplan."
+    ],
+    "locations": [
+      {
+        "lat": 63.286,
+        "lon": 10.278,
+        "name": "Melhus stasjon"
+      }
+    ]
+  },
+  {
+    "id": "tStr0a",
+    "categoryId": "nyheter",
+    "paperId": "adressa",
+    "hoursAgo": 7,
+    "summary": [
+      "Strømprisen i Midt-Norge ventes å stige neste uke.",
+      "Å senke temperaturen med én grad sparer rundt fem prosent.",
+      "Studenter i kollektiv kan dele strømavtale og få lavere påslag."
+    ],
+    "locations": []
+  },
+  {
+    "id": "tStu1d",
+    "categoryId": "studentliv",
+    "paperId": "adressa",
+    "hoursAgo": 22,
+    "summary": [
+      "Andelen studenter som drikker ukentlig har falt fra 70 til 50 prosent på ti år.",
+      "Flere velger trening og kafé i stedet for fest.",
+      "Samfundet selger nå mer alkoholfritt enn noen gang."
+    ],
+    "locations": []
+  },
+  {
+    "id": "tKom2c",
+    "categoryId": "politikk",
+    "paperId": "adressa",
+    "hoursAgo": 33,
+    "summary": [
+      "Kommentatoren mener kommunen må gi Sit billigere tomter.",
+      "Studentene er avgjørende for byens økonomi.",
+      "Staten bør øke tilskuddet per hybel."
+    ],
+    "locations": []
+  },
+  {
+    "id": "mAls3k",
+    "categoryId": "naeringsliv",
+    "paperId": "smp",
+    "hoursAgo": 6,
+    "summary": [
+      "Ålesund havn bygger landstrøm for cruiseskip ved Skansekaia.",
+      "Anlegget skal stå klart til neste cruisesesong.",
+      "Det kan kutte utslippene fra skipene i byen med opptil 80 prosent."
+    ],
+    "locations": [
+      {
+        "lat": 62.473,
+        "lon": 6.152,
+        "name": "Skansekaia, Ålesund"
+      }
+    ]
+  },
+  {
+    "id": "mAfk7p",
+    "categoryId": "sport",
+    "paperId": "smp",
+    "hoursAgo": 18,
+    "summary": [
+      "Aalesund vant 2–1 foran over 9000 tilskuere.",
+      "Det var sesongens største publikum på Color Line Stadion.",
+      "Seieren gir klubben et godt grep om opprykksplassen."
+    ],
+    "locations": [
+      {
+        "lat": 62.4645,
+        "lon": 6.271,
+        "name": "Color Line Stadion"
+      }
+    ]
+  },
+  {
+    "id": "mMld9j",
+    "categoryId": "konserter",
+    "paperId": "romsdals-budstikke",
+    "hoursAgo": 12,
+    "summary": [
+      "Moldejazz har sluppet de første artistene til neste års festival.",
+      "Tre internasjonale navn spiller på Romsdalsmuseet.",
+      "Festivalpass for studenter koster 900 kroner."
+    ],
+    "locations": [
+      {
+        "lat": 62.7375,
+        "lon": 7.1591,
+        "name": "Molde sentrum"
+      }
+    ]
+  },
+  {
+    "id": "mHjl2s",
+    "categoryId": "helse",
+    "paperId": "romsdals-budstikke",
+    "hoursAgo": 58,
+    "summary": [
+      "De første avdelingene har flyttet inn i det nye sjukehuset på Hjelset.",
+      "Fødeavdelingen flytter i neste måned.",
+      "Pasienter oppfordres til å sjekke innkallingen nøye."
+    ],
+    "locations": [
+      {
+        "lat": 62.779,
+        "lon": 7.459,
+        "name": "Hjelset"
+      }
+    ]
+  },
+  {
+    "id": "mSnd4h",
+    "categoryId": "jobb",
+    "paperId": "driva",
+    "hoursAgo": 85,
+    "summary": [
+      "Verket investerer 1,2 milliarder kroner i ny teknologi.",
+      "CO₂-utslippene skal kuttes med en fjerdedel.",
+      "Over 700 arbeidsplasser blir tryggere."
+    ],
+    "locations": [
+      {
+        "lat": 62.672,
+        "lon": 8.552,
+        "name": "Sunndalsøra"
+      }
+    ]
+  },
+  {
+    "id": "mVld6x",
+    "categoryId": "studentliv",
+    "paperId": "more-nytt",
+    "hoursAgo": 24,
+    "summary": [
+      "Studentane ved Høgskulen i Volda vil ha nattbuss til Ørsta i helgane.",
+      "Mange går i dag langs riksvegen om natta.",
+      "Fylket vurderer ei prøveordning frå januar."
+    ],
+    "locations": [
+      {
+        "lat": 62.146,
+        "lon": 6.071,
+        "name": "Høgskulen i Volda"
+      }
+    ]
+  },
+  {
+    "id": "mUls8v",
+    "categoryId": "naeringsliv",
+    "paperId": "vikebladet-vestposten",
+    "hoursAgo": 110,
+    "summary": [
+      "Verftet har fått kontrakt på eit nytt forskingsskip.",
+      "Det gir arbeid til over 300 i to år.",
+      "Skipet skal gå på hydrogen og batteri."
+    ],
+    "locations": [
+      {
+        "lat": 62.34,
+        "lon": 5.846,
+        "name": "Ulsteinvik"
+      }
+    ]
+  },
+  {
+    "id": "mAnd5g",
+    "categoryId": "friluft",
+    "paperId": "andalsnes-avis",
+    "hoursAgo": 130,
+    "summary": [
+      "Romsdalsgondolen har hatt over 150 000 passasjerer i år.",
+      "Det er ny rekord.",
+      "Gondolen holder åpent i helgene hele vinteren."
+    ],
+    "locations": [
+      {
+        "lat": 62.565,
+        "lon": 7.69,
+        "name": "Romsdalsgondolen, Åndalsnes"
+      }
+    ]
+  },
+  {
+    "id": "mFsk0q",
+    "categoryId": "naeringsliv",
+    "paperId": "smp",
+    "hoursAgo": 16,
+    "summary": [
+      "Forskerne anbefaler å kutte torskekvoten med 15 prosent neste år.",
+      "Det er tredje kutt på rad.",
+      "Kystfiskerne frykter at flere må gi seg."
+    ],
+    "locations": []
+  },
+  {
+    "id": "nTrm2l",
+    "categoryId": "friluft",
+    "paperId": "itromso",
+    "hoursAgo": 4,
+    "summary": [
+      "Det er meldt klarvær og sterkt nordlys i Tromsø denne uka.",
+      "Hotellene i byen er nesten fullbooket.",
+      "Prestvannet og Telegrafbukta er gode steder å se det fra sentrum."
+    ],
+    "locations": [
+      {
+        "lat": 69.656,
+        "lon": 18.93,
+        "name": "Prestvannet, Tromsø"
+      }
+    ]
+  },
+  {
+    "id": "nTil7c",
+    "categoryId": "sport",
+    "paperId": "itromso",
+    "hoursAgo": 27,
+    "summary": [
+      "Tromsø IL vant 2–1 etter å ha ligget under.",
+      "Begge målene kom de siste ti minuttene.",
+      "Laget klatret til sjetteplass."
+    ],
+    "locations": [
+      {
+        "lat": 69.6489,
+        "lon": 18.9373,
+        "name": "Romssa Arena"
+      }
+    ]
+  },
+  {
+    "id": "nUit4e",
+    "categoryId": "studentliv",
+    "paperId": "itromso",
+    "hoursAgo": 46,
+    "summary": [
+      "UiT åpner et nytt forskningssenter for Arktis i Breivika.",
+      "Det skal huse 200 forskere og studenter.",
+      "Studentene får egne lesesaler med utsikt over fjorden."
+    ],
+    "locations": [
+      {
+        "lat": 69.681,
+        "lon": 18.975,
+        "name": "UiT, Breivika"
+      }
+    ]
+  },
+  {
+    "id": "nHrs6b",
+    "categoryId": "kultur",
+    "paperId": "harstad-tidende",
+    "hoursAgo": 64,
+    "summary": [
+      "Festspillene i Nord-Norge får en egen ungdomsscene neste år.",
+      "Unge under 25 kommer inn for halv pris.",
+      "Programmet slippes i mars."
+    ],
+    "locations": [
+      {
+        "lat": 68.7983,
+        "lon": 16.5417,
+        "name": "Harstad sentrum"
+      }
+    ]
+  },
+  {
+    "id": "nFns3r",
+    "categoryId": "trafikk",
+    "paperId": "folkebladet",
+    "hoursAgo": 90,
+    "summary": [
+      "Gisundbrua stenges om natta i tre uker fra mandag.",
+      "Utrykningskjøretøy slipper gjennom.",
+      "Det settes inn ekstra ferge for pendlere."
+    ],
+    "locations": [
+      {
+        "lat": 69.231,
+        "lon": 17.965,
+        "name": "Gisundbrua, Finnsnes"
+      }
+    ]
+  },
+  {
+    "id": "nKom5z",
+    "categoryId": "politikk",
+    "paperId": "itromso",
+    "hoursAgo": 38,
+    "summary": [
+      "Kommentatoren mener nord må få flere av de nye forsvarsjobbene.",
+      "Mange av investeringene havner sørpå i dag.",
+      "Regionen trenger folk, ikke bare utstyr."
+    ],
+    "locations": []
+  },
+  {
+    "id": "sKld4t",
+    "categoryId": "kultur",
+    "paperId": "fvn",
+    "hoursAgo": 10,
+    "summary": [
+      "Kilden har sluppet vårprogrammet med blant annet en ny musikal.",
+      "Studenter får billetter for 150 kroner.",
+      "Billettsalget starter mandag."
+    ],
+    "locations": [
+      {
+        "lat": 58.1416,
+        "lon": 7.999,
+        "name": "Kilden, Odderøya"
+      }
+    ]
+  },
+  {
+    "id": "sStr8w",
+    "categoryId": "sport",
+    "paperId": "fvn",
+    "hoursAgo": 21,
+    "summary": [
+      "IK Start spiller avgjørende kamp hjemme lørdag.",
+      "Klubben håper på over 10 000 tilskuere.",
+      "Studenter får gratis billett med studentbevis."
+    ],
+    "locations": [
+      {
+        "lat": 58.1452,
+        "lon": 7.971,
+        "name": "Sparebanken Sør Arena"
+      }
+    ]
+  },
+  {
+    "id": "sDyr2m",
+    "categoryId": "naeringsliv",
+    "paperId": "fvn",
+    "hoursAgo": 52,
+    "summary": [
+      "Dyreparken i Kristiansand bygger en ny innendørs attraksjon.",
+      "Den skal holde åpent hele vinteren.",
+      "Investeringen er på 250 millioner kroner."
+    ],
+    "locations": [
+      {
+        "lat": 58.187,
+        "lon": 8.144,
+        "name": "Dyreparken, Kristiansand"
+      }
+    ]
+  },
+  {
+    "id": "sUia6n",
+    "categoryId": "studentliv",
+    "paperId": "fvn",
+    "hoursAgo": 31,
+    "summary": [
+      "UiA hadde over 15 000 søkere i år, ny rekord.",
+      "Sykepleie og data er mest populært.",
+      "Studentsamskipnaden vil bygge 300 nye boliger."
+    ],
+    "locations": [
+      {
+        "lat": 58.163,
+        "lon": 8.004,
+        "name": "UiA, Gimlemoen"
+      }
+    ]
+  },
+  {
+    "id": "sArn3h",
+    "categoryId": "nabolag",
+    "paperId": "agderposten",
+    "hoursAgo": 66,
+    "summary": [
+      "Pollen i Arendal får ny havnepromenade med benker og trær.",
+      "Arbeidet starter i januar.",
+      "Promenaden skal være klar til Arendalsuka."
+    ],
+    "locations": [
+      {
+        "lat": 58.4612,
+        "lon": 8.767,
+        "name": "Pollen, Arendal"
+      }
+    ]
+  },
+  {
+    "id": "sMdl9f",
+    "categoryId": "mat",
+    "paperId": "lindesnes",
+    "hoursAgo": 88,
+    "summary": [
+      "En ny sjømatrestaurant åpner ved Buen kulturhus i Mandal.",
+      "All fisk kjøpes fra lokale fiskere.",
+      "Lunsjen koster under 200 kroner."
+    ],
+    "locations": [
+      {
+        "lat": 58.028,
+        "lon": 7.46,
+        "name": "Buen kulturhus, Mandal"
+      }
+    ]
+  },
+  {
+    "id": "sLst7d",
+    "categoryId": "friluft",
+    "paperId": "lister",
+    "hoursAgo": 140,
+    "summary": [
+      "Over 200 fuglearter er registrert ved Lista fyr i høst.",
+      "Det er flere enn noen gang.",
+      "Fyret har åpent for besøkende i helgene."
+    ],
+    "locations": [
+      {
+        "lat": 58.109,
+        "lon": 6.568,
+        "name": "Lista fyr"
+      }
+    ]
+  },
+  {
+    "id": "sBns1y",
+    "categoryId": "nyheter",
+    "paperId": "fvn",
+    "hoursAgo": 13,
+    "summary": [
+      "Bensin er dyrere på Sørlandet enn ellers i landet.",
+      "Forskjellen til Oslo er nesten en krone literen.",
+      "Det lønner seg å fylle tidlig på mandager."
+    ],
+    "locations": []
   }
 ]

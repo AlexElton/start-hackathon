@@ -1,0 +1,78 @@
+{
+ "id": "sLst7d",
+ "schemaType": "article",
+ "title": {
+  "value": "Lista fyr: Rekordmange trekkfugler denne høsten"
+ },
+ "urls": {
+  "canonical": "https://www.lister24.no/farsund/i/sLst7d/lista-fyr-rekordmange-trekkfugler-denne-hosten"
+ },
+ "changes": {
+  "published": "2026-10-17T08:00:00Z",
+  "updated": null
+ },
+ "section": {
+  "title": "Farsund"
+ },
+ "newsroom": "lister",
+ "authors": [
+  {
+   "fullname": "Geir Haugland"
+  }
+ ],
+ "tags": [
+  {
+   "title": "Lista",
+   "type": "tag"
+  },
+  {
+   "title": "fugl",
+   "type": "tag"
+  },
+  {
+   "title": "friluftsliv",
+   "type": "tag"
+  }
+ ],
+ "intro": {
+  "lead": "Ornitologene har registrert over 200 arter ved fyret."
+ },
+ "customProperties": {
+  "frontPageImage": {
+   "id": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Lista_fyr_IMG_0979.JPG/960px-Lista_fyr_IMG_0979.JPG"
+  },
+  "wordCount": 49
+ },
+ "components": [
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Ornitologene ved Lista fuglestasjon har registrert over 200 arter denne høsten. Det er rekord."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "– Lista er et av de beste stedene i Europa for å se fugletrekket, sier ornitolog Morten Vik."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Fyret har åpent for besøkende i helgene ut oktober."
+     }
+    }
+   ]
+  }
+ ]
+}

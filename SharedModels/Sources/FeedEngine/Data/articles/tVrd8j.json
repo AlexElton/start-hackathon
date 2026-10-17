@@ -1,0 +1,82 @@
+{
+ "id": "tVrd8j",
+ "schemaType": "article",
+ "title": {
+  "value": "Verftet på Verdal skal ansette 150"
+ },
+ "urls": {
+  "canonical": "https://www.innherred.no/verdal/i/tVrd8j/verftet-pa-verdal-skal-ansette-150"
+ },
+ "changes": {
+  "published": "2026-10-17T08:00:00Z",
+  "updated": null
+ },
+ "section": {
+  "title": "Verdal"
+ },
+ "newsroom": "innherred",
+ "authors": [
+  {
+   "fullname": "Hanne Sende"
+  }
+ ],
+ "tags": [
+  {
+   "title": "Verdal",
+   "type": "tag"
+  },
+  {
+   "title": "jobb",
+   "type": "tag"
+  },
+  {
+   "title": "industri",
+   "type": "tag"
+  },
+  {
+   "title": "Kværner",
+   "type": "tag"
+  }
+ ],
+ "intro": {
+  "lead": "Ny kontrakt på havvind gir arbeid i tre år."
+ },
+ "customProperties": {
+  "frontPageImage": {
+   "id": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Verdals%C3%B8ra_kirke.jpg/960px-Verdals%C3%B8ra_kirke.jpg"
+  },
+  "wordCount": 57
+ },
+ "components": [
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Verftet på Ørin har fått en stor kontrakt på fundamenter til en havvindpark i Nordsjøen."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Det gir arbeid i tre år, og 150 nye skal ansettes fra januar."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "– Vi trenger alt fra sveisere og platearbeidere til ingeniører. Vi tar også inn 20 lærlinger, sier HR-sjef Mona Haugan."
+     }
+    }
+   ]
+  }
+ ]
+}

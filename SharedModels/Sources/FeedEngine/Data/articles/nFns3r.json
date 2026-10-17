@@ -1,0 +1,78 @@
+{
+ "id": "nFns3r",
+ "schemaType": "article",
+ "title": {
+  "value": "Gisundbrua stenges om natta i tre uker"
+ },
+ "urls": {
+  "canonical": "https://www.folkebladet.no/senja/i/nFns3r/gisundbrua-stenges-om-natta-i-tre-uker"
+ },
+ "changes": {
+  "published": "2026-10-17T08:00:00Z",
+  "updated": null
+ },
+ "section": {
+  "title": "Senja"
+ },
+ "newsroom": "folkebladet",
+ "authors": [
+  {
+   "fullname": "Rune Isaksen"
+  }
+ ],
+ "tags": [
+  {
+   "title": "Gisundbrua",
+   "type": "tag"
+  },
+  {
+   "title": "Finnsnes",
+   "type": "tag"
+  },
+  {
+   "title": "Senja",
+   "type": "tag"
+  }
+ ],
+ "intro": {
+  "lead": "Brua mellom Finnsnes og Senja skal vedlikeholdes."
+ },
+ "customProperties": {
+  "frontPageImage": {
+   "id": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Gisund_Bridge_2.jpg/960px-Gisund_Bridge_2.jpg"
+  },
+  "wordCount": 47
+ },
+ "components": [
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Fra mandag stenges Gisundbrua mellom Finnsnes og Senja fra klokka 23 til 05 i tre uker."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Statens vegvesen skal skifte lagre og fuger på brua."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Utrykningskjøretøy slipper alltid gjennom, og det settes inn en ekstra ferge for nattskiftet på sykehuset."
+     }
+    }
+   ]
+  }
+ ]
+}

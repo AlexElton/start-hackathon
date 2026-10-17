@@ -1,0 +1,78 @@
+{
+ "id": "sBns1y",
+ "schemaType": "article",
+ "title": {
+  "value": "Drivstoffprisene på Sørlandet høyest i landet"
+ },
+ "urls": {
+  "canonical": "https://www.fvn.no/nyheter/i/sBns1y/drivstoffprisene-pa-sorlandet-hoyest-i-landet"
+ },
+ "changes": {
+  "published": "2026-10-17T08:00:00Z",
+  "updated": null
+ },
+ "section": {
+  "title": "Nyheter"
+ },
+ "newsroom": "fvn",
+ "authors": [
+  {
+   "fullname": "Marianne Tveit"
+  }
+ ],
+ "tags": [
+  {
+   "title": "drivstoff",
+   "type": "tag"
+  },
+  {
+   "title": "priser",
+   "type": "tag"
+  },
+  {
+   "title": "Sørlandet",
+   "type": "tag"
+  }
+ ],
+ "intro": {
+  "lead": "En liter bensin koster nesten en krone mer i Kristiansand enn i Oslo."
+ },
+ "customProperties": {
+  "frontPageImage": {
+   "id": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Tiny_petrol_station_by_Fv232%2C_Grunnfarnes%2C_Senja%2C_Norway%2C_2014_August.jpg/960px-Tiny_petrol_station_by_Fv232%2C_Grunnfarnes%2C_Senja%2C_Norway%2C_2014_August.jpg"
+  },
+  "wordCount": 54
+ },
+ "components": [
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "En liter bensin koster i snitt nesten en krone mer i Kristiansand enn i Oslo denne uka."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "– Det er mindre konkurranse her. Da blir prisene høyere, sier forbrukerøkonom."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Rådet er å fylle tidlig på mandager, når prisene ofte er lavest."
+     }
+    }
+   ]
+  }
+ ]
+}

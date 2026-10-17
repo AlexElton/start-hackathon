@@ -31,6 +31,8 @@ private struct MapContent: View {
 
     @State private var showSidePanel = false
     @State private var panelDrag: CGFloat = 0
+    /// Decided at the start of each drag: true = sideways (moves the panel), false = up/down (scrolls the list).
+    @State private var panelDragIsSideways: Bool?
 
     /// After onboarding, things come in one after another instead of all at once:
     /// onboarding fades away, then the chips and slider, then the pins.
@@ -180,6 +182,10 @@ private struct MapContent: View {
             DragGesture(minimumDistance: 15, coordinateSpace: .global)
                 .onChanged { value in
                     guard chromeVisible else { return }
+                    if panelDragIsSideways == nil {
+                        panelDragIsSideways = abs(value.translation.width) > abs(value.translation.height)
+                    }
+                    guard panelDragIsSideways == true else { return }
                     if showSidePanel {
                         panelDrag = max(0, panelWidth + min(0, value.translation.width))
                     } else {
@@ -187,6 +193,8 @@ private struct MapContent: View {
                     }
                 }
                 .onEnded { value in
+                    defer { panelDragIsSideways = nil }
+                    guard panelDragIsSideways == true else { return }
                     let fling = value.predictedEndTranslation.width - value.translation.width
                     if showSidePanel {
                         if panelProgress < 0.7 || fling < -400 { showSidePanel = false }
@@ -199,23 +207,29 @@ private struct MapContent: View {
     }
 }
 
-/// A subtle vertical bar on the left edge — the affordance for the side panel, like the
-/// home indicator at the bottom. The invisible strip around it is the swipe target.
+/// A grabber line on the left edge, like the one on top of a sheet — the way into the side panel.
+/// It nudges right once as the map appears. The invisible strip along the edge is the swipe target.
 private struct PanelEdgeHandle: View {
     let progress: CGFloat
     let isHidden: Bool
     let drag: AnyGesture<DragGesture.Value>
     let tap: () -> Void
 
+    @State private var nudge: CGFloat = 0
+
     var body: some View {
         Color.clear
             .frame(width: 28)
             .frame(maxHeight: .infinity)
             .contentShape(Rectangle())
-            .overlay {
+            .overlay(alignment: .leading) {
                 Capsule()
-                    .fill(Theme.ink.opacity(0.3))
-                    .frame(width: 4, height: 56)
+                    .fill(.white.opacity(0.85))
+                    .frame(width: 5, height: 48)
+                    // A soft shadow keeps it visible on light map areas too.
+                    .shadow(color: .black.opacity(0.3), radius: 2)
+                    .padding(.leading, 7)
+                    .offset(x: nudge)
             }
             .gesture(drag)
             .onTapGesture(perform: tap)
@@ -223,6 +237,17 @@ private struct PanelEdgeHandle: View {
             .opacity(isHidden || progress > 0.02 ? 0 : 1)
             .allowsHitTesting(!isHidden && progress < 0.02)
             .animation(.easeOut(duration: 0.3), value: isHidden)
+            .task(id: isHidden) {
+                guard !isHidden else { return }
+                try? await Task.sleep(for: .milliseconds(300))
+                withAnimation(.easeOut(duration: 0.2)) { nudge = 6 }
+                try? await Task.sleep(for: .milliseconds(200))
+                withAnimation(.spring(duration: 0.4, bounce: 0.2)) { nudge = 0 }
+            }
+            .accessibilityElement(children: .ignore)
+            .accessibilityLabel("Generelle saker")
+            .accessibilityAddTraits(.isButton)
+            .accessibilityAction { tap() }
     }
 }
 
@@ -246,7 +271,8 @@ private struct SidePanelOverlay: View {
         }
         SidePanelView(items: items, feed: feed, paperName: paperName, close: close)
             .frame(width: width)
-            .highPriorityGesture(drag)
+            // Alongside the list's own scrolling, not instead of it: up/down scrolls, sideways closes.
+            .simultaneousGesture(drag)
             .shadow(color: .black.opacity(0.3), radius: 24, x: 10)
             .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .leading)
             .offset(x: -width + width * progress)

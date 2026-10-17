@@ -3,16 +3,41 @@
     "id": "i-dag",
     "scope": "day",
     "title": "I dag",
-    "headline": "Brannene er slukket, og kvelden er din",
-    "intro": "Kornbrannen i Ila holdt brannvesenet i sving i over et døgn, men nå er begge brannene slukket. Her er det viktigste du bør få med deg i dag, og hva som skjer i kveld.",
+    "headline": "Snø i Bymarka, 4000 i boligkø og nordlys i nord",
+    "intro": "De første skiløypene kjøres opp i helgen, studentene står i rekordlang kø for bolig, og i Tromsø er hotellene fulle av nordlysturister. Her er det du bør få med deg i dag.",
     "points": [
-      { "title": "Kornbrannen i Ila er slukket", "text": "Det brant i Felleskjøpets tørkeanlegg fra natt til tirsdag, og senere også i Fiskå mølle på Spongdal. Ingen ble skadet, men 60 tonn havre gikk tapt.", "articleId": "zlxvg5" },
-      { "title": "Mann siktet etter knivstikking", "text": "En mann i 60-årene ble kuttet over øyet utenfor et privat tiltak i Trondheim. En beboer er siktet, og kommunens kriseteam følger opp.", "articleId": "eG5bky" },
-      { "title": "350 søkere kjemper om 32 legejobber", "text": "Unge leger på St. Olav sier NRK-serien «LIS» viser hverdagen deres slik den er, og sykehuset har bedret oppfølgingen av ferske leger.", "articleId": "OgnOdV" },
-      { "title": "I kveld: quiz og burger til studentpris", "text": "Lyche arrangerer studentquiz klokka 20, og Hammerhead har smashburger-kveld med studentrabatt fra klokka 17." }
+      {
+        "title": "Over 4000 står i kø for studentbolig",
+        "text": "Køen hos Sit er den lengste på ti år. Nå vil de bygge 600 nye hybler på Moholt og Dragvoll.",
+        "articleId": "tR4mKq"
+      },
+      {
+        "title": "Første snøen i Bymarka",
+        "text": "15 centimeter ved Skistua. Lysløypa til Elgsethytta kan bli kjørt opp allerede lørdag.",
+        "articleId": "tSn8By"
+      },
+      {
+        "title": "Kø på E6 etter kollisjon ved Tiller",
+        "text": "Ingen ble alvorlig skadet, men ett felt sørover var stengt i over en time.",
+        "articleId": "tTll9e"
+      },
+      {
+        "title": "Nordlyssesongen er i gang",
+        "text": "Klarvær og sterk solaktivitet gir gode sjanser i Tromsø denne uka.",
+        "articleId": "nTrm2l"
+      },
+      {
+        "title": "I kveld",
+        "text": "Gratis konsert på Rockheim klokka 16, stand-up på Work-Work og studentquiz på Lyche."
+      }
     ],
-    "itemIds": ["evt_quiz_lyche", "evt_smashburger_hammerhead", "ad_den_gode_nabo"],
-    "imageUrl": "https://vcdn.polarismedia.no/33800025-e2de-3f41-8eb0-067901fe764d?w=1200&fit=clip&q=80",
+    "itemIds": [
+      "evt_rockheim_fredag",
+      "evt_workwork_standup",
+      "evt_quiz_lyche",
+      "ad_nova_kinotirsdag"
+    ],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Skistua_-_baksiden.jpg/960px-Skistua_-_baksiden.jpg",
     "symbol": "sun.max.fill",
     "color": "#005379",
     "readMinutes": 2
@@ -21,16 +46,40 @@
     "id": "denne-uka",
     "scope": "week",
     "title": "Denne uka",
-    "headline": "Budsjett, branner og spørsmål uten svar",
-    "intro": "Statsbudsjettet ga lite til veiene i Trøndelag, to branner rammet kornmottak i Trondheim, og en familie krever svar etter et dødsfall på Skansen. Uka som var, kort fortalt.",
+    "headline": "Budsjett, boligkø og en toppkamp",
+    "intro": "Statsbudsjettet ga lite til Trøndelag, studentene mangler boliger fra Trondheim til Kristiansand, og søndag er det toppkamp på Lerkendal. Uka som var, kort fortalt.",
     "points": [
-      { "title": "Statsbudsjettet for 2027 er lagt fram", "text": "Regjeringen la fram budsjettet onsdag. Adresseavisen fulgte presentasjonen direkte og samlet det viktigste for Trøndelag.", "articleId": "316lpP" },
-      { "title": "Ingen penger til E14 og Meråkerbanen", "text": "Ordføreren i Meråker er skuffet. Strekningen er viktig for militær transport østover, men får ikke midler i år.", "articleId": "BM0E00" },
-      { "title": "«Det er så mye som ikke stemmer»", "text": "Marius Raaken ble funnet død på Skansen. Saken ble henlagt, men et kameraopptak gikk tapt og vitner ble avhørt sent. Familien leter fortsatt etter svar.", "articleId": "aJy014" },
-      { "title": "Skudd gjennom verandadøra på Tanem", "text": "Tre barn satt i stua da en kule gikk gjennom glasset. En mann fra et jaktlag er siktet, men erkjenner ikke straffskyld.", "articleId": "eGz299" },
-      { "title": "Kornbrann i Ila og på Spongdal", "text": "To branner i kornmottak samme dag. Begge er slukket, og ingen ble skadet.", "articleId": "zlxvg5" }
+      {
+        "title": "Statsbudsjettet for 2027 er lagt fram",
+        "text": "Adresseavisen fulgte presentasjonen direkte og samlet det viktigste for Trøndelag.",
+        "articleId": "316lpP"
+      },
+      {
+        "title": "Studentene mangler boliger",
+        "text": "4120 står i kø i Trondheim. Også i Kristiansand vil studentsamskipnaden bygge flere hundre nye.",
+        "articleId": "tR4mKq"
+      },
+      {
+        "title": "Elgeseter gate bygges om",
+        "text": "Ett felt i hver retning stenges i halvannet år. Bussene får egne felt.",
+        "articleId": "tEsk7q"
+      },
+      {
+        "title": "Kornbrann i Ila og på Spongdal",
+        "text": "To branner i kornmottak samme dag. Begge er slukket, og ingen ble skadet.",
+        "articleId": "zlxvg5"
+      },
+      {
+        "title": "Torskekvoten kuttes igjen",
+        "text": "Tredje kutt på rad. Kystfiskerne på Sunnmøre frykter at flere må gi seg.",
+        "articleId": "mFsk0q"
+      }
     ],
-    "itemIds": ["evt_lis_visning", "evt_lopeklubben"],
+    "itemIds": [
+      "evt_rbk_lerkendal",
+      "evt_dragvoll_debatt",
+      "evt_lis_visning"
+    ],
     "imageUrl": "https://vcdn.polarismedia.no/1043df73-9a29-3c5a-9161-796561b10fc5?w=1200&fit=clip&q=80",
     "symbol": "calendar",
     "color": "#005379",
@@ -41,16 +90,41 @@
     "scope": "place",
     "title": "Trondheim",
     "kicker": "Trondheim by",
-    "headline": "Det som skjer i byen din",
-    "intro": "Fra Ila til Tanem: her er sakene som angår deg som bor i Trondheim, og stedene der det skjer.",
+    "headline": "Ny park, ny gate og et badeland som stenger",
+    "intro": "Ila har fått parken naboene kjempet for, Elgeseter gate bygges om, og Pirbadet stenger i vinter. Dette skjer i byen din.",
     "points": [
-      { "title": "Brannvesenet skar hull i siloen i Ila", "text": "Det var over 600 grader inne i siloen. Mannskapene tok ut kornet bit for bit og slukket det etter hvert. Kraftfôrfabrikken ved siden av er ikke berørt.", "articleId": "zlxvg5" },
-      { "title": "Familie på Skansen vil ha svar", "text": "Adresseavisen har fått innsyn i etterforskningen etter dødsfallet i småbåthavna. Politiet sa nei til å etterlyse personene som ble sett på kaia.", "articleId": "aJy014" },
-      { "title": "Skudd mot bolig på Tanem", "text": "Politiet undersøker om kula kan ha rikosjettert fra jakt i åsen mot Vassfjellet.", "articleId": "eGz299" },
-      { "title": "Kamp om legejobbene på St. Olav", "text": "Rundt 350 søkere konkurrerer om 32 LIS 1-stillinger på universitetssykehuset.", "articleId": "OgnOdV" }
+      {
+        "title": "Ilaparken er ferdig",
+        "text": "Lekeplass, ballbinge og grillplass. Naboene har kjempet for parken i over ti år.",
+        "articleId": "tIla3p"
+      },
+      {
+        "title": "Elgeseter gate blir miljøgate",
+        "text": "Fra mandag stenges ett felt i hver retning. Syklister bør bruke Klostergata.",
+        "articleId": "tEsk7q"
+      },
+      {
+        "title": "Pirbadet stenger i tre måneder",
+        "text": "Lekkasjer under bassengene må utbedres. Årskort forlenges.",
+        "articleId": "tPir1x"
+      },
+      {
+        "title": "200 nye leiligheter på Lade",
+        "text": "30 av dem skal selges med rabatt til førstegangskjøpere.",
+        "articleId": "tLad2b"
+      },
+      {
+        "title": "Brannvesenet skar hull i siloen i Ila",
+        "text": "Det var over 600 grader inne i siloen. Kraftfôrfabrikken ved siden av er ikke berørt.",
+        "articleId": "zlxvg5"
+      }
     ],
-    "itemIds": ["evt_quiz_lyche", "evt_lopeklubben"],
-    "imageUrl": "https://vcdn.polarismedia.no/50414031-c072-3ffc-b04f-52cdf2f7e154?w=1200&fit=clip&q=80",
+    "itemIds": [
+      "evt_ilaparken_fest",
+      "evt_kunstmuseum_kveld",
+      "ad_sykkel_vinter"
+    ],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Ila_and_Skansen_in_Trondheim_01.jpg/960px-Ila_and_Skansen_in_Trondheim_01.jpg",
     "symbol": "building.2.fill",
     "color": "#2E7FAD",
     "regionId": "trondelag",
@@ -61,18 +135,336 @@
     "scope": "place",
     "title": "Trøndelag",
     "kicker": "Trøndelag",
-    "headline": "Veiene som ikke fikk penger",
-    "intro": "Budsjettuka ble en skuffelse for mange i fylket. Her er det viktigste utenfor bygrensa.",
+    "headline": "Jobber på Verdal, ski i Oppdal",
+    "intro": "Verftet på Verdal skal ansette 150, Oppdal åpner skisesongen tidlig, og pendlerne i Melhus vil ha flere tog. Det viktigste utenfor bygrensa.",
     "points": [
-      { "title": "Meråker vil ha ny E14", "text": "– Alle snakker om å ruste oss for krig og krise, men ingen viser det med penger, sier ordfører Gjøran Sandvik.", "articleId": "BM0E00" },
-      { "title": "Nye Veier får rundt 7 milliarder", "text": "Prisveksten gjør at selskapet har 1,5 milliarder mindre å bygge for enn i oppstartsårene. 34 kilometer ny E6 åpner i høst.", "articleId": "BM0E00" },
-      { "title": "Brann i Fiskå mølle på Spongdal", "text": "Samme dag som brannen i Ila begynte det også å brenne i mølla på Spongdal. Den er nå slukket.", "articleId": "zlxvg5" }
+      {
+        "title": "Verftet på Verdal ansetter 150",
+        "text": "En kontrakt på havvind gir arbeid i tre år, også for 20 lærlinger.",
+        "articleId": "tVrd8j"
+      },
+      {
+        "title": "Oppdal åpner tidligste på 15 år",
+        "text": "To heiser og tre nedfarter er klare fra lørdag.",
+        "articleId": "tOpd5w"
+      },
+      {
+        "title": "Melhus vil ha tog hver halvtime",
+        "text": "Over 1000 har skrevet under på oppropet.",
+        "articleId": "tMlh9n"
+      },
+      {
+        "title": "Ny gang- og sykkelbru i Levanger",
+        "text": "Tryggere skolevei for 400 elever.",
+        "articleId": "tLvg4r"
+      },
+      {
+        "title": "Meråker vil ha ny E14",
+        "text": "Det kom ingen penger på statsbudsjettet. Ordføreren er skuffet.",
+        "articleId": "BM0E00"
+      }
     ],
-    "itemIds": [],
-    "imageUrl": "https://vcdn.polarismedia.no/011fd9c5-923c-363a-8be1-c38afa9fcc6f?w=1200&fit=clip&q=80",
+    "itemIds": [
+      "evt_levanger_marked",
+      "evt_oppdal_apning",
+      "ad_oppdal_sesongkort"
+    ],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Hovden_oppdal.jpg/960px-Hovden_oppdal.jpg",
     "symbol": "map.fill",
     "color": "#2E7FAD",
     "regionId": "trondelag",
+    "readMinutes": 3
+  },
+  {
+    "id": "more-og-romsdal",
+    "scope": "place",
+    "title": "Møre og Romsdal",
+    "kicker": "Sunnmøre og Romsdal",
+    "headline": "Renere luft i Ålesund og jazz i Molde",
+    "intro": "Cruiseskipene får landstrøm, Moldejazz har sluppet de første navnene, og det nye sjukehuset på Hjelset tar imot pasienter.",
+    "points": [
+      {
+        "title": "Landstrøm til cruiseskipene",
+        "text": "Kan kutte utslippene fra skipene i Ålesund med opptil 80 prosent.",
+        "articleId": "mAls3k"
+      },
+      {
+        "title": "Moldejazz slipper første navn",
+        "text": "Tre internasjonale navn og eget festivalpass for studenter.",
+        "articleId": "mMld9j"
+      },
+      {
+        "title": "Nye sjukehuset på Hjelset har åpnet",
+        "text": "Poliklinikkene har flyttet først. Fødeavdelingen kommer neste måned.",
+        "articleId": "mHjl2s"
+      },
+      {
+        "title": "AaFK foran fullt hus",
+        "text": "Over 9000 så vinnermålet på overtid.",
+        "articleId": "mAfk7p"
+      },
+      {
+        "title": "Studentane vil ha nattbuss",
+        "text": "Mange går langs riksvegen mellom Volda og Ørsta om natta.",
+        "articleId": "mVld6x"
+      }
+    ],
+    "itemIds": [
+      "evt_alesund_parken",
+      "evt_molde_aker",
+      "ad_alesund_kafe"
+    ],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Cruise_ship_Pacific_Princess._Alesund._Norway.jpg/960px-Cruise_ship_Pacific_Princess._Alesund._Norway.jpg",
+    "symbol": "ferry.fill",
+    "color": "#B22222",
+    "regionId": "more-og-romsdal",
+    "readMinutes": 2
+  },
+  {
+    "id": "troms",
+    "scope": "place",
+    "title": "Troms",
+    "kicker": "Tromsø og Troms",
+    "headline": "Nordlys, fulle hoteller og en snudd kamp",
+    "intro": "Nordlyssesongen trekker turister til Tromsø, TIL snudde kampen på Romssa Arena, og UiT åpner nytt arktisk senter.",
+    "points": [
+      {
+        "title": "Nordlyssesongen er i gang",
+        "text": "Prestvannet og Telegrafbukta er gode steder rett ved sentrum.",
+        "articleId": "nTrm2l"
+      },
+      {
+        "title": "TIL snudde kampen",
+        "text": "To mål de siste ti minuttene ga tre poeng.",
+        "articleId": "nTil7c"
+      },
+      {
+        "title": "Nytt arktisk forskningssenter",
+        "text": "200 forskere og studenter skal holde til i Breivika.",
+        "articleId": "nUit4e"
+      },
+      {
+        "title": "Gisundbrua stenges om natta",
+        "text": "Tre uker med vedlikehold. Ekstra ferge for nattskiftet.",
+        "articleId": "nFns3r"
+      }
+    ],
+    "itemIds": [
+      "evt_tromso_nordlys",
+      "evt_tromso_driv",
+      "ad_tromso_ski"
+    ],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Aurora_Borealis_Troms%C3%B8_Norway.jpg/960px-Aurora_Borealis_Troms%C3%B8_Norway.jpg",
+    "symbol": "sparkles",
+    "color": "#0B6E4F",
+    "regionId": "troms-og-finnmark",
+    "readMinutes": 2
+  },
+  {
+    "id": "agder",
+    "scope": "place",
+    "title": "Agder",
+    "kicker": "Sørlandet",
+    "headline": "Kultur, fotball og rekordmange studenter",
+    "intro": "Kilden har sluppet vårprogrammet, Start spiller avgjørende kamp, og UiA har aldri hatt flere søkere.",
+    "points": [
+      {
+        "title": "Kilden slipper vårprogrammet",
+        "text": "Ny musikal, stand-up og studentbilletter til 150 kroner.",
+        "articleId": "sKld4t"
+      },
+      {
+        "title": "Start trenger hele byen",
+        "text": "Studenter kommer gratis inn på lørdagens kamp.",
+        "articleId": "sStr8w"
+      },
+      {
+        "title": "Rekordmange vil studere ved UiA",
+        "text": "Over 15 000 søkere. Nå planlegges 300 nye studentboliger.",
+        "articleId": "sUia6n"
+      },
+      {
+        "title": "Ny havnepromenade i Arendal",
+        "text": "Pollen skal stå klar til Arendalsuka.",
+        "articleId": "sArn3h"
+      }
+    ],
+    "itemIds": [
+      "evt_kilden_standup",
+      "evt_start_kamp",
+      "evt_arendal_quiz"
+    ],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Kristiansand_Kilden_teater_og_konserthus.jpg/960px-Kristiansand_Kilden_teater_og_konserthus.jpg",
+    "symbol": "sun.haze.fill",
+    "color": "#D35400",
+    "regionId": "agder",
+    "readMinutes": 2
+  },
+  {
+    "id": "studentliv",
+    "scope": "category",
+    "title": "Studentliv",
+    "kicker": "For studenter",
+    "headline": "Boligkø, nattbuss og mindre fest",
+    "intro": "Studentene mangler boliger, men drikker mindre enn før. Her er sakene som angår deg som studerer, fra Volda til Tromsø.",
+    "points": [
+      {
+        "title": "4000 i kø for studentbolig",
+        "text": "Sit vil bygge 600 nye hybler. En privat hybel koster nå 7400 kroner i snitt.",
+        "articleId": "tR4mKq"
+      },
+      {
+        "title": "Studentene drikker mindre",
+        "text": "Bare halvparten drikker hver uke. Samfundet selger mer alkoholfritt enn noen gang.",
+        "articleId": "tStu1d"
+      },
+      {
+        "title": "Kommentar: Byen har råd til å bygge",
+        "text": "Kommunen kan gi billigere tomter, og staten kan øke tilskuddet.",
+        "articleId": "tKom2c"
+      },
+      {
+        "title": "Nattbuss mellom Volda og Ørsta?",
+        "text": "Fylket vurderer en prøveordning fra januar.",
+        "articleId": "mVld6x"
+      },
+      {
+        "title": "Rekordmange vil studere i Kristiansand",
+        "text": "UiA hadde over 15 000 søkere i år.",
+        "articleId": "sUia6n"
+      }
+    ],
+    "itemIds": [
+      "evt_moholt_loppis",
+      "evt_samfundet_lordag",
+      "evt_dragvoll_debatt",
+      "ad_bokbyttet"
+    ],
+    "imageUrl": "https://vcdn.polarismedia.no/17b142e5-8672-3fdf-b88e-85348c973a63?w=1000&fit=clip&q=80",
+    "symbol": "graduationcap.fill",
+    "color": "#28AAE2",
+    "categoryId": "studentliv",
+    "readMinutes": 3
+  },
+  {
+    "id": "sport",
+    "scope": "category",
+    "title": "Sport",
+    "kicker": "Sport",
+    "headline": "Toppkamp på Lerkendal og opprykksjakt",
+    "intro": "Rosenborg kan ta innpå toppen, Ranheim jakter opprykk, og Granåsen er klar for verdenscup.",
+    "points": [
+      {
+        "title": "Rosenborg klar for toppkamp",
+        "text": "Over 20 000 billetter er solgt til søndagens kamp.",
+        "articleId": "tLrk26"
+      },
+      {
+        "title": "Ranheim på kvalikplass",
+        "text": "Norges yngste tropp i OBOS-ligaen har ingenting å tape.",
+        "articleId": "tRnh8f"
+      },
+      {
+        "title": "Granåsen trenger 300 frivillige",
+        "text": "Verdenscupen i hopp kommer i desember.",
+        "articleId": "tGrn5h"
+      },
+      {
+        "title": "AaFK og TIL vant",
+        "text": "Fullt hus i Ålesund og snuoperasjon i Tromsø.",
+        "articleId": "mAfk7p"
+      },
+      {
+        "title": "Start spiller avgjørende kamp",
+        "text": "Gratis for studenter på Sparebanken Sør Arena.",
+        "articleId": "sStr8w"
+      }
+    ],
+    "itemIds": [
+      "evt_rbk_lerkendal",
+      "evt_kolstad_spektrum",
+      "evt_start_kamp"
+    ],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Lerkendal_Stadion_Trondheim.jpg/960px-Lerkendal_Stadion_Trondheim.jpg",
+    "symbol": "figure.run",
+    "color": "#4E9D2D",
+    "categoryId": "sport",
+    "readMinutes": 2
+  },
+  {
+    "id": "blalys",
+    "scope": "category",
+    "title": "Blålys",
+    "kicker": "Krim og ulykker",
+    "headline": "Tre saker politiet etterforsker",
+    "intro": "En knivstikking, et skudd gjennom et vindu og et dødsfall som aldri ble oppklart. Dette vet vi.",
+    "points": [
+      {
+        "title": "Knivstikking ved institusjon",
+        "text": "Fornærmede ble ikke alvorlig skadet. Gjerningspersonen bor på stedet og er siktet.",
+        "articleId": "eG5bky"
+      },
+      {
+        "title": "Jeger siktet etter skudd mot hus",
+        "text": "Siktelsen kommer fordi politiet har tatt beslag i våpenet hans. Han erkjenner ikke straffskyld.",
+        "articleId": "eGz299"
+      },
+      {
+        "title": "Tapt kameraopptak fra Skansen",
+        "text": "Opptaket fra Redningsselskapets andre kamera ble overskrevet før politiet rakk å sikre det.",
+        "articleId": "aJy014"
+      }
+    ],
+    "itemIds": [],
+    "imageUrl": "https://vcdn.polarismedia.no/b0df18a4-040a-3b4a-818e-a93e9257a7b5?w=1200&fit=clip&q=80",
+    "symbol": "light.beacon.max.fill",
+    "color": "#101010",
+    "categoryId": "krim",
+    "readMinutes": 2
+  },
+  {
+    "id": "friluft",
+    "scope": "category",
+    "title": "Friluftsliv",
+    "kicker": "Ut på tur",
+    "headline": "Snøen har kommet",
+    "intro": "Bymarka er hvit, Oppdal åpner bakkene, og nordlyset danser over Tromsø. Dette er helgens beste turtips.",
+    "points": [
+      {
+        "title": "Første snøen i Bymarka",
+        "text": "Lysløypa fra Skistua kan bli kjørt opp lørdag.",
+        "articleId": "tSn8By"
+      },
+      {
+        "title": "Oppdal åpner skisesongen",
+        "text": "Den tidligste starten på 15 år.",
+        "articleId": "tOpd5w"
+      },
+      {
+        "title": "Nordlys over Tromsø",
+        "text": "Gå til Prestvannet eller Telegrafbukta.",
+        "articleId": "nTrm2l"
+      },
+      {
+        "title": "Rekordsesong for Romsdalsgondolen",
+        "text": "Åpent i helgene hele vinteren.",
+        "articleId": "mAnd5g"
+      },
+      {
+        "title": "Fugletrekket ved Lista fyr",
+        "text": "Over 200 arter registrert i høst.",
+        "articleId": "sLst7d"
+      }
+    ],
+    "itemIds": [
+      "evt_bymarka_hodelykt",
+      "evt_oppdal_apning",
+      "ad_ski_ugla"
+    ],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Skistua_-_baksiden.jpg/960px-Skistua_-_baksiden.jpg",
+    "symbol": "mountain.2.fill",
+    "color": "#3E7B27",
+    "categoryId": "friluft",
     "readMinutes": 2
   },
   {
@@ -80,15 +472,41 @@
     "scope": "category",
     "title": "Kultur",
     "kicker": "Kultur og uteliv",
-    "headline": "Serien alle leger snakker om",
-    "intro": "NRK-serien «LIS» treffer unge leger i Trondheim rett i magen, og på kino kan du se den med dem. Her er kulturuka.",
+    "headline": "Hiphop på museum og pilegrimer i rekordfart",
+    "intro": "Rockheim forteller historien om trøndersk hiphop, Nidarosdomen fikk rekordmange pilegrimer, og «LIS» treffer legene rett i magen.",
     "points": [
-      { "title": "«LIS» er realistisk, sier legene", "text": "– For meg skapte serien et ubehag. Det var så gjenkjennbart, sier Marit Bjørgum Gjerde, som snart er overlege på St. Olav.", "articleId": "OgnOdV" },
-      { "title": "Se første episode på storskjerm", "text": "Nova Kino viser sesong to med samtale med leger fra St. Olav. 80 kroner for studenter." },
-      { "title": "Quiz på Samfundet", "text": "Lag på opptil seks, premie til beste lag og billig mat fra Lyche-kjøkkenet hele kvelden." }
+      {
+        "title": "Rockheim åpner hiphop-utstilling",
+        "text": "«Fra Ila til lista» viser 30 år med trøndersk hiphop.",
+        "articleId": "tRck8m"
+      },
+      {
+        "title": "Rekordmange pilegrimer",
+        "text": "Over 4300 gikk hele veien til Nidarosdomen i år.",
+        "articleId": "tNid6p"
+      },
+      {
+        "title": "«LIS» er realistisk, sier legene",
+        "text": "Unge leger på St. Olav kjenner seg igjen i NRK-serien.",
+        "articleId": "OgnOdV"
+      },
+      {
+        "title": "Kilden slipper vårprogrammet",
+        "text": "Studentbilletter til 150 kroner i Kristiansand.",
+        "articleId": "sKld4t"
+      },
+      {
+        "title": "Festspillene satser på ungdom",
+        "text": "Halv pris for alle under 25 i Harstad.",
+        "articleId": "nHrs6b"
+      }
     ],
-    "itemIds": ["evt_lis_visning", "evt_quiz_lyche"],
-    "imageUrl": "https://vcdn.polarismedia.no/57f81d63-8347-3640-be0a-0943b75a28ae?w=1200&fit=clip&q=80",
+    "itemIds": [
+      "evt_rockheim_fredag",
+      "evt_kunstmuseum_kveld",
+      "evt_lis_visning"
+    ],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Trondheim_havn_Bratt%C3%B8ra_03.jpg/960px-Trondheim_havn_Bratt%C3%B8ra_03.jpg",
     "symbol": "theatermasks.fill",
     "color": "#C31632",
     "categoryId": "kultur",
@@ -100,36 +518,39 @@
     "title": "Mat og studentpris",
     "kicker": "Mat og drikke",
     "headline": "Her spiser du godt for lite penger",
-    "intro": "Adresseavisens anmeldere har funnet ti utesteder med studentpris som får terningkast fem, og en lunsjkafé med byens beste cortado.",
+    "intro": "Ti utesteder med studentpris og terningkast fem, nye restauranter på Solsiden og fersk fisk i Mandal.",
     "points": [
-      { "title": "Ti steder med studentrabatt og terningkast fem", "text": "Fra firerettersmiddag under 300 kroner på Lyche til byens beste smashburger på Hammerhead Taproom.", "articleId": "16grxK" },
-      { "title": "Byens beste cortado", "text": "Te og Kaffehuset i Dronningens gate har åpnet for servering. Tofusalaten og ostekaka imponerer, servicen trekker ned.", "articleId": "31EkrM" },
-      { "title": "Tilbud akkurat nå", "text": "2 for 1 på fatøl på Den Gode Nabo før klokka 20, og 20 prosent på pizza hos Øx Tap Room." }
+      {
+        "title": "Ti steder med studentrabatt og terningkast fem",
+        "text": "Fra firerettersmiddag under 300 kroner på Lyche til byens beste smashburger.",
+        "articleId": "16grxK"
+      },
+      {
+        "title": "Tre nye restauranter på Solsiden",
+        "text": "Først ut er en ramenbar som åpner i november.",
+        "articleId": "tSol4n"
+      },
+      {
+        "title": "Byens beste cortado",
+        "text": "Te og Kaffehuset i Dronningens gate har åpnet for servering.",
+        "articleId": "31EkrM"
+      },
+      {
+        "title": "Sjømat fra lokale fiskere i Mandal",
+        "text": "Lunsj under 200 kroner ved Buen kulturhus.",
+        "articleId": "sMdl9f"
+      }
     ],
-    "itemIds": ["ad_den_gode_nabo", "ad_ox_tap_room", "ad_te_og_kaffehuset", "ad_burger_no"],
+    "itemIds": [
+      "evt_smashburger_hammerhead",
+      "ad_solsiden_brunch",
+      "ad_den_gode_nabo",
+      "ad_te_og_kaffehuset"
+    ],
     "imageUrl": "https://vcdn.polarismedia.no/a0ed4e49-8c3a-351e-bed7-a4b75a240fb4?w=1200&fit=clip&q=80",
     "symbol": "fork.knife",
     "color": "#D35400",
     "categoryId": "mat",
-    "readMinutes": 2
-  },
-  {
-    "id": "blalys",
-    "scope": "category",
-    "title": "Blålys",
-    "kicker": "Krim og ulykker",
-    "headline": "Tre saker politiet etterforsker",
-    "intro": "En knivstikking, et skudd gjennom et vindu og et dødsfall som aldri ble oppklart. Dette vet vi.",
-    "points": [
-      { "title": "Knivstikking ved institusjon", "text": "Fornærmede ble ikke alvorlig skadet. Gjerningspersonen bor på stedet og er siktet.", "articleId": "eG5bky" },
-      { "title": "Jeger siktet etter skudd mot hus", "text": "Siktelsen kommer fordi politiet har tatt beslag i våpenet hans. Han erkjenner ikke straffskyld.", "articleId": "eGz299" },
-      { "title": "Tapt kameraopptak fra Skansen", "text": "Opptaket fra Redningsselskapets andre kamera ble overskrevet før politiet rakk å sikre det.", "articleId": "aJy014" }
-    ],
-    "itemIds": [],
-    "imageUrl": "https://vcdn.polarismedia.no/b0df18a4-040a-3b4a-818e-a93e9257a7b5?w=1200&fit=clip&q=80",
-    "symbol": "light.beacon.max.fill",
-    "color": "#101010",
-    "categoryId": "krim",
     "readMinutes": 2
   },
   {
@@ -138,13 +559,28 @@
     "title": "Helse",
     "kicker": "Helse og trening",
     "headline": "Tilbakefall er normalt, sier eksperten",
-    "intro": "Hege gikk opp i vekt igjen, og unge leger står i tøffe nattevakter. To historier om å stå i det.",
+    "intro": "Hege gikk opp i vekt igjen, unge leger står i tøffe nattevakter, og det nye sjukehuset i Molde har åpnet.",
     "points": [
-      { "title": "Hege fant tilbake til treningsgleden", "text": "Etter en tung periode og dårlige blodprøver tok hun på seg treningstøyet første juledag. Nå har hun fullført sin første Hyrox.", "articleId": "JO8X9P" },
-      { "title": "– Det er lov å gjøre feil", "text": "Utdanningssjef Brita Pukstad på St. Olav sier ferske leger skal være usikre, men aldri utrygge.", "articleId": "OgnOdV" },
-      { "title": "Løp med Løpeklubben", "text": "Rolig tur på 5 eller 8 kilometer langs Nidelva fra Gløshaugen. Ingen påmelding." }
+      {
+        "title": "Hege fant tilbake til treningsgleden",
+        "text": "Etter en tung periode har hun fullført sin første Hyrox.",
+        "articleId": "JO8X9P"
+      },
+      {
+        "title": "– Det er lov å gjøre feil",
+        "text": "Ferske leger på St. Olav skal være usikre, men aldri alene.",
+        "articleId": "OgnOdV"
+      },
+      {
+        "title": "Nye sjukehuset på Hjelset",
+        "text": "De første pasientene er tatt imot.",
+        "articleId": "mHjl2s"
+      }
     ],
-    "itemIds": ["evt_lopeklubben"],
+    "itemIds": [
+      "evt_lopeklubben",
+      "ad_pulsen_trening"
+    ],
     "imageUrl": "https://vcdn.polarismedia.no/1e37e364-a957-3b9d-87e7-380ef5acdf8b?w=1200&fit=clip&q=80",
     "symbol": "heart.fill",
     "color": "#16A085",

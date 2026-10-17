@@ -51,14 +51,6 @@ struct AdCardView: View {
                         .lineSpacing(3)
                         .padding(.horizontal, 20)
                 }
-
-                Label("Vis studentbevis i kassen", systemImage: "person.text.rectangle")
-                    .font(.system(size: 15, weight: .semibold))
-                    .foregroundStyle(Theme.ink)
-                    .frame(maxWidth: .infinity)
-                    .padding(.vertical, 14)
-                    .background(Theme.korngul.opacity(0.18), in: .capsule)
-                    .padding(.horizontal, 20)
             }
             .padding(.top, 16)
             .padding(.bottom, 56)

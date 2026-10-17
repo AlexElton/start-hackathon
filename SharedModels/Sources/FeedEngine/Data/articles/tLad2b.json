@@ -1,0 +1,88 @@
+{
+ "id": "tLad2b",
+ "schemaType": "article",
+ "title": {
+  "value": "200 nye leiligheter planlagt på Lade"
+ },
+ "urls": {
+  "canonical": "https://www.adressa.no/trondheim/i/tLad2b/200-nye-leiligheter-planlagt-pa-lade"
+ },
+ "changes": {
+  "published": "2026-10-17T08:00:00Z",
+  "updated": null
+ },
+ "section": {
+  "title": "Trondheim"
+ },
+ "newsroom": "adressa",
+ "authors": [
+  {
+   "fullname": "Eirik Nordgård"
+  }
+ ],
+ "tags": [
+  {
+   "title": "Lade",
+   "type": "tag"
+  },
+  {
+   "title": "boliger",
+   "type": "tag"
+  },
+  {
+   "title": "byutvikling",
+   "type": "tag"
+  }
+ ],
+ "intro": {
+  "lead": "Utbyggeren vil reservere en del av leilighetene for førstegangskjøpere."
+ },
+ "customProperties": {
+  "frontPageImage": {
+   "id": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Ladeveien.jpg/960px-Ladeveien.jpg"
+  },
+  "wordCount": 74
+ },
+ "components": [
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Utbyggeren har søkt om å bygge 220 leiligheter i fem bygg på den gamle industritomta ved Ladebekken."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "30 av leilighetene skal selges med rabatt til folk som kjøper sin første bolig, etter en modell fra Oslo."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "– Det skal være mulig for unge å kjøpe seg inn i byen, sier prosjektleder Henrik Følstad."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Naboene er bekymret for mer trafikk. Kommunen skal behandle planen i januar."
+     }
+    }
+   ]
+  }
+ ]
+}

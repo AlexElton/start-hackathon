@@ -1,0 +1,78 @@
+{
+ "id": "mFsk0q",
+ "schemaType": "article",
+ "title": {
+  "value": "Torskekvoten kuttes igjen: – Tøft for kystflåten"
+ },
+ "urls": {
+  "canonical": "https://www.smp.no/naeringsliv/i/mFsk0q/torskekvoten-kuttes-igjen-toft-for-kystflaten"
+ },
+ "changes": {
+  "published": "2026-10-17T08:00:00Z",
+  "updated": null
+ },
+ "section": {
+  "title": "Næringsliv"
+ },
+ "newsroom": "smp",
+ "authors": [
+  {
+   "fullname": "Silje Vartdal"
+  }
+ ],
+ "tags": [
+  {
+   "title": "fiskeri",
+   "type": "tag"
+  },
+  {
+   "title": "torsk",
+   "type": "tag"
+  },
+  {
+   "title": "kvoter",
+   "type": "tag"
+  }
+ ],
+ "intro": {
+  "lead": "Forskerne anbefaler et nytt kutt i Barentshavet. Fiskerne på Sunnmøre er bekymret."
+ },
+ "customProperties": {
+  "frontPageImage": {
+   "id": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/SJARK_fiskeb%C3%A5t_fiskegarn_Salg_av_fisk_fra_b%C3%A5t_ved_kai_%28SANGIS_R-5-S_10%2C5x4%2C6m_2000%29_%C3%98STERV%C3%85GKAIEN_Stavanger_havn_harbour_NORWAY_2022-03-29_Sale_from_fishing_boat_Garnrulle_Net_drum_winch_Foto_fra_Jorenholmen_P-hus_A.jpg/960px-thumbnail.jpg"
+  },
+  "wordCount": 59
+ },
+ "components": [
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Havforskerne anbefaler å kutte torskekvoten i Barentshavet med 15 prosent neste år. Det er det tredje kuttet på rad."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "– Det blir tøft for kystflåten. Noen kommer til å måtte gi seg, sier fisker Arnt Liavåg."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Endelig kvote fastsettes av Norge og Russland i slutten av måneden."
+     }
+    }
+   ]
+  }
+ ]
+}

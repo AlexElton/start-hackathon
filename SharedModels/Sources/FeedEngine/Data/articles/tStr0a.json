@@ -1,0 +1,104 @@
+{
+ "id": "tStr0a",
+ "schemaType": "article",
+ "title": {
+  "value": "Strømprisen stiger: Slik sparer du i vinter"
+ },
+ "urls": {
+  "canonical": "https://www.adressa.no/nyheter/i/tStr0a/stromprisen-stiger-slik-sparer-du-i-vinter"
+ },
+ "changes": {
+  "published": "2026-10-17T08:00:00Z",
+  "updated": null
+ },
+ "section": {
+  "title": "Nyheter"
+ },
+ "newsroom": "adressa",
+ "authors": [
+  {
+   "fullname": "Lene Fossum"
+  }
+ ],
+ "tags": [
+  {
+   "title": "strøm",
+   "type": "tag"
+  },
+  {
+   "title": "strømpris",
+   "type": "tag"
+  },
+  {
+   "title": "sparing",
+   "type": "tag"
+  }
+ ],
+ "intro": {
+  "lead": "Kaldt vær og lite vind gir høyere priser fra neste uke. Her er de enkleste grepene."
+ },
+ "customProperties": {
+  "frontPageImage": {
+   "id": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/12._Vinter_i_Norge_%2815985469560%29.jpg/960px-12._Vinter_i_Norge_%2815985469560%29.jpg"
+  },
+  "wordCount": 88
+ },
+ "components": [
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Kaldere vær og lite vind gjør at strømprisen i Midt-Norge ventes å stige neste uke."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "– Det viktigste er å flytte forbruket bort fra morgen og ettermiddag, sier forbrukerøkonom Lene Tangen."
+     }
+    }
+   ]
+  },
+  {
+   "type": "subheading",
+   "text": {
+    "value": "Fem raske grep"
+   }
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Senk temperaturen med én grad. Det sparer rundt fem prosent av oppvarmingen."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Vask klær og ta oppvasken om kvelden eller natta, når strømmen er billigst."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Bor du i kollektiv, kan dere dele én strømavtale med lavt påslag."
+     }
+    }
+   ]
+  }
+ ]
+}

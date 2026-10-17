@@ -1,0 +1,78 @@
+{
+ "id": "tMlh9n",
+ "schemaType": "article",
+ "title": {
+  "value": "Pendlerne i Melhus vil ha tog hver halvtime"
+ },
+ "urls": {
+  "canonical": "https://www.tronderbladet.no/melhus/i/tMlh9n/pendlerne-i-melhus-vil-ha-tog-hver-halvtime"
+ },
+ "changes": {
+  "published": "2026-10-17T08:00:00Z",
+  "updated": null
+ },
+ "section": {
+  "title": "Melhus"
+ },
+ "newsroom": "tronderbladet",
+ "authors": [
+  {
+   "fullname": "Tor Hoel"
+  }
+ ],
+ "tags": [
+  {
+   "title": "Melhus",
+   "type": "tag"
+  },
+  {
+   "title": "tog",
+   "type": "tag"
+  },
+  {
+   "title": "pendlere",
+   "type": "tag"
+  }
+ ],
+ "intro": {
+  "lead": "Over 1000 har skrevet under på et opprop for flere avganger til Trondheim."
+ },
+ "customProperties": {
+  "frontPageImage": {
+   "id": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Melhus_sentrum%2C_hovedgata_%283%29.JPG/960px-Melhus_sentrum%2C_hovedgata_%283%29.JPG"
+  },
+  "wordCount": 65
+ },
+ "components": [
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Et opprop for flere tog fra Melhus har fått over 1000 underskrifter på en uke."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "– Mange vil ta toget til jobb og skole i Trondheim, men når det bare går én gang i timen, blir det bil, sier initiativtaker Marit Gåsbakk."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Trøndelag fylkeskommune sier saken vurderes i arbeidet med neste ruteplan."
+     }
+    }
+   ]
+  }
+ ]
+}

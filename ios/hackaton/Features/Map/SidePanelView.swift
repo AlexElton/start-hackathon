@@ -79,7 +79,7 @@ private struct SidePanelCard: View {
 
     var body: some View {
         VStack(alignment: .leading, spacing: 0) {
-            HeroImage(url: item.imageUrl, height: 150, minimumCornerRadius: 14)
+            HeroImage(url: item.imageUrl, height: 150, minimumCornerRadius: 18, squareBottom: true)
 
             VStack(alignment: .leading, spacing: 8) {
                 HStack(spacing: 12) {

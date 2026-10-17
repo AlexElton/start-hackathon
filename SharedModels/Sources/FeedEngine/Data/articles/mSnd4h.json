@@ -1,0 +1,78 @@
+{
+ "id": "mSnd4h",
+ "schemaType": "article",
+ "title": {
+  "value": "Aluminiumsverket på Sunndalsøra investerer 1,2 milliarder"
+ },
+ "urls": {
+  "canonical": "https://www.driva.no/sunndal/i/mSnd4h/aluminiumsverket-pa-sunndalsora-investerer-1-2-milliarder"
+ },
+ "changes": {
+  "published": "2026-10-17T08:00:00Z",
+  "updated": null
+ },
+ "section": {
+  "title": "Sunndal"
+ },
+ "newsroom": "driva",
+ "authors": [
+  {
+   "fullname": "Ragnhild Sande"
+  }
+ ],
+ "tags": [
+  {
+   "title": "Sunndalsøra",
+   "type": "tag"
+  },
+  {
+   "title": "aluminium",
+   "type": "tag"
+  },
+  {
+   "title": "industri",
+   "type": "tag"
+  }
+ ],
+ "intro": {
+  "lead": "Investeringen skal kutte utslipp og sikre 700 arbeidsplasser."
+ },
+ "customProperties": {
+  "frontPageImage": {
+   "id": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Hydro_Aluminium_Karm%C3%B8y_sett_fr%C3%A5_Karmsundet.jpg/960px-Hydro_Aluminium_Karm%C3%B8y_sett_fr%C3%A5_Karmsundet.jpg"
+  },
+  "wordCount": 47
+ },
+ "components": [
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Aluminiumsverket på Sunndalsøra skal bruke 1,2 milliarder kroner på ny teknologi de neste tre årene."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "– Det sikrer arbeidsplassene her i lang tid, sier tillitsvalgt Bjørn Øye."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Verket har over 700 ansatte og er den største arbeidsplassen i kommunen."
+     }
+    }
+   ]
+  }
+ ]
+}

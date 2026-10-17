@@ -1,0 +1,78 @@
+{
+ "id": "mUls8v",
+ "schemaType": "article",
+ "title": {
+  "value": "Verftet i Ulsteinvik får kontrakt på nytt forskingsskip"
+ },
+ "urls": {
+  "canonical": "https://www.vikebladet.no/ulstein/i/mUls8v/verftet-i-ulsteinvik-far-kontrakt-pa-nytt-forskingsskip"
+ },
+ "changes": {
+  "published": "2026-10-17T08:00:00Z",
+  "updated": null
+ },
+ "section": {
+  "title": "Ulstein"
+ },
+ "newsroom": "vikebladet-vestposten",
+ "authors": [
+  {
+   "fullname": "Per Arne Hareide"
+  }
+ ],
+ "tags": [
+  {
+   "title": "Ulsteinvik",
+   "type": "tag"
+  },
+  {
+   "title": "verft",
+   "type": "tag"
+  },
+  {
+   "title": "kontrakt",
+   "type": "tag"
+  }
+ ],
+ "intro": {
+  "lead": "Kontrakten gir arbeid til over 300 i to år."
+ },
+ "customProperties": {
+  "frontPageImage": {
+   "id": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Ulstein_hasundhornet.jpg/960px-Ulstein_hasundhornet.jpg"
+  },
+  "wordCount": 53
+ },
+ "components": [
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Verftet i Ulsteinvik har signert kontrakt på eit nytt forskingsskip som skal gå på hydrogen og batteri."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Kontrakten gir arbeid til over 300 tilsette og underleverandørar i to år."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "– Dette viser at maritim industri på Sunnmøre framleis er i verdstoppen, seier dagleg leiar."
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -34,7 +34,9 @@ final class SummaryViewModel {
                 return nil
             }, uniquingKeysWith: { first, _ in first })
             items = Dictionary(try await otherPage.items.map { ($0.id, $0) }, uniquingKeysWith: { first, _ in first })
-            paperNames = Dictionary(try await papers.map { ($0.id, $0.name) }, uniquingKeysWith: { first, _ in first })
+            let loadedPapers = try await papers
+            paperNames = Dictionary(loadedPapers.map { ($0.id, $0.name) }, uniquingKeysWith: { first, _ in first })
+            PaperLogos.register(loadedPapers)
             if selectedId == nil || !digests.contains(where: { $0.id == selectedId }) {
                 selectedId = digests.first?.id
             }

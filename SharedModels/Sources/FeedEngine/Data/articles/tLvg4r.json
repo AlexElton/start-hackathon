@@ -1,0 +1,78 @@
+{
+ "id": "tLvg4r",
+ "schemaType": "article",
+ "title": {
+  "value": "Ny gang- og sykkelbru åpner i Levanger"
+ },
+ "urls": {
+  "canonical": "https://www.innherred.no/levanger/i/tLvg4r/ny-gang-og-sykkelbru-apner-i-levanger"
+ },
+ "changes": {
+  "published": "2026-10-17T08:00:00Z",
+  "updated": null
+ },
+ "section": {
+  "title": "Levanger"
+ },
+ "newsroom": "innherred",
+ "authors": [
+  {
+   "fullname": "Hanne Sende"
+  }
+ ],
+ "tags": [
+  {
+   "title": "Levanger",
+   "type": "tag"
+  },
+  {
+   "title": "gangbru",
+   "type": "tag"
+  },
+  {
+   "title": "sykkel",
+   "type": "tag"
+  }
+ ],
+ "intro": {
+  "lead": "Brua over Levangerelva gir en tryggere skolevei for 400 elever."
+ },
+ "customProperties": {
+  "frontPageImage": {
+   "id": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Kulturmilj%C3%B8Levanger.jpg/960px-Kulturmilj%C3%B8Levanger.jpg"
+  },
+  "wordCount": 51
+ },
+ "components": [
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Fredag klipper ordføreren snoren på den nye gang- og sykkelbrua over Levangerelva."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Brua gjør at elevene på Nesset slipper å gå langs fylkesveien til skolen."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "– Dette har foreldrene kjempet for lenge. Nå kan barna sykle trygt, sier FAU-leder Knut Ottem."
+     }
+    }
+   ]
+  }
+ ]
+}

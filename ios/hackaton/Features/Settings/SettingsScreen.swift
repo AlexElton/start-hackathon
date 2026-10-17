@@ -1,7 +1,11 @@
+import SharedModels
 import SwiftUI
 
 struct SettingsScreen: View {
+    @Environment(AppEnvironment.self) private var environment
     @Environment(SettingsStore.self) private var settings
+    @State private var categories: [SharedModels.Category] = []
+    @State private var isEditing = false
 
     var body: some View {
         @Bindable var settings = settings
@@ -16,38 +20,46 @@ struct SettingsScreen: View {
                     }
                 }
 
-                Section("Intro") {
-                    Toggle("Intro ved hver oppstart", isOn: $settings.introOnEveryLaunch)
-                }
-
                 Section {
-                    Toggle("Onboarding ved hver oppstart", isOn: $settings.onboardingOnEveryLaunch)
-                    Button("Spill av intro") {
-                        settings.pendingGlobeIntro = true
-                    }
-                    Button("Start onboarding på nytt") {
-                        settings.resetOnboarding()
+                    LabeledContent("Interesser", value: summary(categoryIds: settings.preferredCategories, words: settings.interestWords))
+                    LabeledContent("Skjult", value: summary(categoryIds: settings.blockedCategories, words: settings.mutedWords))
+                    Button("Endre valgene dine") {
+                        isEditing = true
                     }
                 } header: {
-                    Text("Demo")
-                } footer: {
-                    Text("Når bryteren er på, starter appen med en helt ny onboarding hver gang den åpnes.")
+                    Text("Ditt kart")
                 }
 
                 Section {
-                    LabeledContent("Versjon", value: Self.appVersion)
+                    Toggle("Intro ved oppstart", isOn: $settings.introOnEveryLaunch)
+                    Toggle("Onboarding ved oppstart", isOn: $settings.onboardingOnEveryLaunch)
+                } header: {
+                    Label("Utviklerinnstillinger", systemImage: "hammer")
+                } footer: {
+                    Text("Kun for testing og demo. Ikke en del av appen for vanlige brukere.")
                 }
             }
             .navigationTitle("Innstillinger")
+            // Steps 1 and 2 only, opened with the current choices; saving comes straight back here.
+            .fullScreenCover(isPresented: $isEditing) {
+                OnboardingFlow { isEditing = false }
+            }
+            .task {
+                categories = (try? await environment.feed.categories()) ?? []
+            }
         }
     }
 
-    private static var appVersion: String {
-        Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? "–"
+    private func summary(categoryIds: [String], words: [String]) -> String {
+        let names = categoryIds.compactMap { id in categories.first { $0.id == id }?.name } + words
+        guard let first = names.first else { return "Ingen" }
+        return names.count == 1 ? first : "\(first) +\(names.count - 1)"
     }
 }
 
 #Preview {
+    let env = AppEnvironment.preview()
     SettingsScreen()
-        .environment(AppEnvironment.preview().settings)
+        .environment(env.settings)
+        .environment(env)
 }

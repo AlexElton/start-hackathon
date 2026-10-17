@@ -37,10 +37,10 @@ final class APITests: XCTestCase {
 
     func testFeedReturnsEveryPinEventAndDeal() async throws {
         let page = try await feed()
-        XCTAssertEqual(page.total, 30)
-        XCTAssertEqual(page.items.filter { $0.kind == .article }.count, 22)
-        XCTAssertEqual(page.items.filter { $0.kind == .event }.count, 4)
-        XCTAssertEqual(page.items.filter { $0.kind == .ad }.count, 4)
+        XCTAssertEqual(page.total, 116)
+        XCTAssertEqual(page.items.filter { $0.kind == .article }.count, 70)
+        XCTAssertEqual(page.items.filter { $0.kind == .event }.count, 25)
+        XCTAssertEqual(page.items.filter { $0.kind == .ad }.count, 21)
         XCTAssertEqual(Set(page.items.map(\.id)).count, page.items.count, "ids must be unique")
     }
 
@@ -56,16 +56,21 @@ final class APITests: XCTestCase {
     func testUnplacedArticleHasNoLocationAndIsOutsideBbox() async throws {
         let all = try await feed("?kinds=article")
         let unplaced = all.items.filter { $0.location == nil }
-        XCTAssertEqual(unplaced.map(\.id), ["eG5bky"], "the unplaced article appears once, without a bbox")
+        XCTAssertEqual(Set(unplaced.map(\.id)), ["eG5bky", "tStr0a", "tStu1d", "tKom2c", "mFsk0q", "nKom5z", "sBns1y"],
+                       "each unplaced article appears once, without a bbox")
+        XCTAssertEqual(unplaced.count, 7)
         let boxed = try await feed("?kinds=article&bbox=63.3,10.2,63.5,10.6")
         XCTAssertFalse(boxed.items.contains { $0.id == "eG5bky" }, "unplaced articles never match a bbox")
     }
 
     func testTonightIsEventsAfterFourAndDeals() async throws {
         let page = try await feed("?when=tonight")
-        XCTAssertEqual(Set(page.items.filter { $0.kind == .event }.map(\.id)), ["evt_quiz_lyche", "evt_smashburger_hammerhead"])
+        XCTAssertEqual(Set(page.items.filter { $0.kind == .event }.map(\.id)), [
+            "evt_quiz_lyche", "evt_smashburger_hammerhead", "evt_rockheim_fredag", "evt_workwork_standup",
+            "evt_tromso_nordlys", "evt_arendal_quiz",
+        ])
         XCTAssertFalse(page.items.contains { $0.kind == .article })
-        XCTAssertEqual(page.items.filter { $0.kind == .ad }.count, 4)
+        XCTAssertEqual(page.items.filter { $0.kind == .ad }.count, 21)
     }
 
     func testNearFillsDistanceAndRadiusFilters() async throws {
@@ -98,7 +103,7 @@ final class APITests: XCTestCase {
         XCTAssertEqual(Set(bakklandet.items.compactMap(\.location?.name)), ["Den Gode Nabo, Bakklandet", "Daglig Deig, Bakklandet", "Burger.no, Nedre Bakklandet"])
         let limited = try await feed("?limit=3")
         XCTAssertEqual(limited.items.count, 3)
-        XCTAssertEqual(limited.total, 30)
+        XCTAssertEqual(limited.total, 116)
     }
 
     func testBadQueryIsRejected() async throws {
@@ -117,6 +122,18 @@ final class APITests: XCTestCase {
                 XCTAssertFalse(article.body.isEmpty, id)
                 XCTAssertNotNil(article.imageUrl, id)
                 XCTAssertTrue(article.sourceUrl.hasPrefix("https://www.adressa.no/"), id)
+            }
+        }
+    }
+
+    func testAddedArticlesLinkToTheirOwnPaper() async throws {
+        for (id, site) in [("mAls3k", "https://www.smp.no/"), ("nTrm2l", "https://www.itromso.no/"), ("sKld4t", "https://www.fvn.no/")] {
+            try await app.test(.GET, "api/v1/articles/\(id)") { res async throws in
+                XCTAssertEqual(res.status, .ok, id)
+                let article = try JSONDecoder.api.decode(ArticleDetail.self, from: res.body)
+                XCTAssertFalse(article.body.isEmpty, id)
+                XCTAssertTrue(article.imageUrl?.hasPrefix("https://upload.wikimedia.org/") ?? false, id)
+                XCTAssertTrue(article.sourceUrl.hasPrefix(site), id)
             }
         }
     }
@@ -149,7 +166,7 @@ final class APITests: XCTestCase {
         try await app.test(.GET, "api/v1/digests") { res async throws in
             XCTAssertEqual(res.status, .ok)
             let digests = try JSONDecoder.api.decode([SharedModels.Digest].self, from: res.body)
-            XCTAssertEqual(digests.count, 8)
+            XCTAssertEqual(digests.count, 14)
             XCTAssertEqual(Set(digests.map(\.scope)), [.day, .week, .category, .place])
             XCTAssertTrue(digests.allSatisfy { !$0.points.isEmpty })
         }

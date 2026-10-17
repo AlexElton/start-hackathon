@@ -1,0 +1,78 @@
+{
+ "id": "nHrs6b",
+ "schemaType": "article",
+ "title": {
+  "value": "Festspillene i Nord-Norge vil satse på ungdom"
+ },
+ "urls": {
+  "canonical": "https://www.ht.no/kultur/i/nHrs6b/festspillene-i-nord-norge-vil-satse-pa-ungdom"
+ },
+ "changes": {
+  "published": "2026-10-17T08:00:00Z",
+  "updated": null
+ },
+ "section": {
+  "title": "Kultur"
+ },
+ "newsroom": "harstad-tidende",
+ "authors": [
+  {
+   "fullname": "Siv Pettersen"
+  }
+ ],
+ "tags": [
+  {
+   "title": "Festspillene",
+   "type": "tag"
+  },
+  {
+   "title": "Harstad",
+   "type": "tag"
+  },
+  {
+   "title": "kultur",
+   "type": "tag"
+  }
+ ],
+ "intro": {
+  "lead": "Neste år blir det en egen scene for unge artister i Harstad sentrum."
+ },
+ "customProperties": {
+  "frontPageImage": {
+   "id": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Harstad_Wikipedia_CreativeCommons_v2_SteveNilsen_01.jpg/960px-Harstad_Wikipedia_CreativeCommons_v2_SteveNilsen_01.jpg"
+  },
+  "wordCount": 61
+ },
+ "components": [
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Festspillene i Nord-Norge vil nå flere unge. Neste år blir det en egen scene for unge artister i Harstad sentrum."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "– Vi vil at festspillene skal føles som noe for alle. Derfor koster det halv pris for alle under 25, sier festspillsjef Elin Strand."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Programmet slippes i mars."
+     }
+    }
+   ]
+  }
+ ]
+}

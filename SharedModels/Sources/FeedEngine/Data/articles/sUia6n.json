@@ -1,0 +1,78 @@
+{
+ "id": "sUia6n",
+ "schemaType": "article",
+ "title": {
+  "value": "Rekordmange vil studere ved UiA"
+ },
+ "urls": {
+  "canonical": "https://www.fvn.no/kristiansand/i/sUia6n/rekordmange-vil-studere-ved-uia"
+ },
+ "changes": {
+  "published": "2026-10-17T08:00:00Z",
+  "updated": null
+ },
+ "section": {
+  "title": "Kristiansand"
+ },
+ "newsroom": "fvn",
+ "authors": [
+  {
+   "fullname": "Thomas Fjeld"
+  }
+ ],
+ "tags": [
+  {
+   "title": "UiA",
+   "type": "tag"
+  },
+  {
+   "title": "studenter",
+   "type": "tag"
+  },
+  {
+   "title": "søkertall",
+   "type": "tag"
+  }
+ ],
+ "intro": {
+  "lead": "Universitetet i Agder har aldri hatt flere søkere. Nå trengs flere boliger."
+ },
+ "customProperties": {
+  "frontPageImage": {
+   "id": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/At_University_of_Agder.jpg/960px-At_University_of_Agder.jpg"
+  },
+  "wordCount": 53
+ },
+ "components": [
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Universitetet i Agder hadde over 15 000 søkere i år. Det er ny rekord."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Sykepleie, data og lærerutdanning er mest populært."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "– Det er gledelig, men vi må ha flere boliger. Vi planlegger 300 nye på Gimlemoen, sier boligsjef i SiA."
+     }
+    }
+   ]
+  }
+ ]
+}

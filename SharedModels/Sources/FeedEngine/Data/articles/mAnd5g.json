@@ -1,0 +1,78 @@
+{
+ "id": "mAnd5g",
+ "schemaType": "article",
+ "title": {
+  "value": "Rekordsesong for Romsdalsgondolen"
+ },
+ "urls": {
+  "canonical": "https://www.andalsnes-avis.no/rauma/i/mAnd5g/rekordsesong-for-romsdalsgondolen"
+ },
+ "changes": {
+  "published": "2026-10-17T08:00:00Z",
+  "updated": null
+ },
+ "section": {
+  "title": "Rauma"
+ },
+ "newsroom": "andalsnes-avis",
+ "authors": [
+  {
+   "fullname": "Tone Rekdal"
+  }
+ ],
+ "tags": [
+  {
+   "title": "Romsdalsgondolen",
+   "type": "tag"
+  },
+  {
+   "title": "turisme",
+   "type": "tag"
+  },
+  {
+   "title": "Åndalsnes",
+   "type": "tag"
+  }
+ ],
+ "intro": {
+  "lead": "Over 150 000 har tatt gondolen til Nesaksla i år."
+ },
+ "customProperties": {
+  "frontPageImage": {
+   "id": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/View_of_Romsdalsgondolen.jpg/960px-View_of_Romsdalsgondolen.jpg"
+  },
+  "wordCount": 56
+ },
+ "components": [
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Romsdalsgondolen har fraktet over 150 000 passasjerer til toppen av Nesaksla i år. Det er ny rekord."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "– Vi ser flere turister fra Asia og USA, men også mange nordmenn som tar en helgetur, sier daglig leder Kari Hjelle."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Gondolen holder åpent i helgene hele vinteren."
+     }
+    }
+   ]
+  }
+ ]
+}

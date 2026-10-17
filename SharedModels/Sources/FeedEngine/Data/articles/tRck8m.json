@@ -1,0 +1,94 @@
+{
+ "id": "tRck8m",
+ "schemaType": "article",
+ "title": {
+  "value": "Rockheim åpner utstilling om trøndersk hiphop"
+ },
+ "urls": {
+  "canonical": "https://www.adressa.no/kultur/i/tRck8m/rockheim-apner-utstilling-om-trondersk-hiphop"
+ },
+ "changes": {
+  "published": "2026-10-17T08:00:00Z",
+  "updated": null
+ },
+ "section": {
+  "title": "Kultur"
+ },
+ "newsroom": "adressa",
+ "authors": [
+  {
+   "fullname": "Jonas Strand"
+  }
+ ],
+ "tags": [
+  {
+   "title": "Rockheim",
+   "type": "tag"
+  },
+  {
+   "title": "hiphop",
+   "type": "tag"
+  },
+  {
+   "title": "utstilling",
+   "type": "tag"
+  }
+ ],
+ "intro": {
+  "lead": "Fra Ila til hitlistene: Den nye utstillingen viser hvordan Trondheim ble en hiphopby."
+ },
+ "customProperties": {
+  "frontPageImage": {
+   "id": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Trondheim_havn_Bratt%C3%B8ra_03.jpg/960px-Trondheim_havn_Bratt%C3%B8ra_03.jpg"
+  },
+  "wordCount": 101
+ },
+ "components": [
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Fredag åpner Rockheim utstillingen «Fra Ila til lista», om hvordan Trondheim ble en av landets viktigste hiphopbyer."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Utstillingen viser alt fra hjemmelagde kassetter fra 90-tallet til mikrofonene som ble brukt på noen av de mest strømmede låtene fra byen."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "– Trondheim har hatt et miljø som har heiet på hverandre i stedet for å konkurrere. Det har gitt mange artister et sted å vokse, sier kurator Hanna Vik."
+     }
+    }
+   ]
+  },
+  {
+   "type": "subheading",
+   "text": {
+    "value": "Konserter hver fredag"
+   }
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Hele høsten blir det små konserter i utstillingen fredag ettermiddag. Studenter kommer inn for halv pris."
+     }
+    }
+   ]
+  }
+ ]
+}

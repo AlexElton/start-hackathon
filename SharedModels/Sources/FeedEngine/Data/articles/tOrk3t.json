@@ -1,0 +1,78 @@
+{
+ "id": "tOrk3t",
+ "schemaType": "article",
+ "title": {
+  "value": "Orkanger havn skal utvides for 300 millioner"
+ },
+ "urls": {
+  "canonical": "https://www.avisa-st.no/orkland/i/tOrk3t/orkanger-havn-skal-utvides-for-300-millioner"
+ },
+ "changes": {
+  "published": "2026-10-17T08:00:00Z",
+  "updated": null
+ },
+ "section": {
+  "title": "Orkland"
+ },
+ "newsroom": "sor-trondelag",
+ "authors": [
+  {
+   "fullname": "Bente Moe"
+  }
+ ],
+ "tags": [
+  {
+   "title": "Orkanger",
+   "type": "tag"
+  },
+  {
+   "title": "havn",
+   "type": "tag"
+  },
+  {
+   "title": "næring",
+   "type": "tag"
+  }
+ ],
+ "intro": {
+  "lead": "Havna vil ta imot større skip og få landstrøm."
+ },
+ "customProperties": {
+  "frontPageImage": {
+   "id": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Orkanger_havn_06.jpg/960px-Orkanger_havn_06.jpg"
+  },
+  "wordCount": 59
+ },
+ "components": [
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Trondheim Havn vil bygge en ny kai på Orkanger for å ta imot større skip."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "– Godsmengden har økt med 30 prosent på fem år. Vi må ha mer plass, sier havnedirektøren."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Den nye kaia skal ha landstrøm, slik at skipene kan slå av motorene når de ligger til kai."
+     }
+    }
+   ]
+  }
+ ]
+}

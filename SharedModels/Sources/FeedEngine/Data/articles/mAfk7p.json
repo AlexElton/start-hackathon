@@ -1,0 +1,78 @@
+{
+ "id": "mAfk7p",
+ "schemaType": "article",
+ "title": {
+  "value": "AaFK-fansen fylte Color Line Stadion"
+ },
+ "urls": {
+  "canonical": "https://www.smp.no/sport/i/mAfk7p/aafk-fansen-fylte-color-line-stadion"
+ },
+ "changes": {
+  "published": "2026-10-17T08:00:00Z",
+  "updated": null
+ },
+ "section": {
+  "title": "Sport"
+ },
+ "newsroom": "smp",
+ "authors": [
+  {
+   "fullname": "Kjetil Hessen"
+  }
+ ],
+ "tags": [
+  {
+   "title": "Aalesund",
+   "type": "tag"
+  },
+  {
+   "title": "AaFK",
+   "type": "tag"
+  },
+  {
+   "title": "fotball",
+   "type": "tag"
+  }
+ ],
+ "intro": {
+  "lead": "Over 9000 så hjemmelaget vinne lokaloppgjøret."
+ },
+ "customProperties": {
+  "frontPageImage": {
+   "id": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Alesund_-_Color_Line_Stadion_-_Sunnmorshallen.jpg/960px-Alesund_-_Color_Line_Stadion_-_Sunnmorshallen.jpg"
+  },
+  "wordCount": 41
+ },
+ "components": [
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Over 9000 tilskuere så Aalesund vinne 2–1 i lokaloppgjøret søndag."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Vinnermålet kom på overtid, og stadion eksploderte."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "– Det er derfor vi elsker denne klubben. Det er hele byen som spiller, sier supporterleder Anne Remøy."
+     }
+    }
+   ]
+  }
+ ]
+}

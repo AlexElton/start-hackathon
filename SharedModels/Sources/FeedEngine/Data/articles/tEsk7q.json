@@ -1,0 +1,88 @@
+{
+ "id": "tEsk7q",
+ "schemaType": "article",
+ "title": {
+  "value": "Elgeseter gate bygges om: Slik blir trafikken"
+ },
+ "urls": {
+  "canonical": "https://www.adressa.no/trondheim/i/tEsk7q/elgeseter-gate-bygges-om-slik-blir-trafikken"
+ },
+ "changes": {
+  "published": "2026-10-17T08:00:00Z",
+  "updated": null
+ },
+ "section": {
+  "title": "Trondheim"
+ },
+ "newsroom": "adressa",
+ "authors": [
+  {
+   "fullname": "Vegard Lie"
+  }
+ ],
+ "tags": [
+  {
+   "title": "Elgeseter gate",
+   "type": "tag"
+  },
+  {
+   "title": "sykkel",
+   "type": "tag"
+  },
+  {
+   "title": "kollektiv",
+   "type": "tag"
+  }
+ ],
+ "intro": {
+  "lead": "Fra mandag stenges ett felt i hver retning. Bussene får egne felt."
+ },
+ "customProperties": {
+  "frontPageImage": {
+   "id": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Trondheim%2C_Elgeseter_gate_45.jpg/960px-Trondheim%2C_Elgeseter_gate_45.jpg"
+  },
+  "wordCount": 69
+ },
+ "components": [
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Mandag starter ombyggingen av Elgeseter gate til en miljøgate med brede fortau, sykkelfelt og trær."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "I anleggsperioden stenges ett felt i hver retning. Bussene får egne felt, mens bilister må regne med kø i rushtiden."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "– Vi anbefaler syklister å bruke Klostergata i stedet, sier prosjektleder Turid Aune i Statens vegvesen."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Arbeidet skal være ferdig våren 2028."
+     }
+    }
+   ]
+  }
+ ]
+}

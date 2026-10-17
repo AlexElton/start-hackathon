@@ -1,0 +1,92 @@
+{
+ "id": "tTll9e",
+ "schemaType": "article",
+ "title": {
+  "value": "Kollisjon på E6 ved Tiller: Lange køer sørover"
+ },
+ "urls": {
+  "canonical": "https://www.adressa.no/trondheim/i/tTll9e/kollisjon-pa-e6-ved-tiller-lange-koer-sorover"
+ },
+ "changes": {
+  "published": "2026-10-17T08:00:00Z",
+  "updated": null
+ },
+ "section": {
+  "title": "Trondheim"
+ },
+ "newsroom": "adressa",
+ "authors": [
+  {
+   "fullname": "Vegard Lie"
+  }
+ ],
+ "tags": [
+  {
+   "title": "E6",
+   "type": "tag"
+  },
+  {
+   "title": "Tiller",
+   "type": "tag"
+  },
+  {
+   "title": "kø",
+   "type": "tag"
+  },
+  {
+   "title": "trafikk",
+   "type": "tag"
+  }
+ ],
+ "intro": {
+  "lead": "To biler kolliderte i kryssområdet ved City Syd. Ingen er alvorlig skadet."
+ },
+ "customProperties": {
+  "frontPageImage": {
+   "id": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Kleinmachnow_Bundesautobahn_115_lub_2025-04-17.jpg/960px-Kleinmachnow_Bundesautobahn_115_lub_2025-04-17.jpg"
+  },
+  "wordCount": 73
+ },
+ "components": [
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Politiet fikk melding om kollisjonen klokka 07.42. To personbiler var involvert."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "– Det er materielle skader, og ingen er fraktet til sykehus, opplyste operasjonsleder i Trøndelag politidistrikt."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Ett felt sørover var stengt i over en time mens bilene ble fjernet, og det var lang kø fra Sluppen."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Veitrafikksentralen ber bilister som skal sørover i ettermiddag om å følge med på trafikkmeldingene."
+     }
+    }
+   ]
+  }
+ ]
+}

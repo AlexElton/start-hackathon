@@ -11,8 +11,6 @@ struct ItemSheetView: View {
 
     @State private var index = 0
     @State private var reading: FeedItem?
-    /// Set when the reader's back button should go all the way to the map.
-    @State private var closeAfterReading = false
 
     init(selection: ItemSelection, feed: any FeedServicing, paperName: @escaping (String?) -> String, close: @escaping () -> Void) {
         self.selection = selection
@@ -44,13 +42,9 @@ struct ItemSheetView: View {
         .presentationDragIndicator(.visible)
         .presentationBackground(Theme.background)
         .sensoryFeedback(.selection, trigger: index)
-        .fullScreenCover(item: $reading, onDismiss: {
-            if closeAfterReading { close() }
-        }) { item in
-            // In a bunch, back returns to the same page in the sheet so you can keep swiping.
-            // A single item goes straight back to the map.
-            ArticleReaderView(item: item, feed: feed, paperName: paperName(item.paperId), backTitle: isBunch ? "Tilbake" : "Kart") {
-                closeAfterReading = !isBunch
+        .fullScreenCover(item: $reading) { item in
+            // Back returns to the sheet, on the same page in a bunch so you can keep swiping.
+            ArticleReaderView(item: item, feed: feed, paperName: paperName(item.paperId), backTitle: "Tilbake") {
                 reading = nil
             }
         }
@@ -109,6 +103,8 @@ struct HeroImage: View {
     let url: String?
     var height: CGFloat = 220
     var minimumCornerRadius: CGFloat = 18
+    /// For a photo sitting on top of a card: rounded top, square bottom against the text.
+    var squareBottom = false
 
     var body: some View {
         Rectangle()
@@ -122,7 +118,9 @@ struct HeroImage: View {
                     }
                 }
             }
-            .clipShape(ConcentricRectangle(corners: .concentric(minimum: .fixed(minimumCornerRadius)), isUniform: true))
+            .clipShape(squareBottom
+                ? AnyShape(.rect(topLeadingRadius: minimumCornerRadius, bottomLeadingRadius: 0, bottomTrailingRadius: 0, topTrailingRadius: minimumCornerRadius))
+                : AnyShape(ConcentricRectangle(corners: .concentric(minimum: .fixed(minimumCornerRadius)), isUniform: true)))
     }
 }
 

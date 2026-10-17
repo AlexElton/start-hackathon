@@ -1,0 +1,78 @@
+{
+ "id": "tOrl2k",
+ "schemaType": "article",
+ "title": {
+  "value": "Flere kampfly til Ørland – naboer frykter mer støy"
+ },
+ "urls": {
+  "canonical": "https://www.fosna-folket.no/orland/i/tOrl2k/flere-kampfly-til-orland-naboer-frykter-mer-stoy"
+ },
+ "changes": {
+  "published": "2026-10-17T08:00:00Z",
+  "updated": null
+ },
+ "section": {
+  "title": "Ørland"
+ },
+ "newsroom": "fosna-folket",
+ "authors": [
+  {
+   "fullname": "Arne Bjørnstad"
+  }
+ ],
+ "tags": [
+  {
+   "title": "Ørland",
+   "type": "tag"
+  },
+  {
+   "title": "kampfly",
+   "type": "tag"
+  },
+  {
+   "title": "flystøy",
+   "type": "tag"
+  }
+ ],
+ "intro": {
+  "lead": "Forsvaret flytter flere F-35 til basen. Naboene vil ha bedre støyisolering."
+ },
+ "customProperties": {
+  "frontPageImage": {
+   "id": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/48_FW%2C_NATO_soar_into_the_High_North_%289560786%29.jpg/960px-48_FW%2C_NATO_soar_into_the_High_North_%289560786%29.jpg"
+  },
+  "wordCount": 58
+ },
+ "components": [
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Forsvaret bekrefter at flere F-35-fly skal flyttes til Ørland neste år."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "– Vi har lært oss å leve med flyene, men det må gjøres mer med støyen, sier Randi Hoff, som bor rett ved rullebanen."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Ørland kommune har bedt om et nytt møte med Forsvarsbygg om støytiltak."
+     }
+    }
+   ]
+  }
+ ]
+}

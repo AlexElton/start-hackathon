@@ -1,0 +1,104 @@
+{
+ "id": "tR4mKq",
+ "schemaType": "article",
+ "title": {
+  "value": "Over 4000 står i kø for studentbolig"
+ },
+ "urls": {
+  "canonical": "https://www.adressa.no/trondheim/i/tR4mKq/over-4000-star-i-ko-for-studentbolig"
+ },
+ "changes": {
+  "published": "2026-10-17T08:00:00Z",
+  "updated": null
+ },
+ "section": {
+  "title": "Trondheim"
+ },
+ "newsroom": "adressa",
+ "authors": [
+  {
+   "fullname": "Ingrid Solberg"
+  }
+ ],
+ "tags": [
+  {
+   "title": "studentbolig",
+   "type": "tag"
+  },
+  {
+   "title": "SiT",
+   "type": "tag"
+  },
+  {
+   "title": "Moholt",
+   "type": "tag"
+  }
+ ],
+ "intro": {
+  "lead": "Køen hos Sit er den lengste på ti år. Nå vil studentsamskipnaden bygge 600 nye hybler på Moholt og Dragvoll."
+ },
+ "customProperties": {
+  "frontPageImage": {
+   "id": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Moholt_studentby_23JUL2023_04.jpg/960px-Moholt_studentby_23JUL2023_04.jpg"
+  },
+  "wordCount": 168
+ },
+ "components": [
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Da semesteret startet i august, sto 4120 studenter i kø for en studentbolig i Trondheim. Det er den lengste køen studentsamskipnaden Sit har hatt på ti år."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "– Vi ser at mange takker ja til studieplass uten å ha et sted å bo. Noen bor på hotell eller hos venner de første ukene, sier boligsjef Kari Hovde i Sit."
+     }
+    }
+   ]
+  },
+  {
+   "type": "subheading",
+   "text": {
+    "value": "Vil bygge 600 nye hybler"
+   }
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Sit har nå søkt om å bygge 600 nye hybler, fordelt på en ny blokk på Moholt studentby og et kollektivbygg ved Dragvoll. Målet er at de første studentene kan flytte inn høsten 2028."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Samtidig stiger prisene i det private markedet. Ifølge Hybel.no koster en hybel i Trondheim nå i snitt 7400 kroner i måneden, nesten 900 kroner mer enn for to år siden."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "– Det er ikke bærekraftig at studenter bruker halve studielånet på husleie, sier leder Sindre Aune i Studenttinget NTNU."
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,88 @@
+{
+ "id": "tGrn5h",
+ "schemaType": "article",
+ "title": {
+  "value": "Granåsen klar for verdenscup – trenger 300 frivillige"
+ },
+ "urls": {
+  "canonical": "https://www.adressa.no/sport/i/tGrn5h/granasen-klar-for-verdenscup-trenger-300-frivillige"
+ },
+ "changes": {
+  "published": "2026-10-17T08:00:00Z",
+  "updated": null
+ },
+ "section": {
+  "title": "Sport"
+ },
+ "newsroom": "adressa",
+ "authors": [
+  {
+   "fullname": "Martin Aarseth"
+  }
+ ],
+ "tags": [
+  {
+   "title": "Granåsen",
+   "type": "tag"
+  },
+  {
+   "title": "hopp",
+   "type": "tag"
+  },
+  {
+   "title": "verdenscup",
+   "type": "tag"
+  }
+ ],
+ "intro": {
+  "lead": "Den nye hoppbakken er godkjent. Nå trengs folk til alt fra parkering til pølsesalg."
+ },
+ "customProperties": {
+  "frontPageImage": {
+   "id": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Trondheim_-_Gran%C3%A5sen_-_2024.jpg/960px-Trondheim_-_Gran%C3%A5sen_-_2024.jpg"
+  },
+  "wordCount": 69
+ },
+ "components": [
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Granåsen er godkjent for verdenscuprenn i hopp i desember, etter ombyggingen før VM i 2025."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Nå trenger arrangøren rundt 300 frivillige til alt fra parkering og billettkontroll til kiosker."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "– Mange studenter var med under VM. Vi håper de kommer tilbake, sier frivilligkoordinator Marte Grøtte."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Frivillige får mat, jakke og billetter til et senere arrangement."
+     }
+    }
+   ]
+  }
+ ]
+}

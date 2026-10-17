@@ -1,0 +1,78 @@
+{
+ "id": "tRnh8f",
+ "schemaType": "article",
+ "title": {
+  "value": "Ranheim jakter opprykk: – Vi har ingenting å tape"
+ },
+ "urls": {
+  "canonical": "https://www.adressa.no/sport/i/tRnh8f/ranheim-jakter-opprykk-vi-har-ingenting-a-tape"
+ },
+ "changes": {
+  "published": "2026-10-17T08:00:00Z",
+  "updated": null
+ },
+ "section": {
+  "title": "Sport"
+ },
+ "newsroom": "adressa",
+ "authors": [
+  {
+   "fullname": "Martin Aarseth"
+  }
+ ],
+ "tags": [
+  {
+   "title": "Ranheim",
+   "type": "tag"
+  },
+  {
+   "title": "OBOS-ligaen",
+   "type": "tag"
+  },
+  {
+   "title": "opprykk",
+   "type": "tag"
+  }
+ ],
+ "intro": {
+  "lead": "Klubben fra østbyen ligger på kvalikplass med tre runder igjen."
+ },
+ "customProperties": {
+  "frontPageImage": {
+   "id": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/HamKam_vs_Ranheim_2011.jpg/960px-HamKam_vs_Ranheim_2011.jpg"
+  },
+  "wordCount": 65
+ },
+ "components": [
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Ranheim har vunnet fire av de fem siste kampene og ligger nå på kvalifiseringsplass til Eliteserien."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "– Vi har den yngste troppen i ligaen og ingenting å tape. Det er en god følelse, sier trener Lars Bjerkan."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Lørdag kommer et av lagene rett bak på tabellen til EXTRA Arena. Klubben håper på over 3000 tilskuere."
+     }
+    }
+   ]
+  }
+ ]
+}

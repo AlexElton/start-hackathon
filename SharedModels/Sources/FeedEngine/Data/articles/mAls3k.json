@@ -1,0 +1,78 @@
+{
+ "id": "mAls3k",
+ "schemaType": "article",
+ "title": {
+  "value": "Cruiseskipene i Ålesund får landstrøm"
+ },
+ "urls": {
+  "canonical": "https://www.smp.no/alesund/i/mAls3k/cruiseskipene-i-alesund-far-landstrom"
+ },
+ "changes": {
+  "published": "2026-10-17T08:00:00Z",
+  "updated": null
+ },
+ "section": {
+  "title": "Ålesund"
+ },
+ "newsroom": "smp",
+ "authors": [
+  {
+   "fullname": "Silje Vartdal"
+  }
+ ],
+ "tags": [
+  {
+   "title": "Ålesund",
+   "type": "tag"
+  },
+  {
+   "title": "cruise",
+   "type": "tag"
+  },
+  {
+   "title": "landstrøm",
+   "type": "tag"
+  }
+ ],
+ "intro": {
+  "lead": "Fra neste sesong kan de største skipene slå av motorene ved kai."
+ },
+ "customProperties": {
+  "frontPageImage": {
+   "id": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Cruise_ship_Pacific_Princess._Alesund._Norway.jpg/960px-Cruise_ship_Pacific_Princess._Alesund._Norway.jpg"
+  },
+  "wordCount": 74
+ },
+ "components": [
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Ålesund er en av landets største cruisehavner, med over 150 anløp i året. Nå bygger havna landstrøm ved Skansekaia."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "– Folk i sentrum har lenge klaget på eksos og støy. Dette er det viktigste vi kan gjøre for luftkvaliteten, sier havnedirektør Geir Rønneberg."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Anlegget skal stå klart til neste sesong og kan kutte utslippene fra skipene i byen med opptil 80 prosent."
+     }
+    }
+   ]
+  }
+ ]
+}

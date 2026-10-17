@@ -1,0 +1,78 @@
+{
+ "id": "nTrm2l",
+ "schemaType": "article",
+ "title": {
+  "value": "Nordlyssesongen er i gang – hotellene er fulle"
+ },
+ "urls": {
+  "canonical": "https://www.itromso.no/tromso/i/nTrm2l/nordlyssesongen-er-i-gang-hotellene-er-fulle"
+ },
+ "changes": {
+  "published": "2026-10-17T08:00:00Z",
+  "updated": null
+ },
+ "section": {
+  "title": "Tromsø"
+ },
+ "newsroom": "itromso",
+ "authors": [
+  {
+   "fullname": "Mats Hansen"
+  }
+ ],
+ "tags": [
+  {
+   "title": "nordlys",
+   "type": "tag"
+  },
+  {
+   "title": "turisme",
+   "type": "tag"
+  },
+  {
+   "title": "Tromsø",
+   "type": "tag"
+  }
+ ],
+ "intro": {
+  "lead": "Klarvær gir sterkt nordlys denne uka. Hotellene i Tromsø melder om rekordbooking."
+ },
+ "customProperties": {
+  "frontPageImage": {
+   "id": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Aurora_Borealis_Troms%C3%B8_Norway.jpg/960px-Aurora_Borealis_Troms%C3%B8_Norway.jpg"
+  },
+  "wordCount": 56
+ },
+ "components": [
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Høy solaktivitet og klarvær gir gode forhold for nordlys i Tromsø denne uka."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Hotellene i byen melder om nesten fullt hver natt fram mot jul."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "– Du trenger ikke reise langt. Prestvannet og Telegrafbukta er fine steder rett ved sentrum, sier guide Ida Johansen."
+     }
+    }
+   ]
+  }
+ ]
+}

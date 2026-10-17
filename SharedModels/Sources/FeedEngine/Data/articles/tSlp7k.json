@@ -1,0 +1,98 @@
+{
+ "id": "tSlp7k",
+ "schemaType": "article",
+ "title": {
+  "value": "Trondheims-selskap henter 80 millioner"
+ },
+ "urls": {
+  "canonical": "https://www.adressa.no/naeringsliv/i/tSlp7k/trondheims-selskap-henter-80-millioner"
+ },
+ "changes": {
+  "published": "2026-10-17T08:00:00Z",
+  "updated": null
+ },
+ "section": {
+  "title": "Næringsliv"
+ },
+ "newsroom": "adressa",
+ "authors": [
+  {
+   "fullname": "Eirik Nordgård"
+  }
+ ],
+ "tags": [
+  {
+   "title": "NTNU",
+   "type": "tag"
+  },
+  {
+   "title": "startup",
+   "type": "tag"
+  },
+  {
+   "title": "Sluppen",
+   "type": "tag"
+  },
+  {
+   "title": "investering",
+   "type": "tag"
+  }
+ ],
+ "intro": {
+  "lead": "Oppstartsselskapet ble startet av tre NTNU-studenter. Nå skal de ansette 40 nye på Sluppen."
+ },
+ "customProperties": {
+  "frontPageImage": {
+   "id": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Sluppen_bru.jpg/960px-Sluppen_bru.jpg"
+  },
+  "wordCount": 97
+ },
+ "components": [
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Fjordsense lager sensorer som måler vannkvalitet i oppdrettsanlegg. Nå har selskapet hentet 80 millioner kroner fra norske og svenske investorer."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "– Vi startet på et kjellerkontor på Gløshaugen. Nå har vi kunder i fem land, sier daglig leder Amalie Brekke (27)."
+     }
+    }
+   ]
+  },
+  {
+   "type": "subheading",
+   "text": {
+    "value": "Vil ansette lokalt"
+   }
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Selskapet skal flytte til større lokaler på Sluppen og ansette 40 nye, de fleste ingeniører og utviklere."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "– Vi vil helst ansette folk som har studert her. Trondheim har noen av de beste teknologimiljøene i Europa, sier Brekke."
+     }
+    }
+   ]
+  }
+ ]
+}

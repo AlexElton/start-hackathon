@@ -1,0 +1,88 @@
+{
+ "id": "tIla3p",
+ "schemaType": "article",
+ "title": {
+  "value": "Ilaparken er ferdig: – Endelig et sted for barna"
+ },
+ "urls": {
+  "canonical": "https://www.adressa.no/trondheim/i/tIla3p/ilaparken-er-ferdig-endelig-et-sted-for-barna"
+ },
+ "changes": {
+  "published": "2026-10-17T08:00:00Z",
+  "updated": null
+ },
+ "section": {
+  "title": "Trondheim"
+ },
+ "newsroom": "adressa",
+ "authors": [
+  {
+   "fullname": "Siri Lyng"
+  }
+ ],
+ "tags": [
+  {
+   "title": "Ila",
+   "type": "tag"
+  },
+  {
+   "title": "park",
+   "type": "tag"
+  },
+  {
+   "title": "nabolag",
+   "type": "tag"
+  }
+ ],
+ "intro": {
+  "lead": "Etter to år med anleggsarbeid åpnet den nye parken med lekeplass og ballbinge."
+ },
+ "customProperties": {
+  "frontPageImage": {
+   "id": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Ila_and_Skansen_in_Trondheim_01.jpg/960px-Ila_and_Skansen_in_Trondheim_01.jpg"
+  },
+  "wordCount": 66
+ },
+ "components": [
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Flere hundre naboer møtte opp da Ilaparken offisielt åpnet lørdag."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Parken har ny lekeplass, ballbinge, grillplass og en sti ned mot sjøen."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "– Vi har bedt om dette i over ti år. Endelig har barna et sted å være, sier Lise Rønning i Ila velforening."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Kommunen har brukt 28 millioner kroner på parken."
+     }
+    }
+   ]
+  }
+ ]
+}

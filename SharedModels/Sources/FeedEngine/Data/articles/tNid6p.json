@@ -1,0 +1,88 @@
+{
+ "id": "tNid6p",
+ "schemaType": "article",
+ "title": {
+  "value": "Rekordmange pilegrimer kom til Nidarosdomen"
+ },
+ "urls": {
+  "canonical": "https://www.adressa.no/kultur/i/tNid6p/rekordmange-pilegrimer-kom-til-nidarosdomen"
+ },
+ "changes": {
+  "published": "2026-10-17T08:00:00Z",
+  "updated": null
+ },
+ "section": {
+  "title": "Kultur"
+ },
+ "newsroom": "adressa",
+ "authors": [
+  {
+   "fullname": "Jonas Strand"
+  }
+ ],
+ "tags": [
+  {
+   "title": "Nidarosdomen",
+   "type": "tag"
+  },
+  {
+   "title": "pilegrim",
+   "type": "tag"
+  },
+  {
+   "title": "turisme",
+   "type": "tag"
+  }
+ ],
+ "intro": {
+  "lead": "Over 4000 gikk hele veien til Trondheim i år. Mange av dem er unge."
+ },
+ "customProperties": {
+  "frontPageImage": {
+   "id": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Nidarosdomen_og_Trondheim.jpg/960px-Nidarosdomen_og_Trondheim.jpg"
+  },
+  "wordCount": 96
+ },
+ "components": [
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Over 4300 personer har gått pilegrimsleden og fått pilegrimsbrev i Trondheim i år. Det er rekord."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "– Det har blitt en måte å ta en pause fra skjermen på. Vi ser mange unge som går alene, sier daglig leder Siv Hammer ved Nidaros pilegrimsgård."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Mange starter i Oslo og bruker rundt en måned på turen. De siste dagene går de gjennom Gauldal og Melhus før de ser domen."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Pilegrimsgården vil bygge om et gammelt lager til 20 nye senger før neste sesong."
+     }
+    }
+   ]
+  }
+ ]
+}

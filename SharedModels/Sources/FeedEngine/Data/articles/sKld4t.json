@@ -1,0 +1,78 @@
+{
+ "id": "sKld4t",
+ "schemaType": "article",
+ "title": {
+  "value": "Kilden slipper vårprogrammet: Musikal og stand-up"
+ },
+ "urls": {
+  "canonical": "https://www.fvn.no/kultur/i/sKld4t/kilden-slipper-varprogrammet-musikal-og-stand-up"
+ },
+ "changes": {
+  "published": "2026-10-17T08:00:00Z",
+  "updated": null
+ },
+ "section": {
+  "title": "Kultur"
+ },
+ "newsroom": "fvn",
+ "authors": [
+  {
+   "fullname": "Marianne Tveit"
+  }
+ ],
+ "tags": [
+  {
+   "title": "Kilden",
+   "type": "tag"
+  },
+  {
+   "title": "teater",
+   "type": "tag"
+  },
+  {
+   "title": "Kristiansand",
+   "type": "tag"
+  }
+ ],
+ "intro": {
+  "lead": "Kulturhuset satser på store forestillinger og billige studentbilletter."
+ },
+ "customProperties": {
+  "frontPageImage": {
+   "id": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Kristiansand_Kilden_teater_og_konserthus.jpg/960px-Kristiansand_Kilden_teater_og_konserthus.jpg"
+  },
+  "wordCount": 47
+ },
+ "components": [
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Kilden teater- og konserthus i Kristiansand har sluppet programmet for våren."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Det blir en ny norsk musikal, flere stand-up-show og symfonikonserter."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "– Vi vil at flere unge skal oppdage Kilden. Derfor har vi studentbilletter til 150 kroner, sier direktøren."
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,3 +1,4 @@
+import SharedModels
 import SwiftUI
 import UIKit
 
@@ -60,17 +61,26 @@ struct Kicker: View {
     }
 }
 
-/// "Fra Adresseavisen" with the Adressasirkelen: a blue circle with a white A.
+/// "Fra Sunnmørsposten" with the paper's own logo. Falls back to its first letter in a blue circle
+/// until the logo has loaded (or if it can't).
 struct SourceBadge: View {
     let paperName: String
 
     var body: some View {
         HStack(spacing: 6) {
-            Text("A")
-                .font(.system(size: 11, weight: .black, design: .serif))
-                .foregroundStyle(.white)
-                .frame(width: 20, height: 20)
-                .background(Theme.adressaBlue, in: .circle)
+            AsyncImage(url: PaperLogos.url(for: paperName)) { phase in
+                if case .success(let image) = phase {
+                    image.resizable().scaledToFill()
+                } else {
+                    Text(String(paperName.prefix(1)))
+                        .font(.system(size: 11, weight: .black, design: .serif))
+                        .foregroundStyle(.white)
+                        .frame(maxWidth: .infinity, maxHeight: .infinity)
+                        .background(Theme.adressaBlue)
+                }
+            }
+            .frame(width: 20, height: 20)
+            .clipShape(.rect(cornerRadius: 5))
             Text("Fra \(paperName)")
                 .font(.system(size: 13, weight: .semibold))
                 .foregroundStyle(Theme.ink)
@@ -91,5 +101,21 @@ struct PrimaryButtonStyle: ButtonStyle {
             .opacity(configuration.isPressed ? 0.85 : 1)
             .scaleEffect(configuration.isPressed ? 0.98 : 1)
             .animation(.snappy(duration: 0.15), value: configuration.isPressed)
+    }
+}
+
+/// Logos by paper name, filled in when the papers are loaded. Cards and the reader only get the paper's name,
+/// so the badge looks the logo up here.
+enum PaperLogos {
+    nonisolated(unsafe) private static var byName: [String: URL] = [:]
+
+    static func register(_ papers: [Paper]) {
+        for paper in papers {
+            if let url = paper.logoUrl.flatMap(URL.init(string:)) { byName[paper.name] = url }
+        }
+    }
+
+    static func url(for paperName: String) -> URL? {
+        byName[paperName]
     }
 }

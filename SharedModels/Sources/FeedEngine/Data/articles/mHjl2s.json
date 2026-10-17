@@ -1,0 +1,78 @@
+{
+ "id": "mHjl2s",
+ "schemaType": "article",
+ "title": {
+  "value": "Nye Molde sjukehus på Hjelset tar imot pasienter"
+ },
+ "urls": {
+  "canonical": "https://www.rbnett.no/molde/i/mHjl2s/nye-molde-sjukehus-pa-hjelset-tar-imot-pasienter"
+ },
+ "changes": {
+  "published": "2026-10-17T08:00:00Z",
+  "updated": null
+ },
+ "section": {
+  "title": "Molde"
+ },
+ "newsroom": "romsdals-budstikke",
+ "authors": [
+  {
+   "fullname": "Erlend Tøsse"
+  }
+ ],
+ "tags": [
+  {
+   "title": "sjukehus",
+   "type": "tag"
+  },
+  {
+   "title": "Hjelset",
+   "type": "tag"
+  },
+  {
+   "title": "helse",
+   "type": "tag"
+  }
+ ],
+ "intro": {
+  "lead": "Etter flere års forsinkelse flytter de første avdelingene inn."
+ },
+ "customProperties": {
+  "frontPageImage": {
+   "id": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Sjukehuset_Nordm%C3%B8re_og_Romsdal_Hjelset_2025.jpg/960px-Sjukehuset_Nordm%C3%B8re_og_Romsdal_Hjelset_2025.jpg"
+  },
+  "wordCount": 44
+ },
+ "components": [
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Mandag tok det nye sjukehuset på Hjelset imot de første pasientene."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Poliklinikkene har flyttet først, og fødeavdelingen kommer i neste måned."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "– Sjekk innkallingen nøye, så du kommer til riktig sted, sier klinikksjef Hilde Kvalsvik."
+     }
+    }
+   ]
+  }
+ ]
+}

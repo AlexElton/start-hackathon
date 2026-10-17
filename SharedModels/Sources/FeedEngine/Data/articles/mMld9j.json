@@ -1,0 +1,78 @@
+{
+ "id": "mMld9j",
+ "schemaType": "article",
+ "title": {
+  "value": "Moldejazz slipper første navn: – Årets største satsing"
+ },
+ "urls": {
+  "canonical": "https://www.rbnett.no/kultur/i/mMld9j/moldejazz-slipper-forste-navn-arets-storste-satsing"
+ },
+ "changes": {
+  "published": "2026-10-17T08:00:00Z",
+  "updated": null
+ },
+ "section": {
+  "title": "Kultur"
+ },
+ "newsroom": "romsdals-budstikke",
+ "authors": [
+  {
+   "fullname": "Erlend Tøsse"
+  }
+ ],
+ "tags": [
+  {
+   "title": "Moldejazz",
+   "type": "tag"
+  },
+  {
+   "title": "festival",
+   "type": "tag"
+  },
+  {
+   "title": "Molde",
+   "type": "tag"
+  }
+ ],
+ "intro": {
+  "lead": "Festivalen har booket tre internasjonale navn til Romsdalsmuseet."
+ },
+ "customProperties": {
+  "frontPageImage": {
+   "id": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Jazz_Street_Parade%2C_Molde.jpg/960px-Jazz_Street_Parade%2C_Molde.jpg"
+  },
+  "wordCount": 57
+ },
+ "components": [
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Moldejazz har sluppet de første artistene til neste sommers festival, og festivalsjefen kaller det årets største satsing."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Tre internasjonale navn skal spille på den store scenen på Romsdalsmuseet."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "– Vi vil ha et yngre publikum. Derfor har vi også laget et billig festivalpass for studenter, sier festivalsjef Mari Langstein."
+     }
+    }
+   ]
+  }
+ ]
+}

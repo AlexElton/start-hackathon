@@ -1,0 +1,94 @@
+{
+ "id": "tLrk26",
+ "schemaType": "article",
+ "title": {
+  "value": "Rosenborg klar for toppkamp på Lerkendal"
+ },
+ "urls": {
+  "canonical": "https://www.adressa.no/sport/i/tLrk26/rosenborg-klar-for-toppkamp-pa-lerkendal"
+ },
+ "changes": {
+  "published": "2026-10-17T08:00:00Z",
+  "updated": null
+ },
+ "section": {
+  "title": "Sport"
+ },
+ "newsroom": "adressa",
+ "authors": [
+  {
+   "fullname": "Martin Aarseth"
+  }
+ ],
+ "tags": [
+  {
+   "title": "Rosenborg",
+   "type": "tag"
+  },
+  {
+   "title": "Eliteserien",
+   "type": "tag"
+  },
+  {
+   "title": "Lerkendal",
+   "type": "tag"
+  }
+ ],
+ "intro": {
+  "lead": "Søndag kommer serielederen til Trondheim. Over 20 000 billetter er allerede solgt."
+ },
+ "customProperties": {
+  "frontPageImage": {
+   "id": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Lerkendal_Stadion_Trondheim.jpg/960px-Lerkendal_Stadion_Trondheim.jpg"
+  },
+  "wordCount": 112
+ },
+ "components": [
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Det blir høstens største kamp på Lerkendal når Rosenborg tar imot serielederen søndag klokka 18. Torsdag var over 20 000 billetter solgt."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "– Det er sånne kamper vi spiller fotball for. Lerkendal fullt, og alt å spille for, sier kaptein Tobias Nygård."
+     }
+    }
+   ]
+  },
+  {
+   "type": "subheading",
+   "text": {
+    "value": "Kan gå forbi i tabellen"
+   }
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Med seier er Rosenborg bare to poeng bak toppen med fire serierunder igjen. Trener Kjetil Rønning har hele troppen tilgjengelig, bortsett fra midtstopperen som pådro seg et lårstrekk i forrige runde."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Klubben oppfordrer publikum til å komme tidlig og ta buss eller sykkel. Det blir ekstra bussavganger fra sentrum fra klokka 16."
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,26 +1,275 @@
 [
-  { "id": "adressa", "name": "Adresseavisen", "city": "Trondheim", "location": { "lat": 63.4305, "lon": 10.3951 }, "color": "#005379", "regionId": "trondelag", "level": "regional" },
-  { "id": "fosna-folket", "name": "Fosna-Folket", "city": "Brekstad", "location": { "lat": 63.6889, "lon": 9.6667 }, "color": "#005379", "regionId": "trondelag", "level": "local" },
-  { "id": "hitra-froya", "name": "Hitra-Frøya", "city": "Fillan", "location": { "lat": 63.6067, "lon": 8.9686 }, "color": "#005379", "regionId": "trondelag", "level": "local" },
-  { "id": "innherred", "name": "Innherred", "city": "Levanger", "location": { "lat": 63.7464, "lon": 11.2996 }, "color": "#005379", "regionId": "trondelag", "level": "local" },
-  { "id": "opdalingen", "name": "Opdalingen", "city": "Oppdal", "location": { "lat": 62.5947, "lon": 9.6911 }, "color": "#005379", "regionId": "trondelag", "level": "local" },
-  { "id": "sor-trondelag", "name": "Sør-Trøndelag", "city": "Orkanger", "location": { "lat": 63.3036, "lon": 9.8503 }, "color": "#005379", "regionId": "trondelag", "level": "local" },
-  { "id": "tronderbladet", "name": "Trønderbladet", "city": "Melhus", "location": { "lat": 63.2853, "lon": 10.2779 }, "color": "#005379", "regionId": "trondelag", "level": "local" },
-
-  { "id": "smp", "name": "Sunnmørsposten", "city": "Ålesund", "location": { "lat": 62.4722, "lon": 6.1495 }, "color": "#B22222", "regionId": "more-og-romsdal", "level": "regional" },
-  { "id": "romsdals-budstikke", "name": "Romsdals Budstikke", "city": "Molde", "location": { "lat": 62.7375, "lon": 7.1591 }, "color": "#B22222", "regionId": "more-og-romsdal", "level": "local" },
-  { "id": "driva", "name": "Driva", "city": "Sunndalsøra", "location": { "lat": 62.6753, "lon": 8.5617 }, "color": "#B22222", "regionId": "more-og-romsdal", "level": "local" },
-  { "id": "more-nytt", "name": "Møre-Nytt", "city": "Ørsta", "location": { "lat": 62.1994, "lon": 6.1300 }, "color": "#B22222", "regionId": "more-og-romsdal", "level": "local" },
-  { "id": "vikebladet-vestposten", "name": "Vikebladet Vestposten", "city": "Ulsteinvik", "location": { "lat": 62.3431, "lon": 5.8486 }, "color": "#B22222", "regionId": "more-og-romsdal", "level": "local" },
-  { "id": "andalsnes-avis", "name": "Åndalsnes Avis", "city": "Åndalsnes", "location": { "lat": 62.5675, "lon": 7.6870 }, "color": "#B22222", "regionId": "more-og-romsdal", "level": "local" },
-
-  { "id": "itromso", "name": "iTromsø", "city": "Tromsø", "location": { "lat": 69.6492, "lon": 18.9553 }, "color": "#0B6E4F", "regionId": "troms-og-finnmark", "level": "regional" },
-  { "id": "harstad-tidende", "name": "Harstad Tidende", "city": "Harstad", "location": { "lat": 68.7983, "lon": 16.5417 }, "color": "#0B6E4F", "regionId": "troms-og-finnmark", "level": "local" },
-  { "id": "folkebladet", "name": "Folkebladet", "city": "Finnsnes", "location": { "lat": 69.2296, "lon": 17.9811 }, "color": "#0B6E4F", "regionId": "troms-og-finnmark", "level": "local" },
-
-  { "id": "fvn", "name": "Fædrelandsvennen", "city": "Kristiansand", "location": { "lat": 58.1467, "lon": 7.9956 }, "color": "#D35400", "regionId": "agder", "level": "regional" },
-  { "id": "agderposten", "name": "Agderposten", "city": "Arendal", "location": { "lat": 58.4617, "lon": 8.7722 }, "color": "#D35400", "regionId": "agder", "level": "local" },
-  { "id": "lindesnes", "name": "Lindesnes", "city": "Mandal", "location": { "lat": 58.0294, "lon": 7.4609 }, "color": "#D35400", "regionId": "agder", "level": "local" },
-  { "id": "lister", "name": "Lister", "city": "Farsund", "location": { "lat": 58.0950, "lon": 6.8047 }, "color": "#D35400", "regionId": "agder", "level": "local" },
-  { "id": "vennesla-tidende", "name": "Vennesla Tidende", "city": "Vennesla", "location": { "lat": 58.2694, "lon": 7.9733 }, "color": "#D35400", "regionId": "agder", "level": "local" }
+  {
+    "id": "adressa",
+    "name": "Adresseavisen",
+    "city": "Trondheim",
+    "location": {
+      "lat": 63.4305,
+      "lon": 10.3951
+    },
+    "color": "#005379",
+    "regionId": "trondelag",
+    "level": "regional",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=adressa.no&sz=128"
+  },
+  {
+    "id": "fosna-folket",
+    "name": "Fosna-Folket",
+    "city": "Brekstad",
+    "location": {
+      "lat": 63.6889,
+      "lon": 9.6667
+    },
+    "color": "#005379",
+    "regionId": "trondelag",
+    "level": "local",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=fosna-folket.no&sz=128"
+  },
+  {
+    "id": "hitra-froya",
+    "name": "Hitra-Frøya",
+    "city": "Fillan",
+    "location": {
+      "lat": 63.6067,
+      "lon": 8.9686
+    },
+    "color": "#005379",
+    "regionId": "trondelag",
+    "level": "local",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=hitra-froya.no&sz=128"
+  },
+  {
+    "id": "innherred",
+    "name": "Innherred",
+    "city": "Levanger",
+    "location": {
+      "lat": 63.7464,
+      "lon": 11.2996
+    },
+    "color": "#005379",
+    "regionId": "trondelag",
+    "level": "local",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=innherred.no&sz=128"
+  },
+  {
+    "id": "opdalingen",
+    "name": "Opdalingen",
+    "city": "Oppdal",
+    "location": {
+      "lat": 62.5947,
+      "lon": 9.6911
+    },
+    "color": "#005379",
+    "regionId": "trondelag",
+    "level": "local",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=opdalingen.no&sz=128"
+  },
+  {
+    "id": "sor-trondelag",
+    "name": "Sør-Trøndelag",
+    "city": "Orkanger",
+    "location": {
+      "lat": 63.3036,
+      "lon": 9.8503
+    },
+    "color": "#005379",
+    "regionId": "trondelag",
+    "level": "local",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=avisa-st.no&sz=128"
+  },
+  {
+    "id": "tronderbladet",
+    "name": "Trønderbladet",
+    "city": "Melhus",
+    "location": {
+      "lat": 63.2853,
+      "lon": 10.2779
+    },
+    "color": "#005379",
+    "regionId": "trondelag",
+    "level": "local",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=tronderbladet.no&sz=128"
+  },
+  {
+    "id": "smp",
+    "name": "Sunnmørsposten",
+    "city": "Ålesund",
+    "location": {
+      "lat": 62.4722,
+      "lon": 6.1495
+    },
+    "color": "#B22222",
+    "regionId": "more-og-romsdal",
+    "level": "regional",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=smp.no&sz=128"
+  },
+  {
+    "id": "romsdals-budstikke",
+    "name": "Romsdals Budstikke",
+    "city": "Molde",
+    "location": {
+      "lat": 62.7375,
+      "lon": 7.1591
+    },
+    "color": "#B22222",
+    "regionId": "more-og-romsdal",
+    "level": "local",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=rbnett.no&sz=128"
+  },
+  {
+    "id": "driva",
+    "name": "Driva",
+    "city": "Sunndalsøra",
+    "location": {
+      "lat": 62.6753,
+      "lon": 8.5617
+    },
+    "color": "#B22222",
+    "regionId": "more-og-romsdal",
+    "level": "local",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=driva.no&sz=128"
+  },
+  {
+    "id": "more-nytt",
+    "name": "Møre-Nytt",
+    "city": "Ørsta",
+    "location": {
+      "lat": 62.1994,
+      "lon": 6.13
+    },
+    "color": "#B22222",
+    "regionId": "more-og-romsdal",
+    "level": "local",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=mn24.no&sz=128"
+  },
+  {
+    "id": "vikebladet-vestposten",
+    "name": "Vikebladet Vestposten",
+    "city": "Ulsteinvik",
+    "location": {
+      "lat": 62.3431,
+      "lon": 5.8486
+    },
+    "color": "#B22222",
+    "regionId": "more-og-romsdal",
+    "level": "local",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=vikebladet.no&sz=128"
+  },
+  {
+    "id": "andalsnes-avis",
+    "name": "Åndalsnes Avis",
+    "city": "Åndalsnes",
+    "location": {
+      "lat": 62.5675,
+      "lon": 7.687
+    },
+    "color": "#B22222",
+    "regionId": "more-og-romsdal",
+    "level": "local",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=andalsnes-avis.no&sz=128"
+  },
+  {
+    "id": "itromso",
+    "name": "iTromsø",
+    "city": "Tromsø",
+    "location": {
+      "lat": 69.6492,
+      "lon": 18.9553
+    },
+    "color": "#0B6E4F",
+    "regionId": "troms-og-finnmark",
+    "level": "regional",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=itromso.no&sz=128"
+  },
+  {
+    "id": "harstad-tidende",
+    "name": "Harstad Tidende",
+    "city": "Harstad",
+    "location": {
+      "lat": 68.7983,
+      "lon": 16.5417
+    },
+    "color": "#0B6E4F",
+    "regionId": "troms-og-finnmark",
+    "level": "local",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=ht.no&sz=128"
+  },
+  {
+    "id": "folkebladet",
+    "name": "Folkebladet",
+    "city": "Finnsnes",
+    "location": {
+      "lat": 69.2296,
+      "lon": 17.9811
+    },
+    "color": "#0B6E4F",
+    "regionId": "troms-og-finnmark",
+    "level": "local",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=folkebladet.no&sz=128"
+  },
+  {
+    "id": "fvn",
+    "name": "Fædrelandsvennen",
+    "city": "Kristiansand",
+    "location": {
+      "lat": 58.1467,
+      "lon": 7.9956
+    },
+    "color": "#D35400",
+    "regionId": "agder",
+    "level": "regional",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=fvn.no&sz=128"
+  },
+  {
+    "id": "agderposten",
+    "name": "Agderposten",
+    "city": "Arendal",
+    "location": {
+      "lat": 58.4617,
+      "lon": 8.7722
+    },
+    "color": "#D35400",
+    "regionId": "agder",
+    "level": "local",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=agderposten.no&sz=128"
+  },
+  {
+    "id": "lindesnes",
+    "name": "Lindesnes",
+    "city": "Mandal",
+    "location": {
+      "lat": 58.0294,
+      "lon": 7.4609
+    },
+    "color": "#D35400",
+    "regionId": "agder",
+    "level": "local",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=l-a.no&sz=128"
+  },
+  {
+    "id": "lister",
+    "name": "Lister",
+    "city": "Farsund",
+    "location": {
+      "lat": 58.095,
+      "lon": 6.8047
+    },
+    "color": "#D35400",
+    "regionId": "agder",
+    "level": "local",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=lister24.no&sz=128"
+  },
+  {
+    "id": "vennesla-tidende",
+    "name": "Vennesla Tidende",
+    "city": "Vennesla",
+    "location": {
+      "lat": 58.2694,
+      "lon": 7.9733
+    },
+    "color": "#D35400",
+    "regionId": "agder",
+    "level": "local",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=venneslatidende.no&sz=128"
+  }
 ]

@@ -1,0 +1,78 @@
+{
+ "id": "sArn3h",
+ "schemaType": "article",
+ "title": {
+  "value": "Pollen i Arendal får ny havnepromenade"
+ },
+ "urls": {
+  "canonical": "https://www.agderposten.no/arendal/i/sArn3h/pollen-i-arendal-far-ny-havnepromenade"
+ },
+ "changes": {
+  "published": "2026-10-17T08:00:00Z",
+  "updated": null
+ },
+ "section": {
+  "title": "Arendal"
+ },
+ "newsroom": "agderposten",
+ "authors": [
+  {
+   "fullname": "Kristin Holte"
+  }
+ ],
+ "tags": [
+  {
+   "title": "Arendal",
+   "type": "tag"
+  },
+  {
+   "title": "Pollen",
+   "type": "tag"
+  },
+  {
+   "title": "byutvikling",
+   "type": "tag"
+  }
+ ],
+ "intro": {
+  "lead": "Den nye promenaden skal stå klar til Arendalsuka neste år."
+ },
+ "customProperties": {
+  "frontPageImage": {
+   "id": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Kj%C3%B8pmannsg%C3%A5rd_i_Arendal_sentrum.jpg/960px-Kj%C3%B8pmannsg%C3%A5rd_i_Arendal_sentrum.jpg"
+  },
+  "wordCount": 52
+ },
+ "components": [
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Arendal kommune skal bygge en ny havnepromenade rundt Pollen, med benker, trær og bedre belysning."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Arbeidet starter i januar og skal være ferdig til Arendalsuka i august."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "– Pollen er hjertet i byen. Nå får det det løftet det fortjener, sier ordføreren."
+     }
+    }
+   ]
+  }
+ ]
+}

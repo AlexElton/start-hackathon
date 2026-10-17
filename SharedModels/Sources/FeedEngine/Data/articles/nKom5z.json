@@ -1,0 +1,78 @@
+{
+ "id": "nKom5z",
+ "schemaType": "article",
+ "title": {
+  "value": "Kommentar: Nord-Norge må få sin del av forsvarsløftet"
+ },
+ "urls": {
+  "canonical": "https://www.itromso.no/meninger/i/nKom5z/kommentar-nord-norge-ma-fa-sin-del-av-forsvarsloftet"
+ },
+ "changes": {
+  "published": "2026-10-17T08:00:00Z",
+  "updated": null
+ },
+ "section": {
+  "title": "Meninger"
+ },
+ "newsroom": "itromso",
+ "authors": [
+  {
+   "fullname": "Live Berg"
+  }
+ ],
+ "tags": [
+  {
+   "title": "kommentar",
+   "type": "tag"
+  },
+  {
+   "title": "forsvar",
+   "type": "tag"
+  },
+  {
+   "title": "Nord-Norge",
+   "type": "tag"
+  }
+ ],
+ "intro": {
+  "lead": "Milliardene til Forsvaret må også gi arbeidsplasser i nord."
+ },
+ "customProperties": {
+  "frontPageImage": {
+   "id": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Troms%C3%B8_bridge_in_winter_from_Fjelleisen_04.jpg/960px-Troms%C3%B8_bridge_in_winter_from_Fjelleisen_04.jpg"
+  },
+  "wordCount": 55
+ },
+ "components": [
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Forsvaret skal få flere hundre milliarder de neste årene. Mye av det skal brukes i nord."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Men det må ikke bare bli utstyr. Det må bli arbeidsplasser, boliger og folk som blir boende."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Nord-Norge har fått mange løfter. Nå er det tid for å se resultater."
+     }
+    }
+   ]
+  }
+ ]
+}

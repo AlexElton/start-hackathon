@@ -23,9 +23,14 @@ final class ImageLoader {
         return image
     }
 
-    /// Polaris images take a `w` parameter, so pins ask for a small version.
+    /// Polaris images take a `w` parameter, so pins ask for a small version. Wikimedia photos (in our added mock
+    /// content) pick a size in the path instead; 330 px is one of its standard thumbnail sizes.
     static func thumbnailURL(_ string: String?, width: Int) -> URL? {
-        guard let string, var components = URLComponents(string: string) else { return nil }
+        guard let string else { return nil }
+        if string.contains("upload.wikimedia.org") {
+            return URL(string: string.replacingOccurrences(of: #"/\d+px-"#, with: "/330px-", options: .regularExpression))
+        }
+        guard var components = URLComponents(string: string) else { return nil }
         var items = (components.queryItems ?? []).filter { $0.name != "w" }
         items.append(URLQueryItem(name: "w", value: "\(width)"))
         components.queryItems = items

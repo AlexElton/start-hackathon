@@ -67,7 +67,7 @@ public struct JSONContentRepository: ContentRepository {
         return try JSONContentRepository(dataDirectory: directory.path)
     }
 
-    public init(dataDirectory: String) throws {
+    public init(dataDirectory: String, loadedAt: Date = Date()) throws {
         let base = URL(fileURLWithPath: dataDirectory)
         categories = try Self.load("categories.json", from: base)
         papers = try Self.load("papers.json", from: base)
@@ -91,6 +91,7 @@ public struct JSONContentRepository: ContentRepository {
             let file = base.appendingPathComponent("articles/\(meta.id).json")
             guard FileManager.default.fileExists(atPath: file.path) else { throw ContentError.missingArticleFile(meta.id) }
             let raw: PolarisArticle = try Self.load("articles/\(meta.id).json", from: base)
+            let published = meta.hoursAgo.map { loadedAt.addingTimeInterval(-$0 * 3600) } ?? raw.changes.published
 
             articles[meta.id] = ArticleDetail(
                 id: raw.id,
@@ -98,8 +99,8 @@ public struct JSONContentRepository: ContentRepository {
                 lead: raw.lead,
                 body: raw.bodyParagraphs,
                 author: raw.author,
-                publishedAt: raw.changes.published,
-                updatedAt: raw.changes.updated,
+                publishedAt: published,
+                updatedAt: meta.hoursAgo == nil ? raw.changes.updated : nil,
                 paperId: meta.paperId,
                 sourceUrl: raw.urls.canonical,
                 imageUrl: raw.imageURL,
@@ -124,7 +125,7 @@ public struct JSONContentRepository: ContentRepository {
                     paperId: meta.paperId,
                     location: nil,
                     imageUrl: raw.imageURL,
-                    date: raw.changes.published,
+                    date: published,
                     details: .article(details)
                 )
                 pins.append(IndexedFeedItem(item: item, tags: raw.tagTitles))
@@ -137,7 +138,7 @@ public struct JSONContentRepository: ContentRepository {
                     paperId: meta.paperId,
                     location: location,
                     imageUrl: raw.imageURL,
-                    date: raw.changes.published,
+                    date: published,
                     details: .article(details)
                 )
                 pins.append(IndexedFeedItem(item: item, tags: raw.tagTitles + [location.name ?? ""]))

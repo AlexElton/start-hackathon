@@ -9,6 +9,9 @@ struct ArticleMeta: Decodable {
     let paperId: String
     let summary: [String]
     let locations: [GeoPoint]
+    /// Our added articles are dated this many hours before the app starts, so "i dag" and "denne uka" always
+    /// have news. The original Polaris exports keep their real dates.
+    let hoursAgo: Double?
 }
 
 /// `events.json`. Dates are relative (`dayOffset` + "HH:mm") so "i kveld" always has events.

@@ -20,6 +20,7 @@ enum TilePrefetcher {
     }
 
     private static func snapshot(_ camera: CameraSpec, style: MapStyle) async {
+        guard camera.isValid else { return }
         let options = MKMapSnapshotter.Options()
         options.camera = camera.mkCamera
         options.size = CGSize(width: 400, height: 860)

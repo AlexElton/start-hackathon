@@ -10,6 +10,25 @@ struct ArticleReaderView: View {
     let close: () -> Void
 
     @State private var state: LoadState<ArticleDetail> = .idle
+    @State private var dragOffset: CGFloat = 0
+    /// Decided at the start of each drag and kept until the finger lifts: true = swiping back, false = scrolling.
+    @State private var isSwipingBack: Bool?
+    @State private var width: CGFloat = 400
+    /// Back only fires once, even if the button and the swipe both trigger it.
+    @State private var isClosing = false
+
+    /// Slides the article off to the right, like a navigation pop, then closes it without the default slide-down.
+    private func goBack() {
+        guard !isClosing else { return }
+        isClosing = true
+        withAnimation(.easeOut(duration: 0.25)) {
+            dragOffset = width
+        } completion: {
+            var transaction = Transaction()
+            transaction.disablesAnimations = true
+            withTransaction(transaction) { close() }
+        }
+    }
 
     var body: some View {
         ScrollView {
@@ -48,20 +67,56 @@ struct ArticleReaderView: View {
                 .padding(.bottom, 40)
             }
         }
+        .scrollDisabled(isSwipingBack == true)
         .background(Theme.surface)
         .overlay(alignment: .topLeading) {
-            Button(action: close) {
+            Button(action: goBack) {
                 Label(backTitle, systemImage: "chevron.left")
                     .font(.system(size: 15, weight: .bold))
+                    .foregroundStyle(Theme.ink)
                     .padding(.horizontal, 14)
                     .padding(.vertical, 10)
+                    .contentShape(.capsule)
             }
             .buttonStyle(.plain)
-            .glassEffect(.regular.interactive(), in: .capsule)
+            .glassEffect(.regular, in: .capsule)
+            // A generous tap area, so a tap that lands a little off still goes back.
             .padding(.leading, 20)
             .padding(.top, 14)
+            .padding(.trailing, 20)
+            .padding(.bottom, 14)
+            .contentShape(.rect)
+            .onTapGesture(perform: goBack)
             .accessibilityLabel(backTitle == "Kart" ? "Tilbake til kartet" : "Tilbake")
         }
+        .shadow(color: .black.opacity(dragOffset > 0 ? 0.25 : 0), radius: 20)
+        .offset(x: dragOffset)
+        .onGeometryChange(for: CGFloat.self) { $0.size.width } action: { width = $0 }
+        // The map or sheet underneath shows while the article is swiped away.
+        .presentationBackground(.clear)
+        // Swipe right to go back. The direction is locked at the start: a sideways swipe moves the
+        // article and stops scrolling, an up/down drag only scrolls.
+        .simultaneousGesture(
+            DragGesture(minimumDistance: 15)
+                .onChanged { value in
+                    guard !isClosing else { return }
+                    if isSwipingBack == nil {
+                        isSwipingBack = value.translation.width > 0 && abs(value.translation.width) > abs(value.translation.height) * 1.2
+                    }
+                    guard isSwipingBack == true else { return }
+                    dragOffset = max(0, value.translation.width)
+                }
+                .onEnded { value in
+                    defer { isSwipingBack = nil }
+                    guard isSwipingBack == true, !isClosing else { return }
+                    if value.translation.width > width * 0.3 || value.predictedEndTranslation.width > width * 0.6 {
+                        goBack()
+                    } else {
+                        withAnimation(.snappy(duration: 0.25)) { dragOffset = 0 }
+                    }
+                }
+        )
+        .sensoryFeedback(.impact(weight: .light), trigger: isClosing)
         .task { await load() }
     }
 
@@ -111,13 +166,6 @@ struct ArticleReaderView: View {
         }
         .padding(.top, 8)
 
-        if let url = URL(string: article.sourceUrl) {
-            Link(destination: url) {
-                Label("Les saken på adressa.no", systemImage: "arrow.up.right")
-            }
-            .buttonStyle(PrimaryButtonStyle())
-            .padding(.top, 24)
-        }
     }
 
     /// The body is plain paragraphs; short lines without closing punctuation are the sub-headings.

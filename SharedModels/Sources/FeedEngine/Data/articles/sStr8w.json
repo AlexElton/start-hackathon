@@ -1,0 +1,78 @@
+{
+ "id": "sStr8w",
+ "schemaType": "article",
+ "title": {
+  "value": "Start foran avgjørende kamp: – Alle må komme"
+ },
+ "urls": {
+  "canonical": "https://www.fvn.no/sport/i/sStr8w/start-foran-avgjorende-kamp-alle-ma-komme"
+ },
+ "changes": {
+  "published": "2026-10-17T08:00:00Z",
+  "updated": null
+ },
+ "section": {
+  "title": "Sport"
+ },
+ "newsroom": "fvn",
+ "authors": [
+  {
+   "fullname": "Thomas Fjeld"
+  }
+ ],
+ "tags": [
+  {
+   "title": "IK Start",
+   "type": "tag"
+  },
+  {
+   "title": "fotball",
+   "type": "tag"
+  },
+  {
+   "title": "Kristiansand",
+   "type": "tag"
+  }
+ ],
+ "intro": {
+  "lead": "Lørdag avgjøres det om Start fortsatt kan rykke opp."
+ },
+ "customProperties": {
+  "frontPageImage": {
+   "id": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Sparebanken_Norge_Arena_Kristiansand_%2C_building_sign.jpg/960px-Sparebanken_Norge_Arena_Kristiansand_%2C_building_sign.jpg"
+  },
+  "wordCount": 44
+ },
+ "components": [
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Lørdag spiller IK Start sin viktigste hjemmekamp på flere år. Med seier lever opprykksdrømmen."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "– Vi trenger hele byen bak oss. Alle må komme, sier kaptein Kristian Lunde."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Studenter får gratis billett med gyldig studentbevis."
+     }
+    }
+   ]
+  }
+ ]
+}

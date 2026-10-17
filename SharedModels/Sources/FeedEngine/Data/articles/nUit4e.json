@@ -1,0 +1,78 @@
+{
+ "id": "nUit4e",
+ "schemaType": "article",
+ "title": {
+  "value": "UiT åpner nytt senter for arktisk forskning"
+ },
+ "urls": {
+  "canonical": "https://www.itromso.no/tromso/i/nUit4e/uit-apner-nytt-senter-for-arktisk-forskning"
+ },
+ "changes": {
+  "published": "2026-10-17T08:00:00Z",
+  "updated": null
+ },
+ "section": {
+  "title": "Tromsø"
+ },
+ "newsroom": "itromso",
+ "authors": [
+  {
+   "fullname": "Live Berg"
+  }
+ ],
+ "tags": [
+  {
+   "title": "UiT",
+   "type": "tag"
+  },
+  {
+   "title": "studenter",
+   "type": "tag"
+  },
+  {
+   "title": "Arktis",
+   "type": "tag"
+  }
+ ],
+ "intro": {
+  "lead": "Senteret skal ta imot forskere og studenter fra hele verden."
+ },
+ "customProperties": {
+  "frontPageImage": {
+   "id": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Universitetet_i_Troms%C3%B8_2022-09-06_03.jpg/960px-Universitetet_i_Troms%C3%B8_2022-09-06_03.jpg"
+  },
+  "wordCount": 51
+ },
+ "components": [
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Universitetet i Tromsø åpner et nytt senter for arktisk forskning i Breivika."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Senteret skal huse rundt 200 forskere og studenter innen klima, hav og samfunn."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "– Tromsø er porten til Arktis. Det skal forskningen vår også være, sier rektor ved UiT."
+     }
+    }
+   ]
+  }
+ ]
+}

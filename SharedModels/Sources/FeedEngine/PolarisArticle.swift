@@ -108,8 +108,9 @@ struct PolarisArticle: Decodable {
 extension PolarisArticle {
     static let imageBaseURL = "https://vcdn.polarismedia.no/"
 
+    /// A Polaris image id, or a full URL for photos from elsewhere (our added mock articles use Wikimedia Commons).
     static func imageURL(id: String) -> String {
-        "\(imageBaseURL)\(id)?w=1000&fit=clip&q=80"
+        id.hasPrefix("http") ? id : "\(imageBaseURL)\(id)?w=1000&fit=clip&q=80"
     }
 
     /// Plain-text body in reading order. Headings and fact boxes become their own paragraphs;

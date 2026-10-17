@@ -1,0 +1,78 @@
+{
+ "id": "tPir1x",
+ "schemaType": "article",
+ "title": {
+  "value": "Pirbadet stenger i tre måneder"
+ },
+ "urls": {
+  "canonical": "https://www.adressa.no/trondheim/i/tPir1x/pirbadet-stenger-i-tre-maneder"
+ },
+ "changes": {
+  "published": "2026-10-17T08:00:00Z",
+  "updated": null
+ },
+ "section": {
+  "title": "Trondheim"
+ },
+ "newsroom": "adressa",
+ "authors": [
+  {
+   "fullname": "Vegard Lie"
+  }
+ ],
+ "tags": [
+  {
+   "title": "Pirbadet",
+   "type": "tag"
+  },
+  {
+   "title": "badeland",
+   "type": "tag"
+  },
+  {
+   "title": "Brattøra",
+   "type": "tag"
+  }
+ ],
+ "intro": {
+  "lead": "Badeanlegget skal pusses opp etter vannlekkasjer. Svømmeklubbene må flytte treningene."
+ },
+ "customProperties": {
+  "frontPageImage": {
+   "id": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Pirbadet_IMG_6001.JPG/960px-Pirbadet_IMG_6001.JPG"
+  },
+  "wordCount": 63
+ },
+ "components": [
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Pirbadet stenger fra 1. desember. Lekkasjer under hovedbassenget gjør at deler av gulvet må bygges om."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "– Vi vet at dette er kjedelig for mange, men det må gjøres nå før skadene blir større, sier daglig leder Arne Kvål."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Svømmeklubbene får låne tid i Husebybadet og Spongdal. Årskort blir forlenget med tre måneder."
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "id": "sDyr2m",
+ "schemaType": "article",
+ "title": {
+  "value": "Dyreparken bygger ny vinterattraksjon"
+ },
+ "urls": {
+  "canonical": "https://www.fvn.no/kristiansand/i/sDyr2m/dyreparken-bygger-ny-vinterattraksjon"
+ },
+ "changes": {
+  "published": "2026-10-17T08:00:00Z",
+  "updated": null
+ },
+ "section": {
+  "title": "Kristiansand"
+ },
+ "newsroom": "fvn",
+ "authors": [
+  {
+   "fullname": "Marianne Tveit"
+  }
+ ],
+ "tags": [
+  {
+   "title": "Dyreparken",
+   "type": "tag"
+  },
+  {
+   "title": "turisme",
+   "type": "tag"
+  },
+  {
+   "title": "Kardemomme by",
+   "type": "tag"
+  }
+ ],
+ "intro": {
+  "lead": "Parken vil ha flere besøkende utenom sommeren."
+ },
+ "customProperties": {
+  "frontPageImage": {
+   "id": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Bk_monkey%2C_Kristiansand_Zoo%2C_Norway.jpg/960px-Bk_monkey%2C_Kristiansand_Zoo%2C_Norway.jpg"
+  },
+  "wordCount": 51
+ },
+ "components": [
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Dyreparken i Kristiansand skal bygge en ny innendørs attraksjon som holder åpent hele året."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "– Vi har mange besøkende om sommeren, men vil ha folk her hele året, sier administrerende direktør."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Attraksjonen skal stå klar om to år og koster rundt 250 millioner kroner."
+     }
+    }
+   ]
+  }
+ ]
+}

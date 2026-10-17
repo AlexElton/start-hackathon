@@ -1,0 +1,78 @@
+{
+ "id": "sMdl9f",
+ "schemaType": "article",
+ "title": {
+  "value": "Ny sjømatrestaurant åpner i Mandal"
+ },
+ "urls": {
+  "canonical": "https://www.l-a.no/mandal/i/sMdl9f/ny-sjomatrestaurant-apner-i-mandal"
+ },
+ "changes": {
+  "published": "2026-10-17T08:00:00Z",
+  "updated": null
+ },
+ "section": {
+  "title": "Mandal"
+ },
+ "newsroom": "lindesnes",
+ "authors": [
+  {
+   "fullname": "Anne Kristin Eik"
+  }
+ ],
+ "tags": [
+  {
+   "title": "Mandal",
+   "type": "tag"
+  },
+  {
+   "title": "restaurant",
+   "type": "tag"
+  },
+  {
+   "title": "sjømat",
+   "type": "tag"
+  }
+ ],
+ "intro": {
+  "lead": "Restauranten ved Buen kulturhus vil servere fangst fra lokale fiskere."
+ },
+ "customProperties": {
+  "frontPageImage": {
+   "id": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Mandal_sentrum_sett_fra_Hobdetoppen.jpg/960px-Mandal_sentrum_sett_fra_Hobdetoppen.jpg"
+  },
+  "wordCount": 51
+ },
+ "components": [
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Neste uke åpner en ny sjømatrestaurant ved Buen kulturhus i Mandal."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Kjøkkensjefen kjøper all fisk direkte fra lokale fiskere."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "– Vi vil at folk skal kunne spise god fisk til lunsj uten at det koster skjorta, sier daglig leder Siri Udland."
+     }
+    }
+   ]
+  }
+ ]
+}

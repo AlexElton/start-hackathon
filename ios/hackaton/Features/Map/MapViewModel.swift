@@ -80,6 +80,7 @@ final class MapViewModel {
         defer { isFlying = pendingIntro != nil }
         let papers = (try? await feed.papers()) ?? []
         paperNames = Dictionary(papers.map { ($0.id, $0.name) }, uniquingKeysWith: { first, _ in first })
+        PaperLogos.register(papers)
         let regions = ((try? await feed.regions()).flatMap { try? RegionShape.parse($0) }) ?? []
         applyPreferences(from: settings)
 

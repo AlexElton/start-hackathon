@@ -1,0 +1,98 @@
+{
+ "id": "tSn8By",
+ "schemaType": "article",
+ "title": {
+  "value": "Første snøen i Bymarka: – Løypene kjøres opp i helgen"
+ },
+ "urls": {
+  "canonical": "https://www.adressa.no/trondheim/i/tSn8By/forste-snoen-i-bymarka-loypene-kjores-opp-i-helgen"
+ },
+ "changes": {
+  "published": "2026-10-17T08:00:00Z",
+  "updated": null
+ },
+ "section": {
+  "title": "Trondheim"
+ },
+ "newsroom": "adressa",
+ "authors": [
+  {
+   "fullname": "Siri Lyng"
+  }
+ ],
+ "tags": [
+  {
+   "title": "Bymarka",
+   "type": "tag"
+  },
+  {
+   "title": "ski",
+   "type": "tag"
+  },
+  {
+   "title": "snø",
+   "type": "tag"
+  },
+  {
+   "title": "Skistua",
+   "type": "tag"
+  }
+ ],
+ "intro": {
+  "lead": "Natt til torsdag kom 15 centimeter snø ved Skistua. Trondheim kommune lover de første oppkjørte løypene allerede lørdag."
+ },
+ "customProperties": {
+  "frontPageImage": {
+   "id": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Skistua_-_baksiden.jpg/960px-Skistua_-_baksiden.jpg"
+  },
+  "wordCount": 119
+ },
+ "components": [
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Det var hvitt i Bymarka da de første turgåerne kom til Skistua torsdag morgen. Natt til torsdag falt det rundt 15 centimeter snø over 400 meter."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "– Hvis det holder seg kaldt, kjører vi opp lysløypa fra Skistua til Elgsethytta lørdag, sier løypeansvarlig Per Arne Moe i Trondheim kommune."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Meteorologene venter mer nedbør i helgen, men temperaturen kan stige igjen neste uke."
+     }
+    }
+   ]
+  },
+  {
+   "type": "subheading",
+   "text": {
+    "value": "Ta med hodelykt"
+   }
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Kommunen minner om at det blir mørkt tidlig, og at ikke alle løyper har lys ennå. Parkeringen ved Skistua blir fort full på lørdager, så det kan lønne seg å ta buss 10 til Skistua."
+     }
+    }
+   ]
+  }
+ ]
+}

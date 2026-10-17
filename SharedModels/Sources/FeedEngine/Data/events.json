@@ -4,7 +4,11 @@
     "title": "Studentquiz på Lyche",
     "categoryId": "studentliv",
     "paperId": "adressa",
-    "location": { "lat": 63.4224, "lon": 10.3950, "name": "Studentersamfundet" },
+    "location": {
+      "lat": 63.4224,
+      "lon": 10.395,
+      "name": "Studentersamfundet"
+    },
     "imageUrl": "https://vcdn.polarismedia.no/f45e0d8d-4ec3-368a-b4f1-8bb05810ee0f?w=1000&fit=clip&q=80",
     "dayOffset": 0,
     "startTime": "20:00",
@@ -12,14 +16,22 @@
     "venue": "Lyche kjøkken og bar",
     "price": "Gratis for medlemmer",
     "description": "Lag på opptil seks. Premie til beste lag og billig mat fra kjøkkenet hele kvelden.",
-    "tags": ["quiz", "samfundet", "lyche"]
+    "tags": [
+      "quiz",
+      "samfundet",
+      "lyche"
+    ]
   },
   {
     "id": "evt_smashburger_hammerhead",
     "title": "Smashburger-kveld med studentpris",
     "categoryId": "mat",
     "paperId": "adressa",
-    "location": { "lat": 63.4343, "lon": 10.4024, "name": "Hammerhead Taproom" },
+    "location": {
+      "lat": 63.4343,
+      "lon": 10.4024,
+      "name": "Hammerhead Taproom"
+    },
     "imageUrl": "https://vcdn.polarismedia.no/14cd71e3-4903-3e6f-b319-9b3bb4480590?w=1000&fit=clip&q=80",
     "dayOffset": 0,
     "startTime": "17:00",
@@ -27,14 +39,22 @@
     "venue": "Hammerhead Taproom, Søndre gate",
     "price": "149 kr med studentbevis",
     "description": "Burgeren som vant Smakspolitiets burgertest, med fries og en lokal øl til studentpris.",
-    "tags": ["burger", "øl", "studentrabatt"]
+    "tags": [
+      "burger",
+      "øl",
+      "studentrabatt"
+    ]
   },
   {
     "id": "evt_lis_visning",
     "title": "«LIS» på storskjerm – samtale med leger fra St. Olav",
     "categoryId": "kultur",
     "paperId": "adressa",
-    "location": { "lat": 63.4335, "lon": 10.3985, "name": "Nova Kino" },
+    "location": {
+      "lat": 63.4335,
+      "lon": 10.3985,
+      "name": "Nova Kino"
+    },
     "imageUrl": "https://vcdn.polarismedia.no/57f81d63-8347-3640-be0a-0943b75a28ae?w=1000&fit=clip&q=80",
     "dayOffset": 1,
     "startTime": "19:00",
@@ -42,14 +62,23 @@
     "venue": "Nova Kino, sal 1",
     "price": "80 kr for studenter",
     "description": "Vi viser første episode av sesong to, og unge leger fra St. Olav forteller hvordan det egentlig er å være fersk lege.",
-    "tags": ["lis", "nrk", "medisin", "st. olav"]
+    "tags": [
+      "lis",
+      "nrk",
+      "medisin",
+      "st. olav"
+    ]
   },
   {
     "id": "evt_lopeklubben",
     "title": "Fellesløp med Løpeklubben",
     "categoryId": "sport",
     "paperId": "adressa",
-    "location": { "lat": 63.4183, "lon": 10.4045, "name": "Gløshaugen" },
+    "location": {
+      "lat": 63.4183,
+      "lon": 10.4045,
+      "name": "Gløshaugen"
+    },
     "imageUrl": "https://vcdn.polarismedia.no/65c6e3f7-36f2-3899-bbf0-d9d93b41eaea?w=1000&fit=clip&q=80",
     "dayOffset": 2,
     "startTime": "17:30",
@@ -57,6 +86,483 @@
     "venue": "Hovedbygningen, Gløshaugen",
     "price": "Gratis",
     "description": "Rolig tur på 5 eller 8 km langs Nidelva. Alle nivåer, ingen påmelding.",
-    "tags": ["løping", "trening", "ntnu"]
+    "tags": [
+      "løping",
+      "trening",
+      "ntnu"
+    ]
+  },
+  {
+    "id": "evt_rbk_lerkendal",
+    "title": "Rosenborg – toppkamp på Lerkendal",
+    "categoryId": "sport",
+    "paperId": "adressa",
+    "location": {
+      "lat": 63.4118,
+      "lon": 10.406,
+      "name": "Lerkendal stadion"
+    },
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Rosenborg_supporters_at_Lerkendal.jpg/960px-Rosenborg_supporters_at_Lerkendal.jpg",
+    "dayOffset": 2,
+    "startTime": "18:00",
+    "endTime": "20:00",
+    "venue": "Lerkendal stadion",
+    "price": "Fra 250 kr",
+    "description": "Høstens største kamp. Portene åpner klokka 16.30, og det går ekstra busser fra sentrum.",
+    "tags": [
+      "rosenborg",
+      "fotball"
+    ]
+  },
+  {
+    "id": "evt_rockheim_fredag",
+    "title": "Fredagskonsert: Trøndersk hiphop",
+    "categoryId": "konserter",
+    "paperId": "adressa",
+    "location": {
+      "lat": 63.4399,
+      "lon": 10.4046,
+      "name": "Rockheim"
+    },
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Utstillinga_Rockheim_-_70-tallet.jpg/960px-Utstillinga_Rockheim_-_70-tallet.jpg",
+    "dayOffset": 0,
+    "startTime": "16:00",
+    "endTime": "18:00",
+    "venue": "Rockheim, Brattøra",
+    "price": "Halv pris for studenter",
+    "description": "Gratis miniskonsert i den nye utstillingen «Fra Ila til lista».",
+    "tags": [
+      "hiphop",
+      "konsert",
+      "rockheim"
+    ]
+  },
+  {
+    "id": "evt_samfundet_lordag",
+    "title": "Lørdagsfest i Storsalen",
+    "categoryId": "uteliv",
+    "paperId": "adressa",
+    "location": {
+      "lat": 63.4227,
+      "lon": 10.3955,
+      "name": "Studentersamfundet"
+    },
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Studentersamfundet_i_Trondhjem_from_the_south.jpg/960px-Studentersamfundet_i_Trondhjem_from_the_south.jpg",
+    "dayOffset": 1,
+    "startTime": "22:00",
+    "endTime": "02:30",
+    "venue": "Studentersamfundet",
+    "price": "100 kr, gratis for medlemmer",
+    "description": "Tre DJ-er i Storsalen og Klubben. 20 års aldersgrense.",
+    "tags": [
+      "fest",
+      "samfundet",
+      "dj"
+    ]
+  },
+  {
+    "id": "evt_moholt_loppis",
+    "title": "Loppemarked på Moholt",
+    "categoryId": "studentliv",
+    "paperId": "adressa",
+    "location": {
+      "lat": 63.412,
+      "lon": 10.4348,
+      "name": "Moholt studentby"
+    },
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Flea_market_on_Torvet%2C_Gamlebyen%2C_Fredrikstad%2C_2006.jpg/960px-Flea_market_on_Torvet%2C_Gamlebyen%2C_Fredrikstad%2C_2006.jpg",
+    "dayOffset": 3,
+    "startTime": "11:00",
+    "endTime": "15:00",
+    "venue": "Moholt allmenning",
+    "price": "Gratis",
+    "description": "Møbler, klær og pensumbøker fra studenter som flytter. Ta med egen bærepose.",
+    "tags": [
+      "loppemarked",
+      "brukt",
+      "moholt"
+    ]
+  },
+  {
+    "id": "evt_bymarka_hodelykt",
+    "title": "Kveldstur med hodelykt i Bymarka",
+    "categoryId": "friluft",
+    "paperId": "adressa",
+    "location": {
+      "lat": 63.4108,
+      "lon": 10.299,
+      "name": "Skistua"
+    },
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/T%C3%B8mmerdalen_in_Bymarka_in_Trondheim_Norway_in_winter.jpg/960px-T%C3%B8mmerdalen_in_Bymarka_in_Trondheim_Norway_in_winter.jpg",
+    "dayOffset": 1,
+    "startTime": "18:30",
+    "endTime": "20:30",
+    "venue": "Oppmøte ved Skistua",
+    "price": "Gratis",
+    "description": "Rolig tur til Elgsethytta med kakao og bål. Ta med hodelykt og gode sko.",
+    "tags": [
+      "tur",
+      "bymarka",
+      "friluftsliv"
+    ]
+  },
+  {
+    "id": "evt_kunstmuseum_kveld",
+    "title": "Kveldsåpent på Kunstmuseet",
+    "categoryId": "kultur",
+    "paperId": "adressa",
+    "location": {
+      "lat": 63.4285,
+      "lon": 10.3992,
+      "name": "Trondheim kunstmuseum"
+    },
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Trondheim_Kunstmuseum_1.jpg/960px-Trondheim_Kunstmuseum_1.jpg",
+    "dayOffset": 3,
+    "startTime": "18:00",
+    "endTime": "21:00",
+    "venue": "Trondheim kunstmuseum, Bispegata",
+    "price": "Gratis",
+    "description": "Gratis inngang, omvisning klokka 19 og bar i foajeen.",
+    "tags": [
+      "kunst",
+      "museum",
+      "utstilling"
+    ]
+  },
+  {
+    "id": "evt_kolstad_spektrum",
+    "title": "Kolstad Håndball – europeisk kamp",
+    "categoryId": "sport",
+    "paperId": "adressa",
+    "location": {
+      "lat": 63.428,
+      "lon": 10.377,
+      "name": "Trondheim Spektrum"
+    },
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Trondheim_Spektrum_2019.jpg/960px-Trondheim_Spektrum_2019.jpg",
+    "dayOffset": 4,
+    "startTime": "18:45",
+    "endTime": "20:30",
+    "venue": "Trondheim Spektrum",
+    "price": "Fra 200 kr",
+    "description": "Kolstad møter et av Europas beste lag. Billetter i døra så lenge det er plass.",
+    "tags": [
+      "håndball",
+      "kolstad"
+    ]
+  },
+  {
+    "id": "evt_dragvoll_debatt",
+    "title": "Debatt: Hvem skal bygge studentboligene?",
+    "categoryId": "politikk",
+    "paperId": "adressa",
+    "location": {
+      "lat": 63.4085,
+      "lon": 10.471,
+      "name": "Dragvoll"
+    },
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/NTNU_-_Campus_Dragvoll.jpg/960px-NTNU_-_Campus_Dragvoll.jpg",
+    "dayOffset": 2,
+    "startTime": "12:15",
+    "endTime": "13:30",
+    "venue": "Auditorium D1, Dragvoll",
+    "price": "Gratis",
+    "description": "Politikere fra bystyret møter Sit og Studenttinget. Adresseavisen leder debatten.",
+    "tags": [
+      "debatt",
+      "studentbolig",
+      "politikk"
+    ]
+  },
+  {
+    "id": "evt_ilaparken_fest",
+    "title": "Nabolagsfest i Ilaparken",
+    "categoryId": "nabolag",
+    "paperId": "adressa",
+    "location": {
+      "lat": 63.4293,
+      "lon": 10.3716,
+      "name": "Ilaparken"
+    },
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Lekeapparat_-_lekeplass_-_playground_-_ved_CC_Hamar_2.JPG/960px-Lekeapparat_-_lekeplass_-_playground_-_ved_CC_Hamar_2.JPG",
+    "dayOffset": 1,
+    "startTime": "12:00",
+    "endTime": "16:00",
+    "venue": "Ilaparken",
+    "price": "Gratis",
+    "description": "Grilling, aktiviteter for barn og loddsalg til inntekt for velforeningen.",
+    "tags": [
+      "nabolag",
+      "familie",
+      "ila"
+    ]
+  },
+  {
+    "id": "evt_workwork_standup",
+    "title": "Stand-up: Nye komikere",
+    "categoryId": "uteliv",
+    "paperId": "adressa",
+    "location": {
+      "lat": 63.4338,
+      "lon": 10.3962,
+      "name": "Work-Work"
+    },
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Comedy_Club_Starbugs.jpg/960px-Comedy_Club_Starbugs.jpg",
+    "dayOffset": 0,
+    "startTime": "20:30",
+    "endTime": "22:30",
+    "venue": "Work-Work, Nordre gate",
+    "price": "150 kr",
+    "description": "Seks nye komikere prøver ut nytt materiale. Fri sitteplass.",
+    "tags": [
+      "stand-up",
+      "humor"
+    ]
+  },
+  {
+    "id": "evt_granasen_frivillig",
+    "title": "Infomøte for frivillige i Granåsen",
+    "categoryId": "sport",
+    "paperId": "adressa",
+    "location": {
+      "lat": 63.3835,
+      "lon": 10.3165,
+      "name": "Granåsen"
+    },
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Gran%C3%A5sen_Skijump_Arena.JPG/960px-Gran%C3%A5sen_Skijump_Arena.JPG",
+    "dayOffset": 4,
+    "startTime": "18:00",
+    "endTime": "19:30",
+    "venue": "Granåsen skisenter",
+    "price": "Gratis",
+    "description": "Bli med som frivillig under hopp-verdenscupen. Pizza til alle som kommer.",
+    "tags": [
+      "frivillig",
+      "hopp",
+      "verdenscup"
+    ]
+  },
+  {
+    "id": "evt_levanger_marked",
+    "title": "Høstmarked i Levanger sentrum",
+    "categoryId": "nabolag",
+    "paperId": "innherred",
+    "location": {
+      "lat": 63.747,
+      "lon": 11.303,
+      "name": "Levanger sentrum"
+    },
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Otago_Farmers_Market_stalls_in_main_carpark_13_Dec_2025.jpg/960px-Otago_Farmers_Market_stalls_in_main_carpark_13_Dec_2025.jpg",
+    "dayOffset": 2,
+    "startTime": "10:00",
+    "endTime": "16:00",
+    "venue": "Torget i Levanger",
+    "price": "Gratis",
+    "description": "Lokal mat, håndverk og aktiviteter for barn.",
+    "tags": [
+      "marked",
+      "levanger"
+    ]
+  },
+  {
+    "id": "evt_oppdal_apning",
+    "title": "Sesongåpning i Oppdal skisenter",
+    "categoryId": "friluft",
+    "paperId": "opdalingen",
+    "location": {
+      "lat": 62.6008,
+      "lon": 9.679,
+      "name": "Oppdal skisenter"
+    },
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Skiing_up_the_Hyttdalen_valley_from_Gjevilvatnet.jpg/960px-Skiing_up_the_Hyttdalen_valley_from_Gjevilvatnet.jpg",
+    "dayOffset": 2,
+    "startTime": "09:00",
+    "endTime": "16:00",
+    "venue": "Oppdal skisenter, Hovden",
+    "price": "Dagskort 450 kr",
+    "description": "De første bakkene åpner. Gratis kaffe i bunnen av heisen.",
+    "tags": [
+      "ski",
+      "oppdal",
+      "alpint"
+    ]
+  },
+  {
+    "id": "evt_alesund_parken",
+    "title": "Konsert i Parken kulturhus",
+    "categoryId": "konserter",
+    "paperId": "smp",
+    "location": {
+      "lat": 62.47,
+      "lon": 6.156,
+      "name": "Parken kulturhus"
+    },
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/%C3%85lesund_Parkgata_lub_2025-07-28_img01.jpg/960px-%C3%85lesund_Parkgata_lub_2025-07-28_img01.jpg",
+    "dayOffset": 1,
+    "startTime": "20:00",
+    "endTime": "22:00",
+    "venue": "Parken kulturhus, Ålesund",
+    "price": "Fra 290 kr",
+    "description": "Høstkonsert med lokale artister og strykeorkester.",
+    "tags": [
+      "konsert",
+      "ålesund"
+    ]
+  },
+  {
+    "id": "evt_molde_aker",
+    "title": "Molde FK – hjemmekamp",
+    "categoryId": "sport",
+    "paperId": "romsdals-budstikke",
+    "location": {
+      "lat": 62.7343,
+      "lon": 7.1488,
+      "name": "Aker stadion"
+    },
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Aker_Stadion_in_Molde_%282015%29.jpg/960px-Aker_Stadion_in_Molde_%282015%29.jpg",
+    "dayOffset": 3,
+    "startTime": "19:00",
+    "endTime": "21:00",
+    "venue": "Aker stadion, Molde",
+    "price": "Fra 220 kr",
+    "description": "Molde tar imot et av lagene i toppen. Familiebillett 500 kroner.",
+    "tags": [
+      "molde fk",
+      "fotball"
+    ]
+  },
+  {
+    "id": "evt_tromso_nordlys",
+    "title": "Nordlysvandring fra Telegrafbukta",
+    "categoryId": "friluft",
+    "paperId": "itromso",
+    "location": {
+      "lat": 69.633,
+      "lon": 18.914,
+      "name": "Telegrafbukta"
+    },
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Telegrafbukta%2C_Troms%C3%B8_30.jpg/960px-Telegrafbukta%2C_Troms%C3%B8_30.jpg",
+    "dayOffset": 0,
+    "startTime": "21:00",
+    "endTime": "23:00",
+    "venue": "Telegrafbukta, Tromsø",
+    "price": "Gratis",
+    "description": "Guidet tur langs sjøen. Kle deg varmt, det kan bli kaldt.",
+    "tags": [
+      "nordlys",
+      "tur"
+    ]
+  },
+  {
+    "id": "evt_tromso_driv",
+    "title": "Studentkonsert på Driv",
+    "categoryId": "konserter",
+    "paperId": "itromso",
+    "location": {
+      "lat": 69.6461,
+      "lon": 18.9597,
+      "name": "Driv"
+    },
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Driv_-skilt.jpg/960px-Driv_-skilt.jpg",
+    "dayOffset": 1,
+    "startTime": "21:00",
+    "endTime": "01:00",
+    "venue": "Driv, Tromsø",
+    "price": "120 kr",
+    "description": "Tre studentband fra UiT spiller i den gamle sjøbua.",
+    "tags": [
+      "konsert",
+      "studenter",
+      "driv"
+    ]
+  },
+  {
+    "id": "evt_harstad_jazz",
+    "title": "Jazz i Harstad kulturhus",
+    "categoryId": "konserter",
+    "paperId": "harstad-tidende",
+    "location": {
+      "lat": 68.8,
+      "lon": 16.545,
+      "name": "Harstad kulturhus"
+    },
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Harstad_kulturhus.jpg/960px-Harstad_kulturhus.jpg",
+    "dayOffset": 5,
+    "startTime": "19:30",
+    "endTime": "21:30",
+    "venue": "Harstad kulturhus",
+    "price": "250 kr",
+    "description": "Nordnorsk jazzensemble med gjester fra hele landsdelen.",
+    "tags": [
+      "jazz",
+      "harstad"
+    ]
+  },
+  {
+    "id": "evt_kilden_standup",
+    "title": "Stand-up i Kilden",
+    "categoryId": "kultur",
+    "paperId": "fvn",
+    "location": {
+      "lat": 58.142,
+      "lon": 8.0,
+      "name": "Kilden"
+    },
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Kilden_Teater-og_Konserthus.jpg/960px-Kilden_Teater-og_Konserthus.jpg",
+    "dayOffset": 3,
+    "startTime": "20:00",
+    "endTime": "22:00",
+    "venue": "Kilden, Odderøya",
+    "price": "Studentpris 150 kr",
+    "description": "Tre av landets mest populære komikere på samme scene.",
+    "tags": [
+      "stand-up",
+      "kilden"
+    ]
+  },
+  {
+    "id": "evt_start_kamp",
+    "title": "IK Start – avgjørende hjemmekamp",
+    "categoryId": "sport",
+    "paperId": "fvn",
+    "location": {
+      "lat": 58.1448,
+      "lon": 7.972,
+      "name": "Sparebanken Sør Arena"
+    },
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Kristiansand_stadion.jpg/960px-Kristiansand_stadion.jpg",
+    "dayOffset": 1,
+    "startTime": "17:00",
+    "endTime": "19:00",
+    "venue": "Sparebanken Sør Arena",
+    "price": "Gratis for studenter",
+    "description": "Studenter kommer gratis inn med gyldig studentbevis.",
+    "tags": [
+      "start",
+      "fotball"
+    ]
+  },
+  {
+    "id": "evt_arendal_quiz",
+    "title": "Pubquiz på Tyholmen",
+    "categoryId": "uteliv",
+    "paperId": "agderposten",
+    "location": {
+      "lat": 58.46,
+      "lon": 8.765,
+      "name": "Tyholmen"
+    },
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/NB22_Arendal_Tyholmen_og_Pollen.jpg/960px-NB22_Arendal_Tyholmen_og_Pollen.jpg",
+    "dayOffset": 0,
+    "startTime": "20:00",
+    "endTime": "22:00",
+    "venue": "Tyholmen, Arendal",
+    "price": "Gratis",
+    "description": "Lag på opptil fem. Premie til beste lag.",
+    "tags": [
+      "quiz",
+      "pub",
+      "arendal"
+    ]
   }
 ]

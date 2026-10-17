@@ -1,0 +1,88 @@
+{
+ "id": "tHmd3s",
+ "schemaType": "article",
+ "title": {
+  "value": "Ny ungdomsskole på Heimdal blir ett år forsinket"
+ },
+ "urls": {
+  "canonical": "https://www.adressa.no/trondheim/i/tHmd3s/ny-ungdomsskole-pa-heimdal-blir-ett-ar-forsinket"
+ },
+ "changes": {
+  "published": "2026-10-17T08:00:00Z",
+  "updated": null
+ },
+ "section": {
+  "title": "Trondheim"
+ },
+ "newsroom": "adressa",
+ "authors": [
+  {
+   "fullname": "Ingrid Solberg"
+  }
+ ],
+ "tags": [
+  {
+   "title": "Heimdal",
+   "type": "tag"
+  },
+  {
+   "title": "skole",
+   "type": "tag"
+  },
+  {
+   "title": "bystyret",
+   "type": "tag"
+  }
+ ],
+ "intro": {
+  "lead": "Foreldre reagerer på at elevene må gå ett år til i brakker."
+ },
+ "customProperties": {
+  "frontPageImage": {
+   "id": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Noen_forretningsbygg_i_Heimdal_sentrum.jpg/960px-Noen_forretningsbygg_i_Heimdal_sentrum.jpg"
+  },
+  "wordCount": 82
+ },
+ "components": [
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Den nye ungdomsskolen på Heimdal skulle stå klar til skolestart neste høst. Nå blir det tidligst høsten 2028."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Kommunen måtte lyse ut byggingen på nytt etter at anbudene kom inn 40 millioner kroner over budsjett."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "– Elevene har gått i brakker i tre år. Nå blir det fire. Det er ikke greit, sier FAU-leder Tone Lien."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Byråd for oppvekst sier kommunen jobber med å bedre ventilasjonen i brakkene i mellomtiden."
+     }
+    }
+   ]
+  }
+ ]
+}

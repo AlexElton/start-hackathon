@@ -1,0 +1,78 @@
+{
+ "id": "nTil7c",
+ "schemaType": "article",
+ "title": {
+  "value": "TIL snudde kampen på Romssa Arena"
+ },
+ "urls": {
+  "canonical": "https://www.itromso.no/sport/i/nTil7c/til-snudde-kampen-pa-romssa-arena"
+ },
+ "changes": {
+  "published": "2026-10-17T08:00:00Z",
+  "updated": null
+ },
+ "section": {
+  "title": "Sport"
+ },
+ "newsroom": "itromso",
+ "authors": [
+  {
+   "fullname": "Mats Hansen"
+  }
+ ],
+ "tags": [
+  {
+   "title": "TIL",
+   "type": "tag"
+  },
+  {
+   "title": "Tromsø IL",
+   "type": "tag"
+  },
+  {
+   "title": "Alfheim",
+   "type": "tag"
+  }
+ ],
+ "intro": {
+  "lead": "To mål de siste ti minuttene sikret tre poeng."
+ },
+ "customProperties": {
+  "frontPageImage": {
+   "id": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Estadio_Alfheim%2C_Troms%C3%B8%2C_Noruega%2C_2019-09-04%2C_DD_32.jpg/960px-Estadio_Alfheim%2C_Troms%C3%B8%2C_Noruega%2C_2019-09-04%2C_DD_32.jpg"
+  },
+  "wordCount": 47
+ },
+ "components": [
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Tromsø IL lå under 0–1 med ti minutter igjen, men snudde kampen på Romssa Arena."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "– Vi ga oss aldri. Det er det dette laget handler om, sier trener Gaute Nilsen."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Seieren gjør at TIL klatrer til sjetteplass."
+     }
+    }
+   ]
+  }
+ ]
+}

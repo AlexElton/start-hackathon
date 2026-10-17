@@ -1,0 +1,94 @@
+{
+ "id": "tSol4n",
+ "schemaType": "article",
+ "title": {
+  "value": "Tre nye restauranter flytter inn på Solsiden"
+ },
+ "urls": {
+  "canonical": "https://www.adressa.no/restaurantguiden/i/tSol4n/tre-nye-restauranter-flytter-inn-pa-solsiden"
+ },
+ "changes": {
+  "published": "2026-10-17T08:00:00Z",
+  "updated": null
+ },
+ "section": {
+  "title": "Restaurantguiden"
+ },
+ "newsroom": "adressa",
+ "authors": [
+  {
+   "fullname": "Kristin Brøndbo"
+  }
+ ],
+ "tags": [
+  {
+   "title": "Solsiden",
+   "type": "tag"
+  },
+  {
+   "title": "restaurant",
+   "type": "tag"
+  },
+  {
+   "title": "Nedre Elvehavn",
+   "type": "tag"
+  }
+ ],
+ "intro": {
+  "lead": "De gamle verkstedhallene ved Nedre Elvehavn får nytt liv. Først ut er en ramenbar som åpner i november."
+ },
+ "customProperties": {
+  "frontPageImage": {
+   "id": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Solsiden%2C_Trondheim%2C_2013.jpg/960px-Solsiden%2C_Trondheim%2C_2013.jpg"
+  },
+  "wordCount": 109
+ },
+ "components": [
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Verkstedhallene på Solsiden har stått halvtomme siden pandemien. Nå har tre nye spisesteder signert kontrakt."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Først ut er ramenbaren Nami, som åpner i midten av november. Etter jul kommer et taco-sted og en vinbar med småretter."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "– Vi ville ha steder hvor du kan spise godt for under 200 kroner. Det er mange studenter og unge som bor her, sier daglig leder Ole Ringstad i eiendomsselskapet."
+     }
+    }
+   ]
+  },
+  {
+   "type": "subheading",
+   "text": {
+    "value": "Lengre åpningstider"
+   }
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Stedene får lov til å holde åpent til klokka 01 i helgene, og to av dem planlegger uteservering mot kanalen til sommeren."
+     }
+    }
+   ]
+  }
+ ]
+}

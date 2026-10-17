@@ -1,0 +1,78 @@
+{
+ "id": "tFry6m",
+ "schemaType": "article",
+ "title": {
+  "value": "Laksen gir rekordår på Frøya"
+ },
+ "urls": {
+  "canonical": "https://www.hitra-froya.no/froya/i/tFry6m/laksen-gir-rekordar-pa-froya"
+ },
+ "changes": {
+  "published": "2026-10-17T08:00:00Z",
+  "updated": null
+ },
+ "section": {
+  "title": "Frøya"
+ },
+ "newsroom": "hitra-froya",
+ "authors": [
+  {
+   "fullname": "Liv Strøm"
+  }
+ ],
+ "tags": [
+  {
+   "title": "Frøya",
+   "type": "tag"
+  },
+  {
+   "title": "laks",
+   "type": "tag"
+  },
+  {
+   "title": "havbruk",
+   "type": "tag"
+  }
+ ],
+ "intro": {
+  "lead": "Høye priser gir rekordinntekter, men næringen er bekymret for lakseskatten."
+ },
+ "customProperties": {
+  "frontPageImage": {
+   "id": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Sula_Fr%C3%B8ya_Tr%C3%B8ndelag_%282022.10.01%29.jpg/960px-Sula_Fr%C3%B8ya_Tr%C3%B8ndelag_%282022.10.01%29.jpg"
+  },
+  "wordCount": 65
+ },
+ "components": [
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Høye laksepriser gjør at oppdretterne på Frøya går mot et rekordår."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Kommunen får over 60 millioner kroner fra havbruksfondet, penger som skal gå til ny svømmehall og bredbånd."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "– Det er gode tider nå, men vi er bekymret for hva som skjer med skattereglene, sier daglig leder Odd Strand i et av de lokale selskapene."
+     }
+    }
+   ]
+  }
+ ]
+}

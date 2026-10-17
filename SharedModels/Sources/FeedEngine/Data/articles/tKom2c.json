@@ -1,0 +1,88 @@
+{
+ "id": "tKom2c",
+ "schemaType": "article",
+ "title": {
+  "value": "Kommentar: Trondheim har råd til å bygge for studentene"
+ },
+ "urls": {
+  "canonical": "https://www.adressa.no/meninger/i/tKom2c/kommentar-trondheim-har-rad-til-a-bygge-for-studentene"
+ },
+ "changes": {
+  "published": "2026-10-17T08:00:00Z",
+  "updated": null
+ },
+ "section": {
+  "title": "Meninger"
+ },
+ "newsroom": "adressa",
+ "authors": [
+  {
+   "fullname": "Tone Lykke"
+  }
+ ],
+ "tags": [
+  {
+   "title": "kommentar",
+   "type": "tag"
+  },
+  {
+   "title": "studentboliger",
+   "type": "tag"
+  },
+  {
+   "title": "politikk",
+   "type": "tag"
+  }
+ ],
+ "intro": {
+  "lead": "En by som lever av kunnskap, kan ikke la studentene bo på hotell."
+ },
+ "customProperties": {
+  "frontPageImage": {
+   "id": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/View_from_Kristiansten_festning_Trondheim_2022-08-18_29.jpg/960px-View_from_Kristiansten_festning_Trondheim_2022-08-18_29.jpg"
+  },
+  "wordCount": 83
+ },
+ "components": [
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Trondheim liker å kalle seg teknologihovedstaden. Da må byen også ta ansvar for dem som skal bygge den."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Over 4000 studenter står i boligkø. Det er ikke bare et problem for dem, men for hele byen, som trenger at de blir værende etter studiene."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Kommunen kan gi Sit tomter billigere, og staten kan øke tilskuddet per hybel. Begge deler har vært gjort før."
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "paragraphs": [
+    {
+     "text": {
+      "value": "Det handler om vilje, ikke om penger."
+     }
+    }
+   ]
+  }
+ ]
+}
