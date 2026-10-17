@@ -96,7 +96,8 @@ struct MockFeedService: FeedServicing {
 
     func feed(_ filter: FeedFilter) async throws -> FeedPage {
         let matches = items.filter { item in
-            (filter.kinds?.contains(item.kind) ?? true) && (filter.bbox?.contains(item.location) ?? true)
+            (filter.kinds?.contains(item.kind) ?? true)
+                && (filter.bbox.flatMap { bbox in item.location.map(bbox.contains) } ?? true)
         }
         return FeedPage(items: matches, total: matches.count)
     }

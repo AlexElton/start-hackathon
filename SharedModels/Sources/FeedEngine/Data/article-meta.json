@@ -9,16 +9,56 @@
       "Flere ligger på Bakklandet, med uteservering og utsikt over Nidelva."
     ],
     "locations": [
-      { "lat": 63.4283, "lon": 10.4027, "name": "Den Gode Nabo, Bakklandet" },
-      { "lat": 63.4296, "lon": 10.4036, "name": "Daglig Deig, Bakklandet" },
-      { "lat": 63.4318, "lon": 10.3922, "name": "Mat fra Hagen, Thomas Angells gate" },
-      { "lat": 63.4224, "lon": 10.3950, "name": "Lyche kjøkken og bar, Studentersamfundet" },
-      { "lat": 63.4437, "lon": 10.4378, "name": "Ladekaia, Lade" },
-      { "lat": 63.4222, "lon": 10.4320, "name": "Egon Tårnet, Tyholttårnet" },
-      { "lat": 63.4343, "lon": 10.4024, "name": "Hammerhead Taproom, Søndre gate" },
-      { "lat": 63.4302, "lon": 10.4042, "name": "Burger.no, Nedre Bakklandet" },
-      { "lat": 63.4391, "lon": 10.4226, "name": "Ramp pub & spiseri, Svartlamoen" },
-      { "lat": 63.4322, "lon": 10.3948, "name": "Øx Tap Room, Munkegata" }
+      {
+        "lat": 63.4283,
+        "lon": 10.4027,
+        "name": "Den Gode Nabo, Bakklandet"
+      },
+      {
+        "lat": 63.4296,
+        "lon": 10.4036,
+        "name": "Daglig Deig, Bakklandet"
+      },
+      {
+        "lat": 63.4318,
+        "lon": 10.3922,
+        "name": "Mat fra Hagen, Thomas Angells gate"
+      },
+      {
+        "lat": 63.4224,
+        "lon": 10.395,
+        "name": "Lyche kjøkken og bar, Studentersamfundet"
+      },
+      {
+        "lat": 63.4437,
+        "lon": 10.4378,
+        "name": "Ladekaia, Lade"
+      },
+      {
+        "lat": 63.4222,
+        "lon": 10.432,
+        "name": "Egon Tårnet, Tyholttårnet"
+      },
+      {
+        "lat": 63.4343,
+        "lon": 10.4024,
+        "name": "Hammerhead Taproom, Søndre gate"
+      },
+      {
+        "lat": 63.4302,
+        "lon": 10.4042,
+        "name": "Burger.no, Nedre Bakklandet"
+      },
+      {
+        "lat": 63.4391,
+        "lon": 10.4226,
+        "name": "Ramp pub & spiseri, Svartlamoen"
+      },
+      {
+        "lat": 63.4322,
+        "lon": 10.3948,
+        "name": "Øx Tap Room, Munkegata"
+      }
     ]
   },
   {
@@ -31,7 +71,11 @@
       "Her er det viktigste for Trøndelag samlet på ett sted."
     ],
     "locations": [
-      { "lat": 63.4301, "lon": 10.3907, "name": "Fylkets hus, Trondheim" }
+      {
+        "lat": 63.4301,
+        "lon": 10.3907,
+        "name": "Fylkets hus, Trondheim"
+      }
     ]
   },
   {
@@ -44,7 +88,11 @@
       "Treg service trekker ned, men stedet får terningkast fem."
     ],
     "locations": [
-      { "lat": 63.4316, "lon": 10.3972, "name": "Te og Kaffehuset, Dronningens gate 30" }
+      {
+        "lat": 63.4316,
+        "lon": 10.3972,
+        "name": "Te og Kaffehuset, Dronningens gate 30"
+      }
     ]
   },
   {
@@ -57,8 +105,16 @@
       "Familien håper at folk som var på kaia den kvelden melder seg."
     ],
     "locations": [
-      { "lat": 63.4318, "lon": 10.3755, "name": "Skansen småbåthavn" },
-      { "lat": 63.4347, "lon": 10.4113, "name": "Solsiden" }
+      {
+        "lat": 63.4318,
+        "lon": 10.3755,
+        "name": "Skansen småbåthavn"
+      },
+      {
+        "lat": 63.4347,
+        "lon": 10.4113,
+        "name": "Solsiden"
+      }
     ]
   },
   {
@@ -71,8 +127,16 @@
       "Nye Veier får rundt 7 milliarder, men prisvekst gir mindre å bygge for."
     ],
     "locations": [
-      { "lat": 63.4153, "lon": 11.7465, "name": "Meråker" },
-      { "lat": 63.4695, "lon": 10.9180, "name": "Stjørdal, E14" }
+      {
+        "lat": 63.4153,
+        "lon": 11.7465,
+        "name": "Meråker"
+      },
+      {
+        "lat": 63.4695,
+        "lon": 10.918,
+        "name": "Stjørdal, E14"
+      }
     ]
   },
   {
@@ -84,9 +148,7 @@
       "Skaden var ikke alvorlig, og en beboer ved institusjonen er siktet.",
       "Kommunens kriseteam har tilbudt fornærmede hjelp."
     ],
-    "locations": [
-      { "lat": 63.4185, "lon": 10.4010, "name": "Trondheim (omtrentlig sted)" }
-    ]
+    "locations": []
   },
   {
     "id": "eGz299",
@@ -98,7 +160,11 @@
       "Politiet undersøker om kula kan ha rikosjettert."
     ],
     "locations": [
-      { "lat": 63.3315, "lon": 10.4475, "name": "Tanem" }
+      {
+        "lat": 63.3315,
+        "lon": 10.4475,
+        "name": "Tanem"
+      }
     ]
   },
   {
@@ -111,7 +177,11 @@
       "Nå trener hun igjen og har fullført sin første Hyrox-konkurranse."
     ],
     "locations": [
-      { "lat": 63.4365, "lon": 10.4695, "name": "Leangen" }
+      {
+        "lat": 63.4365,
+        "lon": 10.4695,
+        "name": "Leangen"
+      }
     ]
   },
   {
@@ -124,7 +194,11 @@
       "Sykehuset har styrket oppfølgingen av ferske leger etter at mange ikke ville tilbake."
     ],
     "locations": [
-      { "lat": 63.4209, "lon": 10.3887, "name": "St. Olavs hospital" }
+      {
+        "lat": 63.4209,
+        "lon": 10.3887,
+        "name": "St. Olavs hospital"
+      }
     ]
   },
   {
@@ -137,8 +211,16 @@
       "Begge brannene er slukket. Ingen ble skadet, men 60 tonn havre gikk tapt."
     ],
     "locations": [
-      { "lat": 63.4335, "lon": 10.3690, "name": "Kornsiloen i Ila" },
-      { "lat": 63.3620, "lon": 10.1640, "name": "Fiskå mølle, Spongdal" }
+      {
+        "lat": 63.4335,
+        "lon": 10.369,
+        "name": "Kornsiloen i Ila"
+      },
+      {
+        "lat": 63.362,
+        "lon": 10.164,
+        "name": "Fiskå mølle, Spongdal"
+      }
     ]
   }
 ]

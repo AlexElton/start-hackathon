@@ -67,7 +67,7 @@ struct ArticleReaderView: View {
 
     private var section: String {
         if case .loaded(let article) = state, let section = article.section { return section }
-        return item.location.name ?? item.kind.label
+        return item.location?.name ?? item.kind.label
     }
 
     @ViewBuilder

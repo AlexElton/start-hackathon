@@ -17,7 +17,7 @@ struct ArticleCardView: View {
                 VStack(alignment: .leading, spacing: 8) {
                     HStack(spacing: 12) {
                         // A long place name truncates; the date always shows in full.
-                        Kicker(text: item.location.name ?? item.kind.label)
+                        Kicker(text: item.location?.name ?? item.kind.label)
                             .lineLimit(1)
                             .frame(maxWidth: .infinity, alignment: .leading)
                         Text(item.date.norwegianDay)

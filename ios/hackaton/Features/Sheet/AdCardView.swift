@@ -36,7 +36,7 @@ struct AdCardView: View {
 
                 VStack(alignment: .leading, spacing: 0) {
                     InfoRow(symbol: "hourglass", text: "Gjelder til \(details.validUntil.norwegianDay)")
-                    if let place = item.location.name {
+                    if let place = item.location?.name {
                         Divider().padding(.leading, 44)
                         InfoRow(symbol: "mappin.and.ellipse", text: place)
                     }

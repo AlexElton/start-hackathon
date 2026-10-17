@@ -265,7 +265,7 @@ private struct SmallItemCard: View {
         switch item.details {
         case .event(let event): "\(event.startsAt.norwegianTime) · \(event.venue)"
         case .ad(let ad): ad.merchant
-        case .article: item.location.name ?? ""
+        case .article: item.location?.name ?? ""
         }
     }
 

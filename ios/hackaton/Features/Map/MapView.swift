@@ -40,6 +40,7 @@ struct MapView: UIViewRepresentable {
             map.camera = start.mkCamera
             DispatchQueue.main.async { [weak map] in map?.camera = start.mkCamera }
         }
+        context.coordinator.holdStartCamera(start)
         context.coordinator.mapView = mapView
         context.coordinator.currentStyle = style
         return mapView
@@ -178,6 +179,7 @@ struct MapView: UIViewRepresentable {
 
         func fly(to target: CameraSpec, duration: Double, cinematic: Bool = false) {
             guard let mapView else { return }
+            startCamera = nil // A flight takes over the camera.
             flight?.stop()
             flight = CameraFlight(mapView: mapView, to: target, duration: duration, cinematic: cinematic)
         }
@@ -195,7 +197,30 @@ struct MapView: UIViewRepresentable {
             parent.onZoomChange(ZoomScale.fraction(for: mapView.camera.centerCoordinateDistance))
         }
 
+        /// MapKit applies its own default view (the whole country) shortly after the map appears, which
+        /// overrode our start camera when no intro moved it afterwards. For a short while, put it back.
+        private var startCamera: CameraSpec?
+        private var startCameraUntil: CFTimeInterval = 0
+
+        func holdStartCamera(_ camera: CameraSpec) {
+            startCamera = camera
+            startCameraUntil = CACurrentMediaTime() + 1.5
+        }
+
+        private func restoreStartCameraIfOverridden(_ mapView: MKMapView) {
+            guard let start = startCamera else { return }
+            guard CACurrentMediaTime() < startCameraUntil, flight == nil, displayLink == nil,
+                  !mapView.isUserInteracting else {
+                startCamera = nil
+                return
+            }
+            if abs(log(mapView.camera.centerCoordinateDistance / start.distance)) > 0.1 {
+                mapView.camera = start.mkCamera
+            }
+        }
+
         func mapView(_ mapView: MKMapView, regionDidChangeAnimated animated: Bool) {
+            restoreStartCameraIfOverridden(mapView)
             if mapView.camera.centerCoordinateDistance <= ZoomScale.overviewStartDistance {
                 localCenter = mapView.camera.centerCoordinate
             }
@@ -261,5 +286,12 @@ extension MapStyle {
         case .hybrid: MKHybridMapConfiguration(elevationStyle: .realistic)
         case .satellite: MKImageryMapConfiguration(elevationStyle: .realistic)
         }
+    }
+}
+
+private extension MKMapView {
+    /// True while a finger is panning, pinching or rotating the map.
+    var isUserInteracting: Bool {
+        (subviews.first?.gestureRecognizers ?? []).contains { $0.state == .began || $0.state == .changed }
     }
 }

@@ -6,7 +6,8 @@ public struct FeedItem: Codable, Identifiable, Hashable, Sendable {
     public var title: String
     public var categoryId: String
     public var paperId: String?
-    public var location: GeoPoint
+    /// Nil for articles that cannot be placed on the map (shown in the side panel instead).
+    public var location: GeoPoint?
     public var imageUrl: String?
     /// Published time for articles, start time for events, valid-until for ads.
     public var date: Date
@@ -21,7 +22,7 @@ public struct FeedItem: Codable, Identifiable, Hashable, Sendable {
         title: String,
         categoryId: String,
         paperId: String?,
-        location: GeoPoint,
+        location: GeoPoint?,
         imageUrl: String?,
         date: Date,
         distanceKm: Double? = nil,
@@ -109,7 +110,7 @@ public struct FeedItem: Codable, Identifiable, Hashable, Sendable {
         title = try container.decode(String.self, forKey: .title)
         categoryId = try container.decode(String.self, forKey: .categoryId)
         paperId = try container.decodeIfPresent(String.self, forKey: .paperId)
-        location = try container.decode(GeoPoint.self, forKey: .location)
+        location = try container.decodeIfPresent(GeoPoint.self, forKey: .location)
         imageUrl = try container.decodeIfPresent(String.self, forKey: .imageUrl)
         date = try container.decode(Date.self, forKey: .date)
         distanceKm = try container.decodeIfPresent(Double.self, forKey: .distanceKm)
@@ -129,7 +130,7 @@ public struct FeedItem: Codable, Identifiable, Hashable, Sendable {
         try container.encode(title, forKey: .title)
         try container.encode(categoryId, forKey: .categoryId)
         try container.encodeIfPresent(paperId, forKey: .paperId)
-        try container.encode(location, forKey: .location)
+        try container.encodeIfPresent(location, forKey: .location)
         try container.encodeIfPresent(imageUrl, forKey: .imageUrl)
         try container.encode(date, forKey: .date)
         try container.encodeIfPresent(distanceKm, forKey: .distanceKm)
