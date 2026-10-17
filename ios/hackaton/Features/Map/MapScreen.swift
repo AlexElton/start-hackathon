@@ -32,29 +32,53 @@ private struct MapContent: View {
     @State private var showSidePanel = false
     @State private var panelDrag: CGFloat = 0
 
+    /// After onboarding, things come in one after another instead of all at once:
+    /// onboarding fades away, then the chips and slider, then the pins.
+    @State private var showChrome: Bool
+    @State private var showPins: Bool
+
+    init(model: MapViewModel, environment: AppEnvironment) {
+        self.model = model
+        self.environment = environment
+        let handingOff = environment.settings.isHandingOff
+        _showChrome = State(initialValue: !handingOff)
+        _showPins = State(initialValue: !handingOff)
+    }
+
+    private var chromeVisible: Bool { showChrome && !model.isIntroPlaying }
+
     var body: some View {
         ZStack(alignment: .top) {
             MapView(
                 style: settings.mapStyle,
                 initialCamera: model.initialCamera,
                 cameraCommand: model.cameraCommand,
-                items: model.items,
+                // Pins wait until the camera has landed and onboarding has faded, then pop in.
+                items: model.isFlying || !showPins ? [] : model.items,
                 zoomFraction: model.zoomFraction,
                 isSliderActive: model.isSliderActive,
                 images: environment.images,
                 onZoomChange: model.mapZoomChanged,
                 onRegionChange: model.visibleRegionChanged,
                 onSelect: model.open,
-                onRendered: model.mapRendered
+                onRendered: {
+                    model.mapRendered()
+                    settings.mainMapRendered = true
+                }
             )
             .ignoresSafeArea()
 
             VStack(spacing: 12) {
                 HStack(spacing: 10) {
-                    // Logo placeholder: a plain Adressablå circle until we have the real logo.
-                    Circle()
-                        .fill(Theme.adressaBlue)
+                    // The app's logo, like a small version of the app icon: white glyph on Adressablå.
+                    Image("Logo")
+                        .resizable()
+                        .renderingMode(.template)
+                        .scaledToFit()
+                        .foregroundStyle(.white)
+                        .padding(8)
                         .frame(width: 40, height: 40)
+                        .background(Theme.adressaBlue, in: .rect(cornerRadius: 11, style: .continuous))
                         .shadow(color: .black.opacity(0.25), radius: 6, y: 2)
                         .accessibilityHidden(true)
                     LayerFilterBar(selected: model.layer, select: model.select)
@@ -73,16 +97,19 @@ private struct MapContent: View {
             .padding(.horizontal, 12)
             .padding(.top, 4)
             // Chips fade in once the first intro has landed.
-            .opacity(model.isIntroPlaying ? 0 : 1)
-            .animation(.easeOut(duration: 0.5), value: model.isIntroPlaying)
+            // Glides down into place while fading in, instead of just appearing.
+            .opacity(chromeVisible ? 1 : 0)
+            .offset(y: chromeVisible ? 0 : -14)
+            .animation(.smooth(duration: 0.55), value: chromeVisible)
 
             // Zoom slider: short, centred vertically on the right edge.
             ZoomSlider(value: $model.zoomFraction, isActive: $model.isSliderActive)
                 .frame(height: 340)
                 .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .trailing)
                 .padding(.trailing, 12)
-                .opacity(model.isIntroPlaying ? 0 : 1)
-                .animation(.easeOut(duration: 0.5), value: model.isIntroPlaying)
+                .opacity(chromeVisible ? 1 : 0)
+                .offset(x: chromeVisible ? 0 : 16)
+                .animation(.smooth(duration: 0.55), value: chromeVisible)
 
             // Side panel: swipe in from the left edge to see articles without a place on the map.
             SidePanelOverlay(
@@ -96,16 +123,28 @@ private struct MapContent: View {
             )
 
             // Edge affordance: a subtle vertical bar on the left edge, like the home indicator.
-            // Swipe right along the edge (or tap it) to open the panel.
+            // Swipe right along the edge (or tap it) to open the panel. Hidden until the intro is done.
             PanelEdgeHandle(
                 progress: panelProgress,
-                isHidden: model.isIntroPlaying,
+                isHidden: !chromeVisible,
                 drag: panelDragGesture,
                 tap: { showSidePanel = true }
             )
         }
         .animation(.snappy(duration: 0.3), value: showSidePanel)
         .task { await model.playIntroIfNeeded(style: settings.mapStyle, settings: settings) }
+        // The tab bar slides up with the rest instead of showing up as onboarding fades.
+        .toolbarVisibility(chromeVisible ? .visible : .hidden, for: .tabBar)
+        .animation(.smooth(duration: 0.55), value: chromeVisible)
+        .onChange(of: settings.isHandingOff) { _, handingOff in
+            guard !handingOff else { return }
+            Task {
+                try? await Task.sleep(for: .milliseconds(380)) // Onboarding's 0.4 s fade.
+                showChrome = true
+                try? await Task.sleep(for: .milliseconds(220))
+                showPins = true
+            }
+        }
         .onChange(of: settings.pendingGlobeIntro) { _, replay in
             guard replay else { return }
             settings.pendingGlobeIntro = false
@@ -140,7 +179,7 @@ private struct MapContent: View {
         AnyGesture(
             DragGesture(minimumDistance: 15, coordinateSpace: .global)
                 .onChanged { value in
-                    guard !model.isIntroPlaying else { return }
+                    guard chromeVisible else { return }
                     if showSidePanel {
                         panelDrag = max(0, panelWidth + min(0, value.translation.width))
                     } else {

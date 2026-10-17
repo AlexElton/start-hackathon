@@ -5,10 +5,11 @@ struct MainTabView: View {
         case map, summary, settings
     }
 
-    @State private var selection: TabID = .map
+    @Environment(AppEnvironment.self) private var environment
 
     var body: some View {
-        TabView(selection: $selection) {
+        @Bindable var router = environment.router
+        TabView(selection: $router.tab) {
             Tab("Kart", systemImage: "map", value: .map) {
                 MapScreen()
             }

@@ -62,7 +62,9 @@ The server validates all references at startup and names the file and id if some
 ```text
 Hackathon.xcworkspace     Open this in Xcode
 ios/
-├─ hackaton.xcodeproj     iOS 26 SwiftUI app (folders are synced: new files show up automatically)
+├─ hackaton.xcodeproj     iOS 26 SwiftUI app + SammendragWidget extension (folders are synced)
+├─ SammendragWidget/      Home-screen widget: small/medium/large, pick which summary in "Rediger widget";
+│                         tapping opens hackaton://sammendrag/<id>
 └─ hackaton/
    ├─ App/                App entry, AppEnvironment (DI), RootView, MainTabView, AppConfig
    ├─ Features/           One folder per feature: Map, List, Settings

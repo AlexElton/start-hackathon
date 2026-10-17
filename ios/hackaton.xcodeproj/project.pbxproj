@@ -9,16 +9,49 @@
 /* Begin PBXBuildFile section */
 		32C7586030810580008A9EA6 /* SharedModels in Frameworks */ = {isa = PBXBuildFile; productRef = 32C7586230810580008A9EA6 /* SharedModels */; };
 		32C7586330810580008A9EA6 /* FeedEngine in Frameworks */ = {isa = PBXBuildFile; productRef = 32C7586430810580008A9EA6 /* FeedEngine */; };
+		32C7590230810590008A9EA6 /* SammendragWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 32C7590030810590008A9EA6 /* SammendragWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		32C7590330810590008A9EA6 /* FeedEngine in Frameworks */ = {isa = PBXBuildFile; productRef = 32C7591530810590008A9EA6 /* FeedEngine */; };
+		32C7590430810590008A9EA6 /* SharedModels in Frameworks */ = {isa = PBXBuildFile; productRef = 32C7591630810590008A9EA6 /* SharedModels */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32C7590630810590008A9EA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32C7583E30810575008A9EA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32C7590830810590008A9EA6;
+			remoteInfo = SammendragWidget;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		32C7590530810590008A9EA6 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				32C7590230810590008A9EA6 /* SammendragWidget.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		32C7584630810575008A9EA6 /* hackaton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hackaton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32C7590030810590008A9EA6 /* SammendragWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SammendragWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		32C7584830810575008A9EA6 /* hackaton */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = hackaton;
+			sourceTree = "<group>";
+		};
+		32C7590130810590008A9EA6 /* SammendragWidget */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SammendragWidget;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -33,6 +66,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		32C7591030810590008A9EA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32C7590330810590008A9EA6 /* FeedEngine in Frameworks */,
+				32C7590430810590008A9EA6 /* SharedModels in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -40,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				32C7584830810575008A9EA6 /* hackaton */,
+				32C7590130810590008A9EA6 /* SammendragWidget */,
 				32C7584730810575008A9EA6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				32C7584630810575008A9EA6 /* hackaton.app */,
+				32C7590030810590008A9EA6 /* SammendragWidget.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -62,10 +106,12 @@
 				32C7584230810575008A9EA6 /* Sources */,
 				32C7584330810575008A9EA6 /* Frameworks */,
 				32C7584430810575008A9EA6 /* Resources */,
+				32C7590530810590008A9EA6 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				32C7590730810590008A9EA6 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				32C7584830810575008A9EA6 /* hackaton */,
@@ -79,6 +125,30 @@
 			productReference = 32C7584630810575008A9EA6 /* hackaton.app */;
 			productType = "com.apple.product-type.application";
 		};
+		32C7590830810590008A9EA6 /* SammendragWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32C7591230810590008A9EA6 /* Build configuration list for PBXNativeTarget "SammendragWidget" */;
+			buildPhases = (
+				32C7590930810590008A9EA6 /* Sources */,
+				32C7591030810590008A9EA6 /* Frameworks */,
+				32C7591130810590008A9EA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				32C7590130810590008A9EA6 /* SammendragWidget */,
+			);
+			name = SammendragWidget;
+			packageProductDependencies = (
+				32C7591530810590008A9EA6 /* FeedEngine */,
+				32C7591630810590008A9EA6 /* SharedModels */,
+			);
+			productName = SammendragWidget;
+			productReference = 32C7590030810590008A9EA6 /* SammendragWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -90,6 +160,9 @@
 				LastUpgradeCheck = 2610;
 				TargetAttributes = {
 					32C7584530810575008A9EA6 = {
+						CreatedOnToolsVersion = 26.1;
+					};
+					32C7590830810590008A9EA6 = {
 						CreatedOnToolsVersion = 26.1;
 					};
 				};
@@ -112,12 +185,20 @@
 			projectRoot = "";
 			targets = (
 				32C7584530810575008A9EA6 /* hackaton */,
+				32C7590830810590008A9EA6 /* SammendragWidget */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		32C7584430810575008A9EA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32C7591130810590008A9EA6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -134,7 +215,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		32C7590930810590008A9EA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		32C7590730810590008A9EA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32C7590830810590008A9EA6 /* SammendragWidget */;
+			targetProxy = 32C7590630810590008A9EA6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		32C7584F30810576008A9EA6 /* Debug */ = {
@@ -326,6 +422,60 @@
 			};
 			name = Release;
 		};
+		32C7591330810590008A9EA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5YJY63395Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SammendragWidget-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Sammendrag;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "beer-nye.hackaton.widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		32C7591430810590008A9EA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5YJY63395Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SammendragWidget-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Sammendrag;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "beer-nye.hackaton.widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -343,6 +493,15 @@
 			buildConfigurations = (
 				32C7585230810576008A9EA6 /* Debug */,
 				32C7585330810576008A9EA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32C7591230810590008A9EA6 /* Build configuration list for PBXNativeTarget "SammendragWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32C7591330810590008A9EA6 /* Debug */,
+				32C7591430810590008A9EA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -365,6 +524,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 32C7586130810580008A9EA6 /* XCLocalSwiftPackageReference "../SharedModels" */;
 			productName = FeedEngine;
+		};
+		32C7591530810590008A9EA6 /* FeedEngine */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 32C7586130810580008A9EA6 /* XCLocalSwiftPackageReference "../SharedModels" */;
+			productName = FeedEngine;
+		};
+		32C7591630810590008A9EA6 /* SharedModels */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 32C7586130810580008A9EA6 /* XCLocalSwiftPackageReference "../SharedModels" */;
+			productName = SharedModels;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

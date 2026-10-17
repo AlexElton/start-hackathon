@@ -10,7 +10,7 @@ final class MapViewModel {
     /// Default camera, picked on a phone: all of Trondheim from Ila to Lade, slightly tilted, north up.
     static let startCenter = GeoPoint(lat: 63.42719, lon: 10.39500)
     static let startDistance: Double = 15_282
-    static let startPitch: Double = 26.5
+    static let startPitch: Double = 34
     static let startHeading: Double = 0
 
     private(set) var items: [FeedItem] = []
@@ -53,6 +53,8 @@ final class MapViewModel {
     private(set) var cameraCommand: CameraCommand?
     /// True while an intro flight runs; chips and slider stay hidden until it lands.
     private(set) var isIntroPlaying = false
+    /// True while the camera flies: pins wait until it lands, so they don't pop in and load photos mid-dive.
+    private(set) var isFlying = false
     /// Intro flight still to start once the map is on screen.
     private var pendingIntro: (duration: Double, hidesChrome: Bool)?
     /// Resumed when the map has drawn its first frame.
@@ -75,6 +77,7 @@ final class MapViewModel {
     /// Right after onboarding: from where the onboarding map ended, down to your city.
     /// Later launches: a quick dive from Europe, if switched on in Innstillinger.
     func prepare(settings: SettingsStore, location: LocationService, reduceMotion: Bool) async {
+        defer { isFlying = pendingIntro != nil }
         let papers = (try? await feed.papers()) ?? []
         paperNames = Dictionary(papers.map { ($0.id, $0.name) }, uniquingKeysWith: { first, _ in first })
         let regions = ((try? await feed.regions()).flatMap { try? RegionShape.parse($0) }) ?? []
@@ -87,13 +90,10 @@ final class MapViewModel {
         target = IntroCameras.target(settings: settings, papers: papers, regions: regions, location: location)
 
         if settings.pendingGlobeIntro {
+            // Right after onboarding the dive happens on the onboarding map; this map waits underneath on the
+            // city it lands on, ready to take over.
             settings.pendingGlobeIntro = false
-            if reduceMotion {
-                initialCamera = target
-            } else {
-                initialCamera = settings.introStartCamera ?? IntroCameras.norway
-                pendingIntro = (duration: 3.8, hidesChrome: true)
-            }
+            initialCamera = target
         } else if settings.introOnEveryLaunch, !reduceMotion {
             initialCamera = IntroCameras.europe(over: target)
             pendingIntro = (duration: 2.0, hidesChrome: false)
@@ -119,31 +119,16 @@ final class MapViewModel {
     /// Called once the map is on screen. Right after onboarding: wait until the map has drawn the same view
     /// the onboarding showed, let onboarding fade away, then dive. Later launches: warm the tiles and dive.
     func playIntroIfNeeded(style: MapStyle, settings: SettingsStore) async {
-        guard let intro = pendingIntro else {
-            await waitForFirstRender()
-            settings.isHandingOff = false
-            return
-        }
+        guard let intro = pendingIntro else { return }
         pendingIntro = nil
-        let cinematic = intro.hidesChrome
-        if cinematic {
-            await withTaskGroup(of: Void.self) { group in
-                group.addTask { await self.waitForFirstRender() }
-                group.addTask { try? await Task.sleep(for: .seconds(3)) }
-                await group.next()
-                group.cancelAll()
-            }
-            mapRendered() // Releases the waiter if the timeout won.
-            settings.isHandingOff = false
-            try? await Task.sleep(for: .milliseconds(300)) // Let onboarding fade away first.
-            // The tiles were warmed when the fylke was picked; this only tops up.
-            await TilePrefetcher.warm(along: target, style: style, timeout: .milliseconds(300))
-        } else {
-            await TilePrefetcher.warm(along: target, style: style, timeout: .milliseconds(900))
-        }
+        let cinematic = intro.hidesChrome // Only the replay from Innstillinger.
+        await TilePrefetcher.warm(along: target, style: style, timeout: .milliseconds(cinematic ? 600 : 900))
+        isFlying = true
         cameraCommand = CameraCommand(camera: target, duration: intro.duration, cinematic: cinematic)
         try? await Task.sleep(for: .seconds(intro.duration * 0.85))
         isIntroPlaying = false
+        try? await Task.sleep(for: .seconds(intro.duration * 0.15))
+        isFlying = false
     }
 
     /// Replays the first intro (from Innstillinger): jump out to all of Norway, then dive in again.

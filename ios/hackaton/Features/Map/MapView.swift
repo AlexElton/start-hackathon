@@ -22,7 +22,7 @@ struct MapView: UIViewRepresentable {
     var onRendered: () -> Void = {}
 
     func makeUIView(context: Context) -> MKMapView {
-        let mapView = MKMapView()
+        let mapView = FramingMapView()
         mapView.delegate = context.coordinator
         mapView.showsUserLocation = true
         mapView.showsCompass = false
@@ -33,7 +33,14 @@ struct MapView: UIViewRepresentable {
             minCenterCoordinateDistance: ZoomScale.minDistance,
             maxCenterCoordinateDistance: 12_000_000 // Room for the intros to start from all of Norway.
         )
-        mapView.camera = initialCamera.mkCamera
+        // Set the start camera once the map has its real size, and again after MapKit's first layout pass:
+        // set at zero size it opened at the wrong height on the 3D globe.
+        let start = initialCamera
+        mapView.onFirstLayout = { map in
+            map.camera = start.mkCamera
+            DispatchQueue.main.async { [weak map] in map?.camera = start.mkCamera }
+        }
+        context.coordinator.holdStartCamera(start)
         context.coordinator.mapView = mapView
         context.coordinator.currentStyle = style
         return mapView
@@ -166,77 +173,20 @@ struct MapView: UIViewRepresentable {
             }
         }
 
-        // MARK: Flight (fast intro)
+        // MARK: Flight (intros)
 
-        private var flightLink: CADisplayLink?
-        private var flight: (from: MKMapCamera, to: CameraSpec, start: CFTimeInterval, duration: Double, cinematic: Bool)?
+        private var flight: CameraFlight?
 
-        /// Flies the camera to `target` in exactly `duration` seconds, straight down: distance (on a log scale)
-        /// and centre follow the same curve, so the target stays put on screen as it grows. The curve starts
-        /// softly, picks up, then slows down for a long time near the ground so tiles and 3D buildings load.
-        /// The tilt comes in at the end.
         func fly(to target: CameraSpec, duration: Double, cinematic: Bool = false) {
             guard let mapView else { return }
-            stopFlight()
-            flight = (mapView.camera.copy() as! MKMapCamera, target, CACurrentMediaTime(), duration, cinematic)
-            let link = CADisplayLink(target: self, selector: #selector(stepFlight))
-            link.add(to: .main, forMode: .common)
-            flightLink = link
+            startCamera = nil // A flight takes over the camera.
+            flight?.stop()
+            flight = CameraFlight(mapView: mapView, to: target, duration: duration, cinematic: cinematic)
         }
-
-        /// Soft start (no jolt when the app opens), then a long deceleration towards the ground.
-        private static let flightCurve = UnitCurve.bezier(startControlPoint: UnitPoint(x: 0.42, y: 0), endControlPoint: UnitPoint(x: 0.12, y: 1))
-        /// Gentle lift-off, steady middle, very long settle: reads as one continuous camera move.
-        private static let cinematicCurve = UnitCurve.bezier(startControlPoint: UnitPoint(x: 0.5, y: 0), endControlPoint: UnitPoint(x: 0.2, y: 1))
 
         func stopFlight() {
-            flightLink?.invalidate()
-            flightLink = nil
+            flight?.stop()
             flight = nil
-        }
-
-        @objc private func stepFlight() {
-            guard let mapView, let flight else { return stopFlight() }
-            let t = min((CACurrentMediaTime() - flight.start) / flight.duration, 1)
-            let from = flight.from
-            let logFrom = log(from.centerCoordinateDistance)
-            let logTo = log(flight.to.distance)
-            let center: CLLocationCoordinate2D
-            let distance: Double
-            let tilt: Double
-
-            if flight.cinematic {
-                // Dive straight down onto the target: the distance shrinks on a log scale with a slow start and
-                // a long, soft landing, and the target slides from where it sits on screen to the middle at an
-                // even pace. Keeping the map offset proportional to the height means nothing swerves sideways.
-                let progress = Self.cinematicCurve.value(at: t)
-                distance = exp(logFrom + (logTo - logFrom) * progress)
-                let glide = t * t * (3 - 2 * t)
-                let scale = distance / from.centerCoordinateDistance * (1 - glide)
-                center = CLLocationCoordinate2D(
-                    latitude: flight.to.center.latitude + (from.centerCoordinate.latitude - flight.to.center.latitude) * scale,
-                    longitude: flight.to.center.longitude + (from.centerCoordinate.longitude - flight.to.center.longitude) * scale
-                )
-                let tiltProgress = max(0, (t - 0.62) / 0.38)
-                tilt = tiltProgress * tiltProgress * (3 - 2 * tiltProgress)
-            } else {
-                let progress = Self.flightCurve.value(at: t)
-                distance = exp(logFrom + (logTo - logFrom) * progress)
-                center = CLLocationCoordinate2D(
-                    latitude: from.centerCoordinate.latitude + (flight.to.center.latitude - from.centerCoordinate.latitude) * progress,
-                    longitude: from.centerCoordinate.longitude + (flight.to.center.longitude - from.centerCoordinate.longitude) * progress
-                )
-                let tiltProgress = max(0, (t - 0.55) / 0.45)
-                tilt = tiltProgress * tiltProgress * (3 - 2 * tiltProgress)
-            }
-
-            mapView.camera = MKMapCamera(
-                lookingAtCenter: center,
-                fromDistance: distance,
-                pitch: from.pitch + (flight.to.pitch - from.pitch) * tilt,
-                heading: flight.to.heading
-            )
-            if t >= 1 { stopFlight() }
         }
 
         // MARK: Region and zoom
@@ -247,7 +197,30 @@ struct MapView: UIViewRepresentable {
             parent.onZoomChange(ZoomScale.fraction(for: mapView.camera.centerCoordinateDistance))
         }
 
+        /// MapKit applies its own default view (the whole country) shortly after the map appears, which
+        /// overrode our start camera when no intro moved it afterwards. For a short while, put it back.
+        private var startCamera: CameraSpec?
+        private var startCameraUntil: CFTimeInterval = 0
+
+        func holdStartCamera(_ camera: CameraSpec) {
+            startCamera = camera
+            startCameraUntil = CACurrentMediaTime() + 1.5
+        }
+
+        private func restoreStartCameraIfOverridden(_ mapView: MKMapView) {
+            guard let start = startCamera else { return }
+            guard CACurrentMediaTime() < startCameraUntil, flight == nil, displayLink == nil,
+                  !mapView.isUserInteracting else {
+                startCamera = nil
+                return
+            }
+            if abs(log(mapView.camera.centerCoordinateDistance / start.distance)) > 0.1 {
+                mapView.camera = start.mkCamera
+            }
+        }
+
         func mapView(_ mapView: MKMapView, regionDidChangeAnimated animated: Bool) {
+            restoreStartCameraIfOverridden(mapView)
             if mapView.camera.centerCoordinateDistance <= ZoomScale.overviewStartDistance {
                 localCenter = mapView.camera.centerCoordinate
             }
@@ -313,5 +286,12 @@ extension MapStyle {
         case .hybrid: MKHybridMapConfiguration(elevationStyle: .realistic)
         case .satellite: MKImageryMapConfiguration(elevationStyle: .realistic)
         }
+    }
+}
+
+private extension MKMapView {
+    /// True while a finger is panning, pinching or rotating the map.
+    var isUserInteracting: Bool {
+        (subviews.first?.gestureRecognizers ?? []).contains { $0.state == .began || $0.state == .changed }
     }
 }

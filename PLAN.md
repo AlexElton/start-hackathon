@@ -145,7 +145,7 @@ SharedModels/             // local SPM package used by app and backend
 **App shell**
 
 - `RootView` shows `OnboardingFlow` until `settings.hasOnboarded` is true, then `MainTabView`.
-- `MainTabView` is the bottom tab bar: Kart, Sammendrag and Innstillinger. (Sammendrag replaced the planned Liste tab: a daily digest with "Kort fortalt" cards, "I kveld" events and student deals, filtered by the user's interests and blacklist.) The map's top bar has a blue circle on the left as a placeholder for the logo.
+- `MainTabView` is the bottom tab bar: Kart, Sammendrag and Innstillinger. (Sammendrag replaced the planned Liste tab: a daily digest with "Kort fortalt" cards, "I kveld" events and student deals, filtered by the user's interests and blacklist.) The map's top bar has a blue circle on the left as a placeholder for the logo. A home-screen widget (`SammendragWidget`, small/medium/large) shows one summary; the user picks which in "Rediger widget", and a tap opens it in Sammendrag via `hackaton://sammendrag/<id>`.
 
 **Onboarding**
 

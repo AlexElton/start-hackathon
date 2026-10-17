@@ -48,8 +48,11 @@ final class SettingsStore {
     /// Lives only for this app session.
     var introStartCamera: CameraSpec?
 
-    /// True from "Kom i gang" until the main map has drawn its first frame: onboarding stays on top meanwhile.
+    /// True from "Kom i gang" until onboarding has landed on the city and the main map underneath has drawn
+    /// the same view: onboarding stays on top meanwhile.
     var isHandingOff = false
+    /// Set by the main map once it has fully drawn its first view.
+    var mainMapRendered = false
 
     // MARK: Onboarding choices
 

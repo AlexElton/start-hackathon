@@ -28,6 +28,12 @@ enum TilePrefetcher {
         case .hybrid: MKHybridMapConfiguration(elevationStyle: .realistic)
         case .satellite: MKImageryMapConfiguration(elevationStyle: .realistic)
         }
-        _ = try? await MKMapSnapshotter(options: options).start()
+        let snapshotter = MKMapSnapshotter(options: options)
+        // Stop rendering when the warm-up times out, so it never competes with the flight for the GPU.
+        await withTaskCancellationHandler {
+            _ = try? await snapshotter.start()
+        } onCancel: {
+            snapshotter.cancel()
+        }
     }
 }

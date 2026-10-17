@@ -20,7 +20,9 @@ struct SummaryScreen: View {
         .task {
             if model == nil { model = SummaryViewModel(feed: environment.feed) }
             await model?.load(settings: environment.settings)
+            showRequestedDigest()
         }
+        .onChange(of: environment.router.digestId) { showRequestedDigest() }
         .fullScreenCover(item: $reading) { item in
             ArticleReaderView(item: item, feed: environment.feed, paperName: model?.paperName(for: item.paperId) ?? "Adresseavisen", backTitle: "Sammendrag") {
                 reading = nil
@@ -31,6 +33,13 @@ struct SummaryScreen: View {
                 opened = nil
             }
         }
+    }
+
+    /// Opens the summary a widget tap asked for.
+    private func showRequestedDigest() {
+        guard let id = environment.router.digestId, let model, model.digests.contains(where: { $0.id == id }) else { return }
+        model.selectedId = id
+        environment.router.digestId = nil
     }
 
     @ViewBuilder
@@ -182,7 +191,7 @@ private struct DigestView: View {
                         .font(Theme.headline(28))
                         .foregroundStyle(.white)
                         .fixedSize(horizontal: false, vertical: true)
-                    Label("\(digest.readMinutes) min lesing · \(digest.points.count) punkter", systemImage: "clock")
+                    Label("\(digest.readMinutes) min lesing · \(digest.points.count) saker", systemImage: "clock")
                         .font(Theme.meta)
                         .foregroundStyle(.white.opacity(0.85))
                 }
@@ -195,14 +204,14 @@ private struct DigestView: View {
         VStack(alignment: .leading, spacing: 0) {
             ForEach(Array(digest.points.enumerated()), id: \.offset) { index, point in
                 if index > 0 {
-                    Divider().padding(.leading, 62)
+                    Divider().padding(.leading, 36)
                 }
-                HStack(alignment: .top, spacing: 14) {
-                    Text("\(index + 1)")
-                        .font(.system(size: 17, weight: .black, design: .serif))
-                        .foregroundStyle(.white)
-                        .frame(width: 32, height: 32)
-                        .background(accent, in: .circle)
+                // A small accent dot instead of numbers, so it reads as news, not steps.
+                HStack(alignment: .firstTextBaseline, spacing: 12) {
+                    Circle()
+                        .fill(accent)
+                        .frame(width: 8, height: 8)
+                        .alignmentGuide(.firstTextBaseline) { $0[.bottom] - 2 }
                     VStack(alignment: .leading, spacing: 6) {
                         Text(point.title)
                             .font(.system(size: 18, weight: .heavy, design: .serif))

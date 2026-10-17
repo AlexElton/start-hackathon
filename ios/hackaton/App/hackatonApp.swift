@@ -13,6 +13,7 @@ struct hackatonApp: App {
             RootView()
                 .environment(environment.settings)
                 .environment(environment)
+                .onOpenURL { environment.router.open($0) }
         }
     }
 }
